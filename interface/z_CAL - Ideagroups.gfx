@@ -1,0 +1,283 @@
+spriteTypes = {
+	#---------------------------------------------------
+    # ADM
+    #---------------------------------------------------
+    spriteType = {
+		name = "GFX_idea_cal_dummy_ideas"
+		texturefile = "gfx//interface//ideas//cal_dummy_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_innovation_ideas"
+		texturefile = "gfx//interface//ideas//cal_innovation_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_religious_ideas"
+		texturefile = "gfx//interface//ideas//cal_religious_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_economic_ideas"
+		texturefile = "gfx//interface//ideas//cal_economic_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_expansion_ideas"
+		texturefile = "gfx//interface//ideas//cal_expansion_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_administrative_ideas"
+		texturefile = "gfx//interface//ideas//cal_administrative_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_harmony_ideas"
+		texturefile = "gfx//interface//ideas//cal_harmony_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_law_ideas"
+		texturefile = "gfx//interface//ideas//cal_law_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_development_ideas"
+		texturefile = "gfx//interface//ideas//cal_development_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_absolutism_ideas"
+		texturefile = "gfx//interface//ideas//cal_absolutism_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_autonomy_ideas"
+		texturefile = "gfx//interface//ideas//cal_autonomy_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_monarchy_ideas"
+		texturefile = "gfx//interface//ideas//cal_monarchy_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_republic_ideas"
+		texturefile = "gfx//interface//ideas//cal_republic_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_theocracy_ideas"
+		texturefile = "gfx//interface//ideas//cal_theocracy_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_tribal_ideas"
+		texturefile = "gfx//interface//ideas//cal_tribal_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    
+    #---------------------------------------------------
+    # DIP
+    #---------------------------------------------------
+    spriteType = {
+		name = "GFX_idea_cal_espionage_ideas"
+		texturefile = "gfx//interface//ideas//cal_espionage_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_dynastic_ideas"
+		texturefile = "gfx//interface//ideas//cal_dynastic_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_influence_ideas"
+		texturefile = "gfx//interface//ideas//cal_influence_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_trade_ideas"
+		texturefile = "gfx//interface//ideas//cal_trade_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_exploration_ideas"
+		texturefile = "gfx//interface//ideas//cal_exploration_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_maritime_ideas"
+		texturefile = "gfx//interface//ideas//cal_maritime_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_assimilation_ideas"
+		texturefile = "gfx//interface//ideas//cal_assimilation_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_society_ideas"
+		texturefile = "gfx//interface//ideas//cal_society_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_propaganda_ideas"
+		texturefile = "gfx//interface//ideas//cal_propaganda_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_naval_bombardment_ideas"
+		texturefile = "gfx//interface//ideas//cal_naval_bombardment_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_naval_skirmish_ideas"
+		texturefile = "gfx//interface//ideas//cal_naval_skirmish_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_naval_trade_ideas"
+		texturefile = "gfx//interface//ideas//cal_naval_trade_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_naval_organisation_ideas"
+		texturefile = "gfx//interface//ideas//cal_naval_organisation_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_naval_leadership_ideas"
+		texturefile = "gfx//interface//ideas//cal_naval_leadership_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_naval_tactics_ideas"
+		texturefile = "gfx//interface//ideas//cal_naval_tactics_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    
+    #---------------------------------------------------
+    # MIL
+    #---------------------------------------------------
+    spriteType = {
+		name = "GFX_idea_cal_offensive_ideas"
+		texturefile = "gfx//interface//ideas//cal_offensive_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_defensive_ideas"
+		texturefile = "gfx//interface//ideas//cal_defensive_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_quality_ideas"
+		texturefile = "gfx//interface//ideas//cal_quality_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_quantity_ideas"
+		texturefile = "gfx//interface//ideas//cal_quantity_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_professional_army_ideas"
+		texturefile = "gfx//interface//ideas//cal_professional_army_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_mercenary_army_ideas"
+		texturefile = "gfx//interface//ideas//cal_mercenary_army_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_army_organisation_ideas"
+		texturefile = "gfx//interface//ideas//cal_army_organisation_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_army_leadership_ideas"
+		texturefile = "gfx//interface//ideas//cal_army_leadership_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_army_tactics_ideas"
+		texturefile = "gfx//interface//ideas//cal_army_tactics_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_armaments_ideas"
+		texturefile = "gfx//interface//ideas//cal_armaments_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_fortification_ideas"
+		texturefile = "gfx//interface//ideas//cal_fortification_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_militarization_ideas"
+		texturefile = "gfx//interface//ideas//cal_militarization_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_subjugation_ideas"
+		texturefile = "gfx//interface//ideas//cal_subjugation_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_tyranny_ideas"
+		texturefile = "gfx//interface//ideas//cal_tyranny_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+    spriteType = {
+		name = "GFX_idea_cal_imperialism_ideas"
+		texturefile = "gfx//interface//ideas//cal_imperialism_ideas.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+}

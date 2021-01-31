@@ -45,8 +45,3 @@ trade_winds = "trade_winds.txt"
 
 tree = { 3 4 7 10 }
 
-canal_definition = {
-	name = "dark_portal"
-	x = 0
-	y = 0
-}

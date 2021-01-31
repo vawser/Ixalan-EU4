@@ -11,71 +11,54 @@ monarchy = {
 			reforms = {
                 # Generic
                 autocracy_reform
-                feudalism_reform
                 
                 # Unique
-                scourge_reform
-                admiralty_reform
-                kingdom_of_magic_reform
-                naga_domain_reform
-                scourge_domain_reform
-                troll_kingdom_reform
 			}
 		}
         tier_monarchy_hereditary_vs_nobility = {
 			reforms = {
-				wwu_enforce_privileges_reform
-				wwu_quash_noble_power_reform
-				wwu_enforce_trader_privileges_reform
-				wwu_azerothian_traders_reform
-				wwu_druidic_syncretism_reform
-				wwu_elvish_nobles_reform
-				wwu_strength_of_the_vrykul_reform
-				wwu_draenei_society_reform
-                wwu_hereditary_rule_reform
+				cal_enforce_privileges_reform
+				cal_quash_noble_power_reform
+				cal_enforce_trader_privileges_reform
 			}
 		}
 		tier_monarchy_bureaucracy = {
 			reforms = {
-				wwu_centralize_reform
-				wwu_decentralize_reform
-				wwu_kalimdor_recruitment
-				wwu_august_celestials_reform
-                wwu_penal_colonies_reform
-                wwu_justified_conquest_reform
+				cal_centralize_reform
+				cal_decentralize_reform
+                cal_penal_colonies_reform
+                cal_justified_conquest_reform
 			}
 		}
 		tier_monarchy_growth_of_administration = {
 			reforms = {
-				wwu_clergy_in_administration_reform
-				wwu_of_noble_bearing_reform
-				wwu_meritocratic_focus_reform
-				wwu_dwarven_culture_reform
-				wwu_formalized_hoof_reform
+				cal_clergy_in_administration_reform
+				cal_of_noble_bearing_reform
+				cal_meritocratic_focus_reform
 			}
 		}
 		tier_monarchy_deliberative_assembly = {
 			reforms = {
-				wwu_parliamentary_reform
-				wwu_royal_decree_reform
-				wwu_aristocratic_court_reform
-				wwu_states_general_reform
-				wwu_general_estates_reform
+				cal_parliamentary_reform
+				cal_royal_decree_reform
+				cal_aristocratic_court_reform
+				cal_states_general_reform
+				cal_general_estates_reform
 			}
 		}
 		tier_monarchy_absolute_rule_vs_constitutional = {
 			reforms = {
-				wwu_law_and_order_reform
-				wwu_regional_representation_reform
-                wwu_militarized_state_reform
+				cal_law_and_order_reform
+				cal_regional_representation_reform
+                cal_militarized_state_reform
 			}
 		}
 		tier_monarchy_separation_of_power = {
 			reforms = {
-				wwu_political_absolutism_reform
-				wwu_legislative_houses_reform
-				wwu_become_a_republic_reform
-				wwu_become_a_theocracy_reform
+				cal_political_absolutism_reform
+				cal_legislative_houses_reform
+				cal_become_a_republic_reform
+				cal_become_a_theocracy_reform
 			}
 		}
     }
@@ -83,15 +66,8 @@ monarchy = {
     legacy_government = {
         # Generic
         autocracy_legacy
-        feudalism_legacy
         
         # Unique
-        scourge_legacy
-        admiralty_legacy
-        kingdom_of_magic_legacy
-        naga_domain_legacy
-        scourge_domain_legacy
-        troll_kingdom_legacy
     }
 }
 
@@ -106,92 +82,92 @@ republic = {
     reform_levels = {
         tier_republic_government_form = {
 			reforms = {
-                noble_republic_reform
-                mercantile_republic_reform
-                despotic_republic_reform
-                magocracy_reform
+                # Generic
+                democracy_reform
+                republic_reform
+                
+                # Unique
                 free_city_reform
                 trading_city_reform
                 colonial_government_reform
-                tinker_republic_reform
 			}
 		}
         tier_republic_republican_virtues = {
 			reforms = {
-				wwu_republican_authoritarianism_reform
-				wwu_nepotism_reform
-				wwu_republicanism_reform
+				cal_republican_authoritarianism_reform
+				cal_nepotism_reform
+				cal_republicanism_reform
 			}
 		}
 		tier_republic_frequency_of_elections = {
 			reforms = {
-				wwu_frequent_elections_reform
-				wwu_consolidation_of_power_reform
-				wwu_lottery_reform
+				cal_frequent_elections_reform
+				cal_consolidation_of_power_reform
+				cal_lottery_reform
 			}
 		}
 		tier_republic_regionalism = {
 			reforms = {
-				wwu_provincial_governments_reform
-				wwu_administrative_divisions_reform
-				wwu_union_of_states_reform
-				wwu_penal_colonies_reform
-                wwu_justified_conquest_reform
+				cal_provincial_governments_reform
+				cal_administrative_divisions_reform
+				cal_union_of_states_reform
+				cal_penal_colonies_reform
+                cal_justified_conquest_reform
 			}
 		}
 		tier_republic_separation_of_power = {
 			reforms = {
-				wwu_parliamentary_reform
-				wwu_presidential_reform
-                wwu_republican_diplomacy_reform
-                wwu_municipal_self_defense_reform
+				cal_parliamentary_reform
+				cal_presidential_reform
+                cal_republican_diplomacy_reform
+                cal_municipal_self_defense_reform
 			}
 		}
 		tier_republic_consolidation_of_power = {
 			reforms = {
-				wwu_broaden_executive_powers_reform
-				wwu_devolution_of_powers_reform
-                wwu_militarized_state_reform
+				cal_broaden_executive_powers_reform
+				cal_devolution_of_powers_reform
+                cal_militarized_state_reform
 			}
 		}
 		tier_republic_guiding_principle_of_administration = {
 			reforms = {
-				wwu_political_principle_reform
-				wwu_moral_principle_reform
+				cal_political_principle_reform
+				cal_moral_principle_reform
 			}
 		}
 		tier_republic_electorate = {
 			reforms = {
-				wwu_landholders_reform
-				wwu_citizenry_reform
+				cal_landholders_reform
+				cal_citizenry_reform
 			}
 		}
 		tier_republic_office_selection = {
 			reforms = {
-				wwu_appointment_by_committee_reform
-				wwu_bureaucratic_aparatus_reform
-				wwu_universal_suffrage_reform
+				cal_appointment_by_committee_reform
+				cal_bureaucratic_aparatus_reform
+				cal_universal_suffrage_reform
 			}
 		}
 		tier_republic_question_of_dictatorship = {
 			reforms = {
-				wwu_become_a_monarchy_reform
-				wwu_become_a_theocracy_reform
-				wwu_strengthen_executive_powers_reform
-				wwu_reinforce_republican_values_reform
+				cal_become_a_monarchy_reform
+				cal_become_a_theocracy_reform
+				cal_strengthen_executive_powers_reform
+				cal_reinforce_republican_values_reform
 			}
 		}
     }
 
     legacy_government = {
-        noble_republic_legacy
-        mercantile_republic_legacy
-        despotic_republic_legacy
-        magocracy_legacy
+        # Generic
+        democracy_legacy
+        republic_legacy
+        
+        # Unique
         free_city_legacy
         trading_city_legacy
         colonial_government_legacy
-        tinker_republic_legacy
     }
 }
 
@@ -208,81 +184,67 @@ theocracy = {
 			reforms = {
                 # Generic
                 theocracy_reform
-                monastic_order_reform
+                cult_reform
                 
                 # Unique
-                demonic_order_reform
-                druidic_circle_reform
-                elemental_cult_reform
-                dragonflight_brood_reform
-                titan_facility_reform
-                cult_of_hakkar_reform
-                aqir_kingdom_reform
-                nerubian_kingdom_reform
-                mantid_kingdom_reform
-                tolvir_kingdom_reform
-                naga_empire_reform
-                illidari_reform
 			}
 		}
         tier_theocracy_internal_vs_external_mission = {
 			reforms = {
-				wwu_internal_mission_reform
-				wwu_external_mission_reform
-				wwu_mission_to_civilize_reform
-				wwu_mission_to_kill_pirates_reform
+				cal_internal_mission_reform
+				cal_external_mission_reform
+				cal_mission_to_civilize_reform
+				cal_mission_to_kill_pirates_reform
 			}
 		}
 		tier_theocracy_divine_cause = {
 			reforms = {
-				wwu_safeguard_holy_sites_reform
-				wwu_combat_heresy_reform
-				wwu_expel_heathens_reform
-                wwu_justified_conquest_reform
+				cal_safeguard_holy_sites_reform
+				cal_combat_heresy_reform
+				cal_expel_heathens_reform
+                cal_justified_conquest_reform
 			}
 		}
 		tier_theocracy_clergy_in_administration = {
 			reforms = {
-				wwu_subservient_administrators_reform
-				wwu_religious_administrators_reform
-				wwu_pious_merchants_reform
-				wwu_loyal_nobility_reform
-				wwu_monastic_breweries_reform
-				wwu_troll_warriors_reform
-				wwu_demonic_advisors_reform
+				cal_subservient_administrators_reform
+				cal_religious_administrators_reform
+				cal_pious_merchants_reform
+				cal_loyal_nobility_reform
+				cal_monastic_breweries_reform
 			}
 		}
 		tier_theocracy_secularization = {
 			reforms = {
-				wwu_maintain_religious_head_reform
-				wwu_partial_secularisation_reform
-                wwu_militarized_state_reform
-                wwu_become_a_monarchy_reform
-                wwu_become_a_republic_reform
+				cal_maintain_religious_head_reform
+				cal_partial_secularisation_reform
+                cal_militarized_state_reform
+                cal_become_a_monarchy_reform
+                cal_become_a_republic_reform
 			}
 		}
 		tier_theocracy_separation_of_power = {
 			reforms = {
-				wwu_clerical_commission_reform
-				wwu_divine_guidance_reform
-				wwu_theocratic_democracy_reform
+				cal_clerical_commission_reform
+				cal_divine_guidance_reform
+				cal_theocratic_democracy_reform
 			}
 		}
 		tier_theocracy_nature_of_faith = {
 			reforms = {
-				wwu_church_and_state_reform
-				wwu_religious_harmony_reform
-				wwu_god_and_man_reform
-				wwu_organising_our_religion_reform
+				cal_church_and_state_reform
+				cal_religious_harmony_reform
+				cal_god_and_man_reform
+				cal_organising_our_religion_reform
 			}
 		}
 		tier_theocracy_faith_and_the_world = {
 			reforms = {
-				wwu_religion_in_one_country_reform
-				wwu_religious_permanent_revolution_reform
-				wwu_many_fingers_of_god_reform
-				wwu_priestly_autonomy_reform
-				wwu_proclaim_religious_head_reform
+				cal_religion_in_one_country_reform
+				cal_religious_permanent_revolution_reform
+				cal_many_fingers_of_god_reform
+				cal_priestly_autonomy_reform
+				cal_proclaim_religious_head_reform
 			}
 		}
     }
@@ -290,21 +252,9 @@ theocracy = {
     legacy_government = {
         # Generic
         theocracy_legacy
-        monastic_order_legacy
+        cult_legacy
         
         # Unique
-        demonic_order_legacy
-        druidic_circle_legacy
-        elemental_cult_legacy
-        dragonflight_brood_legacy
-        titan_facility_legacy
-        cult_of_hakkar_legacy
-        tolvir_kingdom_legacy
-        aqir_kingdom_legacy
-        nerubian_kingdom_legacy
-        mantid_kingdom_legacy
-        naga_empire_legacy
-        illidari_legacy
     }
 }
 
@@ -320,57 +270,48 @@ tribal = {
         tier_tribal_government_form = {
 			reforms = {
                 # Generic
-                warband_reform
                 tribal_federation_reform
                 tribal_despotism_reform
                 
                 # Unique
-                orcish_horde_reform
-                dwarven_clan_reform
-                satyr_sect_reform
 			}
 		}
         tier_tribal_cultural_values = {
 			reforms = {
-				wwu_martial_society_reform
-				wwu_civil_society_reform
+				cal_martial_society_reform
+				cal_civil_society_reform
 			}
 		}
 		tier_tribal_religious_values = {
 			reforms = {
-				wwu_religious_societies_reform
-				wwu_lip_service_reform
+				cal_religious_societies_reform
+				cal_lip_service_reform
 			}
 		}
 		tier_tribal_modernization = {
 			reforms = {
-				wwu_centralize_tribal_power_reform
-				wwu_retain_tribal_hierarchy_reform
+				cal_centralize_tribal_power_reform
+				cal_retain_tribal_hierarchy_reform
 			}
 		}
 		tier_tribal_reformation = {
 			reforms = {
-				wwu_become_a_monarchy_reform
-				wwu_become_a_republic_reform
-				wwu_become_a_theocracy_reform
-				wwu_become_a_warband_reform
-                wwu_barbaric_despoilers_reform
-				wwu_tribal_unity_reform
-                wwu_militarized_state_reform
+				cal_become_a_monarchy_reform
+				cal_become_a_republic_reform
+				cal_become_a_theocracy_reform
+                cal_barbaric_despoilers_reform
+				cal_tribal_unity_reform
+                cal_militarized_state_reform
 			}
 		}
     }
     
     legacy_government = {
         # Generic
-        warband_legacy
         tribal_federation_legacy
         tribal_despotism_legacy
         
         # Unique
-        orcish_horde_legacy
-        dwarven_clan_legacy
-        satyr_sect_legacy
     }
 }
 
@@ -406,38 +347,36 @@ pirate = {
     reform_levels = {
         tier_pirate_government_form = {
 			reforms = {
-                pirate_kingdom_reform
-                pirate_republic_reform
+                pirate_haven_reform
 			}
 		}
         tier_pirate_governance = {
 			reforms = {
-				wwu_council_of_captains_reform
-                wwu_articles_of_agreement_reform
-                wwu_smugglers_haven_reform
+				cal_council_of_captains_reform
+                cal_articles_of_agreement_reform
+                cal_smugglers_haven_reform
 			}
 		}
 		tier_pirate_principles = {
 			reforms = {
-				wwu_war_against_the_world_doctrine_reform
-				wwu_black_market_consortium_reform
-                wwu_justified_conquest_reform
+				cal_war_against_the_world_doctrine_reform
+				cal_black_market_consortium_reform
+                cal_justified_conquest_reform
 			}
 		}
 		tier_pirate_reformation = {
 			reforms = {
-                wwu_strengthen_pirate_unity_reform
-                wwu_militarized_state_reform
-				wwu_become_a_monarchy_reform
-				wwu_become_a_republic_reform
-				wwu_become_a_theocracy_reform
+                cal_strengthen_pirate_unity_reform
+                cal_militarized_state_reform
+				cal_become_a_monarchy_reform
+				cal_become_a_republic_reform
+				cal_become_a_theocracy_reform
 			}
 		}
     }
     
     legacy_government = {
-        pirate_kingdom_legacy
-        pirate_republic_legacy
+        pirate_haven_legacy
     }
 }
 

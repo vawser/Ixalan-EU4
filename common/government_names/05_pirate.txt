@@ -1,46 +1,23 @@
-gov_pirate_kingdom = {
+gov_pirate_haven = {
 	rank = {
-        1 = PIRATE_KINGDOM
-        2 = PIRATE_KINGDOM
-        3 = PIRATE_KINGDOM
+        1 = gov_name_PIRATE_HAVEN
+        2 = gov_name_PIRATE_HAVEN
+        3 = gov_name_PIRATE_HAVEN
 	}
 	
 	ruler_male = {
-		1 = PIRATE_KING
-        2 = PIRATE_KING
-        3 = PIRATE_KING
+		1 = ruler_name_PIRATE_LORD
+        2 = ruler_name_PIRATE_LORD
+        3 = ruler_name_PIRATE_LORD
 	}
 	
 	ruler_female = {
-		1 = PIRATE_QUEEN
-        2 = PIRATE_QUEEN
-        3 = PIRATE_QUEEN
+		1 = ruler_name_PIRATE_LADY
+        2 = ruler_name_PIRATE_LADY
+        3 = ruler_name_PIRATE_LADY
 	}
 	
 	trigger = {
-		has_reform = pirate_kingdom_reform
-	}
-}
-gov_pirate_republic = {
-	rank = {
-        1 = PIRATE_REPUBLIC
-        2 = PIRATE_REPUBLIC
-        3 = PIRATE_REPUBLIC
-	}
-	
-	ruler_male = {
-		1 = PIRATE_LORD
-        2 = PIRATE_LORD
-        3 = PIRATE_LORD
-	}
-	
-	ruler_female = {
-		1 = PIRATE_LORD
-        2 = PIRATE_LORD
-        3 = PIRATE_LORD
-	}
-	
-	trigger = {
-		has_reform = pirate_republic_reform
+		has_reform = pirate_haven_reform
 	}
 }

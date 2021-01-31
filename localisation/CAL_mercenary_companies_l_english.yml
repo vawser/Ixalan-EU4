@@ -1,0 +1,20 @@
+﻿l_english:
+ cal_merc_small_infantry: "Small Infantry Company"
+ cal_merc_small_cavalry: "Small Cavalry Company"
+ cal_merc_small_artillery: "Small Artillery Company"
+ 
+ cal_merc_medium_infantry: "Medium Infantry Company"
+ cal_merc_medium_cavalry: "Medium Cavalry Company"
+ cal_merc_medium_artillery: "Medium Artillery Company"
+ 
+ cal_merc_big_infantry: "Large Infantry Company"
+ cal_merc_big_cavalry: "Large Cavalry Company"
+ cal_merc_big_artillery: "Large Artillery Company"
+ 
+ cal_merc_disciplined_infantry: "Veteran Infantry Company"
+ cal_merc_disciplined_cavalry: "Veteran Cavalry Company"
+ cal_merc_disciplined_artillery: "Veteran Artillery Company"
+ 
+ cal_merc_heroic_infantry: "Heroic Infantry Company"
+ cal_merc_heroic_cavalry: "Heroic Cavalry Company"
+ cal_merc_heroic_artillery: "Heroic Artillery Company"

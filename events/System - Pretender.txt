@@ -1,9 +1,9 @@
-namespace = wwu_pretender
+namespace = cal_pretender
 
 country_event = {
-	id = wwu_pretender.1
-	title = wwu_pretender.1.title
-	desc = wwu_pretender.1.desc
+	id = cal_pretender.1
+	title = cal_pretender.1.title
+	desc = cal_pretender.1.desc
 	picture = MILITARY_CAMP_eventPicture
 	
 	is_triggered_only = yes
@@ -16,7 +16,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_pretender.1.option.a
+		name = cal_pretender.1.option.a
 		if = {
 			limit = {
 				NOT = { legitimacy = 15 }

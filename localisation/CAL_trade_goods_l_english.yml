@@ -1,0 +1,36 @@
+﻿l_english:
+ #--------------------------------
+ # Trade Goods
+ #--------------------------------
+ cal_food: "Food"
+ cal_foodDESC: "Various food goods such as grain, meats, wine and ale."
+ 
+ cal_textiles: "Textiles"
+ cal_textilesDESC: "Various textiles and materials, such as wool, linen and silk."
+ 
+ cal_jewelry: "Jewelry"
+ cal_jewelryDESC: "Expensive jewelry ladened with gemstones, often worn by nobility."
+ 
+ cal_metals: "Metals"
+ cal_metalsDESC: "Various metals used in the manufacture of weapons, armors, etc."
+ 
+ cal_gold: "Gold"
+ cal_goldDESC: "A deposit of gold that can be used to mint currency directly."
+ 
+ cal_slaves: "Slaves"
+ cal_slavesDESC: "Peoples enthralled and sold on for labour purposes."
+ 
+ cal_oil: "Oil"
+ cal_oilDESC: "Oil is used in the function of various technologies, such as ships."
+ 
+ cal_lumber: "Lumber"
+ cal_lumberDESC: "Used in the manufacture of ships, furniture, etc."
+ 
+ cal_artifacts: "Artifacts"
+ cal_artifactsDESC: "Ancient trinkets from eons ago. Very valuable to the right people."
+ 
+ 
+
+ 
+ 
+ 

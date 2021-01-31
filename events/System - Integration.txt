@@ -1,16 +1,16 @@
-namespace = wwu_integration
+namespace = cal_integration
 
 # Integrating FROMCOUNTRY
 country_event = {
-	id = wwu_integration.1
-	title = wwu_integration.1.title
-	desc = wwu_integration.1.desc
+	id = cal_integration.1
+	title = cal_integration.1.title
+	desc = cal_integration.1.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = wwu_integration.1.option.a
+		name = cal_integration.1.option.a
 		
 		add_country_modifier = {
 			name = "annexers_legacy"

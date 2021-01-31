@@ -1,16 +1,16 @@
-namespace = wwu_wonders
+namespace = cal_wonders
 
 # Wonder of Azeroth
 province_event = {
-	id = wwu_wonders.1
-	title = wwu_wonders.1.title
-	desc = wwu_wonders.1.desc
+	id = cal_wonders.1
+	title = cal_wonders.1.title
+	desc = cal_wonders.1.desc
 	picture = KING_LLANE_eventPicture
 	
     is_triggered_only = yes
     
 	option = {
-		name = wwu_wonders.1.option.1
+		name = cal_wonders.1.option.1
         
         trigger = {
             is_civilized = yes
@@ -25,7 +25,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.2
+		name = cal_wonders.1.option.2
         
         trigger = {
             NOT = { has_global_flag = wonder_glittering_court }
@@ -39,7 +39,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.3
+		name = cal_wonders.1.option.3
         
         trigger = {
             NOT = { has_global_flag = wonder_administrative_academy }
@@ -53,7 +53,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.4
+		name = cal_wonders.1.option.4
         
         trigger = {
             has_government_attribute = heir
@@ -68,7 +68,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.5
+		name = cal_wonders.1.option.5
         
         trigger = {
             NOT = { has_global_flag = wonder_union_of_workers }
@@ -82,7 +82,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.6
+		name = cal_wonders.1.option.6
         
         trigger = {
             NOT = { has_global_flag = wonder_magi_conclave }
@@ -96,7 +96,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.7
+		name = cal_wonders.1.option.7
         
         trigger = {
             NOT = { has_global_flag = wonder_diplomatic_academy }
@@ -110,7 +110,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.8
+		name = cal_wonders.1.option.8
         
         trigger = {
             NOT = { has_global_flag = wonder_glittering_sculpture }
@@ -124,7 +124,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.9
+		name = cal_wonders.1.option.9
         
         trigger = {
             NOT = { has_global_flag = wonder_gorgeous_gardens }
@@ -138,7 +138,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.10
+		name = cal_wonders.1.option.10
         
         trigger = {
             NOT = { has_global_flag = wonder_grand_temple }
@@ -152,7 +152,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.11
+		name = cal_wonders.1.option.11
         
         trigger = {
             NOT = { has_global_flag = wonder_colonial_school }
@@ -166,7 +166,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.12
+		name = cal_wonders.1.option.12
         
         trigger = {
             NOT = { has_global_flag = wonder_market_of_the_world }
@@ -180,7 +180,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.13
+		name = cal_wonders.1.option.13
         
         trigger = {
             NOT = { has_global_flag = wonder_military_academy }
@@ -194,7 +194,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.14
+		name = cal_wonders.1.option.14
         
         trigger = {
             NOT = { has_global_flag = wonder_naval_academy }
@@ -208,7 +208,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.15
+		name = cal_wonders.1.option.15
         
         trigger = {
             is_savage = yes
@@ -223,7 +223,7 @@ province_event = {
         }
 	}
     option = {
-		name = wwu_wonders.1.option.fallback
+		name = cal_wonders.1.option.fallback
         
         add_prestige = 25
 	}

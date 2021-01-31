@@ -1,0 +1,167 @@
+defined_text = {
+	name = GetClergyName
+    
+	random = no
+	
+    text = {
+		localisation_key = estate_clergy
+		trigger = {
+			has_estate = estate_clergy
+		}
+	}
+}
+defined_text = {
+	name = GetClergyOrFallbackName
+    
+	random = no
+	
+    text = {
+		localisation_key = estate_clergy
+		trigger = {
+			has_estate = estate_clergy
+		}
+	}
+}
+
+defined_text = {
+	name = GetTradersName
+    
+	random = no
+	
+    text = {
+		localisation_key = estate_traders
+		trigger = {
+			has_estate = estate_traders
+		}
+	}
+}
+
+defined_text = {
+	name = GetTradersOrFallbackName
+    
+	random = no
+	
+    text = {
+		localisation_key = estate_traders
+		trigger = {
+			has_estate = estate_traders
+		}
+	}
+}
+
+defined_text = {
+	name = GetNobilityName
+    
+	random = no
+	
+    text = {
+		localisation_key = estate_nobility
+		trigger = {
+			has_estate = estate_nobility
+		}
+	}
+}
+
+defined_text = {
+	name = GetNobilityOrFallbackName
+    
+	random = no
+	
+    text = {
+		localisation_key = estate_nobility
+		trigger = {
+			has_estate = estate_nobility
+		}
+	}
+}
+
+defined_text = {
+	name = GetPeasantsName
+    
+	random = no
+	
+    text = {
+		localisation_key = estate_peasants
+		trigger = {
+			has_estate = estate_peasants
+		}
+	}
+}
+
+defined_text = {
+	name = GetPeasantsOrFallbackName
+    
+	random = no
+	
+    text = {
+		localisation_key = estate_peasants
+		trigger = {
+			has_estate = estate_peasants
+		}
+	}
+}
+
+defined_text = {
+	name = GetTribalsName
+    
+	random = no
+	
+    text = {
+		localisation_key = estate_tribals
+		trigger = {
+			has_estate = estate_tribals
+		}
+	}
+}
+
+defined_text = {
+	name = GetTribalsOrFallbackName
+    
+	random = no
+	
+    text = {
+		localisation_key = estate_tribals
+		trigger = {
+			has_estate = estate_tribals
+		}
+	}
+}
+
+defined_text = {
+	name = GetEventAdvisorEstate
+	random = no
+    
+	text = {
+		localisation_key = this_clergy
+		trigger = {
+			has_country_flag = advisor_events_adm
+			has_estate = estate_clergy
+		}
+	}
+	text = {
+		localisation_key = this_burghers
+		trigger = {
+			has_country_flag = advisor_events_dip
+			has_estate = estate_traders
+		}
+	}
+	text = {
+		localisation_key = this_nobles
+		trigger = {
+			has_country_flag = advisor_events_mil
+			has_estate = estate_nobility
+		}
+	}
+	text = {
+		localisation_key = this_nomadic_tribes
+		trigger = {
+			has_estate = estate_tribals
+		}
+	}
+	text = { #is used if none of the above ones are true e.g. if you have no estates
+		localisation_key = fallback_string_nobility
+		trigger = {
+			always = yes
+		}
+	}
+}

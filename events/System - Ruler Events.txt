@@ -1,10 +1,10 @@
-namespace = wwu_ruler
+namespace = cal_ruler
 
 # Inspiration
 country_event = {
-	id = wwu_ruler.1
-	title = wwu_ruler.1.title
-	desc = wwu_ruler.1.desc
+	id = cal_ruler.1
+	title = cal_ruler.1.title
+	desc = cal_ruler.1.desc
 	picture = GOOD_WITH_MONARCH_eventPicture
     
     is_triggered_only = yes
@@ -19,7 +19,7 @@ country_event = {
 	}
 
 	option = {
-		name = wwu_ruler.1.option.a
+		name = cal_ruler.1.option.a
 		
         trigger = {
             NOT = { adm = 6 }
@@ -28,7 +28,7 @@ country_event = {
         change_adm = 1
 	}
     option = {
-		name = wwu_ruler.1.option.b
+		name = cal_ruler.1.option.b
 		
         trigger = {
             NOT = { dip = 6 }
@@ -37,7 +37,7 @@ country_event = {
         change_dip = 1
 	}
     option = {
-		name = wwu_ruler.1.option.c
+		name = cal_ruler.1.option.c
 		
         trigger = {
             NOT = { mil = 6 }
@@ -49,9 +49,9 @@ country_event = {
 
 # Degredation
 country_event = {
-	id = wwu_ruler.2
-	title = wwu_ruler.2.title
-	desc = wwu_ruler.2.desc
+	id = cal_ruler.2
+	title = cal_ruler.2.title
+	desc = cal_ruler.2.desc
 	picture = BAD_WITH_MONARCH_eventPicture
     
     is_triggered_only = yes
@@ -66,7 +66,7 @@ country_event = {
 	}
 
 	option = {
-		name = wwu_ruler.2.option.a
+		name = cal_ruler.2.option.a
         
         trigger = {
             adm = 1
@@ -75,7 +75,7 @@ country_event = {
         change_adm = -1
 	}
     option = {
-		name = wwu_ruler.2.option.b
+		name = cal_ruler.2.option.b
 		
         trigger = {
             dip = 1
@@ -84,7 +84,7 @@ country_event = {
         change_dip = -1
 	}
     option = {
-		name = wwu_ruler.2.option.c
+		name = cal_ruler.2.option.c
 		
         trigger = {
             mil = 1
@@ -99,9 +99,9 @@ country_event = {
 # Ruler Death
 #----------------------------------------------------
 country_event = {
-	id = wwu_ruler.10
-	title = wwu_ruler.10.title
-	desc = wwu_ruler.10.desc
+	id = cal_ruler.10
+	title = cal_ruler.10.title
+	desc = cal_ruler.10.desc
 	picture = DEATH_OF_HEIR_eventPicture
     
 	trigger = {
@@ -146,7 +146,7 @@ country_event = {
     }
     
 	option = {
-		name = wwu_ruler.10.option.a
+		name = cal_ruler.10.option.a
         
         kill_ruler = yes
 	}
@@ -156,9 +156,9 @@ country_event = {
 # Heir Death
 #----------------------------------------------------
 country_event = {
-	id = wwu_ruler.11
-	title = wwu_ruler.11.title
-	desc = wwu_ruler.11.desc
+	id = cal_ruler.11
+	title = cal_ruler.11.title
+	desc = cal_ruler.11.desc
 	picture = DEATH_OF_HEIR_eventPicture
     
 	trigger = {
@@ -203,7 +203,7 @@ country_event = {
     }
     
 	option = {
-		name = wwu_ruler.11.option.a
+		name = cal_ruler.11.option.a
         
         kill_heir = yes
 	}

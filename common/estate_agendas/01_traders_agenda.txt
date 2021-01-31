@@ -117,7 +117,7 @@ estate_traders_develop_x = {
 			if = {
 				limit = { owned_by = root }
 				add_named_unrest = {
-					name = wwu_local_traders_displeased
+					name = cal_local_traders_displeased
 					value = 5
 				}
 			}
@@ -250,7 +250,7 @@ estate_traders_build_a_marketplace_in_y = {
 			if = {
 				limit = { owned_by = root }
 				add_named_unrest = {
-					name = wwu_local_traders_displeased
+					name = cal_local_traders_displeased
 					value = 5
 				}
 			}
@@ -371,7 +371,7 @@ estate_traders_build_a_mine_in_y = {
 			if = {
 				limit = { owned_by = root }
 				add_named_unrest = {
-					name = wwu_local_traders_displeased
+					name = cal_local_traders_displeased
 					value = 5
 				}
 			}
@@ -510,7 +510,7 @@ estate_traders_build_shipyard_in_y = {
 			if = {
 				limit = { owned_by = root }
 				add_named_unrest = {
-					name = wwu_local_traders_displeased
+					name = cal_local_traders_displeased
 					value = 5
 				}
 			}
@@ -649,7 +649,7 @@ estate_traders_build_dock_in_y = {
 			if = {
 				limit = { owned_by = root }
 				add_named_unrest = {
-					name = wwu_local_traders_displeased
+					name = cal_local_traders_displeased
 					value = 5
 				}
 			}

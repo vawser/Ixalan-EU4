@@ -3,45 +3,45 @@
 
 default_monarchy = {
 	rank = {
-		1 = DUCHY
-        2 = KINGDOM
-        3 = EMPIRE
+		1 = gov_name_AUTOCRACY
+        2 = gov_name_AUTOCRACY
+        3 = gov_name_AUTOCRACY
 	}	
 	
 	ruler_male = {
-		1 = DUKE
-        2 = KING
-        3 = EMPEROR
+		1 = ruler_name_AUTOCRAT
+        2 = ruler_name_AUTOCRAT
+        3 = ruler_name_AUTOCRAT
 	}
 	
 	ruler_female = {
-		1 = DUCHESS
-        2 = QUEEN
-        3 = EMPRESS
+		1 = ruler_name_AUTOCRAT
+        2 = ruler_name_AUTOCRAT
+        3 = ruler_name_AUTOCRAT
 	}
 	
 	consort_male  = {
-		1 = PRINCE_CONSORT
-		2 = PRINCE_CONSORT
-		3 = PRINCE_CONSORT
+		1 = consort_name_CONSORT
+		2 = consort_name_CONSORT
+		3 = consort_name_CONSORT
 	}
 	
 	consort_female = {
-		1 = CONSORT
-        2 = QUEEN_CONSORT
-        3 = EMPRESS_CONSORT
+		1 = consort_name_CONSORT
+        2 = consort_name_CONSORT
+        3 = consort_name_CONSORT
 	}
 	
 	heir_male = {
-		1 = HEIR
-		2 = HEIR
-		3 = HEIR
+		1 = heir_name_HEIR
+		2 = heir_name_HEIR
+		3 = heir_name_HEIR
 	}
 	
 	heir_female = {
-		1 = HEIR
-		2 = HEIR
-		3 = HEIR
+		1 = heir_name_HEIR
+		2 = heir_name_HEIR
+		3 = heir_name_HEIR
 	}
 	
 	trigger = {
@@ -51,21 +51,21 @@ default_monarchy = {
 
 default_republic = {
 	rank = {
-		1 = REPUBLIC
-        2 = GREAT_REPUBLIC
-        3 = GRAND_REPUBLIC
+		1 = gov_name_REPUBLIC
+        2 = gov_name_REPUBLIC
+        3 = gov_name_REPUBLIC
 	}
 	
 	ruler_male = {
-		1 = CONSUL
-        2 = GREAT_CONSUL
-        3 = GRAND_CONSUL
+		1 = ruler_name_PRESIDENT
+        2 = ruler_name_PRESIDENT
+        3 = ruler_name_PRESIDENT
 	}
 	
 	ruler_female = {
-		1 = CONSULESS
-        2 = GREAT_CONSULESS
-        3 = GRAND_CONSULESS
+		1 = ruler_name_PRESIDENT
+        2 = ruler_name_PRESIDENT
+        3 = ruler_name_PRESIDENT
 	}
 	
 	trigger = {
@@ -75,21 +75,21 @@ default_republic = {
 
 default_theocracy = {
 	rank = {
-		1 = BISHOPRIC
-        2 = ARCHBISHOPRIC
-        3 = PATRIARCHATE
+		1 = gov_name_THEOCRACY
+        2 = gov_name_THEOCRACY
+        3 = gov_name_THEOCRACY
 	}
 	
 	ruler_male = {
-		1 = BISHOP
-        2 = ARCHBISHOP
-        3 = PATRIARCH
+		1 = ruler_name_HIGH_PRIEST
+        2 = ruler_name_HIGH_PRIEST
+        3 = ruler_name_HIGH_PRIEST
 	}
 	
 	ruler_female = {
-		1 = BISHOP_fem
-        2 = ARCHBISHOP_fem
-        3 = MATRIARCH
+		1 = ruler_name_HIGH_PRIEST
+        2 = ruler_name_HIGH_PRIEST
+        3 = ruler_name_HIGH_PRIEST
 	}
 	
 	trigger = {
@@ -99,21 +99,21 @@ default_theocracy = {
 
 gov_tribal = {
 	rank = {
-		1 = CLAN
-		2 = CLAN
-		3 = CLAN
+		1 = gov_name_TRIBAL_FEDERATION
+		2 = gov_name_TRIBAL_FEDERATION
+		3 = gov_name_TRIBAL_FEDERATION
 	}
 	
 	ruler_male = {
-		1 = CHIEF
-        2 = CHIEF
-        3 = CHIEF
+		1 = ruler_name_CHIEF
+        2 = ruler_name_CHIEF
+        3 = ruler_name_CHIEF
 	}
 	
 	ruler_female = {
-		1 = CHIEFTESS
-        2 = CHIEFTESS
-        3 = CHIEFTESS
+		1 = ruler_name_CHIEF
+        2 = ruler_name_CHIEF
+        3 = ruler_name_CHIEF
 	}
 	
 	trigger = {
@@ -123,21 +123,21 @@ gov_tribal = {
 
 gov_pirate = {
 	rank = {
-        1 = PIRATE_KINGDOM
-        2 = PIRATE_KINGDOM
-        3 = PIRATE_KINGDOM
+        1 = gov_name_PIRATE_HAVEN
+        2 = gov_name_PIRATE_HAVEN
+        3 = gov_name_PIRATE_HAVEN
 	}
 	
 	ruler_male = {
-		1 = PIRATE_KING
-        2 = PIRATE_KING
-        3 = PIRATE_KING
+		1 = ruler_name_PIRATE_LORD
+        2 = ruler_name_PIRATE_LORD
+        3 = ruler_name_PIRATE_LORD
 	}
 	
 	ruler_female = {
-		1 = PIRATE_QUEEN
-        2 = PIRATE_QUEEN
-        3 = PIRATE_QUEEN
+		1 = ruler_name_PIRATE_LADY
+        2 = ruler_name_PIRATE_LADY
+        3 = ruler_name_PIRATE_LADY
 	}
 	
 	trigger = {

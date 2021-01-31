@@ -15,22 +15,22 @@ country_event = {
 			NOT = { is_strongest_trade_power = root }
 		}
 		
-		has_idea_group = wwu_trade_ideas
+		has_idea_group = cal_trade_ideas
 	}
 	
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			wwu_trade_ideas = 1
+			cal_trade_ideas = 1
 		}
 		modifier = {
 			factor = 3
-			wwu_trade_ideas = 3
+			cal_trade_ideas = 3
 		}
 		modifier = {
 			factor = 5
-			wwu_trade_ideas = 7
+			cal_trade_ideas = 7
 		}
 	}
 	
@@ -86,15 +86,15 @@ country_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			wwu_trade_ideas = 1
+			cal_trade_ideas = 1
 		}
 		modifier = {
 			factor = 3
-			wwu_trade_ideas = 3
+			cal_trade_ideas = 3
 		}
 		modifier = {
 			factor = 5
-			wwu_trade_ideas = 7
+			cal_trade_ideas = 7
 		}
 	}
 	
@@ -265,11 +265,11 @@ country_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			NOT = { wwu_trade_ideas = 3 }
+			NOT = { cal_trade_ideas = 3 }
 		}
 		modifier = {
 			factor = 1.5
-			NOT = { wwu_trade_ideas = 7 }
+			NOT = { cal_trade_ideas = 7 }
 		}		
 	}
 	
@@ -557,7 +557,7 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = the_abolish_slavery_act
-		any_owned_province = { trade_goods = wwu_slaves }
+		any_owned_province = { trade_goods = cal_slaves }
 	}
 
 	mean_time_to_happen = {
@@ -568,7 +568,7 @@ country_event = {
 		name = "EVTOPTA9520"
 		
 		every_owned_province = {
-			limit = { trade_goods = wwu_slaves }
+			limit = { trade_goods = cal_slaves }
 			change_trade_goods = unknown
 			remove_building = wow_farm
 			if = {

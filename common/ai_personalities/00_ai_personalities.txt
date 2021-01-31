@@ -38,27 +38,23 @@ ai_capitalist = {
 		}
 		modifier = {
 			factor = 1.1
-			wwu_imperialism_ideas = 1
+			cal_imperialism_ideas = 1
 		}		
 		modifier = {
 			factor = 1.1
-			wwu_trade_ideas = 1
+			cal_trade_ideas = 1
 		}			
 		modifier = {
 			factor = 1.1
-			wwu_economic_ideas = 1
+			cal_economic_ideas = 1
 		}
 		modifier = {
 			factor = 1.1
-			wwu_administrative_ideas = 1
+			cal_administrative_ideas = 1
 		}
 		modifier = {
 			factor = 1.25 
 			NOT = { total_development = 30 }
-		}
-		modifier = {
-			factor = 5
-			technology_group = tech_titan
 		}
 	}
 	icon = 2
@@ -93,19 +89,19 @@ ai_diplomat = {
 		}
 		modifier = {
 			factor = 1.1
-			wwu_religious_ideas = 1
+			cal_religious_ideas = 1
 		}			
 		modifier = {
 			factor = 1.1
-			wwu_absolutism_ideas = 1
+			cal_absolutism_ideas = 1
 		}
 		modifier = {
 			factor = 1.1
-			wwu_influence_ideas = 1
+			cal_influence_ideas = 1
 		}	
 		modifier = {
 			factor = 1.1
-			wwu_innovation_ideas = 1
+			cal_innovation_ideas = 1
 		}		
 		modifier = {
 			factor = 1.25
@@ -172,23 +168,23 @@ ai_militarist = {
 		}	
 		modifier = {
 			factor = 1.1
-			wwu_law_ideas = 1
+			cal_law_ideas = 1
 		}			
 		modifier = {
 			factor = 1.1
-			wwu_quality_ideas = 1
+			cal_quality_ideas = 1
 		}
 		modifier = {
 			factor = 1.1
-			wwu_professional_army_ideas = 1
+			cal_professional_army_ideas = 1
 		}
 		modifier = {
 			factor = 1.1
-			wwu_militarization_ideas = 1
+			cal_militarization_ideas = 1
 		}			
 		modifier = {
 			factor = 1.1
-			wwu_tyranny_ideas = 1
+			cal_tyranny_ideas = 1
 		}		
 		modifier = {
 			factor = 1.25
@@ -219,10 +215,6 @@ ai_militarist = {
 		modifier = {
 			factor = 0.5
 			num_of_loans = 7
-		}
-		modifier = {
-			factor = 5
-			culture_group = orc_group
 		}
 	}
 	icon = 4
@@ -261,11 +253,11 @@ ai_colonialist = {
 		}	
 		modifier = {
 			factor = 1.1
-			wwu_exploration_ideas = 1
+			cal_exploration_ideas = 1
 		}			
 		modifier = {
 			factor = 1.1
-			wwu_expansion_ideas = 1
+			cal_expansion_ideas = 1
 		}
 		modifier = {
 			factor = 0

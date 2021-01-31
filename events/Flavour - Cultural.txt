@@ -1,9 +1,9 @@
-namespace = wwu_cultural
+namespace = cal_cultural
 
 country_event = {
-	id = wwu_cultural.1
-	title = wwu_cultural.1.title
-	desc = wwu_cultural.1.desc
+	id = cal_cultural.1
+	title = cal_cultural.1.title
+	desc = cal_cultural.1.desc
 	picture = THEATRE_eventPicture
 
 	trigger = {
@@ -16,7 +16,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.1.opt1
+		name = cal_cultural.1.opt1
 		
 		add_country_modifier = {
 			name = ethereal_traders
@@ -27,14 +27,14 @@ country_event = {
 	}
     
 	option = {
-		name = wwu_cultural.1.opt2
+		name = cal_cultural.1.opt2
 	}
 }
 
 country_event = {
-	id = wwu_cultural.2
-	title = wwu_cultural.2.title
-	desc = wwu_cultural.2.desc
+	id = cal_cultural.2
+	title = cal_cultural.2.title
+	desc = cal_cultural.2.desc
 	picture = REFORM_eventPicture
 
 	trigger = {
@@ -58,7 +58,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.2.opt1
+		name = cal_cultural.2.opt1
 		
 		random_owned_province = {
 			change_culture = order_of_niuzao
@@ -69,7 +69,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_cultural.2.opt2
+		name = cal_cultural.2.opt2
 		
 		random_owned_province = {
 			change_culture = order_of_yulon
@@ -80,7 +80,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_cultural.2.opt3
+		name = cal_cultural.2.opt3
 		
 		random_owned_province = {
 			change_culture = order_of_chiji
@@ -91,7 +91,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_cultural.2.opt4
+		name = cal_cultural.2.opt4
 		
 		random_owned_province = {
 			change_culture = order_of_xuen
@@ -102,15 +102,15 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_cultural.2.opt5
+		name = cal_cultural.2.opt5
 		
 	}
 }
 
 country_event = {
-	id = wwu_cultural.3
-	title = wwu_cultural.3.title
-	desc = wwu_cultural.3.desc
+	id = cal_cultural.3
+	title = cal_cultural.3.title
+	desc = cal_cultural.3.desc
 	picture = IMPORTANT_STATUE_eventPicture
 
 	trigger = {
@@ -125,7 +125,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.3.opt1
+		name = cal_cultural.3.opt1
 		
 		add_country_modifier = {
 			name = darkmoon_faire_event
@@ -133,16 +133,16 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_cultural.3.opt2
+		name = cal_cultural.3.opt2
 		
 		add_prestige = -5
 	}
 }
 
 country_event = {
-	id = wwu_cultural.4
-	title = wwu_cultural.4.title
-	desc = wwu_cultural.4.desc
+	id = cal_cultural.4
+	title = cal_cultural.4.title
+	desc = cal_cultural.4.desc
 	picture = TOURNAMENT_eventPicture
 
 	trigger = {
@@ -155,7 +155,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.4.opt1
+		name = cal_cultural.4.opt1
 		
 		trigger = {
 			has_heir = yes
@@ -175,22 +175,22 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_cultural.4.opt2
+		name = cal_cultural.4.opt2
 		
 		add_treasury = -150
 		add_prestige = 10
 	}
 	option = {
-		name = wwu_cultural.4.opt2
+		name = cal_cultural.4.opt2
 		
 		add_prestige = -5
 	}
 }
 
 country_event = {
-	id = wwu_cultural.5
-	title = wwu_cultural.5.title
-	desc = wwu_cultural.5.desc
+	id = cal_cultural.5
+	title = cal_cultural.5.title
+	desc = cal_cultural.5.desc
 	picture = IMPORTANT_STATUE_eventPicture
 
 	trigger = {
@@ -209,7 +209,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.5.opt1
+		name = cal_cultural.5.opt1
 		
 		add_country_modifier = {
 			name = tundra_mammoth
@@ -219,7 +219,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.5.opt2
+		name = cal_cultural.5.opt2
 		
 		add_country_modifier = {
 			name = expedition_yak
@@ -229,7 +229,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.5.opt3
+		name = cal_cultural.5.opt3
 		
 		add_country_modifier = {
 			name = bloodfang_spider
@@ -239,7 +239,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.5.opt4
+		name = cal_cultural.5.opt4
 		
 		add_country_modifier = {
 			name = caravan_brutosaur
@@ -249,16 +249,16 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.5.opt5
+		name = cal_cultural.5.opt5
 		
 		add_prestige = -2
 	}
 }
 
 country_event = {
-	id = wwu_cultural.6
-	title = "wwu_cultural.6.title"
-	desc = "wwu_cultural.6.desc"
+	id = cal_cultural.6
+	title = "cal_cultural.6.title"
+	desc = "cal_cultural.6.desc"
 	picture = COURT_eventPicture
 	
 	trigger = {
@@ -272,16 +272,16 @@ country_event = {
 	}
 	
 	option = {
-		name = "wwu_cultural.6.opt1"
+		name = "cal_cultural.6.opt1"
 		
 		add_stability_or_adm_power = yes
 	}
 }
 
 country_event = {
-	id = wwu_cultural.7
-	title = wwu_cultural.7.title
-	desc = wwu_cultural.7.desc
+	id = cal_cultural.7
+	title = cal_cultural.7.title
+	desc = cal_cultural.7.desc
 	picture = INVENTION_eventPicture
 
 	trigger = {
@@ -294,7 +294,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.7.opt1
+		name = cal_cultural.7.opt1
 		
 		add_country_modifier = {
 			name = researching_runic_tables
@@ -305,15 +305,15 @@ country_event = {
 
 # Endorse Renaissance Philosophy
 country_event = {
-	id = wwu_cultural.8
-	title = wwu_cultural.8.title
-	desc = wwu_cultural.8.desc
+	id = cal_cultural.8
+	title = cal_cultural.8.title
+	desc = cal_cultural.8.desc
 	picture = ADVISOR_eventPicture
 
 	trigger = {
 		advisor = natural_scientist
 		any_owned_province = {
-			trade_goods = wwu_gold
+			trade_goods = cal_gold
 		}
 	}
 	
@@ -322,25 +322,25 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_cultural.8.opt1
+		name = cal_cultural.8.opt1
 		
 		random_province = {
-			limit = { trade_goods = wwu_gold }
+			limit = { trade_goods = cal_gold }
 			add_base_production = 3
 			add_base_tax = 2
 			change_culture = culture_tunnel_rat
 		}
 	}
 	option = {
-		name = wwu_cultural.8.opt2
+		name = cal_cultural.8.opt2
 		
 	}
 }
 
 country_event = {
-	id = wwu_cultural.9
-	title = wwu_cultural.9.title
-	desc = wwu_cultural.9.desc
+	id = cal_cultural.9
+	title = cal_cultural.9.title
+	desc = cal_cultural.9.desc
 	picture = CULTURE_eventPicture
 
 	trigger = {
@@ -355,7 +355,7 @@ country_event = {
 		months = 700
 	}
 	option = {
-		name = wwu_cultural.9.opt1
+		name = cal_cultural.9.opt1
 		
 		add_country_modifier = {
 			name = songs_of_the_bard
@@ -365,7 +365,7 @@ country_event = {
 		add_years_of_income = -0.1
 	}
 	option = {
-		name = wwu_cultural.9.opt2
+		name = cal_cultural.9.opt2
 		
 		add_prestige = -5
 	}

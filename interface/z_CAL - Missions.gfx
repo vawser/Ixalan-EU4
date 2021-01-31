@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = { 
+		name = "mission_akunda" 
+		texturefile = "gfx//interface//missions//akunda.dds" 
+	}
+}

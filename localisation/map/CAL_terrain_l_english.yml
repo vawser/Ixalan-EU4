@@ -1,0 +1,6 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Terrain
+ #-----------------------------------------------
+ urban: "Urban"
+ urban_desc: "Represents land dominated by dwellings occupied by citizens of the nation whom owns the land." 

@@ -28,12 +28,12 @@ impressment_of_sailors = {
 		modifier = {
 			factor = 2
 			OR = {
-                has_idea_group = wwu_naval_bombardment_ideas
-                has_idea_group = wwu_naval_skirmish_ideas
-                has_idea_group = wwu_naval_trade_ideas
-                has_idea_group = wwu_naval_organisation_ideas
-                has_idea_group = wwu_naval_leadership_ideas
-                has_idea_group = wwu_naval_tactics_ideas
+                has_idea_group = cal_naval_bombardment_ideas
+                has_idea_group = cal_naval_skirmish_ideas
+                has_idea_group = cal_naval_trade_ideas
+                has_idea_group = cal_naval_organisation_ideas
+                has_idea_group = cal_naval_leadership_ideas
+                has_idea_group = cal_naval_tactics_ideas
             }
 		}
 	}

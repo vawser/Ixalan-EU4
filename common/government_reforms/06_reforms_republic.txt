@@ -1,7 +1,7 @@
 #-----------------------------------------
 # "Republican Virtues"
 #-----------------------------------------
-wwu_republican_authoritarianism_reform = {
+cal_republican_authoritarianism_reform = {
 	icon = "republican_authoritarianism_wwu"
 	allow_normal_conversion = yes
     
@@ -14,7 +14,7 @@ wwu_republican_authoritarianism_reform = {
 	}
 }
 
-wwu_nepotism_reform = {
+cal_nepotism_reform = {
 	icon = "nepotism_wwu"
 	allow_normal_conversion = yes
 
@@ -31,7 +31,7 @@ wwu_nepotism_reform = {
 	}
 }
 
-wwu_republicanism_reform = {
+cal_republicanism_reform = {
 	icon = "republicanism_wwu"
 	allow_normal_conversion = yes
 
@@ -47,7 +47,7 @@ wwu_republicanism_reform = {
 #-----------------------------------------
 # "Frequency of Elections"
 #-----------------------------------------
-wwu_frequent_elections_reform = {
+cal_frequent_elections_reform = {
 	icon = "frequent_elections_wwu"
 	allow_normal_conversion = yes
 
@@ -57,7 +57,7 @@ wwu_frequent_elections_reform = {
 				tooltip = "NEEDS_REGULAR_ELECTIONS"
 				has_government_attribute = has_term_election
 			}
-			has_reform = wwu_lottery_reform
+			has_reform = cal_lottery_reform
 		}
 	}
     
@@ -71,7 +71,7 @@ wwu_frequent_elections_reform = {
 	}
 }
 
-wwu_consolidation_of_power_reform = {
+cal_consolidation_of_power_reform = {
 	icon = "consolidation_of_power_wwu"
 	allow_normal_conversion = yes
     
@@ -81,7 +81,7 @@ wwu_consolidation_of_power_reform = {
 	}
 }
 
-wwu_lottery_reform = {
+cal_lottery_reform = {
 	icon = "lottery_wwu"
 	allow_normal_conversion = yes
     
@@ -108,7 +108,7 @@ wwu_lottery_reform = {
 #-----------------------------------------
 # "Regionalism"
 #-----------------------------------------
-wwu_provincial_governments_reform = {
+cal_provincial_governments_reform = {
 	icon = "provincial_governments_wwu"
 	allow_normal_conversion = yes
     
@@ -122,7 +122,7 @@ wwu_provincial_governments_reform = {
 	}
 }
 
-wwu_administrative_divisions_reform = {
+cal_administrative_divisions_reform = {
 	icon = "administrative_divisions_wwu"
 	allow_normal_conversion = yes
     
@@ -150,7 +150,7 @@ wwu_administrative_divisions_reform = {
 	}
 }
 
-wwu_union_of_states_reform = {
+cal_union_of_states_reform = {
 	icon = "union_of_states_wwu"
 	allow_normal_conversion = yes
     
@@ -171,7 +171,7 @@ wwu_union_of_states_reform = {
 #-----------------------------------------
 # "Separation of Power"
 #-----------------------------------------
-wwu_presidential_reform = {
+cal_presidential_reform = {
 	icon = "presidential_wwu"
 	allow_normal_conversion = yes
     
@@ -189,7 +189,7 @@ wwu_presidential_reform = {
 	}
 }
 
-wwu_republican_diplomacy_reform = {
+cal_republican_diplomacy_reform = {
 	icon = "republican_diplomacy_wwu"
 	allow_normal_conversion = yes
     
@@ -203,7 +203,7 @@ wwu_republican_diplomacy_reform = {
 	}
 }
 
-wwu_municipal_self_defense_reform = {
+cal_municipal_self_defense_reform = {
 	icon = "municipal_self_defense_wwu"
 	allow_normal_conversion = yes
     
@@ -220,7 +220,7 @@ wwu_municipal_self_defense_reform = {
 #-----------------------------------------
 # "Consolidation of Power"
 #-----------------------------------------
-wwu_broaden_executive_powers_reform = {
+cal_broaden_executive_powers_reform = {
 	icon = "broaden_executive_powers_wwu"
 	allow_normal_conversion = yes
     
@@ -234,7 +234,7 @@ wwu_broaden_executive_powers_reform = {
 	}
 }
 
-wwu_devolution_of_powers_reform = {
+cal_devolution_of_powers_reform = {
 	icon = "devolution_of_powers_wwu"
 	allow_normal_conversion = yes
     
@@ -251,7 +251,7 @@ wwu_devolution_of_powers_reform = {
 #-----------------------------------------
 # "Guiding Principle of Administration"
 #-----------------------------------------
-wwu_political_principle_reform = {
+cal_political_principle_reform = {
 	icon = "political_principle_wwu"
 	allow_normal_conversion = yes
     
@@ -260,7 +260,7 @@ wwu_political_principle_reform = {
 	}
 }
 
-wwu_moral_principle_reform = {
+cal_moral_principle_reform = {
 	icon = "moral_principle_wwu"
 	allow_normal_conversion = yes
     
@@ -273,7 +273,7 @@ wwu_moral_principle_reform = {
 #-----------------------------------------
 # "Electorate"
 #-----------------------------------------
-wwu_landholders_reform = {
+cal_landholders_reform = {
 	icon = "landholders_wwu"
 	allow_normal_conversion = yes
     
@@ -286,7 +286,7 @@ wwu_landholders_reform = {
 	}
 }
 
-wwu_citizenry_reform = {
+cal_citizenry_reform = {
 	icon = "citizenry_wwu"
 	allow_normal_conversion = yes
 
@@ -302,7 +302,7 @@ wwu_citizenry_reform = {
 #-----------------------------------------
 # "Office Selection"
 #-----------------------------------------
-wwu_appointment_by_committee_reform = {
+cal_appointment_by_committee_reform = {
 	icon = "appointment_by_committee_wwu"
 	allow_normal_conversion = yes
     
@@ -312,7 +312,7 @@ wwu_appointment_by_committee_reform = {
 	}
 }
 
-wwu_bureaucratic_aparatus_reform = {
+cal_bureaucratic_aparatus_reform = {
 	icon = "bureaucratic_aparatus_wwu"
 	allow_normal_conversion = yes
     
@@ -322,7 +322,7 @@ wwu_bureaucratic_aparatus_reform = {
 }
 
 
-wwu_universal_suffrage_reform = {
+cal_universal_suffrage_reform = {
 	icon = "universal_suffrage_wwu"
 	allow_normal_conversion = yes
     
@@ -347,7 +347,7 @@ wwu_universal_suffrage_reform = {
 #-----------------------------------------
 # "Question of Dictatorship"
 #-----------------------------------------
-wwu_strengthen_executive_powers_reform = {
+cal_strengthen_executive_powers_reform = {
 	icon = "strengthen_executive_powers_wwu"
 	allow_normal_conversion = yes
 
@@ -357,7 +357,7 @@ wwu_strengthen_executive_powers_reform = {
 	}
 }
 
-wwu_reinforce_republican_values_reform = {
+cal_reinforce_republican_values_reform = {
 	icon = "reinforce_republican_values_wwu"
 	allow_normal_conversion = yes
     

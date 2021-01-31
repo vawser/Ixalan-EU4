@@ -1,10 +1,10 @@
-namespace = wwu_exploration
+namespace = cal_exploration
 
 # "The First Circumnavigation"
 country_event = {
-	id = wwu_exploration.1
-	title = wwu_exploration.1.title
-	desc = wwu_exploration.1.desc
+	id = cal_exploration.1
+	title = cal_exploration.1.title
+	desc = cal_exploration.1.desc
 	picture = COASTLINE_MAP_eventPicture
 
     major = yes
@@ -22,7 +22,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_exploration.1.option.a
+		name = cal_exploration.1.option.a
         
 		add_prestige = 100
 		add_navy_tradition = 50
@@ -31,9 +31,9 @@ country_event = {
 
 # "Circumnavigation of Azeroth"
 country_event = {
-	id = wwu_exploration.2
-	title = wwu_exploration.2.title
-	desc = wwu_exploration.2.desc
+	id = cal_exploration.2
+	title = cal_exploration.2.title
+	desc = cal_exploration.2.desc
 	picture = COASTLINE_MAP_eventPicture
 
 	is_triggered_only = yes
@@ -49,7 +49,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_exploration.2.option.a
+		name = cal_exploration.2.option.a
         
 		add_prestige = 10
 		add_navy_tradition = 10

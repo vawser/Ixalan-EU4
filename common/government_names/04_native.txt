@@ -1,25 +1,23 @@
 gov_native_government = {
 	rank = {
-		1 = CLAN
-		2 = CLAN
-		3 = CLAN
+		1 = gov_name_PRIMITIVE_TRIBE
+		2 = gov_name_PRIMITIVE_TRIBE
+		3 = gov_name_PRIMITIVE_TRIBE
 	}
 	
 	ruler_male = {
-		1 = CHIEF
-        2 = CHIEF
-        3 = CHIEF
+		1 = ruler_name_CHIEF
+        2 = ruler_name_CHIEF
+        3 = ruler_name_CHIEF
 	}
 	
 	ruler_female = {
-		1 = CHIEFTESS
-        2 = CHIEFTESS
-        3 = CHIEFTESS
+		1 = ruler_name_CHIEF
+        2 = ruler_name_CHIEF
+        3 = ruler_name_CHIEF
 	}
-	
-	trigger = {
-        government = native
-        # has_reform = native_tribe_reform
+    trigger = {
+        has_reform = native_tribe_reform
 	}
 }
 gov_primitive_native_government = {

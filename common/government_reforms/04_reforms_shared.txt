@@ -1,7 +1,7 @@
 #-----------------------------------------
 # Shared
 #-----------------------------------------
-wwu_states_general_reform = {
+cal_states_general_reform = {
 	icon = "states_general_wwu"
 	allow_normal_conversion = yes
 
@@ -20,7 +20,7 @@ wwu_states_general_reform = {
 	}
 
 	removed_effect = {
-		country_event = { id = wwu_government.8 }
+		country_event = { id = cal_government.8 }
 	}
 
 	conditional = {
@@ -44,7 +44,7 @@ wwu_states_general_reform = {
 		}
 	}
 }
-wwu_parliamentary_reform = {
+cal_parliamentary_reform = {
 	icon = "parliamentary_wwu"
     allow_normal_conversion = yes
     
@@ -56,7 +56,7 @@ wwu_parliamentary_reform = {
 		OR = {
 			NOT = { has_estate = estate_nobility }
 			crown_stronger_than_estate = { estate = estate_nobility }
-			has_reform = wwu_parliamentary_reform
+			has_reform = cal_parliamentary_reform
 		}
 	}
 
@@ -79,7 +79,7 @@ wwu_parliamentary_reform = {
 		blocked_call_diet = yes
 	}
 }
-wwu_penal_colonies_reform = {
+cal_penal_colonies_reform = {
 	icon = "penal_colonies_wwu"
 	allow_normal_conversion = yes
     
@@ -101,7 +101,7 @@ wwu_penal_colonies_reform = {
 		factor = 0.1
 	}
 }
-wwu_militarized_state_reform = {
+cal_militarized_state_reform = {
 	icon = "militarized_state_wwu"
 	allow_normal_conversion = yes
     
@@ -116,7 +116,7 @@ wwu_militarized_state_reform = {
     
 	militarised_society = yes
 }
-wwu_justified_conquest_reform = {
+cal_justified_conquest_reform = {
 	icon = "justified_conquest_wwu"
 	allow_normal_conversion = yes
     
@@ -130,19 +130,12 @@ wwu_justified_conquest_reform = {
 #-----------------------------------------
 # Switch Government
 #-----------------------------------------
-wwu_become_a_monarchy_reform = {
+cal_become_a_monarchy_reform = {
 	icon = "autocracy"
 	allow_normal_conversion = yes
 
 	trigger = {
-		OR = {
-            AND = {
-                NOT = { has_reform = dwarven_clan_reform }
-                NOT = { has_government_attribute = locked_government_type }
-            }
-            # Allow for this locked government
-            has_reform = dwarven_clan_reform
-        }
+		NOT = { has_government_attribute = locked_government_type }
 		is_emperor = no
 		NOT = { is_lesser_in_union = yes }
 	}
@@ -157,7 +150,7 @@ wwu_become_a_monarchy_reform = {
 		change_government = monarchy
 		if = {
 			limit = { has_country_flag = had_states_general_mechanic }
-			country_event = { id = wwu_states_general.1 }
+			country_event = { id = cal_states_general.1 }
 			clr_country_flag = had_states_general_mechanic
 		}
 	}
@@ -166,7 +159,7 @@ wwu_become_a_monarchy_reform = {
 	}
 }
 
-wwu_become_a_republic_reform = {
+cal_become_a_republic_reform = {
 	icon = "noble_republic"
 	allow_normal_conversion = yes
 
@@ -186,7 +179,7 @@ wwu_become_a_republic_reform = {
 	}
 }
 
-wwu_become_a_theocracy_reform = {
+cal_become_a_theocracy_reform = {
 	icon = "theocracy"
 	allow_normal_conversion = yes
 
@@ -207,28 +200,3 @@ wwu_become_a_theocracy_reform = {
 	}
 }
 
-wwu_become_a_warband_reform = {
-    icon = "warband"
-	allow_normal_conversion = yes
-    
-    potential = {
-        NOT = { is_warband_government_type = yes }
-    }
-    
-    trigger = {
-		NOT = { has_government_attribute = locked_government_type }
-		is_emperor = no
-		NOT = { is_lesser_in_union = yes }
-	}
-    
-	effect = {
-		set_country_flag = populists_in_government
-        lose_reforms = 3
-        change_government = tribal
-        add_government_reform = warband_reform
-	}
-    
-	ai = {
-		factor = 0
-	}
-}

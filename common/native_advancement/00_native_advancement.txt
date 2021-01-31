@@ -9,19 +9,19 @@
 native_adm_ideas = {
 	category = ADM
 	
-	wwu_forestcraft = {
+	cal_forestcraft = {
 		build_cost = -0.1
 	}
-	wwu_primitive_societies = {
+	cal_primitive_societies = {
 		global_tax_modifier = 0.25
 	}
-	wwu_bone_stacks = {
+	cal_bone_stacks = {
 		stability_cost_modifier = -0.2
 	}	
-	wwu_survival_of_the_fittest = {
+	cal_survival_of_the_fittest = {
 		global_unrest = -2
 	}
-	wwu_primitive_unity = {
+	cal_primitive_unity = {
 		adm_tech_cost_modifier = -0.15
 	}
 	
@@ -34,20 +34,20 @@ native_adm_ideas = {
 native_dip_ideas = {
 	category = DIP
 
-	wwu_migrative_traditions = {
+	cal_migrative_traditions = {
 		migration_cooldown = -0.25
 		auto_explore_adjacent_to_colony = yes
 	}
-	wwu_primitive_ceremonies = { 
+	cal_primitive_ceremonies = { 
 		diplomatic_reputation = 1
 	}
-	wwu_trade_diplomacy = {
+	cal_trade_diplomacy = {
 		improve_relation_modifier = 0.5
 	}
-	wwu_primitive_migrations = { 
+	cal_primitive_migrations = { 
 		colonists = 1
 	}
-	wwu_greenseer_visions = { 
+	cal_greenseer_visions = { 
 		dip_tech_cost_modifier = -0.15
 	}
 	
@@ -60,19 +60,19 @@ native_dip_ideas = {
 native_mil_ideas = {
 	category = MIL	
 	
-	wwu_warrior_society = {
+	cal_warrior_society = {
 		land_morale = 0.1
 	}
-	wwu_raid_warfare = {
+	cal_raid_warfare = {
 		leader_land_shock = 1
 	}
-	wwu_tribal_adoptions = {
+	cal_tribal_adoptions = {
 		land_forcelimit_modifier = 0.33
 	}
-	wwu_forest_paths = {
+	cal_forest_paths = {
 		land_attrition = -0.20
 	}
-	wwu_flexible_warfare = {
+	cal_flexible_warfare = {
 		mil_tech_cost_modifier = -0.15
 	}
 	

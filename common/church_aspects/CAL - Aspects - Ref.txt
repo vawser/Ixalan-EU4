@@ -1,0 +1,13 @@
+#---------------------------------
+# 
+#---------------------------------
+# maddenning_howl = {
+    # cost = 100
+	# modifier = {
+        # hostile_attrition = 1
+    # }
+    
+    # ai_will_do = {
+		# factor = 1
+	# }
+# }

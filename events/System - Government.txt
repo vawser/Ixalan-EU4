@@ -1,10 +1,10 @@
-namespace = wwu_government
+namespace = cal_government
 
 # On Death election
 country_event = {
-	id = wwu_government.1
-	title = wwu_government.1.title
-	desc = wwu_government.1.desc
+	id = cal_government.1
+	title = cal_government.1.title
+	desc = cal_government.1.desc
 	picture = IMPORTANT_STATUE_eventPicture
 	
 	is_triggered_only = yes
@@ -18,7 +18,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_government.1.option.a
+		name = cal_government.1.option.a
 
 		define_ruler = {
 			adm = 4
@@ -44,7 +44,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_government.1.option.b
+		name = cal_government.1.option.b
 
 		define_ruler = {
 			adm = 1
@@ -70,7 +70,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_government.1.option.c
+		name = cal_government.1.option.c
 
 		define_ruler = {
 			adm = 1
@@ -98,9 +98,9 @@ country_event = {
 
 # On Term Election
 country_event = {
-	id = wwu_government.2
-	title = wwu_government.2.title
-    desc = wwu_government.2.desc
+	id = cal_government.2
+	title = cal_government.2.title
+    desc = cal_government.2.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
@@ -114,7 +114,7 @@ country_event = {
 	}
 
 	option = {
-		name = wwu_government.2.option.a
+		name = cal_government.2.option.a
 		ai_chance = { factor = 20 }
         
 		define_ruler = {
@@ -128,7 +128,7 @@ country_event = {
         
 	}
 	option = {
-		name = wwu_government.2.option.b
+		name = cal_government.2.option.b
 		ai_chance = { factor = 20 }
         
 		define_ruler = {
@@ -142,7 +142,7 @@ country_event = {
         
 	}
 	option = {
-		name = wwu_government.2.option.c
+		name = cal_government.2.option.c
 		ai_chance = { factor = 20 }
         
 		define_ruler = {
@@ -156,7 +156,7 @@ country_event = {
         
 	}
     option = {
-		name = wwu_government.2.option.d
+		name = cal_government.2.option.d
         
 		trigger = {
 			has_regency = no
@@ -211,7 +211,7 @@ country_event = {
 		}
 	}
     option = {
-		name = wwu_government.2.option.e
+		name = cal_government.2.option.e
 		trigger = {
 			has_government_attribute = enables_nepotism
 		}
@@ -233,15 +233,15 @@ country_event = {
 
 # On Replace Governor
 country_event = {
-	id = wwu_government.3
-	title = wwu_government.3.title
-	desc = wwu_government.3.desc
+	id = cal_government.3
+	title = cal_government.3.title
+	desc = cal_government.3.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = wwu_government.3.option.a
+		name = cal_government.3.option.a
 		ai_chance = { factor = 20 }
 		FROM = {
 			define_ruler = {
@@ -258,7 +258,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_government.3.option.b
+		name = cal_government.3.option.b
 		ai_chance = { factor = 20 }
 		FROM = {
 			define_ruler = {
@@ -275,7 +275,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_government.3.option.c
+		name = cal_government.3.option.c
 		ai_chance = { factor = 20 }
 		FROM = {
 			define_ruler = {
@@ -295,9 +295,9 @@ country_event = {
 
 # Ruled by Despot
 country_event = {
-	id = wwu_government.4
-	title = wwu_government.4.title
-	desc = wwu_government.4.desc
+	id = cal_government.4
+	title = cal_government.4.title
+	desc = cal_government.4.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	trigger = {
@@ -340,7 +340,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_government.4.option.a
+		name = cal_government.4.option.a
 		tooltip = {
 			add_government_reform = despotic_republic_reform
 		}
@@ -349,9 +349,9 @@ country_event = {
 
 # Lottery Election
 country_event = {
-	id = wwu_government.5
-	title = wwu_government.5.title
-	desc = wwu_government.5.desc
+	id = cal_government.5
+	title = cal_government.5.title
+	desc = cal_government.5.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
@@ -403,7 +403,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_government.5.option.a
+		name = cal_government.5.option.a
 		ai_chance = {
 			factor = 0
 		}
@@ -412,7 +412,7 @@ country_event = {
 		custom_tooltip = lottery_candidate_bonus_one
 	}
 	option = {
-		name = wwu_government.5.option.b
+		name = cal_government.5.option.b
 		ai_chance = {
 			factor = 0
 		}
@@ -421,7 +421,7 @@ country_event = {
 		custom_tooltip = lottery_candidate_bonus_one
 	}
 	option = {
-		name = wwu_government.5.option.c
+		name = cal_government.5.option.c
 		ai_chance = {
 			factor = 0
 		}
@@ -430,7 +430,7 @@ country_event = {
 		custom_tooltip = lottery_candidate_bonus_one
 	}
 	option = { # lottery
-		name = wwu_government.5.option.d
+		name = cal_government.5.option.d
 		ai_chance = {
 			factor = 90
 		}
@@ -448,7 +448,7 @@ country_event = {
 		custom_tooltip = lottery_candidate_bonus_plural
 	}
 	option = {
-		name = wwu_government.5.option.e
+		name = cal_government.5.option.e
 		trigger = {
 			has_government_attribute = enables_nepotism
 		}
@@ -470,9 +470,9 @@ country_event = {
 
 # Advisor Government
 country_event = {
-	id = wwu_government.6
-	title = wwu_government.6.title
-	desc = wwu_government.6.desc
+	id = cal_government.6
+	title = cal_government.6.title
+	desc = cal_government.6.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 
 	is_triggered_only = yes
@@ -482,7 +482,7 @@ country_event = {
 	}
 
 	option = {
-		name = wwu_government.6.option.a
+		name = cal_government.6.option.a
         
 		trigger = {
 			has_adm_advisor = yes
@@ -547,7 +547,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_government.6.option.b
+		name = cal_government.6.option.b
         
 		trigger = {
 			has_dip_advisor = yes
@@ -612,7 +612,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_government.6.option.c
+		name = cal_government.6.option.c
         
 		trigger = {
 			has_mil_advisor = yes
@@ -676,7 +676,7 @@ country_event = {
         }
 	}
 	option = {
-		name = wwu_government.6.option.d
+		name = cal_government.6.option.d
         
 		define_ruler = {
             adm = 3
@@ -689,7 +689,7 @@ country_event = {
 		}
 	}
     option = {
-		name = wwu_government.6.option.e
+		name = cal_government.6.option.e
         
         trigger = {
             has_level_5_adm_advisor = yes
@@ -711,9 +711,9 @@ country_event = {
 
 # Undead Government
 country_event = {
-	id = wwu_government.7
-	title = wwu_government.7.title
-	desc = wwu_government.7.desc
+	id = cal_government.7
+	title = cal_government.7.title
+	desc = cal_government.7.desc
 	picture = UNDEAD_eventPicture
 	
 	trigger = {
@@ -729,7 +729,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_government.7.option.a
+		name = cal_government.7.option.a
 		
 		define_heir = {
 			max_random_adm = 4
@@ -744,7 +744,7 @@ country_event = {
         }
 	}
 	option = {
-		name = wwu_government.7.option.b
+		name = cal_government.7.option.b
 		
 		define_heir = {
 			max_random_adm = 4
@@ -759,7 +759,7 @@ country_event = {
         }
 	}
     option = {
-		name = wwu_government.7.option.c
+		name = cal_government.7.option.c
 		
 		define_heir = {
 			adm = 6
@@ -777,19 +777,19 @@ country_event = {
 
 # States General
 country_event = {
-	id = wwu_government.8
-	title = wwu_government.8.title
+	id = cal_government.8
+	title = cal_government.8.title
 	desc = {
 		trigger = { 
 			exiled_same_dynasty_as_current = "states_general_abolished_@ROOT"
 		}
-		desc = wwu_government.8.desc_1
+		desc = cal_government.8.desc_1
 	}
 	desc = {
 		trigger = { 
 			NOT = { exiled_same_dynasty_as_current = "states_general_abolished_@ROOT" }
 		}
-		desc = wwu_government.8.desc_2
+		desc = cal_government.8.desc_2
 	}
 	picture = BAD_WITH_MONARCH_eventPicture
 
@@ -809,14 +809,14 @@ country_event = {
 	}
 
 	option = {
-		name = "wwu_government.8.option.a"
+		name = "cal_government.8.option.a"
 		trigger = {
 			exiled_same_dynasty_as_current = "states_general_abolished_@ROOT"
 		}
 	}
 
 	option = {
-		name = "wwu_government.8.option.b"
+		name = "cal_government.8.option.b"
 		trigger = {
 			NOT = { exiled_same_dynasty_as_current = "states_general_abolished_@ROOT" }
 		}
@@ -827,9 +827,9 @@ country_event = {
 # Theocracy
 # "Heir needed in $COUNTRY$"
 country_event = {
-	id = wwu_government.9
-	title = wwu_government.9.title
-	desc = wwu_government.9.desc
+	id = cal_government.9
+	title = cal_government.9.title
+	desc = cal_government.9.desc
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
@@ -842,7 +842,7 @@ country_event = {
 	}
 
 	option = {
-		name = wwu_government.9.option.a
+		name = cal_government.9.option.a
         
 		define_heir = {
             adm = 4
@@ -852,7 +852,7 @@ country_event = {
 		add_prestige = 10
 	}
     option = {
-		name = wwu_government.9.option.b
+		name = cal_government.9.option.b
         
 		define_heir = {
             dip = 4
@@ -862,7 +862,7 @@ country_event = {
 		add_prestige = 10
 	}
     option = {
-		name = wwu_government.9.option.c
+		name = cal_government.9.option.c
         
 		define_heir = {
             mil = 4
@@ -872,7 +872,7 @@ country_event = {
 		add_prestige = 10
 	}
     option = {
-		name = wwu_government.9.option.d
+		name = cal_government.9.option.d
         
 		define_heir = {
             hidden = yes
@@ -880,34 +880,3 @@ country_event = {
 		add_devotion = 10
 	}
 }
-
-#-------------------------------------
-# Historical Replacements
-#-------------------------------------
-# Used for rulers that shouldn't disappear
-country_event = {
-	id = wwu_government.50
-	title = wwu_government.50.title
-	desc = wwu_government.50.desc
-	picture = GOOD_WITH_MONARCH_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-        tag = NZJ
-        NOT = { has_ruler = "Azshara the Vainglorious" }
-	}
-
-	option = {
-		name = wwu_government.50.option.a
-        
-		define_ruler = {
-            name = "Azshara the Vainglorious"
-            adm = 3
-            dip = 3
-            mil = 3
-            female = yes
-        }
-	}
-}
-

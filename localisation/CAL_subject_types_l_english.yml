@@ -1,0 +1,17 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Subject Types
+ #-----------------------------------------------
+ vassal_overlord_title: "Overlord"
+ 
+ # # Hegemonic Vassal
+ # hegemonic_vassal: "Hegemonic Vassal"
+ # hegemonic_vassal_title: "Hegemonic Vassal"
+ # hegemonic_vassal_title_plural: "Hegemonic Vassals"
+ # hegemonic_vassal_long_desc: "A Hegemonic Vassal must pay a fraction of his income to his overlord. Otherwise they can act as independant nations can."
+ # hegemonic_vassal_is_our: "$NAME|Y$ is our Hegemonic Vassal."
+ 
+ # is_hegemonic_overlord: "Is Hegemonic Overlord"
+ # is_hegemonic_vassal: "Is Hegemonic Vassal"
+ # hegemonic_vassal_nation: "Hegemonic Vassal"
+ # hegemonic_vassal_overlord: "Hegemonic Overlord"

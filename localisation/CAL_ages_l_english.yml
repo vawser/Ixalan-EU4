@@ -1,0 +1,17 @@
+﻿l_english:
+ #-----------------------------------
+ # The Collapse
+ #-----------------------------------
+ age_the_collapse: "The Collapse"
+ age_the_collapse_short: "The Collapse"
+ age_the_collapse_desC: "The planet of Callisto has been shrouded by a dense astroid fleet, rendering communication to the federation impossible. As the inhabitants begin to realise their predicament, once friendly species turn on each other."
+ age_the_collapse_condition: ""
+ 
+ # Objectives
+ roth_obj_prestigious_capital: "§YPrestigious Capital§!"
+ roth_obj_prestigious_capital_desc: "Have a capital with your religion and culture with 50 development and zero devastation."
+ 
+ # Abilities
+ roth_development_focus: "Development Focus"
+ roth_development_focus_desc: ""
+ 

@@ -1,0 +1,29 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_icon_age_s"
+		texturefile = "gfx/interface/ages/icon_age_s.dds"
+		noOfFrames = 11
+	}	
+
+	spriteType = {
+		name = "GFX_icon_age_l"
+		texturefile = "gfx/interface/ages/icon_age_l.dds"
+		noOfFrames = 11
+	}
+    
+    #------------------------------------
+    # Age Images
+    #------------------------------------
+    spriteType = {
+		name = "GFX_age_collapse"
+		texturefile = "gfx/interface/ages/collapse.dds"
+	}
+    
+    #------------------------------------
+    # The Collapse
+    #------------------------------------
+    spriteType = {
+		name = "GFX_roth_development_focus"
+		texturefile = "gfx/interface/ages/abilities/roth_development_focus.dds"
+	}
+}

@@ -1,0 +1,104 @@
+﻿l_english: 
+ #-----------------------------------------------
+ # Tribal
+ #-----------------------------------------------
+ cal_tribes.1.title: "Born of War"
+ cal_tribes.1.desc: "Out of war we come, for the war our hearts beat. We the sons of war were not made to sit idle. Lives of peasants or traders are for those that are to be ruled, not for those who wish to rule."
+ cal_tribes.1.option.a: "If I had one scalp, for every time..."
+ cal_tribes.1.option.b: "Can you not see the benefits, though?"
+ 
+ cal_tribes.2.title: "Exhaustion is for the Weak"
+ cal_tribes.2.desc: "While the settlers cover behind their tall walls and starve in fear our host is our people. Warbands fear no war, warbands live for war."
+ cal_tribes.2.option.a: "Strength through unity."
+ cal_tribes.2.option.b: "Send our spies to infiltrate their strongholds."
+ 
+ cal_tribes.3.title: "This is a Good Day to Die"
+ cal_tribes.3.desc: "Rumors of our glorious military exploits spread to our neighbors both near and far. Bands of strong young warriors pour across the tribal lands into our service, in search of life of glory and plunder."
+ cal_tribes.3.option.a: "Most welcome news indeed."
+ cal_tribes.3.option.b: "Have them train the next generation instead."
+ 
+ cal_tribes.4.title: "Friendly Tribe Migrates into [Root.GetName]"
+ cal_tribes.4.desc: "A friendly tribe with blood ties to our own has crossed our border and settled in the open lands of [friendly_tribe_province.GetName]. Among these herdsmen live excellent and tough warriors and hunters, willing to answer the call to arms of our [Root.Monarch.GetTitle]."
+ cal_tribes.4.option.a: "They are most welcome."
+ 
+ cal_tribes.5.title: "Hostile Tribes Raid [hostile_migrating_tribes_province.GetName]"
+ cal_tribes.5.desc: "A hostile tribe from [hostile_migrating_tribes_country.GetName] has crossed into [hostile_migrating_tribes_province.GetName], raiding and pillaging our people. Before our hosts could hunt them down they disappeared back into their cursed homeland carrying with them countless slaves and sizeable loot."
+ cal_tribes.5.option.a: "Vultures, hunt them down!"
+ 
+ cal_tribes.6.title: "Migrating Tribes in [migration_province.GetName]"
+ cal_tribes.6.desc: "A huge tribe of herders has settled in one of our provinces. Friendly and willing to acknowledge our rule, these people will bring economic benefits in the long run."
+ cal_tribes.6.option.a: "They are more than welcome!"
+ 
+ cal_tribes.7.title: "Migrating Tribes in [migration_province.GetName]"
+ cal_tribes.7.desc: "A big clan of sheep herdsmen has migrated into one of our border provinces searching for better pastures and milder winters. Peaceful in nature they are willing to accept our rule and pay the tribute."
+ cal_tribes.7.option.a: "More wool, sounds good."
+ 
+ cal_tribes.8.title: "War Games"
+ cal_tribes.8.desc: "A huge event in the daily life of steppe dwellers is about to take place. Warriors from places both far and near will gather in our capital to participate in a display of skill. Horseback archery, strength contests and agility challenges will take place and may give birth to new champions and legends."
+ cal_tribes.8.option.a: "Ok."
+ 
+ cal_tribes.9.title: "Glorious Chief"
+ cal_tribes.9.desc: "Rejoice! Our glorious Chief [Root.Monarch.GetName] has won the close combat contest. How shall we remember the performance?"
+ cal_tribes.9.option.a: "Divine Blessing!"
+ cal_tribes.9.option.b: "Holy Warrior!"
+ 
+ cal_tribes.10.title: "Successful Games"
+ cal_tribes.10.desc: "Our war games have been a full success: both domestic and warriors from afar have displayed their skill and knowledge of warfare. We have many new champions and legends, and all shall remember this event for generations to come."
+ cal_tribes.10.option.a: "Excellent."
+ 
+ cal_tribes.11.title: "Ruinous Games"
+ cal_tribes.11.desc: "Oh horrors! As the war games started, two members of feuding clans started a squabble that got out of control and turned into massive brawl. Before our palace guards could stop them, the arena pit was damaged, and two large pagodas set on fire, ruining the rest of this event!"
+ cal_tribes.11.option.a: "Punish the culprits!"
+ 
+ cal_tribes.12.title: "Legendary Games"
+ cal_tribes.12.desc: "The whole event went better than we could ever have hoped for! Every single contest turned out to be a contest of bitter rivalry with opponents of matching skill pitted against each other. So impressed were our elders, that after the event even the oldest among them could not remember a more successful games!"
+ cal_tribes.12.option.a: "Splendid!"
+ 
+ cal_tribes.13.title: "Clansmen Flock our Hosts"
+ cal_tribes.13.desc: "Hearing the rumors that our mighty hosts are being depleted of manpower young warriors emerge from the deepest parts of our realm, flocking into our armies. Some seek the life of nomadic warriors and mercenaries, others merely the loot."
+ cal_tribes.13.option.a: "May the sons join their fathers."
+ 
+ cal_tribes.14.title: "Restless Warband"
+ cal_tribes.14.desc: "Enraged with the current state of peace and lack of raiding and looting an entire clan, comprised mostly of highly experienced warriors and huntsmen has left our horde and went on to join one of our neighbors instead."
+ cal_tribes.14.option.a: "Traitorous scum!"
+ 
+ cal_tribes.15.title: "Rising Star"
+ cal_tribes.15.desc: "One of our tribal leaders has displayed great skill at arms during our recent war games. Many clansmen suggest that he would make a superb general to lead our host. Should we announce the promotion?"
+ cal_tribes.15.option.a: "A most excellent idea."
+ cal_tribes.15.option.b: "We cannot risk his influence."
+ 
+ cal_tribes.16.title: "Shining Star"
+ cal_tribes.16.desc: "One of our tribal leaders has displayed a legendary skill at arms during our recent war games. Many clansmen and tribal elders suggest that he would make a superb general to lead our host. Should we grant this promotion?"
+ cal_tribes.16.option.a: "A most excellent idea."
+ 
+ cal_tribes.17.title: "Tribal Feud"
+ cal_tribes.17.desc: "During the height of the summer festivities in our capital members of two feuding tribes have decided to have a public showdown and fight it out in front of the entire political and religious leadership of our state! The ensuing violence was so fierce that not only the feuding tribesmen lost their lives, but also countless bystanders and even members of the [Root.Monarch.GetTitle]'s guard."
+ cal_tribes.17.option.a: "Vile rabble! How dare they!"
+ 
+ cal_tribes.18.title: "Tribal Feud"
+ cal_tribes.18.desc: "During the height of the summer festivities in our capital members of two feuding tribes have decided to have a public showdown and fight it out in front of the entire political and religious leadership of our state! In the chaos of the ensuing violence, someone murdered $HEIR$, our heir!"
+ cal_tribes.18.option.a: "Punish them all!"
+ 
+ cal_tribes.19.title: "Hunting Accident"
+ cal_tribes.19.desc: "While on a hunt [Root.Heir.GetName], our designated heir, was ambushed by a band of unknown assassins. Outnumbered and attacked from cover all but one fell there and then. The survivor, though wounded by a poison arrow, lived long enough to tell us of a valiant last stand of [Root.Heir.GetName]. Tall and mighty he stood, cutting the creatures of the night one by one as they surrounded him, until the last of his body guards succumbed. Shaken and in mourning, our people celebrate the legacy of [Root.Heir.GetName] as he achieves immortality in their memory."
+ cal_tribes.19.option.a: "Hunt them down!"
+ 
+ cal_tribes.20.title: "We Look Weak"
+ cal_tribes.20.desc: "Our armies are so small and pathetic that not only the elders but even local tribal rulers dare to tarnish the name of our [Root.Monarch.GetTitle]."
+ cal_tribes.20.option.a: "Ignore the rabble, a dog that barks won't bite."
+ 
+ cal_tribes.21.title: "Authority Undermined"
+ cal_tribes.21.desc: "Our armies are so small and pathetic that many tribal leaders and elders are openly questioning our [Root.Monarch.GetTitle]'s ability to lead us."
+ cal_tribes.21.option.a: "Their words mean nothing."
+ 
+ cal_tribes.22.title: "Military Tradition Scorned"
+ cal_tribes.22.desc: "Our armies are so small and pathetic that our commanders are starting to wonder whether their service has any point at all."
+ cal_tribes.22.option.a: "Oh ye of little faith."
+ 
+ cal_tribes.23.title: "Military Tradition Scorned"
+ cal_tribes.23.desc: "Our armies are so small and pathetic that our commanders are starting to wonder whether their service has any point at all. Demoralized by the lack of any prospect for the glorious life of raiding and looting, the men are starting to leave our hosts, and instead go to other tribes or form local bands of looters and bandits."
+ cal_tribes.23.option.a: "Oh ye of little faith."
+ 
+ cal_tribes.24.title: "War, What is it Good For"
+ cal_tribes.24.desc: "As they were standing on top of a hill, observing our almighty hosts marching on into the enemy's land, a servant approaches our [Root.Monarch.GetTitle], looks him in the eye and asks: 'War, what is it good for?' to which our [Root.Monarch.GetTitle] replies: 'Absolutely everything.'"
+ cal_tribes.24.option.a: "Yes, indeed."

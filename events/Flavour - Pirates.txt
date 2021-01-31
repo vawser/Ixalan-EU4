@@ -456,7 +456,7 @@ country_event = {
 		any_active_trade_node = {
 			any_trade_node_member_province = {
 				OR = {
-					trade_goods = wwu_slaves
+					trade_goods = cal_slaves
 				}
 			}
 		}

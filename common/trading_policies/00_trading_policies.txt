@@ -81,7 +81,7 @@ propagate_religion = {
 	unique = yes # Only one country can select this in a certain node.
 
 	can_select = {		
-		has_idea = wwu_religious_ideas_2
+		has_idea = cal_religious_ideas_2
 		dominant_religion = ROOT
 		FROM = {
 			has_trader = ROOT
@@ -94,7 +94,7 @@ propagate_religion = {
 	}
 
 	can_maintain = {
-		has_idea = wwu_religious_ideas_2
+		has_idea = cal_religious_ideas_2
 		dominant_religion = ROOT
 		FROM = {
 			has_trader = ROOT

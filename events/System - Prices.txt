@@ -31,14 +31,14 @@ country_event = {
 		name = www_prices.1.a
 		
 		hidden_effect = {
-            randomise_price = { good = wwu_food }
-            randomise_price = { good = wwu_textiles }
-            randomise_price = { good = wwu_jewelry }
-            randomise_price = { good = wwu_metals }
-            randomise_price = { good = wwu_slaves }
-            randomise_price = { good = wwu_oil }
-            randomise_price = { good = wwu_lumber }
-            randomise_price = { good = wwu_artifacts }
+            randomise_price = { good = cal_food }
+            randomise_price = { good = cal_textiles }
+            randomise_price = { good = cal_jewelry }
+            randomise_price = { good = cal_metals }
+            randomise_price = { good = cal_slaves }
+            randomise_price = { good = cal_oil }
+            randomise_price = { good = cal_lumber }
+            randomise_price = { good = cal_artifacts }
         }
     }
 }
