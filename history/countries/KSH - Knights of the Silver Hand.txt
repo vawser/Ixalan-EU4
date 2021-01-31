@@ -1,0 +1,23 @@
+technology_group = tech_human
+
+government = theocracy
+
+add_government_reform = monastic_order_reform
+
+primary_culture = crusader
+
+religion = the_holy_light
+
+capital = 4033
+
+# The First War
+590.1.1 = {
+    monarch = { 
+        name = "Uther" 
+        dynasty = "the Lightbringer" 
+		adm = 4
+		dip = 4
+		mil = 5
+    }
+}
+

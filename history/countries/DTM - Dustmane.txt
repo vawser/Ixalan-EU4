@@ -1,0 +1,23 @@
+technology_group = tech_gnoll
+
+government = tribal
+
+add_government_reform = warband_reform
+
+primary_culture = dustmane
+
+religion = shamanism
+
+
+capital = 7498
+
+# The First War
+590.1.1 = {
+    monarch = {
+        name = "Motnug"
+        dynasty = "Cleavebark"
+        adm = 3
+        dip = 2
+        mil = 4
+    }
+}

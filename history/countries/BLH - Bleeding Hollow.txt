@@ -1,0 +1,28 @@
+technology_group = tech_orc
+
+government = tribal
+
+add_government_reform = tribal_federation_reform
+
+primary_culture = bleeding_hollow
+
+religion = shamanism
+
+capital = 7845
+
+# The First War
+590.1.1 = {
+    monarch = {
+		name = "Kilrogg"
+		dynasty = "Deadeye"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+# The Orcish Horde
+592.1.1 = {
+    add_government_reform = warband_reform
+    religion = fel
+}

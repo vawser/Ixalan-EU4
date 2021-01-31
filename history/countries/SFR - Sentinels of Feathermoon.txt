@@ -1,0 +1,31 @@
+technology_group = tech_night_elf
+
+government = theocracy
+
+add_government_reform = monastic_order_reform
+
+primary_culture = sentinels_of_feathermoon
+
+religion = elune
+
+
+capital = 4800
+
+historical_friend = CEN
+historical_friend = CEX
+historical_friend = SEA
+historical_friend = SDS
+historical_friend = SEN
+
+# The First War
+590.1.1 = {
+    monarch = {
+        name = "Anionfan"
+        dynasty = "Evenoak"
+        adm = 4
+        dip = 1
+        mil = 2
+        female = yes
+        birth_date = 220.1.1
+    }
+}

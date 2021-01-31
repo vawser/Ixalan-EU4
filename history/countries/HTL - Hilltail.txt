@@ -1,0 +1,23 @@
+technology_group = tech_gnoll
+
+government = tribal
+
+add_government_reform = tribal_despotism_reform
+
+primary_culture = hilltail
+
+religion = shamanism
+
+
+capital = 7506
+
+# The First War
+590.1.1 = {
+    monarch = {
+        name = "Haltle"
+        dynasty = "Wildrind"
+        adm = 4
+        dip = 1
+        mil = 2
+    }
+}

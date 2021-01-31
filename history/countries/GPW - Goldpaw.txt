@@ -1,0 +1,23 @@
+technology_group = tech_gnoll
+
+government = tribal
+
+add_government_reform = warband_reform
+
+primary_culture = goldpaw
+
+religion = shamanism
+
+
+capital = 7486
+
+# The First War
+590.1.1 = {
+    monarch = {
+        name = "Gakkga"
+        dynasty = "Ripflesh"
+        adm = 4
+        dip = 2
+        mil = 1
+    }
+}

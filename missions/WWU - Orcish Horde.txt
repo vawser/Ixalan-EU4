@@ -1,0 +1,110 @@
+TOH_missions_1 = {
+	slot = 1
+	ai = yes
+	
+	potential = {
+		tag = TOH
+	}
+	
+	TOH_prepare_for_the_assault = {
+		icon = mission_horde_invasion
+        
+		required_missions = { }
+
+		trigger = {
+            army_size_percentage = 0.75
+			manpower_percentage = 0.75
+		}
+		effect = {
+			region_elwynn_forest = {
+                add_permanent_claim = ROOT
+            }
+            region_duskwood = {
+                add_permanent_claim = ROOT
+            }
+            region_westfall = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+	
+	TOH_devastate_the_humans = {
+		icon = mission_human_male
+        
+		required_missions = { TOH_prepare_for_the_assault }
+
+		trigger = {
+			2993 = {
+                controlled_by = ROOT
+            }
+		}
+        provinces_to_highlight = { 
+            province_id = 2993
+        }
+		effect = {
+			add_country_modifier = {
+				name = "mission_orc_might"
+				duration = -1 
+			}
+		}
+	}
+	
+	TOH_consolidate_conquests = {
+		icon = mission_axe_and_sword
+        
+		required_missions = { TOH_devastate_the_humans }
+
+		trigger = {
+			num_of_cities = 70
+		}
+		effect = {
+			region_redridge_mountains = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+	
+	TOH_destroy_lakeshire = {
+		icon = mission_lakeshire
+        
+		required_missions = { TOH_consolidate_conquests }
+
+		trigger = {
+			region_redridge_mountains = {
+                type = all
+                is_empty = no
+                owned_by = ROOT
+            }
+		}
+        provinces_to_highlight = { 
+            region = region_redridge_mountains
+            is_empty = no
+        }
+		effect = {
+            region_burning_steppes = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+	
+	TOH_control_blackrock_mountain = {
+		icon = mission_blackrock_mountain
+        
+		required_missions = { TOH_destroy_lakeshire }
+
+		trigger = {
+			1717 = {
+                owned_by = ROOT
+            }
+		}
+        provinces_to_highlight = {
+            province_id = 1717
+        }
+		effect = {
+			add_country_modifier = {
+				name = "mission_blackrock_mountain"
+				duration = -1 
+			}
+		}
+	}
+}

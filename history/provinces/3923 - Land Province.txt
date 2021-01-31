@@ -1,0 +1,26 @@
+
+is_city = yes
+owner = LOR
+controller = LOR
+add_core = LOR
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+culture = lordaeron
+religion = the_holy_light
+
+trade_goods = unknown
+hre = no
+
+# Battle of Mount Hyjal
+595.1.1 = {
+    is_city = yes
+    owner = FOR
+    controller = FOR
+    add_core = FOR
+    
+    culture = forsaken
+    religion = necromancy
+}

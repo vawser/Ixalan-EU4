@@ -1,0 +1,23 @@
+technology_group = tech_trogg
+
+government = tribal
+
+add_government_reform = tribal_despotism_reform
+
+primary_culture = caverntooth
+
+religion = geomancy
+
+
+capital = 7516
+
+# The First War
+590.1.1 = {
+    monarch = {
+        name = "Gulger"
+        dynasty = "Caverntooth"
+        adm = 2
+        dip = 3
+        mil = 4
+    }
+}
