@@ -14,7 +14,7 @@ country_event = {
         NOT = { has_government_attribute = council_system }
         NOT = { has_states_general_mechanic = yes }
 		NOT = { has_government_attribute = lottery_election }
-        NOT = { has_reform = despotic_republic_reform }
+        NOT = { has_reform = republic_reform }
 	}
 	
 	option = {
@@ -110,7 +110,7 @@ country_event = {
         NOT = { has_government_attribute = council_system }
         NOT = { has_states_general_mechanic = yes }
 		NOT = { has_government_attribute = lottery_election }
-        NOT = { has_reform = despotic_republic_reform }
+        NOT = { has_reform = republic_reform }
 	}
 
 	option = {
@@ -188,12 +188,11 @@ country_event = {
 		if = {
 			limit = {
 				OR = {
-                    has_reform = noble_republic_reform
-                    has_reform = mercantile_republic_reform
+                    has_reform = republic_reform
                 }
 				NOT = { republican_tradition = 20 }
 			}
-			add_government_reform = despotic_republic_reform	
+			add_government_reform = republic_reform	
 		}	
         
 		add_scaled_republican_tradition = -10
@@ -335,14 +334,14 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			add_government_reform = despotic_republic_reform
+			add_government_reform = republic_reform
 		}
 	}
 	
 	option = {
 		name = cal_government.4.option.a
 		tooltip = {
-			add_government_reform = despotic_republic_reform
+			add_government_reform = republic_reform
 		}
 	}
 }
@@ -706,72 +705,6 @@ country_event = {
 			claim = 100
             fixed = yes
 		}
-	}
-}
-
-# Undead Government
-country_event = {
-	id = cal_government.7
-	title = cal_government.7.title
-	desc = cal_government.7.desc
-	picture = UNDEAD_eventPicture
-	
-	trigger = {
-		OR = {
-            has_reform = scourge_reform
-            has_reform = scourge_domain_reform
-        }
-		has_heir = no
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-	}
-	
-	option = {
-		name = cal_government.7.option.a
-		
-		define_heir = {
-			max_random_adm = 4
-			max_random_dip = 4
-			mil = 6
-		}
-        custom_tooltip = SCOURGE_GOV_GAIN_MANPOWER
-        hidden_effect = {
-            every_owned_province = {
-                owner = { add_yearly_manpower = 0.01 }
-            }
-        }
-	}
-	option = {
-		name = cal_government.7.option.b
-		
-		define_heir = {
-			max_random_adm = 4
-			dip = 6
-			max_random_mil = 4
-		}
-        custom_tooltip = SCOURGE_GOV_GAIN_LEGITIMACY
-        hidden_effect = {
-            every_owned_province = {
-                owner = { add_legitimacy = 0.1 } 
-            }
-        }
-	}
-    option = {
-		name = cal_government.7.option.c
-		
-		define_heir = {
-			adm = 6
-			max_random_dip = 4
-			max_random_mil = 4
-		}
-        custom_tooltip = SCOURGE_GOV_GAIN_REFORM_PROGRESS
-        hidden_effect = {
-            every_owned_province = {
-                owner = { adopt_reform_progress = 0.25 }
-            }
-        }
 	}
 }
 

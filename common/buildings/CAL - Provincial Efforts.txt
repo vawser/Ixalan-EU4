@@ -123,7 +123,7 @@ province_action_wonder = {
 	time = 600
     
     on_built = {
-        province_event = { id = wwu_wonders.1 }
+        province_event = { id = cal_wonders.1 }
         remove_building = province_action_wonder
     }
 	

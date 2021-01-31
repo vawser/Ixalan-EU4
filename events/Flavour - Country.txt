@@ -2759,7 +2759,7 @@ country_event = {
 	trigger = {
 		OR = {
 			government = monarchy
-			has_reform = noble_republic_reform
+			has_reform = republic_reform
 		}
 		NOT = {
 			has_country_modifier = tax_income_loss

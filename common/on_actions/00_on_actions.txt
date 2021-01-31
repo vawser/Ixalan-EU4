@@ -1971,43 +1971,43 @@ on_country_creation = {
     discover_home_continent = yes
     
     events = {
-        cal_setup.3 # Racial modifiers
+        
     }
 }
 
 # Harmony
-harmonized_order = {
-    events = {
-        cal_harmonization.1
-    }
-}
-harmonized_disorder = {
-    events = {
-        cal_harmonization.2
-    }
-}
-harmonized_elemental = {
-    events = {
-        cal_harmonization.3
-    }
-}
-harmonized_life = {
-    events = {
-        cal_harmonization.4
-    }
-}
-harmonized_shadow = {
-    events = {
-        cal_harmonization.5
-    }
-}
-harmonized_philosophy = {
-    events = {
-        cal_harmonization.6
-    }
-}
-harmonized_death = {
-    events = {
-        cal_harmonization.7
-    }
-}
+# harmonized_order = {
+    # events = {
+        # cal_harmonization.1
+    # }
+# }
+# harmonized_disorder = {
+    # events = {
+        # cal_harmonization.2
+    # }
+# }
+# harmonized_elemental = {
+    # events = {
+        # cal_harmonization.3
+    # }
+# }
+# harmonized_life = {
+    # events = {
+        # cal_harmonization.4
+    # }
+# }
+# harmonized_shadow = {
+    # events = {
+        # cal_harmonization.5
+    # }
+# }
+# harmonized_philosophy = {
+    # events = {
+        # cal_harmonization.6
+    # }
+# }
+# harmonized_death = {
+    # events = {
+        # cal_harmonization.7
+    # }
+# }

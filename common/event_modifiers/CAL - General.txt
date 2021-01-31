@@ -1,0 +1,31 @@
+#----------------------------------------------
+# Generic
+#----------------------------------------------
+yearly_assessments = {
+    drill_gain_modifier = 1.0
+    land_maintenance_modifier = 1.0
+}
+
+speculative_research = {
+    innovativeness_gain = 0.1
+}
+
+changed_primary_culture = {
+	culture_conversion_cost = 1
+}
+
+incensed_people = {
+    local_unrest = 10
+}
+
+denied_autonomy = {
+    local_unrest = 2
+}
+
+sexually_frustrated = {
+    local_unrest = 2
+}
+
+law_and_order = {
+    local_years_of_nationalism = -20
+}
