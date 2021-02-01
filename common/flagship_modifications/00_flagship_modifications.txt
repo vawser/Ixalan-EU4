@@ -11,15 +11,7 @@ base_flagship_modification = {
 
 mass_load_cannons = {
     trigger = {
-        OR = {
-            NOT = {
-                OR = {
-                    tag = SRW
-                    tag = KUL
-                }
-            }
-            normal_or_historical_nations = no
-        }
+        
     }
 	modifier = {
         number_of_cannons_flagship_modifier = 0.50
@@ -35,15 +27,7 @@ mass_load_cannons = {
 
 trade_route_map = {
     trigger = {
-        OR = {
-            NOT = {
-                OR = {
-                    tag = TRM
-                    tag = BLO
-                }
-            }
-            normal_or_historical_nations = no
-        }
+        
     }
 	modifier = {
         trade_power_in_fleet_modifier = 1
@@ -67,15 +51,7 @@ trade_route_map = {
 
 command_aftercastle = {
     trigger = {
-        OR = {
-            NOT = {
-                OR = {
-                    tag = SSP
-                    tag = GIL
-                }
-            }
-            normal_or_historical_nations = no
-        }
+        
     }
 	modifier = {
         morale_in_fleet_modifier = 0.05
@@ -150,225 +126,9 @@ hull_sheating = {
 }
 
 
-portuguese_navigators = {
-    trigger = {
-		OR = {
-			tag = TRM
-			tag = BLO
-		}
-        normal_or_historical_nations = yes
-    }
-	modifier = {
-        exploration_mission_range_in_fleet_modifier = 100
-        naval_maintenance_flagship_modifier = 0.5
-	}
-    ai_trade_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            tag = TRM
-        }
-    }
-    ai_war_score = {
-        factor = 0
-    }
-}
-
-portuguese_bombardier = {
-    trigger = {
-		OR = {
-			tag = TRM
-			tag = BLO
-		}
-        normal_or_historical_nations = yes
-    }
-	modifier = {
-        barrage_cost_in_fleet_modifier = -0.4
-        naval_maintenance_flagship_modifier = 0.5
-	}
-    ai_trade_score = {
-        factor = 0
-    }
-    ai_war_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            tag = TRM
-        }
-    }
-}
-
-portuguese_trade_route_map = {
-    trigger = {
-		OR = {
-			tag = TRM
-			tag = BLO
-		}
-        normal_or_historical_nations = yes
-    }
-	modifier = {
-        trade_power_in_fleet_modifier = 2
-        naval_maintenance_flagship_modifier = 0.25
-	}
-    ai_trade_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            tag = TRM
-        }
-    }
-    ai_war_score = {
-        factor = 0
-    }
-}
-
-spanish_grand_armada = {
-    trigger = {
-        OR = {
-            tag = KUL
-            tag = SRW
-        }
-        normal_or_historical_nations = yes
-    }
-	modifier = {
-        naval_attrition_in_fleet_modifier = -0.3
-        naval_maintenance_flagship_modifier = 0.5
-	}
-    ai_trade_score = {
-        factor = 0
-    }
-    ai_war_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            OR = {
-                tag = KUL
-                tag = SRW
-            }
-        }
-    }
-}
-
-spanish_treasure_fleet = {
-    trigger = {
-        OR = {
-            tag = KUL
-            tag = SRW
-        }
-        normal_or_historical_nations = yes
-    }
-	modifier = {
-        cannons_for_hunting_pirates_in_fleet = 1
-        naval_maintenance_flagship_modifier = 0.5
-	}
-    ai_trade_score = {
-        factor = 0
-    }
-    ai_war_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            OR = {
-                tag = KUL
-                tag = SRW
-            }
-        }
-    }
-}
-
-spanish_mass_load_cannons = {
-    trigger = {
-        OR = {
-            tag = KUL
-            tag = SRW
-        }
-        normal_or_historical_nations = yes
-    }
-	modifier = {
-        number_of_cannons_flagship_modifier = 1.0
-        naval_maintenance_flagship_modifier = 0.5
-	}
-    ai_trade_score = {
-        factor = 0
-    }
-    ai_war_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            OR = {
-                tag = KUL
-                tag = SRW
-            }
-        }
-    }
-}
-
-dutch_courage = {
-    trigger = {
-        OR = {
-            tag = SSP
-            tag = GIL
-        }
-        normal_or_historical_nations = yes
-    }
-    modifier = {
-        morale_in_fleet_modifier = 0.1
-        naval_maintenance_flagship_modifier = 0.5
-    }
-    ai_trade_score = {
-        factor = 0
-    }
-    ai_war_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            OR = {
-                tag = SSP
-                tag = GIL
-            }
-        }
-    }
- }
-
-portuguese_corps_of_fusiliers = {
-    trigger = {
-		OR = {
-			tag = TRM
-			tag = BLO
-		}
-        normal_or_historical_nations = yes
-    }
-    modifier = {
-        movement_speed_onto_off_boat_modifier = 0.66
-        flagship_landing_penalty = -2
-        naval_maintenance_flagship_modifier = 0.5
-    }
-    ai_trade_score = {
-        factor = 0
-    }
-    ai_war_score = {
-        factor = 1
-        modifier = {
-            factor = 10
-            OR = {
-                tag = TRM
-                tag = BLO
-            }
-        }
-    }
-}
-
 integrated_marines = {
     trigger = {
-        OR = {
-            NOT = {
-                OR = {
-                    tag = TRM
-                    tag = BLO
-                }
-            }
-            normal_or_historical_nations = no
-        }
+        
     }
     modifier = {
         movement_speed_onto_off_boat_modifier = -0.33

@@ -1,0 +1,11 @@
+matriarchal = {
+	potential = {
+        always = no
+	}
+	
+	trigger = {
+        always = no
+	}
+	
+	female_advisor_chance = 1.0
+}

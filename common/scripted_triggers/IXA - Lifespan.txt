@@ -1,0 +1,6 @@
+is_immortal_lifespan = {
+    always = no
+}
+is_increased_lifespan = {
+    always = no
+}

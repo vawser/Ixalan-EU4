@@ -135,14 +135,7 @@ ixa_become_a_monarchy_reform = {
 	allow_normal_conversion = yes
 
 	trigger = {
-		OR = {
-            AND = {
-                NOT = { has_reform = dwarven_clan_reform }
-                NOT = { has_government_attribute = locked_government_type }
-            }
-            # Allow for this locked government
-            has_reform = dwarven_clan_reform
-        }
+		NOT = { has_government_attribute = locked_government_type }
 		is_emperor = no
 		NOT = { is_lesser_in_union = yes }
 	}

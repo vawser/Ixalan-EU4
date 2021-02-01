@@ -1,0 +1,5 @@
+discover_home_continent = {
+    every_province = {
+		discover_country = ROOT
+	}
+}

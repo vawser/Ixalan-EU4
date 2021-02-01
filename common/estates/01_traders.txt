@@ -5,29 +5,7 @@ estate_traders = {
 	influence_from_dev_modifier = 1.0
     
     # ----- Names -----
-    custom_name = {
-        desc = estate_traders_workers
-        trigger = {
-            tag = SRW
-        }
-    }
-    custom_name = {
-        desc = estate_traders_merchants
-        trigger = {
-            OR = {
-                culture_group = goblin_group
-                culture_group = ethereal_group
-                culture_group = grummle_group
-            }
-        }
-    }
-    custom_name = {
-        desc = estate_traders_plebs
-        trigger = {
-            is_lesser = yes
-        }
-    }
-    
+
 	# ----- Conditions -----
 	trigger = {
         is_nomad = no

@@ -150,11 +150,6 @@
  feudalism_legacy: "Feudal Kingdom"
  feudalism_legacy_desc: ""
  
- scourge_reform: "The Scourge"
- scourge_reform_desc: ""
- scourge_legacy: "The Scourge"
- scourge_legacy_desc: ""
-
  admiralty_reform: "Admiralty"
  admiralty_reform_desc: ""
  admiralty_legacy: "Admiralty"
@@ -164,16 +159,6 @@
  kingdom_of_magic_reform_desc: ""
  kingdom_of_magic_legacy: "Kingdom of Magic"
  kingdom_of_magic_legacy_desc: ""
- 
- naga_domain_reform: "Naga Domain"
- naga_domain_reform_desc: ""
- naga_domain_legacy: "Naga Domain"
- naga_domain_legacy_desc: ""
- 
- scourge_domain_reform: "Scourge Domain"
- scourge_domain_reform_desc: ""
- scourge_domain_legacy: "Scourge Domain"
- scourge_domain_legacy_desc: ""
  
  # Republic
  noble_republic_reform: "Noble Republic"
@@ -211,11 +196,6 @@
  colonial_government_legacy: "Expeditionary Government"
  colonial_government_legacy_desc: ""
 
- tinker_republic_reform: "Tinker Republic"
- tinker_republic_reform_desc: ""
- tinker_republic_legacy: "Tinker Republic"
- tinker_republic_legacy_desc: ""
- 
  # Theocracy
  theocracy_reform: "Theocracy"
  theocracy_reform_desc: ""
@@ -227,72 +207,7 @@
  monastic_order_legacy: "Monastic Order"
  monastic_order_legacy_desc: ""
  
- scarlet_crusade_reform: "Scarlet Crusade"
- scarlet_crusade_reform_desc: ""
- scarlet_crusade_legacy: "Scarlet Crusade"
- scarlet_crusade_legacy_desc: ""
- 
- demonic_order_reform: "Demonic Order"
- demonic_order_reform_desc: ""
- demonic_order_legacy: "Demonic Order"
- demonic_order_legacy_desc: ""
- 
- argent_crusade_reform: "Argent Crusade"
- argent_crusade_reform_desc: ""
- argent_crusade_legacy: "Argent Crusade"
- argent_crusade_legacy_desc: ""
-
- elemental_cult_reform: "Elemental Cult"
- elemental_cult_reform_desc: ""
- elemental_cult_legacy: "Elemental Cult"
- elemental_cult_legacy_desc: ""
- 
- druidic_circle_reform: "Druidic Circle"
- druidic_circle_reform_desc: ""
- druidic_circle_legacy: "Druidic Circle"
- druidic_circle_legacy_desc: ""
-
- dragonflight_brood_reform: "Dragonflight Brood"
- dragonflight_brood_reform_desc: ""
- dragonflight_brood_legacy: "Dragonflight Brood"
- dragonflight_brood_legacy_desc: ""
- 
- titan_facility_reform: "Titan Facility"
- titan_facility_reform_desc: ""
- titan_facility_legacy: "Titan Facility"
- titan_facility_legacy_desc: ""
- 
- cult_of_hakkar_reform: "Cult of Hakkar"
- cult_of_hakkar_reform_desc: ""
- cult_of_hakkar_legacy: "Cult of Hakkar"
- cult_of_hakkar_legacy_desc: ""
- 
- aqir_kingdom_reform: "Aqir Kingdom"
- aqir_kingdom_reform_desc: ""
- aqir_kingdom_legacy: "Aqir Kingdom"
- aqir_kingdom_legacy_desc: ""
- 
- nerubian_kingdom_reform: "Nerubian Kingdom"
- nerubian_kingdom_reform_desc: ""
- nerubian_kingdom_legacy: "Nerubian Kingdom"
- nerubian_kingdom_legacy_desc: ""
- 
- mantid_kingdom_reform: "Mantid Kingdom"
- mantid_kingdom_reform_desc: ""
- mantid_kingdom_legacy: "Mantid Kingdom"
- mantid_kingdom_legacy_desc: ""
- 
- naga_empire_reform: "Naga Empire"
- naga_empire_reform_desc: ""
- naga_empire_legacy: "Naga Empire"
- naga_empire_legacy_desc: ""
- 
  # Tribal
- orcish_horde_reform: "Orcish Horde"
- orcish_horde_reform_desc: ""
- orcish_horde_legacy: "Orcish Horde"
- orcish_horde_legacy_desc: ""
- 
  warband_reform: "Warband"
  warband_reform_desc: ""
  warband_legacy: "Warband"
@@ -308,26 +223,6 @@
  tribal_despotism_legacy: "Tribal Despotism"
  tribal_despotism_legacy_desc: ""
  
- troll_kingdom_reform: "Troll Kingdom"
- troll_kingdom_reform_desc: ""
- troll_kingdom_legacy: "Troll Kingdom"
- troll_kingdom_legacy_desc: ""
- 
- dwarven_clan_reform: "Dwarven Clan"
- dwarven_clan_reform_desc: ""
- dwarven_clan_legacy: "Dwarven Clan"
- dwarven_clan_legacy_desc: ""
- 
- satyr_sect_reform: "Demonic Sect"
- satyr_sect_reform_desc: ""
- satyr_sect_legacy: "Demonic Sect"
- satyr_sect_legacy_desc: ""
- 
- illidari_reform: "Illidari Domain"
- illidari_reform_desc: ""
- illidari_legacy: "Illidari Domain"
- illidari_legacy_desc: ""
- 
  # Native
  native_tribe_reform: "Native Tribe"
  native_tribe_reform_desc: ""
@@ -335,15 +230,10 @@
  native_tribe_legacy_desc: ""
  
  # Pirate
- pirate_kingdom_reform: "Pirate Kingdom"
- pirate_kingdom_reform_desc: "A band of pirates whom are particularly wealthy and influential."
- pirate_kingdom_legacy: "Pirate Kingdom"
- pirate_kingdom_legacy_desc: "A band of pirates whom are particularly wealthy and influential."
-
- pirate_republic_reform: "Pirate Republic"
- pirate_republic_reform_desc: "A band of pirates whom are particularly wealthy and influential."
- pirate_republic_legacy: "Pirate Republic"
- pirate_republic_legacy_desc: "A band of pirates whom are particularly wealthy and influential."
+ pirate_haven_reform: "Pirate Haven"
+ pirate_haven_reform_desc: "A band of pirates whom are particularly wealthy and influential."
+ pirate_haven_legacy: "Pirate Haven"
+ pirate_haven_legacy_desc: "A band of pirates whom are particularly wealthy and influential."
 
  #---------------------------------------------
  # Monarchy Reforms
@@ -357,35 +247,11 @@
  ixa_enforce_trader_privileges_reform: "Enforce Trader Privileges"
  ixa_enforce_trader_privileges_reform: "By strengthening the ties between the state and successful merchant enterprises, we can increase our reach out into the world as well as the profit we bring home."
  
- ixa_azerothian_traders_reform: "Strengthen Azerothian Traders"
- ixa_azerothian_traders_reform_desc: "While Stormwind and its people are hot to rich lands, the port has always attracted traders and acted, above all else, as the port to the Eastern Kingdoms. This land was taken with sword in hand but ship owners and traders are as influential and as vital to our state as noble officers."
- 
- ixa_druidic_syncretism_reform: "Druidic Syncretism"
- ixa_druidic_syncretism_reform_desc: "The most popular disciples of druidic rituals in Kalimdor have always been the Night Elves. They incorporate parts of the local traditions and take an active part in the daily life of the local population. Many of them have taken on the role of local leaders and, if we support them, we may see their communities grow as they reclaim land from jungles and swamps to build new cities."
- 
- ixa_elvish_nobles_reform: "Empower the Elvish Nobility"
- ixa_elvish_nobles_reform_desc: "Our lands are full of smaller local tribes and clans that we could put to good use if we gave them a place within the system of our state. As a class these High Elf officials could serve as police, builders of fortifications, local representatives and military officers. Most of all they could mobilize their kinsmen and provide us with a good source of able men."
- 
- ixa_strength_of_the_vrykul_reform: "Strength of the Vrykul"
- ixa_strength_of_the_vrykul_reform_desc: "With the Vrykul people united behind us there is little we could not do.\nWe cannot however become the oppressors we have once fought, all will be able to rise to power within our state."
- 
- ixa_draenei_society_reform: "Draenei Elites"
- ixa_draenei_society_reform_desc: "The homeworld of the Draenei was conquered by the Burning Legion. The Exodar and other Draenei states now rely on immigration to be able to staff and maintain their state. Over time this has created a cosmopolitan state of newcomers, second generation Draenei and old Eredar aristocrats."
- 
- ixa_hereditary_rule_reform: "Hereditary Rule"
- ixa_hereditary_rule_reform_desc: "Our monarchy is hereditary, meaning the ruling dynasty is consistent throughout the years. This grants legitimacy to the state."
- 
  ixa_centralize_reform: "Centralized Bureaucracy"
  ixa_centralize_reform_desc: "A centralized bureaucracy is centered on the capital of the kingdom, with most decisions made by, or near, the ruler and then sent out to the provinces."
  
  ixa_decentralize_reform: "Decentralized Bureaucracy"
  ixa_decentralize_reform_desc: "A decentralized bureaucracy leaves more decisions to local administrators or governors, who are then responsible to the monarch."
- 
- ixa_kalimdor_recruitment: "Kalimdor Recruitment"
- ixa_kalimdor_recruitment_desc: "Over time it has become evermore clear that we cannot trust either our conflict prone governors or the local land holders. If we are to acquire officials and commanders we can trust we must look to recruit local nobles to fill these positions instead."
- 
- ixa_august_celestials_reform: "August Celestials"
- ixa_august_celestials_reform_desc: "The August Celestials are four powerful Wild Gods who dwell in and watch over Pandaria. They consist of Chi-Ji, the Red Crane, Niuzao, the Black Ox, Xuen, the White Tiger, and Yu'lon, the Jade Serpent. There advice in invaluable to any Pandaren leader."
  
  ixa_clergy_in_administration_reform: "Administrative Clergy"
  ixa_clergy_in_administration_reform_desc: "The clergy already possess many of the skills we look for in administrators. They are well educated, experienced scribes and they have a higher calling. In many ways allying ourselves with the clergy would offer an efficient and very strong cadre of administrators."
@@ -395,12 +261,6 @@
  
  ixa_meritocratic_focus_reform: "Meritocratic Recruitment"
  ixa_meritocratic_focus_reform_desc: "We cannot let old privileges govern who will get the privilege of serving our kingdom as it grows. Instead we must look only to the ability of each and every one. A meritocratic system is one where administrators are chosen for their talent, and not their parents."
- 
- ixa_dwarven_culture_reform: "Dwarven Culture"
- ixa_dwarven_culture_reform_desc: "As our kingdom grows and matures a joint Titanic culture has started to emerge among the elite of the various great cities of the Dwaves. They all speak a common language, Dwarven, that is an amalgam of the local tongues. Let us make good use of this elite culture in our administration and employ administrators that will be able to quickly redeploy from one end of our country to the other."
- 
- ixa_formalized_hoof_reform: "Formalized Hoof System"
- ixa_formalized_hoof_reform_desc: "Administrative penetration has been the greatest obstacle for any empire in this region. It is in the interest of the state to encourage economic productivity and we must at all times keep this in mind, while also keeping a constant watch on the regional economy. Solving this problem will require great resources and commitment, as there is no easy way to rule as many subjects as we aim to."
  
  ixa_royal_decree_reform: "Royal Decree"
  ixa_royal_decree_reform_desc: "The Monarch rules supreme in this country and loyalty is valued above all else. We must ensure that decrees from the royal court are followed to the letter, and in in all parts of our country."
@@ -537,14 +397,6 @@
  ixa_monastic_breweries_reform: "Monastic Breweries"
  ixa_monastic_breweries_reform_desc: "In our faith, the consumption of alcohol for the clergy is strictly prohibited. So, many monasteries fill their treasuries with the profits made from brewing wine, mead, and ale."
  
- ixa_producing_wine_and_grain_tt: "Production of §YGrain§!: §G+75.0%§!\nProduction of §YWine§!: §G+50.0%§!"
- 
- ixa_troll_warriors_reform: "Troll Warriors"
- ixa_troll_warriors_reform_desc: "Across many Troll states, there are powerful orders of warriors trained both in the ways of voodoo and the martial arts. If we allow these warriors to build temples within our lands, they would become an integral part of the state and greatly bolster the discipline and conviction of our armies."
- 
- ixa_demonic_advisors_reform: "Demonic Advisors"
- ixa_demonic_advisors_reform_desc: "All across of Azeroth, there are men and women alike who fully detach themselves from the material world and live isolated in the untamed countryside to attain unholy powers."
- 
  ixa_maintain_religious_head_reform: "Strengthen Religious Head"
  ixa_maintain_religious_head_reform_desc: "We must strengthen the rule and abilities of our leader so that we can at all times be certain that the divine will is being carried out in accordance to their designs."
  
@@ -667,339 +519,75 @@
  #---------------------------------------------
  # Assimilation
  #---------------------------------------------
- dragonflight_reform_azerothian_group_assimilated: "Assimilation of Humans"
- dragonflight_reform_draenei_group_assimilated: "Assimilation of Draenei"
- dragonflight_reform_dwarf_group_assimilated: "Assimilation of Dwarfs"
- dragonflight_reform_high_elf_group_assimilated: "Assimilation of High Elves"
- dragonflight_reform_nightborne_group_assimilated: "Assimilation of Nightborne"
- dragonflight_reform_night_elf_group_assimilated: "Assimilation of Night Elves"
- dragonflight_reform_gnome_group_assimilated: "Assimilation of Gnomes"
- dragonflight_reform_goblin_group_assimilated: "Assimilation of Goblins"
- dragonflight_reform_pandaren_group_assimilated: "Assimilation of Pandaren"
- dragonflight_reform_tauren_group_assimilated: "Assimilation of Tauren"
- dragonflight_reform_tolvir_group_assimilated: "Assimilation of Tol'vir"
  
  #---------------------------------------------
- # Government Ranks
+ # Government Names
  #---------------------------------------------
- HOLDING: "Holding"
- KINGDOM: "Kingdom"
- EMPIRE: "Empire"
- 
- PETTY_MAGOCRACY: "Petty Magocracy"
- MAGOCRACY: "Magocracy"
- GRAND_MAGOCRACY: "Grand Magocracy"
- 
- PETTY_ADMIRALITY: "Petty Admirality"
- ADMIRALITY: "Admirality"
- GRAND_ADMIRALITY: "Grand Admirality"
- 
- PETTY_SWARM: "Petty swarm"
- SWARM: "Swarm"
- GRAND_SWARM: "Grand Swarm"
- 
- DRAKONID_PACK: "Drakonid Pack"
- DRAGONFLIGHT: "Dragonflight"
- PRIMAL_DRAGONFLIGHT: "Primal Dragonflight"
- 
- WOLF_PACK: "Wolf Pack"
- WOLF_CULT: "Wolf Band"
- WOLF_HORDE: "Worgen Horde"
- 
- TITAN_FACILITY: "Titan Facility"
- TITAN_KEEP: "Titan Keep"
- TITAN_COMPLEX: "Titanic Complex"
- 
- # Republics
- COUNCIL: "Council"
- REPUBLIC: "Republic"
- GRAND_REPUBLIC: "Grand Republic"
- 
- TINKER_UNION: "Tinkers Union"
- TINKER_REPUBLIC: "Tinkers Republic"
- TINKER_GRAND_REPUBLIC: "Grand Tinkers Republic"
- 
- TRADE_COMPANY: "Trade Company"
- TRADE_CARTEL: "Trade Cartel"
- TRADE_CONSORTIUM: "Trade Consortium"
- 
- PETTY_DICTATORSHIP: "Petty Dictatorship"
- DICTATORSHIP: "Dictatorship"
- GRAND_DICTATORSHIP: "Grand Dictatorship"
- 
- # Religion
- PETTY_THEOCRACY: "Petty Theocracy"
- THEOCRACY: "Theocracy"
- GRAND_THEOCRACY: "Grand Theocracy"
- 
- PETTY_ORDER: "Petty Order"
- ORDER: "Order"
- GRAND_ORDER: "Grand Order"
- 
- LOCAL_DRUID_CIRCLE: "Local Druid Circle"
- DRUID_CIRCLE: "Druid Circle"
- GRAND_DRUID_CIRCLE: "Grand Druid Circle"
- 
- PETTY_CULT: "Petty Cult"
- CULT: "Cult"
- GRAND_CULT: "Grand Cult"
- 
- SCHOOL: "School"
- CABAL: "Cabal"
- 
- INVASION_HOLD: "Hold"
- BATTALION: "Battalion"
- LEGION_GOV: "Legion"
- 
- SCARLET_CRUSADE: "Scarlet Crusade"
- ARGENT_DAWN: "Argent Dawn"
- SCARLET_ONSLAUGHT: "Scarlet Onslaught"
- ARGETN_CRUSADE: "Argent Crusade"
- 
- CLAN: "Clan"
- PETTY_WARBAND: "Petty Warband"
- WARBAND: "Warband"
- GRAND_WARBAND: "Grand Warband"
- 
- PIRATE_CREW: "Pirate Crew"
- PIRATE_FLEET: "Pirate Fleet"
- PIRATE_FEDERATION: "Pirate Federation"
- 
- EXPEDITIONARY_FORCE: "Expeditionary Force"
- ALLIANCE_VANGUARD: "Alliance Vanguard"
- 
- CRIMINAL_GANG: "Criminal Gang"
- CRIMINAL_COLLECTIVE: "Criminal Collective"
- CRIMINAL_ORGANISATION: "Criminal Organisation"
- 
- PETTY_TRIBE: "Clan"
- TRIBE: "Tribe"
- GRAND_TRIBE: "Tribal Federation"
- 
- SCOURGE: "Scourge"
- 
- HORDE: "Horde"
- TRUE_HORDE: "True Horde"
- 
- DESPOTIC_KINGDOM: "Despotic Kingdom"
- FEUDAL_KINGDOM: "Feudal Kingdom"
- ANCIENT_KINGDOM: "Ancient Kingdom"
- THE_HORDE: "The Horde"
- THE_ALLIANCE: "The Alliance"
- THE_SCOURGE: "The Scourge"
- HEREDITARY_MONARCHY: "Hereditary Kingdom"
- KINGDOM_OF_MAGIC: "Kingdom of Magic"
- NAGA_DOMAIN: "Naga Domain"
- SCOURGE_DOMAIN: "Scourge Domain"
- REMNANTS_OF_MONARCHY: "Remnants of Monarchy"
- DRAGONFLIGHT_BROOD: "Dragonflight Brood"
- 
- NOBLE_REPUBLIC: "Noble Republic"
- MERCHANT_REPUBLIC: "Merchant Republic"
- DESPOTIC_REPUBLIC: "Despotic Republic"
- ANCIENT_REPUBLIC: "Ancient Republic"
- TRADING_OUTPOST: "Trading Outpost"
- REMNANTS_OF_REPUBLIC: "Remnants of Republic"
- 
- ANCIENT_THEOCRACY: "Ancient Theocracy"
- ARGENT_CRUSADE: "Argent Crusade"
- DEMONIC_ORDER: "Demonic Order"
- ILLIDARI_ORDER: "Illidari Order"
- REMNANTS_OF_THEOCRACY: "Remnants of Theocracy"
- ELEMENTAL_CULT: "Elemental Cult"
- CULT_OF_RAGNAROS: "Cult of Ragnaros"
- CULT_OF_THERAZANE: "Cult of Therazane"
- CULT_OF_ALAKIR: "Cult of Al'Akir"
- CULT_OF_NEPTULON: "cult of Neptulon"
- SHADOW_CULT: "Shadow Cult"
- 
- TRIBAL_FEDERATION: "Tribal Federation"
- TRIBAL_DESPOTISM: "Tribal Despotism"
- ANCIENT_CLAN: "Ancient Clan"
- PRIMITIVE_CLAN: "Primitive Clan"
- CRIMINAL_SYNDICATE: "Criminal Syndicate"
- REMNANTS_OF_TRIBE: "Remnants of Tribe"
- DRUIDIC_CIRCLE: "Druidic Circle"
- 
- TROLL_TRIBE: "Troll Tribe"
- TROLL_KINGDOM: "Troll Kingdom"
- TROLL_EMPIRE: "Troll Empire"
- 
- CONVOCATION_OF_SILVERMOON: "Convocation of Silvermoon"
- 
- DESPOTIC_VASSAL: "Despotic Vassal"
- FEUDAL_VASSAL: "Feudal Vassal"
- 
- DWARVEN_CLAN: "Dwarven Clan"
- DWARVEN_FEDERATION: "Dwarven Federation"
- 
- GNOLL_PACK: "Gnoll Pack"
- 
- CULT_OF_HAKKAR: "Cult of Hakkar"
- 
- AQIR_KINGDOM: "Aqir Kingdom"
- AQIR_EMPIRE: "Aqir Empire"
- 
- MANTID_KINGDOM: "Mantid Kingdom"
- MANTID_EMPIRE: "Mantid Empire"
- 
- NERUBIAN_KINGDOM: "Nerubian Kingdom"
- NERUBIAN_EMPIRE: "Nerubian Empire"
- 
- TOLVIR_KINGDOM: "Tol'vir Kingdom"
- SATYR_SECT: "Demonic Sect"
- BLOOD_CULT: "Blood Cult"
- EMPIRE_OF_AZSHARA: "Empire of Azshara"
- STATELESS_GOVERNMENT: "Stateless Government"
- ORDER_OF_RUKHMAR: "Order of Rukhmar"
- ILLIDARI_DOMAIN: "Illidari Domain"
- PRIMAL_ORDER: "Primal Order"
- ORDER_OF_RAVENS: "Order of Ravens"
- PRIDE: "Pride"
+ gov_name_DUCHY: "Duchy"
+ gov_name_KINGDOM: "Kingdom"
+ gov_name_EMPIRE: "Empire"
+ gov_name_REPUBLIC: "Republic"
+ gov_name_GREAT_REPUBLIC: "Great Republic"
+ gov_name_GRAND_REPUBLIC: "Grand Republic"
+ gov_name_BISHOPRIC: "Bishopric"
+ gov_name_ARCHBISHOPRIC: "Archbishopric"
+ gov_name_PATRIARCHATE: "Patriarchate"
+ gov_name_CLAN: "Clan"
+ gov_name_PIRATE_HAVEN: "Pirate Haven"
+ gov_name_WARBAND: "Warband"
+ gov_name_GREAT_WARBAND: "Great Warband"
+ gov_name_GRAND_WARBAND: "Grand Warband"
+ gov_name_TRIBAL_FEDERATION: "Tribal Federation"
+ gov_name_TRIBAL_DESPOTISM: "Tribal Despotism"
+ gov_name_MAGOCRACY: "Magocracy"
+ gov_name_GREAT_MAGOCRACY: "Great Magocracy"
+ gov_name_GRAND_MAGOCRACY: "Grand Magocracy"
+ gov_name_FREE_CITY: "Free City"
+ gov_name_TRADING_OUTPOST: "Trading Outpost"
+ gov_name_COLONIAL_GOVERNMENT: "Colonial Government"
+ gov_name_ADMIRALTY: "Admiralty"
  
  #---------------------------------------------
  # Ruler Names
  #---------------------------------------------
- PRETENDER: "Pretender"
- KHAN: "Khan"
- KHANESS: "Khaness"
- PHAROAH: "Pharoah"
- HIGH_THANE: "High Thane"
- HIHG_THANESS: "High Thaness"
- GRAND_MAGISTER: "Grand Magister"
- GOD_KING: "God-King"
- GOD_QUEEN: "God-Queen"
- LORD: "Lord"
- KING: "King"
- EMPEROR: "Emperor"
- LADY: "Lady"
- QUEEN: "Queen"
- EMPRESS: "Empress"
- MAGE: "Mage"
- ARCHMAGE: "Archmage"
- GRAND_MAGUS: "Grand Magus"
- REAR_ADMIRAL: "Rear Admiral"
- ADMIRAL: "Admiral"
- GRAND_ADMIRAL: "Grand Admiral"
- DRAGON_KING: "Dragon Lord"
- DRAGON_QUEEN: "Dragon Queen"
- DRAGON_ASPECT: "Dragon Aspect"
- KEEPER: "Keeper"
- TITAN_KEEPER: "Titan Keeper"
- GRAND_KEEPER: "Grand Keeper"
- SWARM_LORD: "Swarm Lord"
- SWARM_LADY: "Swarm Lady"
- SWARM_KING: "Swarm King"
- SWARM_QUEEN: "Swarm Queen"
- DARK_PROPHET: "Dark Prophet"
- COMMANDER_TITLE: "Commander"
- SUPREME_COMMANDER: "Supreme Lord"
- LEGIONLORD: "Legionlord"
- PACKLEADER: "Packleader"
- CUB: "Cub"
- MAGISTRATE: "Magistrate"
- GRAND_MAGISTRATE: "Grand Magistrate"
- COMMANDER: "Commander"
- MARSHAL: "Marshal"
- TINKER: "Tinker"
- HIGH_TINKER: "High Tinker"
- GRAND_TINKER: "Grand Tinker"
- MOGUL: "Mogul"
- TRADER: "Trader"
- TRADE_PRINCE: "Trade Prince"
- TRADE_KING: "Trade King"
- TRADE_PRINCESS: "Trade Princess"
- TRADE_QUEEN: "Trade Queen"
- PRIEST: "Priest"
- HIGH_PRIEST: "High Priest"
- PRIESTESS: "Priestess"
- HIGH_PRIESTESS: "High Priestess"
- CULTIST: "Cultist"
- HIGH_CULTIST: "High Cultist"
- GRAND_CULTIST: "Grand Cultist"
- MASTER: "Master"
- DARKMASTER: "Darkmaster"
- SHADOWLORD: "Shadowlord"
- MISTRESS: "Mistress"
- DARKMISTRESS: "Dark Lady"
- SHADOWLADY: "Shadow Lady"
- CRUSADER: "Crusader"
- GRAND_CRUSADER: "Grand Crusader"
- KNIGHT: "Knight"
- HIGHLORD: "Highlord"
- HIGHLADY: "Highlady"
- GRAND_MASTER: "Grand Master"
- GRAND_MISTRESS: "Grand Mistress"
- EXODAR: "Exodar"
- EXARCH: "High Exarch"
- PROPHET: "Prophet"
- PROPHETESS: "Prophetess"
- HIGH_PROPHET: "High Prophet"
- HIGH_PROPHETESS: "High Prophetess"
- ARCHDRUID: "Archdruid"
- DEMIGOD: "Demigod"
- WARCHIEF: "Warchief"
- WARCHIEFESS: "Warchiefess"
- WARLORD: "Warlord"
- WARLADY: "Warlady"
- WAR_MISTRESS: "War Mistress"
- CAPTAIN: "Captain"
- PIRATE_LORD: "Pirate Lord"
- PIRATE_KING: "Trade Prince"
- PIRATE_LADY: "Pirate Lady"
- PIRATE_QUEEN: "Pirate Queen"
- BOSS: "Boss"
- KINGPIN: "Kingpin"
- QUEENPIN: "Queenpin"
- ACOLYTE: "Acolyte" 
- ARCHLICH: "Archlich" 
- CHAMPION: "Champion" 
- LICH_KING: "Lich King" 
- LICH_QUEEN: "Lich Queen" 
- CHIEFTAIN: "Chieftain"
- CHIEFESS: "Chiefess"
- CHEIFESS: "Chiefess"
- HIGH_CHIEFTAIN: "High Chieftain"
- HIGH_CHIEFESS: "High Chiefess"
- SPLINTER: "Splinter"
- OVERSEER: "Overseer"
- LESSER_CIV: "Ancient Ruins"
- CIV: "Ancient Nation"
- GRAND_CIV: "Ancient Empire"
- DUKE: "Duke"
- DUCHESS: "Duchess"
- ANCIENT_LORD: "Ancient Lord"
- ANCIENT_LADY: "Ancient Lady"
- COLONY: "Expedition"
- GOVERNOR: "Governor"
- GOVERNESS: "Governness"
- NATIVE_COUNCIL: "Native Council"
- MOUND: "Mound"
- TOWN: "Town"
- CAMP: "Camp"
- OVERSEER: "Overseer"
- HQ: "Headquarters"
- LEADER: "Leader"
- REGENT_LORD: "Regent Lord"
- REGENT_LADY: "Regent Lady"
- FALLEN_PRINCE: "Fallen Prince"
- FALLEN_PRINCESS: "Fallen Princess"
- HIGH_COMMANDER: "High Commander"
- FALLEN_PRIEST: "Fallen Priest"
- FALLEN_PRIESTESS: "Fallen Priestess"
- GRAND_MADA: "Grand Ma'da"
- ORCISH_HORDE: "Orcish Horde"
- WARCHIEF: "Warchief"
- GRAND_EMPEROR: "Grand Emperor"
- GRAND_EMPRESS: "Grand Empress"
- CORRUPTOR: "Corruptor"
- TASKMASTER: "Taskmaster"
- IMPERATOR: "Imperator"
- HIGH_SAGE: "High Sage"
- MASTER: "Master"
- TALONPRIEST: "Talonpriest"
- BANSHEE_KING: "Banshee King"
- BANSHEE_QUEEN: "Banshee Queen"
- GROVE_WARDEN: "Grove Warden"
- PRIDELORD: "Pridelord"
- PRIDELADY: "Pridelady"
+ ruler_name_DUKE: "Duke"
+ ruler_name_KING: "King"
+ ruler_name_EMPEROR: "Emperor"
+ ruler_name_DUCHESS: "Duchess"
+ ruler_name_QUEEN: "Queen"
+ ruler_name_EMPRESS: "Empress"
+ ruler_name_CONSUL: "Consul"
+ ruler_name_GREAT_CONSUL: "Great Consul"
+ ruler_name_GRAND_CONSUL: "Grand Consul"
+ ruler_name_CONSULESS: "Consuless"
+ ruler_name_GREAT_CONSULESS: "Great Consuless"
+ ruler_name_GRAND_CONSULESS: "Grand Consuless"
+ ruler_name_BISHOP: "Bishop"
+ ruler_name_ARCHBISHOP: "Archbishop"
+ ruler_name_PATRIARCH: "Patriarch"
+ ruler_name_MATRIARCH: "Matriarch"
+ ruler_name_CHIEF: "Chief"
+ ruler_name_CHIEFTESS: "Chieftess"
+ ruler_name_PIRATE_LORD: "Pirate Lord"
+ ruler_name_PIRATE_KING: "Pirate King"
+ ruler_name_PIRATE_EMPEROR: "Pirate Emperor"
+ ruler_name_PIRATE_LADY: "Pirate Lady"
+ ruler_name_PIRATE_QUEEN: "Pirate Queen"
+ ruler_name_PIRATE_EMPRESS: "Pirate Empress"
+ ruler_name_KHAN: "Khan"
+ ruler_name_KHANESS: "Khaness"
+ ruler_name_ARCHMAGI: "Archmagi"
+ ruler_name_ADMIRAL: "Admiral"
+ 
+ #---------------------------------------------
+ # Consort Names
+ #---------------------------------------------
+ consort_name_PRINCE_CONSORT: "Prince Consort"
+ consort_name_CONSORT: "Consort"
+ consort_name_QUEEN_CONSORT: "Queen Consort"
+ consort_name_EMPRESS_CONSORT: "Empress Consort"
+ 
+ #---------------------------------------------
+ # Heir Names
+ #---------------------------------------------
+ heir_name_HEIR: "Heir"

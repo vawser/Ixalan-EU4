@@ -144,65 +144,6 @@ ixa_monastic_breweries_reform = {
 	modifiers = {
 		global_trade_goods_size_modifier = 0.1
 	}
-    
-	effect = {
-		custom_tooltip = ixa_producing_wine_and_grain_tt
-		hidden_effect = {
-			every_owned_province = {
-				if = {
-					limit = {
-						trade_goods = food
-					}
-					add_province_modifier = { 
-						name = grain_bonus_prod
-						duration = -1
-						hidden = yes
-					}
-				}
-			}
-		}
-	}
-    
-	removed_effect = {
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					OR = {
-						has_province_modifier = grain_bonus_prod
-					}
-				}
-				remove_province_modifier = grain_bonus_prod
-			}
-		}
-	}
-}
-
-ixa_troll_warriors_reform = {
-    icon = "troll_warriors_wwu"
-	allow_normal_conversion = yes
-    
-	potential = {
-		is_troll_culture_group = yes
-	}
-	
-	modifiers = {
-		discipline = 0.05
-		infantry_power = 0.05
-		mercenary_manpower = 0.1
-	}
-}
-
-ixa_demonic_advisors_reform = {
-    icon = "demonic_advisors_wwu"
-	allow_normal_conversion = yes
-    
-	potential = {
-		culture_group = demon_group
-	}
-	
-	modifiers = {
-		global_missionary_strength = 0.03
-	}
 }
 
 #-----------------------------------------

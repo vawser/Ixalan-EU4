@@ -15,15 +15,55 @@ spriteTypes = {
     # Age Images
     #------------------------------------
     spriteType = {
-		name = "GFX_age_collapse"
-		texturefile = "gfx/interface/ages/collapse.dds"
+		name = "GFX_age_fall_of_the_elves"
+		texturefile = "gfx/interface/ages/fall_of_the_elves.dds"
 	}
     
     #------------------------------------
-    # The Collapse
+    # Fall of the Elves
     #------------------------------------
     spriteType = {
-		name = "GFX_roth_development_focus"
-		texturefile = "gfx/interface/ages/abilities/roth_development_focus.dds"
+		name = "GFX_fote_administrative_expansion"
+		texturefile = "gfx/interface/ages/abilities/fote_administrative_expansion.dds"
+	}
+    spriteType = {
+		name = "GFX_fote_development_focus"
+		texturefile = "gfx/interface/ages/abilities/fote_development_focus.dds"
+	}
+    spriteType = {
+		name = "GFX_fote_eager_settlers"
+		texturefile = "gfx/interface/ages/abilities/fote_eager_settlers.dds"
+	}
+    spriteType = {
+		name = "GFX_fote_expanded_trade_networks"
+		texturefile = "gfx/interface/ages/abilities/fote_expanded_trade_networks.dds"
+	}
+    spriteType = {
+		name = "GFX_fote_justified_annexation"
+		texturefile = "gfx/interface/ages/abilities/fote_justified_annexation.dds"
+	}
+    spriteType = {
+		name = "GFX_fote_lay_of_the_land"
+		texturefile = "gfx/interface/ages/abilities/fote_lay_of_the_land.dds"
+	}
+    spriteType = {
+		name = "GFX_fote_local_governance"
+		texturefile = "gfx/interface/ages/abilities/fote_local_governance.dds"
+	}
+    spriteType = {
+		name = "GFX_fote_mercantilism"
+		texturefile = "gfx/interface/ages/abilities/fote_mercantilism.dds"
+	}
+    spriteType = {
+		name = "GFX_fote_military_drills"
+		texturefile = "gfx/interface/ages/abilities/fote_military_drills.dds"
+	}
+    spriteType = {
+		name = "GFX_fote_prestigeous_traditions"
+		texturefile = "gfx/interface/ages/abilities/fote_prestigeous_traditions.dds"
+	}
+    spriteType = {
+		name = "GFX_fote_subdued_people"
+		texturefile = "gfx/interface/ages/abilities/fote_subdued_people.dds"
 	}
 }
