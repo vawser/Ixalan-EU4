@@ -1,10 +1,10 @@
-namespace = wwu_dynastic
+namespace = ixa_dynastic
 
 # A beloved heir dies
 country_event = {
-	id = wwu_dynastic.1
-	title = wwu_dynastic.1.title
-	desc = wwu_dynastic.1.desc
+	id = ixa_dynastic.1
+	title = ixa_dynastic.1.title
+	desc = ixa_dynastic.1.desc
 	picture = DEATH_OF_HEIR_eventPicture
 	
 	trigger = {
@@ -28,7 +28,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.1.option.a
+		name = ixa_dynastic.1.option.a
 		kill_heir = yes
 		random_owned_province = {
 			limit = {
@@ -42,7 +42,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.1.option.b
+		name = ixa_dynastic.1.option.b
 		kill_heir = yes
 		define_heir = {
 			dynasty = ROOT
@@ -53,9 +53,9 @@ country_event = {
 
 # Palace Coup
 country_event = {
-	id = wwu_dynastic.2
-	title = wwu_dynastic.2.title
-	desc = wwu_dynastic.2.desc
+	id = ixa_dynastic.2
+	title = ixa_dynastic.2.title
+	desc = ixa_dynastic.2.desc
 	picture = ASSASSINATION_eventPicture
 	
 	trigger = {
@@ -80,7 +80,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.2.option.a
+		name = ixa_dynastic.2.option.a
         
 		kill_ruler = yes
 		add_country_modifier = {
@@ -90,7 +90,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.2.option.b
+		name = ixa_dynastic.2.option.b
         
 		kill_heir = yes
 	}
@@ -98,9 +98,9 @@ country_event = {
 
 # The Weeping Song
 country_event = {
-	id = wwu_dynastic.3
-	title = wwu_dynastic.3.title
-	desc = wwu_dynastic.3.desc
+	id = ixa_dynastic.3
+	title = ixa_dynastic.3.title
+	desc = ixa_dynastic.3.desc
 	picture = COURT_eventPicture
 	
 	trigger = {
@@ -126,22 +126,22 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.3.option.a
+		name = ixa_dynastic.3.option.a
 		add_treasury = -40
 		add_war_exhaustion = -2
 	}
 	
 	option = {
-		name = wwu_dynastic.3.option.b
+		name = ixa_dynastic.3.option.b
 		add_manpower = 1
 	}
 }
 
 # Springtime
 country_event = {
-	id = wwu_dynastic.4
-	title = wwu_dynastic.4.title
-	desc = wwu_dynastic.4.desc
+	id = ixa_dynastic.4
+	title = ixa_dynastic.4.title
+	desc = ixa_dynastic.4.desc
 	picture = COURT_eventPicture
 	
 	trigger = {
@@ -189,14 +189,14 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.4.option.a
+		name = ixa_dynastic.4.option.a
 		define_heir = {
 			dynasty = ROOT
 			claim = 30
 		}
 	}
 	option = {
-		name = wwu_dynastic.4.option.b
+		name = ixa_dynastic.4.option.b
 		trigger = {
 			any_known_country = {
 				religion = ROOT
@@ -223,11 +223,11 @@ country_event = {
 	}
 }
 
-# SoirÃ©e
+# Soirée
 country_event = {
-	id = wwu_dynastic.5
-	title = wwu_dynastic.5.title
-	desc = wwu_dynastic.5.desc
+	id = ixa_dynastic.5
+	title = ixa_dynastic.5.title
+	desc = ixa_dynastic.5.desc
 	picture = COURT_eventPicture
 	
 	trigger = {
@@ -255,7 +255,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.5.option.a
+		name = ixa_dynastic.5.option.a
 		trigger = {
 			is_female = no
 		}
@@ -266,7 +266,7 @@ country_event = {
 		add_prestige = -10
 	}
 	option = {
-		name = wwu_dynastic.5.option.b
+		name = ixa_dynastic.5.option.b
 		trigger = {
 			is_female = yes
 		}
@@ -277,7 +277,7 @@ country_event = {
 		add_prestige = -10
 	}
 	option = {
-		name = wwu_dynastic.5.option.c
+		name = ixa_dynastic.5.option.c
 		trigger_switch = {
 			on_trigger = has_country_flag
 			treasurer_flag = {
@@ -316,9 +316,9 @@ country_event = {
 
 # Heir Falls ill
 country_event = {
-	id = wwu_dynastic.6
-	title = wwu_dynastic.6.title
-	desc = wwu_dynastic.6.desc
+	id = ixa_dynastic.6
+	title = ixa_dynastic.6.title
+	desc = ixa_dynastic.6.desc
 	picture = PLAGUE_eventPicture
 	
 	trigger = {
@@ -331,7 +331,7 @@ country_event = {
 		months = 2400
 	}
 	option = {
-		name = wwu_dynastic.6.option.a
+		name = ixa_dynastic.6.option.a
 		add_years_of_income = -0.2
 		random_list = {
 			50 = { kill_heir = yes }
@@ -346,7 +346,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.6.option.b
+		name = ixa_dynastic.6.option.b
 		random_list = {
 			75 = { kill_heir = yes}
 			25 = {
@@ -362,9 +362,9 @@ country_event = {
 
 # Child in the Reeds
 country_event = {
-	id = wwu_dynastic.7
-	title = wwu_dynastic.7.title
-	desc = wwu_dynastic.7.desc
+	id = ixa_dynastic.7
+	title = ixa_dynastic.7.title
+	desc = ixa_dynastic.7.desc
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = {
@@ -385,7 +385,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.7.option.a
+		name = ixa_dynastic.7.option.a
 		define_heir = {
 			claim = 50
 			dynasty = ROOT
@@ -402,16 +402,16 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_dynastic.7.option.b
+		name = ixa_dynastic.7.option.b
 		add_treasury = 5
 	}
 }
 
 # Tournament
 country_event = {
-	id = wwu_dynastic.8
-	title = wwu_dynastic.8.title
-	desc = wwu_dynastic.8.desc
+	id = ixa_dynastic.8
+	title = ixa_dynastic.8.title
+	desc = ixa_dynastic.8.desc
 	picture = TOURNAMENT_eventPicture
 	
 	trigger = {
@@ -431,7 +431,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.8.option.a
+		name = ixa_dynastic.8.option.a
 		random_list = {
 			50 = { add_years_of_income = 0.05 }
 			45 = { add_legitimacy = 20}
@@ -440,12 +440,12 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.8.option.b
+		name = ixa_dynastic.8.option.b
 		add_adm_power = 20
 	}
 	
 	option = {
-		name = wwu_dynastic.8.option.c
+		name = ixa_dynastic.8.option.c
 		add_prestige = 5
 	}
 }
@@ -453,9 +453,9 @@ country_event = {
 
 # Hunting accident
 country_event = {
-	id = wwu_dynastic.9
-	title = wwu_dynastic.9.title
-	desc = wwu_dynastic.9.desc
+	id = ixa_dynastic.9
+	title = ixa_dynastic.9.title
+	desc = ixa_dynastic.9.desc
 	picture = DEATH_OF_HEIR_eventPicture
 	
 	trigger = {
@@ -467,12 +467,12 @@ country_event = {
 		months = 2700
 	}
 	option = {
-		name = wwu_dynastic.9.option.a
+		name = ixa_dynastic.9.option.a
 		kill_heir = yes
 		add_stability = -1
 	}
 	option = {
-		name = wwu_dynastic.9.option.b
+		name = ixa_dynastic.9.option.b
 		kill_heir = yes
 		add_prestige = -10
 	}
@@ -480,9 +480,9 @@ country_event = {
 
 # Heir goes out at night
 country_event = {
-	id = wwu_dynastic.10
-	title = wwu_dynastic.10.title
-	desc = wwu_dynastic.10.desc
+	id = ixa_dynastic.10
+	title = ixa_dynastic.10.title
+	desc = ixa_dynastic.10.desc
 	picture = COURT_eventPicture
 	
 	trigger = {
@@ -498,21 +498,21 @@ country_event = {
 		
 	}
 	option = {
-		name = wwu_dynastic.10.option.a
+		name = ixa_dynastic.10.option.a
 		add_prestige = -20
 	}
 	
 	option = {
-		name = wwu_dynastic.10.option.b
+		name = ixa_dynastic.10.option.b
 		add_heir_claim = -10
 	}
 }
 
 # The Family
 country_event = {
-	id = wwu_dynastic.11
-	title = wwu_dynastic.11.title
-	desc = wwu_dynastic.11.desc
+	id = ixa_dynastic.11
+	title = ixa_dynastic.11.title
+	desc = ixa_dynastic.11.desc
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
@@ -535,7 +535,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.11.option.a
+		name = ixa_dynastic.11.option.a
 		random_country = {
 			limit = {
 				dynasty = ROOT
@@ -544,14 +544,14 @@ country_event = {
 				NOT = { senior_union_with = ROOT }
 				NOT = { junior_union_with = ROOT }
 			}
-			country_event = { id = wwu_dynastic.14 }
+			country_event = { id = ixa_dynastic.14 }
 			add_opinion = { who = ROOT modifier = opinion_dynastic_helper }
 		}
 		add_treasury = -100
 		add_prestige = 10
 	}
 	option = {
-		name = wwu_dynastic.11.option.b
+		name = ixa_dynastic.11.option.b
 		random_country = {
 			limit = { 
 				dynasty = ROOT
@@ -560,7 +560,7 @@ country_event = {
 				NOT = { senior_union_with = ROOT }
 				NOT = { junior_union_with = ROOT }
 			}
-			country_event  = { id = wwu_dynastic.15 }
+			country_event  = { id = ixa_dynastic.15 }
 			add_opinion = { who = ROOT modifier = opinion_ignore_dynasty }
 		}
 	}
@@ -568,9 +568,9 @@ country_event = {
 
 # Regent usurps throne
 country_event = {
-	id = wwu_dynastic.12
-	title = wwu_dynastic.12.title
-	desc = wwu_dynastic.12.desc
+	id = ixa_dynastic.12
+	title = ixa_dynastic.12.title
+	desc = ixa_dynastic.12.desc
 	picture = DEATH_OF_HEIR_eventPicture
 	
 	trigger = {
@@ -589,7 +589,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.12.option.a
+		name = ixa_dynastic.12.option.a
 		kill_heir = yes
 		define_ruler = {
 		}
@@ -602,7 +602,7 @@ country_event = {
 		add_stability = -1
 	}
 	option = {
-		name = wwu_dynastic.12.option.b
+		name = ixa_dynastic.12.option.b
 		add_stability = -2
 		add_heir_claim = 30
 	}
@@ -610,13 +610,12 @@ country_event = {
 
 # Born under a star
 country_event = {
-	id = wwu_dynastic.13
-	title = wwu_dynastic.13.title
-	desc = wwu_dynastic.13.desc
+	id = ixa_dynastic.13
+	title = ixa_dynastic.13.title
+	desc = ixa_dynastic.13.desc
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = {
-        is_human_culture_group = yes
 		is_lesser_in_union = no
 		has_heir = no
 		has_regency = no
@@ -632,7 +631,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.13.option.a
+		name = ixa_dynastic.13.option.a
 		define_heir = {
 			male = yes
 			dynasty = ROOT
@@ -642,7 +641,7 @@ country_event = {
 		}
 	}
     option = {
-		name = wwu_dynastic.13.option.b
+		name = ixa_dynastic.13.option.b
 		define_heir = {
 			male = yes
 			dynasty = ROOT
@@ -652,7 +651,7 @@ country_event = {
 		}
 	}
     option = {
-		name = wwu_dynastic.13.option.c
+		name = ixa_dynastic.13.option.c
 		define_heir = {
 			male = yes
 			dynasty = ROOT
@@ -665,15 +664,15 @@ country_event = {
 
 # The Family Opt 1
 country_event = {
-	id = wwu_dynastic.14
-	title = wwu_dynastic.14.title
-	desc = wwu_dynastic.14.desc
+	id = ixa_dynastic.14
+	title = ixa_dynastic.14.title
+	desc = ixa_dynastic.14.desc
 	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = wwu_dynastic.14.option.a
+		name = ixa_dynastic.14.option.a
 		add_treasury = 100
 		if = {
 			limit = {
@@ -703,15 +702,15 @@ country_event = {
 
 # The Family Opt 2
 country_event = {
-	id = wwu_dynastic.15
-	title = wwu_dynastic.15.title
-	desc = wwu_dynastic.15.desc
+	id = ixa_dynastic.15
+	title = ixa_dynastic.15.title
+	desc = ixa_dynastic.15.desc
 	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = wwu_dynastic.15.option.a
+		name = ixa_dynastic.15.option.a
 		random_list = {
 			10 = {
 				add_stability_or_adm_power = yes
@@ -728,9 +727,9 @@ country_event = {
 
 # Fear and Loathing 1/3
 province_event = {
-	id = wwu_dynastic.16
-	title = wwu_dynastic.16.title
-	desc = wwu_dynastic.16.desc
+	id = ixa_dynastic.16
+	title = ixa_dynastic.16.title
+	desc = ixa_dynastic.16.desc
 	picture = ASSASSINATION_eventPicture
 	
 	trigger = {
@@ -755,7 +754,7 @@ province_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.16.option.a
+		name = ixa_dynastic.16.option.a
         
 		owner = {
 			kill_heir = yes
@@ -764,7 +763,7 @@ province_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.16.option.c
+		name = ixa_dynastic.16.option.c
 		owner = {
 			add_prestige = 5
 			set_country_flag = contained_insanity
@@ -774,9 +773,9 @@ province_event = {
 
 # Fear and Loathing 2/3
 country_event = {
-	id = wwu_dynastic.17
-	title = wwu_dynastic.17.title
-	desc = wwu_dynastic.17.desc
+	id = ixa_dynastic.17
+	title = ixa_dynastic.17.title
+	desc = ixa_dynastic.17.desc
 	picture = DEATH_OF_HEIR_eventPicture
 	
 	trigger = {
@@ -791,13 +790,13 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.17.option.a
+		name = ixa_dynastic.17.option.a
 		kill_ruler = yes
 		clr_country_flag = murdering_bastard
 	}
 	
 	option = {
-		name = wwu_dynastic.17.option.b
+		name = ixa_dynastic.17.option.b
 		add_prestige = -5
 		add_treasury = -100
 		set_country_flag = contained_insanity
@@ -806,9 +805,9 @@ country_event = {
 
 # Fear and Loathing 3/3
 country_event = {
-	id = wwu_dynastic.18
-	title = wwu_dynastic.18.title
-	desc = wwu_dynastic.18.desc
+	id = ixa_dynastic.18
+	title = ixa_dynastic.18.title
+	desc = ixa_dynastic.18.desc
 	picture = DEATH_OF_HEIR_eventPicture
 
 	trigger = {
@@ -822,14 +821,14 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.18.option.a
+		name = ixa_dynastic.18.option.a
 		add_stability = -3
 		add_prestige = -20
 		clr_country_flag = contained_insanity
 	}
 	
 	option = {
-		name = wwu_dynastic.18.option.b
+		name = ixa_dynastic.18.option.b
 		kill_ruler = yes
 		add_country_modifier = {
 			name = "relief_from"
@@ -841,9 +840,9 @@ country_event = {
 
 # Fear and Loathing removal on ruler death, ontriggered
 country_event = {
-	id = wwu_dynastic.19
-	title = wwu_dynastic.19.title
-	desc = wwu_dynastic.19.desc
+	id = ixa_dynastic.19
+	title = ixa_dynastic.19.title
+	desc = ixa_dynastic.19.desc
 	picture = DEATH_OF_HEIR_eventPicture
 	
 	trigger = {
@@ -856,7 +855,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = wwu_dynastic.19.option.a
+		name = ixa_dynastic.19.option.a
         
 		add_country_modifier = {
 			name = "relief_from"
@@ -869,9 +868,9 @@ country_event = {
 
 # Wedding bells
 country_event = {
-	id = wwu_dynastic.20
-	title = wwu_dynastic.20.title
-	desc = wwu_dynastic.20.desc
+	id = ixa_dynastic.20
+	title = ixa_dynastic.20.title
+	desc = ixa_dynastic.20.desc
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
@@ -907,7 +906,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.20.option.a
+		name = ixa_dynastic.20.option.a
 		random_country = {
 			limit = {
 				religion = ROOT
@@ -923,7 +922,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.20.option.b
+		name = ixa_dynastic.20.option.b
 		add_prestige = 5
 		add_country_modifier = {
 			name = "sought_after_bachelor"
@@ -934,9 +933,9 @@ country_event = {
 
 # A modest proposal
 country_event = {
-	id = wwu_dynastic.21
-	title = wwu_dynastic.21.title
-	desc = wwu_dynastic.21.desc
+	id = ixa_dynastic.21
+	title = ixa_dynastic.21.title
+	desc = ixa_dynastic.21.desc
 	picture = DIPLOMACY_eventPicture
 	
 	trigger = {
@@ -957,7 +956,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.21.option.a
+		name = ixa_dynastic.21.option.a
 		random_country = {
 			limit = {
 				has_country_modifier = sought_after_bachelor
@@ -965,8 +964,8 @@ country_event = {
 				NOT = { marriage_with = ROOT }
 			}
 			random_list = {
-				20 = { country_event = { id = wwu_dynastic.22 } }
-				80 = { country_event = { id = wwu_dynastic.23 } }
+				20 = { country_event = { id = ixa_dynastic.22 } }
+				80 = { country_event = { id = ixa_dynastic.23 } }
 			}
 		}
 		add_treasury = -15
@@ -974,7 +973,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.21.opton.b
+		name = ixa_dynastic.21.opton.b
 		add_treasury = 10
 		add_adm_power = 10
 	}
@@ -982,15 +981,15 @@ country_event = {
 
 # Wedding bells
 country_event = {
-	id = wwu_dynastic.22
-	title = wwu_dynastic.22.title
-	desc = wwu_dynastic.22.desc
+	id = ixa_dynastic.22
+	title = ixa_dynastic.22.title
+	desc = ixa_dynastic.22.desc
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = wwu_dynastic.22.option.a
+		name = ixa_dynastic.22.option.a
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
@@ -1007,22 +1006,22 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.22.option.b
+		name = ixa_dynastic.22.option.b
 		reverse_add_opinion = { who = FROM modifier = opinion_witchcraft }
 	}
 }
 
 # Wedding bells
 country_event = {
-	id = wwu_dynastic.23
-	title = wwu_dynastic.23.title
-	desc = wwu_dynastic.23.desc
+	id = ixa_dynastic.23
+	title = ixa_dynastic.23.title
+	desc = ixa_dynastic.23.desc
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = wwu_dynastic.23.option.a
+		name = ixa_dynastic.23.option.a
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
@@ -1039,16 +1038,16 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.23.option.b
+		name = ixa_dynastic.23.option.b
 		reverse_add_opinion = { who = FROM modifier = opinion_refused_marriage }
 	}
 }
 
 #Last war was a failure
 country_event = {
-	id = wwu_dynastic.24
-	title = wwu_dynastic.24.title
-	desc = wwu_dynastic.24.desc
+	id = ixa_dynastic.24
+	title = ixa_dynastic.24.title
+	desc = ixa_dynastic.24.desc
 	picture = MILITARY_CAMP_eventPicture
 	
 	trigger = {
@@ -1069,14 +1068,14 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.24.option.a
+		name = ixa_dynastic.24.option.a
 		kill_ruler = yes
 		add_war_exhaustion = -4
 		add_stability_or_adm_power = yes
 	}
 	
 	option = {
-		name = wwu_dynastic.24.option.b
+		name = ixa_dynastic.24.option.b
 		kill_heir = yes
 		add_war_exhaustion = -2
 	}
@@ -1084,9 +1083,9 @@ country_event = {
 
 # The Moon
 country_event = {
-	id = wwu_dynastic.25
-	title = wwu_dynastic.25.title
-	desc = wwu_dynastic.25.desc
+	id = ixa_dynastic.25
+	title = ixa_dynastic.25.title
+	desc = ixa_dynastic.25.desc
 	picture = IMPORTANT_STATUE_eventPicture
 	
 	trigger = {
@@ -1100,21 +1099,21 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.25.option.a
+		name = ixa_dynastic.25.option.a
 		add_prestige = 5
 	}
 	
 	option = {
-		name = wwu_dynastic.25.option.b
+		name = ixa_dynastic.25.option.b
 		add_mil_power = 25
 	}
 }
 
 # Seeing the real you
 country_event = {
-	id = wwu_dynastic.26
-	title = wwu_dynastic.26.title
-	desc = wwu_dynastic.26.desc
+	id = ixa_dynastic.26
+	title = ixa_dynastic.26.title
+	desc = ixa_dynastic.26.desc
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = {
@@ -1142,14 +1141,14 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.26.option.a
+		name = ixa_dynastic.26.option.a
 		define_heir = {
 			dynasty = ROOT
 		}
 	}
 	
 	option = {
-		name = wwu_dynastic.26.option.b
+		name = ixa_dynastic.26.option.b
 		add_years_of_income = 0.5
 		add_country_modifier = {
 			name = "a_woman_scorned"
@@ -1160,9 +1159,9 @@ country_event = {
 
 # Starlight
 country_event = {
-	id = wwu_dynastic.27
-	title = wwu_dynastic.27.title
-	desc = wwu_dynastic.27.desc
+	id = ixa_dynastic.27
+	title = ixa_dynastic.27.title
+	desc = ixa_dynastic.27.desc
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = {
@@ -1200,7 +1199,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.27.option.a
+		name = ixa_dynastic.27.option.a
 		define_heir = {
 			name = "Elisabeth"
 			dynasty = ROOT
@@ -1213,7 +1212,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.27.option.b
+		name = ixa_dynastic.27.option.b
 		define_heir = {
 			dynasty = ROOT
 			name = "Caterine"
@@ -1225,7 +1224,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_dynastic.27.option.c
+		name = ixa_dynastic.27.option.c
 		define_heir = {
 			dynasty = ROOT
 			claim = 50
@@ -1236,7 +1235,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = wwu_dynastic.27.option.d
+		name = ixa_dynastic.27.option.d
 		define_heir = {
 			dynasty = ROOT
 			name = "Sara"
@@ -1251,9 +1250,9 @@ country_event = {
 
 # Newborn Daughter
 country_event = {
-	id = wwu_dynastic.28
-	title = wwu_dynastic.28.title
-	desc = wwu_dynastic.28.desc
+	id = ixa_dynastic.28
+	title = ixa_dynastic.28.title
+	desc = ixa_dynastic.28.desc
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = {
@@ -1273,7 +1272,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.28.option.a
+		name = ixa_dynastic.28.option.a
 		add_horde_unity = 10
 		add_legitimacy = -10
 
@@ -1285,7 +1284,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.28.option.b
+		name = ixa_dynastic.28.option.b
         
 		add_country_modifier = {
 			name = dyn_newborn_daughter
@@ -1296,9 +1295,9 @@ country_event = {
 
 # Talented and Ambitious Daughter
 country_event = {
-	id = wwu_dynastic.29
-	title = wwu_dynastic.29.title
-	desc = wwu_dynastic.29.desc
+	id = ixa_dynastic.29
+	title = ixa_dynastic.29.title
+	desc = ixa_dynastic.29.desc
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = { 
@@ -1342,7 +1341,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.29.option.a
+		name = ixa_dynastic.29.option.a
 		add_horde_unity = -10
 		add_legitimacy = -10
 
@@ -1359,7 +1358,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.29.option.b
+		name = ixa_dynastic.29.option.b
         
 		random_owned_province = {
 			limit = {
@@ -1375,9 +1374,9 @@ country_event = {
 
 # The Ruler's Daughter
 country_event = {
-	id = wwu_dynastic.30
-	title = wwu_dynastic.30.title
-	desc = wwu_dynastic.30.desc
+	id = ixa_dynastic.30
+	title = ixa_dynastic.30.title
+	desc = ixa_dynastic.30.desc
 	picture = NEW_HEIR_eventPicture
 	
 	is_triggered_only = yes
@@ -1428,7 +1427,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.30.option.a
+		name = ixa_dynastic.30.option.a
 
 		define_ruler = {
 			dynasty = ROOT
@@ -1463,7 +1462,7 @@ country_event = {
 	}
 	
 	option = {
-		name = wwu_dynastic.30.option.b
+		name = ixa_dynastic.30.option.b
 		random_known_country = {
 			limit = {
 				has_country_flag = dyn_woman_pretender_flag

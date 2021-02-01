@@ -717,10 +717,7 @@ country_event = {
 	picture = UNDEAD_eventPicture
 	
 	trigger = {
-		OR = {
-            has_reform = scourge_reform
-            has_reform = scourge_domain_reform
-        }
+		always = no
 		has_heir = no
 	}
 	

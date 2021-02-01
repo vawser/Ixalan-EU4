@@ -308,13 +308,6 @@ on_new_monarch = {
 			remove_province_modifier = home_of_consort
 		}
 	}
-
-	if = {
-		limit = {
-			has_reform = ixa_hereditary_rule_reform
-		}
-		set_country_flag = country_has_no_heir
-	}
     
     events = {
 		ixa_dynastic.19

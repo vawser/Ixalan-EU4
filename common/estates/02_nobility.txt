@@ -8,16 +8,7 @@ estate_nobility = {
 
 	# ----- Conditions -----
 	trigger = {
-		OR = {
-			is_nomad = no
-			AND = { 
-				is_nomad = yes 
-				OR = {
-					religion = fel 
-					is_old_god_religion = yes
-				}
-			}
-		}
+		is_nomad = no
 	}
 
 	# ----- Country -----

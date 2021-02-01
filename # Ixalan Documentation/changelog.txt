@@ -1,9 +1,22 @@
 #------------------------------
+# Lore
+#------------------------------
+Continents:
+ - Azathor (right)
+ - Grimhind (lower right)
+ - Kanlos (Upper mid)
+ - Yghor (Lower mid)
+ - Ashfall (Elf crater)
+ - Siavess (Islands)
+ 
+Lizardmen civilization
+ - In jungle on Azathor
+ - Feudal states
+ - Lead by an Emperor in a loose federation, HRE style
+  - This due to the threat of X from the plains to the north
+ 
+
+ 
+#------------------------------
 # Notes
-#------------------------------
-
-HUM 
-
-#------------------------------
-# Credits
 #------------------------------
