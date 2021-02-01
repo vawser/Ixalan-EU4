@@ -149,13 +149,13 @@ country_event = {
 		NOT = { mercantilism = 100 }
 		NOT = {
 			any_owned_province = {
-				trade_goods = cal_metals
+				trade_goods = ixa_metals
 			}
 		}
 		any_neighbor_country = {
 			NOT = { war_with = ROOT }
 			any_owned_province = {
-				trade_goods = cal_metals
+				trade_goods = ixa_metals
 			}
 			NOT = {
 				has_opinion_modifier = {
@@ -178,7 +178,7 @@ country_event = {
 			limit = {
 				NOT = { war_with = ROOT }
 				any_owned_province = {
-					trade_goods = cal_metals
+					trade_goods = ixa_metals
 				}
 				NOT = {
 					has_opinion_modifier = {
@@ -215,13 +215,13 @@ country_event = {
 		}
 		NOT = {
 			any_owned_province = {
-				trade_goods = cal_lumber
+				trade_goods = ixa_lumber
 			}
 		}
 		any_neighbor_country = {
 			NOT = { war_with = ROOT }
 			any_owned_province = {
-				trade_goods = cal_lumber
+				trade_goods = ixa_lumber
 			}
 			NOT = {
 				has_opinion_modifier = {
@@ -244,7 +244,7 @@ country_event = {
 			limit = {
 				NOT = { war_with = ROOT }
 				any_owned_province = {
-					trade_goods = cal_lumber
+					trade_goods = ixa_lumber
 				}
 				NOT = {
 					has_opinion_modifier = {

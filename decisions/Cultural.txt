@@ -1,5 +1,5 @@
 country_decisions = {
-	cal_cultural_shift = {
+	ixa_cultural_shift = {
 		potential = {
 			capital_scope = {
 				NOT = { culture = ROOT }

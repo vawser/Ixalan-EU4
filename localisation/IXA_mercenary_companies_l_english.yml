@@ -1,0 +1,20 @@
+﻿l_english:
+ ixa_merc_small_infantry: "Small Infantry Company"
+ ixa_merc_small_cavalry: "Small Cavalry Company"
+ ixa_merc_small_artillery: "Small Artillery Company"
+ 
+ ixa_merc_medium_infantry: "Medium Infantry Company"
+ ixa_merc_medium_cavalry: "Medium Cavalry Company"
+ ixa_merc_medium_artillery: "Medium Artillery Company"
+ 
+ ixa_merc_big_infantry: "Large Infantry Company"
+ ixa_merc_big_cavalry: "Large Cavalry Company"
+ ixa_merc_big_artillery: "Large Artillery Company"
+ 
+ ixa_merc_disciplined_infantry: "Veteran Infantry Company"
+ ixa_merc_disciplined_cavalry: "Veteran Cavalry Company"
+ ixa_merc_disciplined_artillery: "Veteran Artillery Company"
+ 
+ ixa_merc_heroic_infantry: "Heroic Infantry Company"
+ ixa_merc_heroic_cavalry: "Heroic Cavalry Company"
+ ixa_merc_heroic_artillery: "Heroic Artillery Company"

@@ -1,0 +1,214 @@
+﻿l_english:
+ #-----------------------------------
+ # Generic Missions
+ #-----------------------------------
+ ixa_military_missions: "Military Missions"
+ 
+ ixa_build_army_mission_title: "Build to Force Limit"
+ ixa_build_army_mission_desc: "Any growing country must maintain a reasonably sized army. By expanding our forces we can both further our political interests abroad and stimulate our domestic economy."
+ 
+ ixa_expand_country_mission_title: "Expand [Root.GetName]"
+ ixa_expand_country_mission_desc: "We have been given a strong and viable country by those that came before us. It is time we expand upon our legacy and grow [Root.GetName] so that we may leave a stronger and more influential country to our children."
+ 
+ ixa_conquer_states_title: "Conquer New States"
+ ixa_conquer_states_desc: "As we expand we must ensure that we can truly integrate the new lands we conquer into our administrative apparatus. After conquest comes the hard work of establishing true [Root.GetAdjective] Rule over the conquered territories."
+ 
+ ixa_assemble_an_army_title: "Assemble An Army"
+ ixa_assemble_an_army_desc: "Our territorial ambitions require a grand army. We must build and maintain a strong standing army that can defend and expand the lands under our rule."
+ 
+ ixa_unite_home_region_title: "Unite Home Region"
+ ixa_unite_home_region_desc: "The time has come to put all our hard work to build a viable military machine to the test. We must rise to be the true hegemon of our region, respected and feared by all."
+ 
+ ixa_diplomatic_missions: "Diplomatic Missions"
+ 
+ ixa_building_alliances_title: "Trustworthy Allies"
+ ixa_building_alliances_desc: "No country can stand alone in this world. We must build lasting relationships with other countries if we are to be able to grow and prosper long term."
+ 
+ ixa_have_two_subjects_title: "Acquire Subjects"
+ ixa_have_two_subjects_desc: "What good is power if no one recognizes it? We must acquire subject states that pay us the kind of respect one would expect from a country like [Root.GetName]."
+ 
+ ixa_establish_high_seas_navy_title: "Create a Grand Fleet"
+ ixa_establish_high_seas_navy_desc: "In order to be able to project power overseas a high seas navy is a must. Warships may be expensive but it is an investment that is well worth it if we can find new markets to dominate and peoples to conquer."
+ 
+ ixa_dominate_home_trade_node_title: "Dominate Trade"
+ ixa_dominate_home_trade_node_desc: "Our merchant communities have been growing stronger and stronger for a long time now. It is time we give them the help they require to truly dominate our domestic trade. No foreign power must be allowed to influence the well being of our subjects."
+ ixa_dominant_home_node_reward_tooltip: "For the rest of the campaign one owned province in your Home Trade Node will get:\nLocal Trade Power: §G+10.00§!\nLocal Development Cost: §G-5%§!"
+ 
+ ixa_trade_company_region_abroad_title: "Expand Overseas"
+ ixa_trade_company_region_abroad_desc: "As big as the world is it is still interconnected through a number of vital trade routes. In an ancient order cloth, spices, metals, bullion, Chinaware and all kind of manufactured goods are brought across deserts and oceans to those who would pay the most for them. Taking a share of this trade, through acquiring useful ports in trade regions far abroad, could make even the smallest power richer than Croesus."
+ 
+ ixa_administrative_missions: "Administrative Missions"
+ 
+ ixa_high_income_mission_title: "High Income"
+ ixa_high_income_mission_desc: "We must increase state income by any means necessary. Money is a requirement for any endeavor of the state, from the daily expenses of the government to the maintenance of armies to invade our enemies."
+ 
+ ixa_build_temples_title: "Build Buildings"
+ ixa_build_temples_desc: "Let us never sit idle, even in peaceful times. Instead we must use our resources with industry, in order to make sure that we have funds available in time if misfortune should strike upon us."
+ 
+ ixa_build_treasury_title: "Build a Treasury"
+ ixa_build_treasury_desc: "A large treasury is an imperative buffer for all things that could befall us through. If this is seen as miserly, it is because some do not realize that this vice is the very essence of what it means to reign."
+ 
+ ixa_build_manufactories_title: "Build Manufactories"
+ ixa_build_manufactories_desc: "Great advances are being made in the field of production, both technological and organizational. Let us invest greatly in new manufactories, a great industrious revolution might soon be upon us."
+ 
+ ixa_imperial_ambition_mission_title: "Imperial Conquest"
+ ixa_imperial_ambition_mission_desc: "Securing wealth must always be the foremost priority of our state. Let us make use of the expensive armies and fleets that our economic prosperity has bought us to acquire even more resources and subjects for an aspiring empire."
+ 
+ # --- Modifiers ---
+ mission_prepared_army: "Prepared Army"
+ desc_mission_prepared_army: ""
+ 
+ mission_prosperity_of_capital: "Prosperity of Capital"
+ desc_mission_prosperity_of_capital: ""
+ 
+ mission_expansionist_nation: "Expansionist Nation"
+ desc_mission_expansionist_nation: ""
+ 
+ mission_military_enthusiasm: "Military Enthusiasm"
+ desc_mission_military_enthusiasm: ""
+ 
+ mission_hegemonic_unity: "Hegemonic Unity"
+ desc_mission_hegemonic_unity: ""
+ 
+ mission_influential_diplomats: "Influential Diplomats"
+ desc_mission_influential_diplomats: ""
+ 
+ mission_submissive_subjects: "Submissive Subjects"
+ desc_mission_submissive_subjects: ""
+ 
+ mission_naval_pride: "Naval Pride"
+ desc_mission_naval_pride: ""
+ 
+ mission_dominant_trade_hub: "Dominant Trade Hub"
+ desc_mission_dominant_trade_hub: ""
+ 
+ mission_trade_company_rush: "Trade Company Rush"
+ desc_mission_trade_company_rush: ""
+ 
+ mission_bolstering_economy: "Bolstering Economy"
+ desc_mission_bolstering_economy: ""
+ 
+ mission_construction_spree: "Construction Spree"
+ desc_mission_construction_spree: ""
+ 
+ mission_healthy_treasury: "Healthy Treasury"
+ desc_mission_healthy_treasury: ""
+ 
+ mission_mass_production: "Mass Production"
+ desc_mission_mass_production: ""
+ 
+ mission_hegemonic_ambition: "Hegemonic Ambition"
+ desc_mission_hegemonic_ambition: ""
+ 
+ #-----------------------------------
+ # Orcish Horde
+ #-----------------------------------
+ TOH_missions_1: "Orcish Horde Missions"
+ 
+ TOH_prepare_for_the_assault_title: "Prepare for the Assault"
+ TOH_prepare_for_the_assault_desc: "We must amass our forces before we assault the human lands."
+ 
+ TOH_devastate_the_humans_title: "Devastate the Humans"
+ TOH_devastate_the_humans_desc: "We must take Stormwind Keep so the might of the Horde is clear to all."
+ 
+ TOH_consolidate_conquests_title: "Consolidate Conquests"
+ TOH_consolidate_conquests_desc: "The humans have been crushed, and their forces retreat. Let us establish a base of operations in Azeroth to better strike deeper into its heartlands."
+ 
+ TOH_destroy_lakeshire_title: "Destroy Lakeshire"
+ TOH_destroy_lakeshire_desc: "Few humans remain, but those that do appear to have fled to the Redridge Mountains. Let us root them out!"
+ 
+ TOH_control_blackrock_mountain_title: "Control Blackrock Mountain"
+ TOH_control_blackrock_mountain_desc: "With the Redridge Mountains under our control, it is time to assault the Burning Steppes and delve deep within Blackrock Mountain to plunder the riches that lay below."
+ 
+ # --- Modifiers
+ mission_orc_might: "Orc Might"
+ desc_mission_orc_might: ""
+ 
+ mission_blackrock_mountain: "Blackrock Mountain"
+ desc_mission_blackrock_mountain: ""
+ 
+ #-----------------------------------
+ # Stormwind
+ #-----------------------------------
+ SRW_missions_1: "Stormwind Missions"
+ SRW_missions_branch_1: "Stormwind Missions"
+ SRW_missions_branch_2: "Stormwind Missions"
+ SRW_missions_branch_3: "Stormwind Missions"
+ 
+ SRW_repel_the_orcs_title: "Repel the Orcs"
+ SRW_repel_the_orcs_desc: "We must push the Orcish Horde back into the Swamp of Sorrow, otherwise we risk being overrun!"
+ 
+ SRW_quell_unrest_title: "Quell Unrest"
+ SRW_quell_unrest_desc: "The recent orc raids have caused tensions to run high in our subjects. We must assure them of our protection, otherwise these tensions could erupt into all out war."
+ 
+ SRW_control_the_swamp_title: "Control the Swamp"
+ SRW_control_the_swamp_desc: "With the Orcish Horde retreating, it is now time to secure the swamp for ourselves."
+ 
+ SRW_contain_the_orcish_horde_title: "Contain the Orcish Horde"
+ SRW_contain_the_orcish_horde_desc: "We must eliminate any escape route for the orcs, otherwise our attempts to destroy the Dark Portal may be thwarted."
+ 
+ SRW_destroy_the_dark_portal_title: "Destroy the Dark Portal"
+ SRW_destroy_the_dark_portal_desc: "With the Orcish Horde renders insignificant, we can now call upon Khadgar to destroy the Dark Portal and end the orc threat."
+ 
+ SRW_secure_the_redridge_mountains_title: "Secure the Redridge Mountains"
+ SRW_secure_the_redridge_mountains_desc: "Bands of gnolls patrol the Redridge mountains, harassing caravans and killing unwary travellers. Let us cleanse the mountains of these virmen."
+ 
+ SRW_neutralize_the_dark_iron_threat_title: "Neutralize the Dark Iron Threat"
+ SRW_neutralize_the_dark_iron_threat_desc: "The Kingdom of Thaurassian remains a threat to Stormwind whilst they submit to Ragnaros. Let us force them to retreat deep within the mountain, rendering their threat non-existent."
+ 
+ SRW_secure_the_jungles_of_stranglethorn_title: "Secure the Jungles of Stranglethorn"
+ SRW_secure_the_jungles_of_stranglethorn_desc: "The trolls of Stranglethorn have posed a threat to the subjects of Stormwind for far too long. Let us root out their stronghold and send their tribes scattering."
+ 
+ SRW_wipe_out_the_trolls_title: "Wipe out the Trolls"
+ SRW_wipe_out_the_trolls_desc: "The trolls are vicious warriors, and will not soon forget our recent incursion into Zul'Gurub. We must wipe out all remaining troll tribes in Stranglethorn Vale, otherwise they may re-group."
+ 
+ SRW_establish_settlements_in_kalimdor_title: "Establish Settlements in Kalimdor"
+ SRW_establish_settlements_in_kalimdor_desc: "News of a distant land to the far west has roused the [Root.Monarch.GetTitle]'s attention. It would be expedient if we begin settlement of the coastline of the continent they dub 'Kalimdor'."
+ 
+ SRW_secure_outposts_in_northrend_title: "Secure Outposts in Northrend"
+ SRW_secure_outposts_in_northrend_desc: "The frozen wastes of Northrend have often been thought of little use to any human kingdom. But activity in the area has called for a base of operations, so it would be wise to secure valuable land that could serve as such a base."
+ 
+ SRW_unveil_pandaria_title: "Unveil Pandaria"
+ SRW_unveil_pandaria_desc: "The mysterious continent of Pandaria has been revealed to our forces after an accidental landing by one of our fleets. It would be wise to setup a base of operations so we can communicate more readily with these 'pandaren'."
+ 
+ # --- Modifiers
+ mission_loyal_subjects: "Loyal Subjects"
+ desc_mission_loyal_subjects: ""
+ 
+ mission_saviours_of_azeroth: "Saviours of Azeroth"
+ desc_mission_saviours_of_azeroth: ""
+ 
+ mission_destruction_of_the_dark_portal: "Destruction of the Dark Portal"
+ desc_mission_destruction_of_the_dark_portal: ""
+ 
+ mission_secured_the_northern_border: "Secured the Northern Border"
+ desc_mission_secured_the_northern_border: ""
+ 
+ mission_secured_the_southern_border: "Secured the Southern Border"
+ desc_mission_secured_the_southern_border: ""
+ 
+ mission_kalimdor_settlers: "Kalimdor Settlers"
+ desc_mission_kalimdor_settlers: ""
+ 
+ mission_northrend_settlers: "Northrend Settlers"
+ desc_mission_northrend_settlers: ""
+ 
+ mission_pandaria_settlers: "Pandaria Settlers"
+ desc_mission_pandaria_settlers: ""
+ 
+ #-----------------------------------
+ # Orc Clans
+ #-----------------------------------
+ orc_clan_missions_branch_1: "Orc Clan Missions"
+ orc_clan_missions_branch_2: "Orc Clan Missions"
+ orc_clan_missions_branch_3: "Orc Clan Missions"
+ 
+ orc_annex_karabor_title: "Annex Karabor"
+ orc_annex_karabor_desc: "We must eliminate the Draenei from Draenor, no matter the cost."
+ 
+ orc_annex_shattrath_title: "Annex Shattrath"
+ orc_annex_shattrath_desc: "We must eliminate the Draenei from Draenor, no matter the cost."
+ 
+ orc_annex_auchenai_title: "Annex Auchenai"
+ orc_annex_auchenai_desc: "We must eliminate the Draenei from Draenor, no matter the cost."
+ 

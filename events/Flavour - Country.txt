@@ -562,7 +562,7 @@ country_event = {
 		
 		modifier = {
 			factor = 2.0
-			NOT = { cal_innovation_ideas = 1 }
+			NOT = { wwu_innovation_ideas = 1 }
 		}
 		modifier = {
 			factor = 0.5
@@ -991,7 +991,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea = cal_exploration_ideas_2
+		has_idea = wwu_exploration_ideas_2
 		num_of_ports = 1
 		NOT =  { has_country_modifier = monetary_benefits }
 		NOT =  { has_country_modifier = colonial_enthusiasm }
@@ -1003,7 +1003,7 @@ country_event = {
 		
 		modifier = {
 			factor = 2.0
-			has_idea = cal_exploration_ideas_3
+			has_idea = wwu_exploration_ideas_3
 		}
 		modifier = {
 			factor = 2.0
@@ -1685,7 +1685,7 @@ country_event = {
 		
 		modifier = {
 			factor = 2.0
-			cal_monarchy_ideas = 7
+			wwu_monarchy_ideas = 7
 		}
 		modifier = {
 			factor = 0.5
@@ -2506,7 +2506,7 @@ country_event = {
 		
 		modifier = {
 			factor = 2.0
-			NOT = { cal_economic_ideas = 2 }
+			NOT = { wwu_economic_ideas = 2 }
 		}
 		modifier = {
 			factor = 1.25
@@ -2606,7 +2606,7 @@ country_event = {
 		
 		modifier = {
 			factor = 2.0
-			cal_monarchy_ideas = 5
+			wwu_monarchy_ideas = 5
 		}
 		modifier = {
 			factor = 0.5
@@ -2759,7 +2759,7 @@ country_event = {
 	trigger = {
 		OR = {
 			government = monarchy
-			has_reform = republic_reform
+			has_reform = noble_republic_reform
 		}
 		NOT = {
 			has_country_modifier = tax_income_loss
@@ -3973,7 +3973,7 @@ country_event = {
 		modifier = {
 			factor = 2.0
 			NOT = { statesman = 1 }
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 		modifier = {
 			factor = 0.5
@@ -6973,7 +6973,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea = cal_exploration_ideas_2
+		has_idea = wwu_exploration_ideas_2
 		is_civilized = yes
 		any_owned_province = {
 			is_colony = yes
@@ -7809,7 +7809,7 @@ country_event = {
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 1
-				trade_goods = cal_gold
+				trade_goods = wwu_gold
 				OR = {
 					is_overseas = yes
 					owner = {
@@ -7819,7 +7819,7 @@ country_event = {
 			}
 		}
 		NOT = {
-			cal_gold = 1
+			wwu_gold = 1
 		}
 	}
 	
@@ -7837,7 +7837,7 @@ country_event = {
 					}
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						trade_goods = cal_gold
+						trade_goods = wwu_gold
 						OR = {
 							is_overseas = yes
 							owner = {
@@ -8772,7 +8772,7 @@ country_event = {
 	
 	trigger = {
 		is_civilized = yes
-		has_idea_group = cal_innovation_ideas
+		has_idea_group = wwu_innovation_ideas
 	}
 	
 	mean_time_to_happen = {
@@ -9173,7 +9173,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		cal_food = 1
+		wwu_food = 1
 	}
 
 	mean_time_to_happen = {
@@ -9197,7 +9197,7 @@ country_event = {
 	
 
 	trigger = {
-		cal_food = 1
+		wwu_food = 1
 		NOT = { has_country_modifier = excellent_vintage }
 	}
 	
@@ -9225,7 +9225,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		cal_food  = 1
+		wwu_food  = 1
 	}
 
 	is_triggered_only = yes
@@ -9250,7 +9250,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		cal_textiles = 1
+		wwu_textiles = 1
 	}
 
 	is_triggered_only = yes
@@ -9273,7 +9273,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		cal_textiles = 1 
+		wwu_textiles = 1 
 		NOT = { has_country_modifier = poor_uniforms }
 	}
 
@@ -9301,7 +9301,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		cal_oil =  1
+		wwu_oil =  1
 		num_of_ports = 1
 		primitives = no
 	}
@@ -9327,7 +9327,7 @@ country_event = {
 	picture = TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture
 
 	trigger = {
-		cal_food = 1
+		wwu_food = 1
 		NOT = { has_country_modifier = salt_crisis }
 	}
 
@@ -9355,7 +9355,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		cal_lumber = 1
+		wwu_lumber = 1
 		num_of_ports = 1
 		primitives = no
 		NOT = { has_country_modifier = good_supplies }
@@ -9384,7 +9384,7 @@ country_event = {
 	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
 
 	trigger = {
-		cal_metals = 1
+		wwu_metals = 1
 		mil_tech = 7
 		NOT = { has_country_modifier = poor_copper }
 	}
@@ -9412,7 +9412,7 @@ country_event = {
 	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
 
 	trigger = {
-		cal_gold = 1
+		wwu_gold = 1
 	}
 
 	is_triggered_only = yes
@@ -9436,7 +9436,7 @@ country_event = {
 	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
 
 	trigger = {
-		cal_metals = 1
+		wwu_metals = 1
 		NOT = { has_country_modifier = poor_iron }
 	}
 
@@ -9630,10 +9630,10 @@ country_event = {
 	goto = plague_province
 
 	trigger = {
-		cal_food = 1
+		wwu_food = 1
 		num_of_cities = 2
 		any_owned_province = {
-			trade_goods = cal_food
+			trade_goods = wwu_food
 			is_capital = no
 		}
 	}
@@ -9642,7 +9642,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					trade_goods = cal_food
+					trade_goods = wwu_food
 					is_capital = no
 				}
 				save_event_target_as = plague_province
@@ -9690,7 +9690,7 @@ country_event = {
 	goto = province_in_question
 
 	trigger = {
-		cal_food = 1
+		wwu_food = 1
 	}
 	
 	
@@ -9704,7 +9704,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					trade_goods = cal_food
+					trade_goods = wwu_food
 				}		
 				save_event_target_as = province_in_question
 			}

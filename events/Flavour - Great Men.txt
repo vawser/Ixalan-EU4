@@ -1,8 +1,8 @@
-namespace = cal_great_men
+namespace = wwu_great_men
 
 # Philosopher
 country_event = {
-	id = cal_great_men.1
+	id = wwu_great_men.1
 	title = "EVTNAME4021"
 	desc = "EVTDESC4021"
 	picture = ADVISOR_eventPicture
@@ -17,19 +17,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -66,7 +66,7 @@ country_event = {
 
 # Natural Scientist
 country_event = {
-	id = cal_great_men.2
+	id = wwu_great_men.2
 	title = "EVTNAME4022"
 	desc = "EVTDESC4022"
 	picture = ADVISOR_eventPicture
@@ -81,19 +81,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -139,7 +139,7 @@ country_event = {
 
 # Army Reformer
 country_event = {
-	id = cal_great_men.3
+	id = wwu_great_men.3
 	title = "EVTNAME4023"
 	desc = "EVTDESC4023"
 	picture = REFORM_eventPicture
@@ -154,19 +154,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -211,7 +211,7 @@ country_event = {
 
 # Naval reformer
 country_event = {
-	id = cal_great_men.4
+	id = wwu_great_men.4
 	title = "EVTNAME4024"
 	desc = "EVTDESC4024"
 	picture = REFORM_eventPicture
@@ -226,19 +226,19 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -284,7 +284,7 @@ country_event = {
 
 # Artist
 country_event = {
-	id = cal_great_men.5
+	id = wwu_great_men.5
 	title = "EVTNAME4025"
 	desc = "EVTDESC4025"
 	picture = PAINTER_ARTIST_eventPicture
@@ -300,19 +300,19 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -358,7 +358,7 @@ country_event = {
 
 # Treasurer
 country_event = {
-	id = cal_great_men.6
+	id = wwu_great_men.6
 	title = "EVTNAME4026"
 	desc = "EVTDESC4026"
 	picture = ADVISOR_eventPicture
@@ -374,19 +374,19 @@ country_event = {
 	
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -432,7 +432,7 @@ country_event = {
 
 # Theologian
 country_event = {
-	id = cal_great_men.7
+	id = wwu_great_men.7
 	title = "EVTNAME4027"
 	desc = "EVTDESC4027"
 	picture = ADVISOR_eventPicture
@@ -448,19 +448,19 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -506,7 +506,7 @@ country_event = {
 
 # Statesman
 country_event = {
-	id = cal_great_men.8
+	id = wwu_great_men.8
 	title = "EVTNAME4028"
 	desc = "EVTDESC4028"
 	picture = ADVISOR_eventPicture
@@ -522,19 +522,19 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -580,7 +580,7 @@ country_event = {
 
 # Colonial Governor
 country_event = {
-	id = cal_great_men.9
+	id = wwu_great_men.9
 	title = "EVTNAME4029"
 	desc = "EVTDESC4029"
 	picture = ADVISOR_eventPicture
@@ -596,19 +596,19 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -654,7 +654,7 @@ country_event = {
 
 # Spymaster
 country_event = {
-	id = cal_great_men.10
+	id = wwu_great_men.10
 	title = "EVTNAME4030"
 	desc = "EVTDESC4030"
 	picture = ADVISOR_eventPicture
@@ -669,19 +669,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -727,7 +727,7 @@ country_event = {
 
 # Diplomat
 country_event = {
-	id = cal_great_men.11
+	id = wwu_great_men.11
 	title = "EVTNAME4031"
 	desc = "EVTDESC4031"
 	picture = ADVISOR_eventPicture
@@ -742,19 +742,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -793,7 +793,7 @@ country_event = {
 
 # Trader
 country_event = {
-	id = cal_great_men.12
+	id = wwu_great_men.12
 	title = "EVTNAME4032"
 	desc = "EVTDESC4032"
 	picture = ADVISOR_eventPicture
@@ -809,19 +809,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -860,7 +860,7 @@ country_event = {
 
 # Master of Mint
 country_event = {
-	id = cal_great_men.13
+	id = wwu_great_men.13
 	title = "EVTNAME4104"
 	desc = "EVTDESC4104"
 	picture = ADVISOR_eventPicture	
@@ -876,19 +876,19 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -934,7 +934,7 @@ country_event = {
 
 # navigator
 country_event = {
-	id = cal_great_men.14
+	id = wwu_great_men.14
 	title = "EVTNAME4110"
 	desc = "EVTDESC4110"
 	picture = ADVISOR_eventPicture
@@ -949,19 +949,19 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -1007,7 +1007,7 @@ country_event = {
 
 # grand_captain
 country_event = {
-	id = cal_great_men.15
+	id = wwu_great_men.15
 	title = "EVTNAME4114"
 	desc = "EVTDESC4114"
 	picture = ADVISOR_eventPicture	
@@ -1022,19 +1022,19 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -1080,7 +1080,7 @@ country_event = {
 
 # army_organiser
 country_event = {
-	id = cal_great_men.16
+	id = wwu_great_men.16
 	title = "EVTNAME4115"
 	desc = "EVTDESC4115"
 	picture = ADVISOR_eventPicture
@@ -1095,19 +1095,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -1153,7 +1153,7 @@ country_event = {
 
 # commandant
 country_event = {
-	id = cal_great_men.17
+	id = wwu_great_men.17
 	title = "EVTNAME4116"
 	desc = "EVTDESC4116"
 	picture = ADVISOR_eventPicture
@@ -1169,19 +1169,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -1227,7 +1227,7 @@ country_event = {
 
 # Quartermaster
 country_event = {
-	id = cal_great_men.18
+	id = wwu_great_men.18
 	title = "EVTNAME4117"
 	desc = "EVTDESC4117"
 	picture = ADVISOR_eventPicture
@@ -1242,19 +1242,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -1300,7 +1300,7 @@ country_event = {
 
 # Recruitmaster
 country_event = {
-	id = cal_great_men.19
+	id = wwu_great_men.19
 	title = "EVTNAME4118"
 	desc = "EVTDESC4118"
 	picture = ADVISOR_eventPicture	
@@ -1315,19 +1315,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -1373,7 +1373,7 @@ country_event = {
 
 # Fortification Expert
 country_event = {
-	id = cal_great_men.20
+	id = wwu_great_men.20
 	title = "EVTNAME4119"
 	desc = "EVTDESC4119"
 	picture = ADVISOR_eventPicture
@@ -1388,19 +1388,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	
@@ -1446,7 +1446,7 @@ country_event = {
 
 # Inquisitor
 country_event = {
-	id = cal_great_men.21
+	id = wwu_great_men.21
 	title = "EVTNAME4120"
 	desc = "EVTDESC4120"
 	picture = ADVISOR_eventPicture	
@@ -1462,19 +1462,19 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 4
+			wwu_innovation_ideas = 4
 		}
 		modifier = {
 			factor = 0.9
-			cal_innovation_ideas = 6
+			wwu_innovation_ideas = 6
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 4 }
+			NOT = { wwu_innovation_ideas = 4 }
 		}
 		modifier = {
 			factor = 1.1
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { wwu_innovation_ideas = 2 }
 		}
 	}
 	

@@ -33,10 +33,10 @@ technology = {
     may_agitate_for_liberty = yes
 	may_infiltrate_administration = yes
 	
-	enable = cal_battleship_1
-	enable = cal_frigate_1
-	enable = cal_destroyer_1
-	enable = cal_carrier_1
+	enable = warcraft_battleship_1
+	enable = warcraft_frigate_1
+	enable = warcraft_destroyer_1
+	enable = warcraft_carrier_1
     
     wow_shipyard = yes
     wow_dockyard = yes
@@ -204,10 +204,10 @@ technology = {
 
     naval_morale = 0.25
     
-    enable = cal_battleship_2
-	enable = cal_frigate_2
-	enable = cal_destroyer_2
-	enable = cal_carrier_2
+    enable = warcraft_battleship_2
+	enable = warcraft_frigate_2
+	enable = warcraft_destroyer_2
+	enable = warcraft_carrier_2
 }
 
 technology = {

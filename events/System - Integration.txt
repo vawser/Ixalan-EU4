@@ -1,16 +1,16 @@
-namespace = cal_integration
+namespace = ixa_integration
 
 # Integrating FROMCOUNTRY
 country_event = {
-	id = cal_integration.1
-	title = cal_integration.1.title
-	desc = cal_integration.1.desc
+	id = ixa_integration.1
+	title = ixa_integration.1.title
+	desc = ixa_integration.1.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = cal_integration.1.option.a
+		name = ixa_integration.1.option.a
 		
 		add_country_modifier = {
 			name = "annexers_legacy"

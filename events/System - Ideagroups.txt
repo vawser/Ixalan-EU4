@@ -1,22 +1,22 @@
-namespace = cal_ideagroups
+namespace = ixa_ideagroups
 
 country_event = {
-	id = cal_ideagroups.100
-	title = cal_ideagroups.100.title
-	desc = cal_ideagroups.100.desc
+	id = ixa_ideagroups.100
+	title = ixa_ideagroups.100.title
+	desc = ixa_ideagroups.100.desc
 	picture = ADVISOR_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = cal_ideagroups.100.option.a
+		name = ixa_ideagroups.100.option.a
         
 		ai_chance = { factor = 1 }
 		trigger = { has_custom_ideas = no }
 		swap_free_idea_group = yes
 	}
 	option = {
-		name = cal_ideagroups.100.option.b
+		name = ixa_ideagroups.100.option.b
         
 		ai_chance = { factor = 0 }
 	}
@@ -24,13 +24,13 @@ country_event = {
 
 # Loyal Administration in X
 province_event = {
-	id = cal_ideagroups.1
-	title = cal_ideagroups.1.title
-	desc = cal_ideagroups.1.desc
+	id = ixa_ideagroups.1
+	title = ixa_ideagroups.1.title
+	desc = ixa_ideagroups.1.desc
 	picture = CULTURE_eventPicture
 	
 	trigger = {
-		owner = { has_idea = cal_administrative_ideas_6 }
+		owner = { has_idea = ixa_administrative_ideas_6 }
         NOT = { is_core = owner }
 	}
 	
@@ -41,7 +41,7 @@ province_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.1.option.a
+		name = ixa_ideagroups.1.option.a
 		
         add_core = owner
 	}
@@ -49,14 +49,14 @@ province_event = {
 
 # Prosperity in X
 province_event = {
-	id = cal_ideagroups.2
-	title = cal_ideagroups.2.title
-	desc = cal_ideagroups.2.desc
+	id = ixa_ideagroups.2
+	title = ixa_ideagroups.2.title
+	desc = ixa_ideagroups.2.desc
 	picture = CULTURE_eventPicture
 	
 	trigger = {
         owner = { has_dlc = "Mandate of Heaven" }
-		owner = { has_idea = cal_harmony_ideas_6 }
+		owner = { has_idea = ixa_harmony_ideas_6 }
 	}
 	
     is_mtth_scaled_to_size = 1
@@ -66,7 +66,7 @@ province_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.2.option.a
+		name = ixa_ideagroups.2.option.a
 		
         add_prosperity = 25
 	}
@@ -74,13 +74,13 @@ province_event = {
 
 # Recovery in X
 province_event = {
-	id = cal_ideagroups.3
-	title = cal_ideagroups.3.title
-	desc = cal_ideagroups.3.desc
+	id = ixa_ideagroups.3
+	title = ixa_ideagroups.3.title
+	desc = ixa_ideagroups.3.desc
 	picture = CULTURE_eventPicture
 	
 	trigger = {
-		owner = { has_idea = cal_harmony_ideas_3 }
+		owner = { has_idea = ixa_harmony_ideas_3 }
         devastation = 0
 	}
 	
@@ -91,7 +91,7 @@ province_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.3.option.a
+		name = ixa_ideagroups.3.option.a
 		
         add_devastation = -25
 	}
@@ -99,13 +99,13 @@ province_event = {
 
 # Law and Order in X
 province_event = {
-	id = cal_ideagroups.4
-	title = cal_ideagroups.4.title
-	desc = cal_ideagroups.4.desc
+	id = ixa_ideagroups.4
+	title = ixa_ideagroups.4.title
+	desc = ixa_ideagroups.4.desc
 	picture = BATTLE_eventPicture
 	
 	trigger = {
-		owner = { has_idea = cal_law_ideas_1 }
+		owner = { has_idea = ixa_law_ideas_1 }
         nationalism = 0
 	}
 	
@@ -116,7 +116,7 @@ province_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.4.option.a
+		name = ixa_ideagroups.4.option.a
 		
         add_province_modifier = {
             name = law_and_order
@@ -127,13 +127,13 @@ province_event = {
 
 # Population Growth in X
 province_event = {
-	id = cal_ideagroups.5
-	title = cal_ideagroups.5.title
-	desc = cal_ideagroups.5.desc
+	id = ixa_ideagroups.5
+	title = ixa_ideagroups.5.title
+	desc = ixa_ideagroups.5.desc
 	picture = FEAST_eventPicture
 	
 	trigger = {
-		owner = { has_idea = cal_development_ideas_1 }
+		owner = { has_idea = ixa_development_ideas_1 }
 	}
 	
     is_mtth_scaled_to_size = 1
@@ -143,7 +143,7 @@ province_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.5.option.a
+		name = ixa_ideagroups.5.option.a
 		
         add_base_tax = 1
 	}
@@ -151,13 +151,13 @@ province_event = {
 
 # Manufacturing Growth in X
 province_event = {
-	id = cal_ideagroups.6
-	title = cal_ideagroups.6.title
-	desc = cal_ideagroups.6.desc
+	id = ixa_ideagroups.6
+	title = ixa_ideagroups.6.title
+	desc = ixa_ideagroups.6.desc
 	picture = FEAST_eventPicture
 	
 	trigger = {
-		owner = { has_idea = cal_development_ideas_1 }
+		owner = { has_idea = ixa_development_ideas_1 }
 	}
 	
     is_mtth_scaled_to_size = 1
@@ -167,7 +167,7 @@ province_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.6.option.a
+		name = ixa_ideagroups.6.option.a
 		
         add_base_production = 1
 	}
@@ -175,13 +175,13 @@ province_event = {
 
 # Manpower Growth in X
 province_event = {
-	id = cal_ideagroups.7
-	title = cal_ideagroups.7.title
-	desc = cal_ideagroups.7.desc
+	id = ixa_ideagroups.7
+	title = ixa_ideagroups.7.title
+	desc = ixa_ideagroups.7.desc
 	picture = FEAST_eventPicture
 	
 	trigger = {
-		owner = { has_idea = cal_development_ideas_1 }
+		owner = { has_idea = ixa_development_ideas_1 }
 	}
 	
     is_mtth_scaled_to_size = 1
@@ -191,7 +191,7 @@ province_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.7.option.a
+		name = ixa_ideagroups.7.option.a
 		
         add_base_manpower = 1
 	}
@@ -199,13 +199,13 @@ province_event = {
 
 # Centralization in X
 province_event = {
-	id = cal_ideagroups.8
-	title = cal_ideagroups.8.title
-	desc = cal_ideagroups.8.desc
+	id = ixa_ideagroups.8
+	title = ixa_ideagroups.8.title
+	desc = ixa_ideagroups.8.desc
 	picture = FEAST_eventPicture
 	
 	trigger = {
-		owner = { has_idea = cal_absolutism_ideas_1 }
+		owner = { has_idea = ixa_absolutism_ideas_1 }
         local_autonomy_above_min = 1 # Only affect provinces that can actually have autonomy lowered
 	}
 	
@@ -216,7 +216,7 @@ province_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.8.option.a
+		name = ixa_ideagroups.8.option.a
 		
         add_local_autonomy = -25
 	}
@@ -224,13 +224,13 @@ province_event = {
 
 # Integration of Royalty
 country_event = {
-	id = cal_ideagroups.9
-	title = cal_ideagroups.9.title
-	desc = cal_ideagroups.9.desc
+	id = ixa_ideagroups.9
+	title = ixa_ideagroups.9.title
+	desc = ixa_ideagroups.9.desc
 	picture = CULTURE_eventPicture
 	
 	trigger = {
-        has_idea = cal_influence_ideas_3
+        has_idea = ixa_influence_ideas_3
 		any_subject_country = {
             junior_union_with = ROOT
         }
@@ -241,7 +241,7 @@ country_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.9.option.a
+		name = ixa_ideagroups.9.option.a
 		
         hidden_effect = {
             random_subject_country = {
@@ -257,13 +257,13 @@ country_event = {
 
 # Integration of Vassal
 country_event = {
-	id = cal_ideagroups.10
-	title = cal_ideagroups.10.title
-	desc = cal_ideagroups.10.desc
+	id = ixa_ideagroups.10
+	title = ixa_ideagroups.10.title
+	desc = ixa_ideagroups.10.desc
 	picture = CULTURE_eventPicture
 	
 	trigger = {
-        has_idea = cal_influence_ideas_3
+        has_idea = ixa_influence_ideas_3
 		any_subject_country = {
             vassal_of = ROOT
         }
@@ -274,7 +274,7 @@ country_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.10.option.a
+		name = ixa_ideagroups.10.option.a
 		
         hidden_effect = {
             random_subject_country = {
@@ -290,13 +290,13 @@ country_event = {
 
 # Assimilation of X
 province_event = {
-	id = cal_ideagroups.11
-	title = cal_ideagroups.11.title
-	desc = cal_ideagroups.11.desc
+	id = ixa_ideagroups.11
+	title = ixa_ideagroups.11.title
+	desc = ixa_ideagroups.11.desc
 	picture = CULTURE_eventPicture
 	
 	trigger = {
-		owner = { has_idea = cal_assimilation_ideas_1 }
+		owner = { has_idea = ixa_assimilation_ideas_1 }
         NOT = { culture = owner }
 	}
 	
@@ -307,7 +307,7 @@ province_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.11.option.a
+		name = ixa_ideagroups.11.option.a
 		
         change_culture = owner
 	}
@@ -315,13 +315,13 @@ province_event = {
 
 # Wartime Communities
 country_event = {
-	id = cal_ideagroups.12
-	title = cal_ideagroups.12.title
-	desc = cal_ideagroups.12.desc
+	id = ixa_ideagroups.12
+	title = ixa_ideagroups.12.title
+	desc = ixa_ideagroups.12.desc
 	picture = BATTLE_eventPicture
 	
 	trigger = {
-        has_idea = cal_society_ideas_1
+        has_idea = ixa_society_ideas_1
         is_at_war = yes
 	}
 	
@@ -330,7 +330,7 @@ country_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.12.option.a
+		name = ixa_ideagroups.12.option.a
 		
         add_war_exhaustion = -10
 	}
@@ -338,14 +338,14 @@ country_event = {
 
 # Trusted Realm
 country_event = {
-	id = cal_ideagroups.13
-	title = cal_ideagroups.13.title
-	desc = cal_ideagroups.13.desc
+	id = ixa_ideagroups.13
+	title = ixa_ideagroups.13.title
+	desc = ixa_ideagroups.13.desc
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	trigger = {
         has_dlc = "The Cossacks"
-        has_idea = cal_influence_ideas_5
+        has_idea = ixa_influence_ideas_5
 	}
 	
 	mean_time_to_happen = {
@@ -353,7 +353,7 @@ country_event = {
 	}
 	
 	option = {
-		name = cal_ideagroups.13.option.a
+		name = ixa_ideagroups.13.option.a
 		
         every_country = {
             limit = { 

@@ -117,7 +117,7 @@ estate_nobility_develop_x = {
 			if = {
 				limit = { owned_by = root }
 				add_named_unrest = {
-					name = cal_local_nobility_displeased
+					name = ixa_local_nobility_displeased
 					value = 5
 				}
 			}
@@ -238,7 +238,7 @@ estate_nobility_build_a_barracks_in_y = {
 			if = {
 				limit = { owned_by = root }
 				add_named_unrest = {
-					name = cal_local_nobility_displeased
+					name = ixa_local_nobility_displeased
 					value = 5
 				}
 			}
@@ -359,7 +359,7 @@ estate_nobility_build_a_arsenal_in_y = {
 			if = {
 				limit = { owned_by = root }
 				add_named_unrest = {
-					name = cal_local_nobility_displeased
+					name = ixa_local_nobility_displeased
 					value = 5
 				}
 			}
@@ -480,7 +480,7 @@ estate_nobility_build_basic_fort_in_y = {
 			if = {
 				limit = { owned_by = root }
 				add_named_unrest = {
-					name = cal_local_nobility_displeased
+					name = ixa_local_nobility_displeased
 					value = 5
 				}
 			}

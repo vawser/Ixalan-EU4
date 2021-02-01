@@ -9,22 +9,22 @@ foreign_trade_hubs = {
 	}
 	allow = {
         AND = {
-            full_idea_group = cal_trade_ideas 
+            full_idea_group = ixa_trade_ideas 
             OR  = {
-                full_idea_group = cal_innovation_ideas 
-                full_idea_group = cal_religious_ideas
-                full_idea_group = cal_economic_ideas          
-                full_idea_group = cal_expansion_ideas
-                full_idea_group = cal_administrative_ideas
-                full_idea_group = cal_harmony_ideas
-                full_idea_group = cal_law_ideas
-                full_idea_group = cal_development_ideas
-                full_idea_group = cal_absolutism_ideas
-                full_idea_group = cal_autonomy_ideas
-                full_idea_group = cal_monarchy_ideas
-                full_idea_group = cal_republic_ideas
-                full_idea_group = cal_theocracy_ideas
-                full_idea_group = cal_tribal_ideas
+                full_idea_group = ixa_innovation_ideas 
+                full_idea_group = ixa_religious_ideas
+                full_idea_group = ixa_economic_ideas          
+                full_idea_group = ixa_expansion_ideas
+                full_idea_group = ixa_administrative_ideas
+                full_idea_group = ixa_harmony_ideas
+                full_idea_group = ixa_law_ideas
+                full_idea_group = ixa_development_ideas
+                full_idea_group = ixa_absolutism_ideas
+                full_idea_group = ixa_autonomy_ideas
+                full_idea_group = ixa_monarchy_ideas
+                full_idea_group = ixa_republic_ideas
+                full_idea_group = ixa_theocracy_ideas
+                full_idea_group = ixa_tribal_ideas
             }
         }
 	}
@@ -44,22 +44,22 @@ merchant_incentives = {
 	}
 	allow = {
         AND = {
-            full_idea_group = cal_trade_ideas
+            full_idea_group = ixa_trade_ideas
             OR  = {
-                full_idea_group = cal_espionage_ideas 
-                full_idea_group = cal_dynastic_ideas
-                full_idea_group = cal_influence_ideas
-                full_idea_group = cal_exploration_ideas
-                full_idea_group = cal_maritime_ideas
-                full_idea_group = cal_assimilation_ideas
-                full_idea_group = cal_society_ideas 
-                full_idea_group = cal_propaganda_ideas
-                full_idea_group = cal_naval_bombardment_ideas
-                full_idea_group = cal_naval_skirmish_ideas
-                full_idea_group = cal_naval_trade_ideas
-                full_idea_group = cal_naval_organisation_ideas
-                full_idea_group = cal_naval_leadership_ideas
-                full_idea_group = cal_naval_tactics_ideas
+                full_idea_group = ixa_espionage_ideas 
+                full_idea_group = ixa_dynastic_ideas
+                full_idea_group = ixa_influence_ideas
+                full_idea_group = ixa_exploration_ideas
+                full_idea_group = ixa_maritime_ideas
+                full_idea_group = ixa_assimilation_ideas
+                full_idea_group = ixa_society_ideas 
+                full_idea_group = ixa_propaganda_ideas
+                full_idea_group = ixa_naval_bombardment_ideas
+                full_idea_group = ixa_naval_skirmish_ideas
+                full_idea_group = ixa_naval_trade_ideas
+                full_idea_group = ixa_naval_organisation_ideas
+                full_idea_group = ixa_naval_leadership_ideas
+                full_idea_group = ixa_naval_tactics_ideas
             }
         }
 	}
@@ -79,23 +79,23 @@ forced_trading = {
 	}
 	allow = {
         AND = {
-            full_idea_group = cal_trade_ideas 
+            full_idea_group = ixa_trade_ideas 
             OR  = {
-                full_idea_group = cal_offensive_ideas
-                full_idea_group = cal_defensive_ideas
-                full_idea_group = cal_quality_ideas
-                full_idea_group = cal_quantity_ideas
-                full_idea_group = cal_professional_army_ideas  
-                full_idea_group = cal_mercenary_army_ideas
-                full_idea_group = cal_army_organisation_ideas
-                full_idea_group = cal_army_leadership_ideas
-                full_idea_group = cal_army_tactics_ideas
-                full_idea_group = cal_armaments_ideas
-                full_idea_group = cal_fortification_ideas
-                full_idea_group = cal_militarization_ideas
-                full_idea_group = cal_subjugation_ideas
-                full_idea_group = cal_tyranny_ideas
-                full_idea_group = cal_imperialism_ideas
+                full_idea_group = ixa_offensive_ideas
+                full_idea_group = ixa_defensive_ideas
+                full_idea_group = ixa_quality_ideas
+                full_idea_group = ixa_quantity_ideas
+                full_idea_group = ixa_professional_army_ideas  
+                full_idea_group = ixa_mercenary_army_ideas
+                full_idea_group = ixa_army_organisation_ideas
+                full_idea_group = ixa_army_leadership_ideas
+                full_idea_group = ixa_army_tactics_ideas
+                full_idea_group = ixa_armaments_ideas
+                full_idea_group = ixa_fortification_ideas
+                full_idea_group = ixa_militarization_ideas
+                full_idea_group = ixa_subjugation_ideas
+                full_idea_group = ixa_tyranny_ideas
+                full_idea_group = ixa_imperialism_ideas
             }
         }
 	}

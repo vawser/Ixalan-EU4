@@ -1,7 +1,7 @@
 #-----------------------------------------
 # "Cultural Values"
 #-----------------------------------------
-cal_martial_society_reform = {
+ixa_martial_society_reform = {
     icon = "martial_society_wwu"
 	allow_normal_conversion = yes
     
@@ -20,7 +20,7 @@ cal_martial_society_reform = {
 	}
 }
 
-cal_civil_society_reform = {
+ixa_civil_society_reform = {
 	icon = "civil_society_wwu"
 	allow_normal_conversion = yes
     
@@ -45,7 +45,7 @@ cal_civil_society_reform = {
 #-----------------------------------------
 # "Tribal Religion"
 #-----------------------------------------
-cal_religious_societies_reform = {
+ixa_religious_societies_reform = {
 	icon = "religious_societies_wwu"
 	allow_normal_conversion = yes
     
@@ -67,7 +67,7 @@ cal_religious_societies_reform = {
 	}
 }
 
-cal_lip_service_reform = {
+ixa_lip_service_reform = {
 	icon = "lip_service_wwu"
 	allow_normal_conversion = yes
     
@@ -79,7 +79,7 @@ cal_lip_service_reform = {
 #-----------------------------------------
 # "Modernization"
 #-----------------------------------------
-cal_centralize_tribal_power_reform = {
+ixa_centralize_tribal_power_reform = {
 	icon = "centralize_tribal_power_wwu"
 	allow_normal_conversion = yes
     
@@ -89,7 +89,7 @@ cal_centralize_tribal_power_reform = {
 	}
 }
 
-cal_retain_tribal_hierarchy_reform = {
+ixa_retain_tribal_hierarchy_reform = {
 	icon = "retain_tribal_hierarchy_wwu"
 	allow_normal_conversion = yes
     
@@ -111,7 +111,7 @@ cal_retain_tribal_hierarchy_reform = {
 	}
 }
 
-cal_barbaric_despoilers_reform = {
+ixa_barbaric_despoilers_reform = {
 	icon = "barbaric_despoilers_wwu"
 	allow_normal_conversion = yes
     
@@ -129,7 +129,7 @@ cal_barbaric_despoilers_reform = {
 	}
 }
 
-cal_tribal_unity_reform = {
+ixa_tribal_unity_reform = {
 	icon = "tribal_unity_wwu"
 	allow_normal_conversion = yes
     

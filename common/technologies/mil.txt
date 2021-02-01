@@ -26,15 +26,15 @@ technology = {
     artillery_fire 	    = 0.0
     artillery_shock  	= 0.0 
 	
-    enable = cal_infantry_1_option_a
-    enable = cal_infantry_1_option_b
-    enable = cal_infantry_1_option_c
+    enable = warcraft_infantry_1_option_a
+    enable = warcraft_infantry_1_option_b
+    enable = warcraft_infantry_1_option_c
     
-    enable = cal_cavalry_1_option_a
-    enable = cal_cavalry_1_option_b
+    enable = warcraft_cavalry_1_option_a
+    enable = warcraft_cavalry_1_option_b
     
-    enable = cal_artillery_1_option_a
-    enable = cal_artillery_1_option_b
+    enable = warcraft_artillery_1_option_a
+    enable = warcraft_artillery_1_option_b
     
     wow_barracks = yes
     wow_arsenal = yes
@@ -87,12 +87,12 @@ technology = {
 	# Tech 6
 	year = 652
 
-	enable = cal_infantry_2_option_a
-    enable = cal_infantry_2_option_b
-    enable = cal_infantry_2_option_c
+	enable = warcraft_infantry_2_option_a
+    enable = warcraft_infantry_2_option_b
+    enable = warcraft_infantry_2_option_c
     
-    enable = cal_cavalry_2_option_a
-    enable = cal_cavalry_2_option_b
+    enable = warcraft_cavalry_2_option_a
+    enable = warcraft_cavalry_2_option_b
 }
 
 technology = {
@@ -142,8 +142,8 @@ technology = {
 	# Tech 12
 	year = 724
 	
-	enable = cal_artillery_2_option_a
-    enable = cal_artillery_2_option_b
+	enable = warcraft_artillery_2_option_a
+    enable = warcraft_artillery_2_option_b
 }
 
 technology = {
@@ -190,9 +190,9 @@ technology = {
 	# Tech 18
 	year = 796
 
-	enable = cal_infantry_3_option_a
-    enable = cal_infantry_3_option_b
-    enable = cal_infantry_3_option_c
+	enable = warcraft_infantry_3_option_a
+    enable = warcraft_infantry_3_option_b
+    enable = warcraft_infantry_3_option_c
 }
 
 technology = {
@@ -243,8 +243,8 @@ technology = {
 	# Tech 24
 	year = 868
 	
-	enable = cal_cavalry_3_option_a
-    enable = cal_cavalry_3_option_b
+	enable = warcraft_cavalry_3_option_a
+    enable = warcraft_cavalry_3_option_b
 }
 
 technology = {
@@ -326,8 +326,8 @@ technology = {
 	# Tech 34
 	year = 978
 
-    enable = cal_artillery_3_option_a
-    enable = cal_artillery_3_option_b
+    enable = warcraft_artillery_3_option_a
+    enable = warcraft_artillery_3_option_b
     
     artillery_fire = 1.5
     artillery_shock = 0.5

@@ -1,0 +1,136 @@
+# ADM
+is_aristocracy_ideagroup = {
+    OR = {
+        has_idea_group = ixa_absolutism_ideas
+        has_idea_group = ixa_law_ideas
+        has_idea_group = ixa_monarchy_ideas
+    }
+}
+
+is_plutocracy_ideagroup = {
+    OR = {
+        has_idea_group = ixa_autonomy_ideas
+        has_idea_group = ixa_development_ideas
+        has_idea_group = ixa_republic_ideas
+    }
+}
+
+is_innovativeness_ideagroup = {
+    OR = {
+        has_idea_group = ixa_innovation_ideas
+    }
+}
+
+is_religious_ideagroup = {
+    OR = {
+        has_idea_group = ixa_religious_ideas
+        has_idea_group = ixa_theocracy_ideas
+    }
+}
+
+is_economic_ideagroup = {
+    OR = {
+        has_idea_group = ixa_economic_ideas
+    }
+}
+
+is_expansion_ideagroup = {
+    OR = {
+        has_idea_group = ixa_expansion_ideas
+    }
+}
+
+is_administrative_ideagroup = {
+    OR = {
+        has_idea_group = ixa_administrative_ideas
+        has_idea_group = ixa_tyranny_ideas
+    }
+}
+
+is_humanist_ideagroup = {
+    OR = {
+        has_idea_group = ixa_harmony_ideas
+    }
+}
+
+# DIP
+is_espionage_ideagroup = {
+    OR = {
+        has_idea_group = ixa_espionage_ideas
+        has_idea_group = ixa_assimilation_ideas
+    }
+}
+
+is_diplomatic_ideagroup = {
+    OR = {
+        has_idea_group = ixa_dynastic_ideas
+        has_idea_group = ixa_propaganda_ideas
+    }
+}
+
+is_trade_ideagroup = {
+    OR = {
+        has_idea_group = ixa_trade_ideas
+        has_idea_group = ixa_naval_trade_ideas
+    }
+}
+
+is_maritime_ideagroup = {
+    OR = {
+        has_idea_group = ixa_maritime_ideas
+        has_idea_group = ixa_naval_bombardment_ideas
+        has_idea_group = ixa_naval_skirmish_ideas
+        has_idea_group = ixa_naval_organisation_ideas
+        has_idea_group = ixa_naval_leadership_ideas
+        has_idea_group = ixa_naval_tactics_ideas
+    }
+}
+
+is_exploration_ideagroup = {
+    OR = {
+        has_idea_group = ixa_exploration_ideas
+        has_idea_group = ixa_imperialism_ideas
+    }
+}
+
+is_influence_ideagroup = {
+    OR = {
+        has_idea_group = ixa_influence_ideas
+        has_idea_group = ixa_society_ideas
+        has_idea_group = ixa_subjugation_ideas
+    }
+}
+
+# MIL
+is_offensive_ideagroup = {
+    OR = {
+        has_idea_group = ixa_offensive_ideas
+        has_idea_group = ixa_army_leadership_ideas
+        has_idea_group = ixa_army_tactics_ideas
+    }
+}
+
+is_defensive_ideagroup = {
+    OR = {
+        has_idea_group = ixa_defensive_ideas
+        has_idea_group = ixa_army_organisation_ideas
+        has_idea_group = ixa_fortification_ideas
+    }
+}
+
+is_quality_ideagroup = {
+    OR = {
+        has_idea_group = ixa_quality_ideas
+        has_idea_group = ixa_professional_army_ideas
+        has_idea_group = ixa_armaments_ideas
+    }
+}
+
+is_quantity_ideagroup = {
+    OR = {
+        has_idea_group = ixa_quantity_ideas
+        has_idea_group = ixa_mercenary_army_ideas
+        has_idea_group = ixa_militarization_ideas
+    }
+}
+

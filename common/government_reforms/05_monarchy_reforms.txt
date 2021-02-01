@@ -1,7 +1,7 @@
 #-----------------------------------------
 # "Noble Privileges"
 #-----------------------------------------
-cal_enforce_privileges_reform = {
+ixa_enforce_privileges_reform = {
 	icon = "enforce_privileges"
 	allow_normal_conversion = yes
 	
@@ -18,7 +18,7 @@ cal_enforce_privileges_reform = {
 	}
 }
 
-cal_quash_noble_power_reform = {
+ixa_quash_noble_power_reform = {
 	icon = "quash_noble_power"
 	allow_normal_conversion = yes
 	
@@ -36,7 +36,7 @@ cal_quash_noble_power_reform = {
 	}
 }
 
-cal_enforce_trader_privileges_reform = {
+ixa_enforce_trader_privileges_reform = {
 	icon = "enforce_trader_privileges"
 	allow_normal_conversion = yes
     
@@ -67,10 +67,113 @@ cal_enforce_trader_privileges_reform = {
 	}
 }
 
+ixa_azerothian_traders_reform = {
+	icon = "azerothian_traders"
+	allow_normal_conversion = yes
+    
+	potential = {
+		is_human_culture_group = yes
+	}
+    
+	modifiers = {
+        mercantilism_cost = -0.2
+		center_of_trade_upgrade_cost = -0.33
+	}
+    
+	ai = {
+		factor = 5
+	}
+}
+
+ixa_druidic_syncretism_reform = {
+	icon = "druidic_syncretism"
+	allow_normal_conversion = yes
+    
+	potential = {
+		any_owned_province = {
+            religion = druidism
+        }
+	}
+    
+	modifiers = {
+		tolerance_heretic = 2
+		development_cost = -0.05
+	}
+    
+	ai = {
+		factor = 3
+	}
+}
+
+ixa_elvish_nobles_reform = {
+	icon = "elvish_nobles"
+	allow_normal_conversion = yes
+    
+	potential = {
+		culture_group = high_elf_group
+	}
+    
+	modifiers = {
+		all_power_cost = -0.03
+	}
+    
+	ai = {
+		factor = 3
+	}
+}
+
+ixa_strength_of_the_vrykul_reform = {
+	icon = "strength_of_the_vrykul"
+	allow_normal_conversion = yes
+    
+	potential = {
+		culture_group = vrykul_group
+	}
+    
+	modifiers = {
+		reinforce_speed = 0.2
+	}
+    
+	ai = {
+		factor = 5
+	}
+}
+
+ixa_draenei_society_reform = {
+	icon = "draenei_society"
+	allow_normal_conversion = yes
+    
+	potential = {
+		culture_group = draenei_group
+	}
+    
+	modifiers = {
+		monarch_diplomatic_power = 1
+	}
+    
+	ai = {
+		factor = 3
+	}
+}
+ixa_hereditary_rule_reform = {
+    icon = "hereditary_rule_wwu"
+	allow_normal_conversion = yes
+    
+	modifiers = {
+		legitimacy = 1
+	}
+    
+    maintain_dynasty = yes
+    
+	ai = {
+		factor = 1
+	}
+}
+
 #-----------------------------------------
 # "Bureaucracy"
 #-----------------------------------------
-cal_centralize_reform = {
+ixa_centralize_reform = {
 	icon = "centralize_wwu"
 	allow_normal_conversion = yes
     
@@ -79,7 +182,7 @@ cal_centralize_reform = {
 	}
 }
 
-cal_decentralize_reform = {
+ixa_decentralize_reform = {
 	icon = "decentralize_wwu"
 	allow_normal_conversion = yes
 
@@ -101,10 +204,50 @@ cal_decentralize_reform = {
 	}
 }
 
+ixa_kalimdor_recruitment = {
+	icon = "kalimdor_recruitment"
+	allow_normal_conversion = yes
+    
+	potential = {
+        capital_scope = {
+            # MAP # superregion = eastern_kingdom_superregion
+        }
+		any_owned_province = {
+            # MAP # NOT = { superregion = kalimdor_superregion }
+        }
+	}
+    
+	modifiers = {
+		fort_maintenance_modifier = -0.1
+		global_manpower_modifier = 0.1
+	}
+    
+	ai = {
+		factor = 2
+	}
+}
+
+ixa_august_celestials_reform = {
+	icon = "august_celestials"
+	allow_normal_conversion = yes
+    
+	potential = {
+		culture_group = pandaren_group
+	}
+    
+	modifiers = {
+		stability_cost_modifier = -0.25
+	}
+    
+	ai = {
+		factor = 10
+	}
+}
+
 #-----------------------------------------
 # "The Administrative Cadre"
 #-----------------------------------------
-cal_clergy_in_administration_reform = {
+ixa_clergy_in_administration_reform = {
 	icon = "clergy_in_administration"
 	allow_normal_conversion = yes
     
@@ -127,7 +270,7 @@ cal_clergy_in_administration_reform = {
 	}
 }
 
-cal_of_noble_bearing_reform = {
+ixa_of_noble_bearing_reform = {
 	icon = "of_noble_bearing"
 	allow_normal_conversion = yes
 
@@ -150,7 +293,7 @@ cal_of_noble_bearing_reform = {
 	}
 }
 
-cal_meritocratic_focus_reform = {
+ixa_meritocratic_focus_reform = {
 	icon = "meritocratic_focus"
 	allow_normal_conversion = yes
 
@@ -173,10 +316,44 @@ cal_meritocratic_focus_reform = {
 	}
 }
 
+ixa_dwarven_culture_reform = {
+	icon = "dwarven_culture"
+	allow_normal_conversion = yes
+    
+	potential = {
+		culture_group = dwarf_group
+	}
+    
+	modifiers = {
+		siege_ability = 0.05
+	}
+    
+	ai = {
+		factor = 2
+	}
+}
+
+ixa_formalized_hoof_reform = {
+	icon = "formalized_hoof_system"
+	allow_normal_conversion = yes
+    
+	potential = {
+		culture_group = tauren_group
+	}
+    
+	modifiers = {
+		improve_relation_modifier = 0.1
+	}
+    
+	ai = {
+		factor = 5
+	}
+}
+
 #-----------------------------------------
 # "Deliberative Assembly"
 #-----------------------------------------
-cal_royal_decree_reform = {
+ixa_royal_decree_reform = {
 	icon = "royal_decree_wwu"
 	allow_normal_conversion = yes
     
@@ -190,7 +367,7 @@ cal_royal_decree_reform = {
 	}
 }
 
-cal_aristocratic_court_reform = {
+ixa_aristocratic_court_reform = {
 	icon = "aristocratic_court_wwu"
 	allow_normal_conversion = yes
     
@@ -203,7 +380,7 @@ cal_aristocratic_court_reform = {
 	}
 }
 
-cal_general_estates_reform = {
+ixa_general_estates_reform = {
 	icon = "general_estates_wwu"
 	allow_normal_conversion = yes
 
@@ -223,7 +400,7 @@ cal_general_estates_reform = {
 #-----------------------------------------
 # "Absolutism & Constitutionalism"
 #-----------------------------------------
-cal_law_and_order_reform = {
+ixa_law_and_order_reform = {
 	icon = "law_and_order_wwu"
 	allow_normal_conversion = yes
     
@@ -236,7 +413,7 @@ cal_law_and_order_reform = {
 	}
 }
 
-cal_regional_representation_reform = {
+ixa_regional_representation_reform = {
 	icon = "regional_representation_wwu"
 	allow_normal_conversion = yes
     
@@ -248,7 +425,7 @@ cal_regional_representation_reform = {
 #-----------------------------------------
 # "Separation of Power"
 #-----------------------------------------
-cal_political_absolutism_reform = {
+ixa_political_absolutism_reform = {
 	icon = "political_absolutism_wwu"
 	allow_normal_conversion = yes
     
@@ -262,7 +439,7 @@ cal_political_absolutism_reform = {
 	}
 }
 
-cal_legislative_houses_reform = {
+ixa_legislative_houses_reform = {
 	icon = "legislative_houses_wwu"
 	allow_normal_conversion = yes
 

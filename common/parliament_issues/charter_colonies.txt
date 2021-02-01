@@ -4,8 +4,8 @@ charter_colonies = {
 
 	allow = {
 		OR = {
-			full_idea_group = cal_expansion_ideas
-			full_idea_group = cal_exploration_ideas
+			full_idea_group = ixa_expansion_ideas
+			full_idea_group = ixa_exploration_ideas
 		}
 	}
 	

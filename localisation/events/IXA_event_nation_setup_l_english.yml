@@ -1,0 +1,152 @@
+﻿l_english: 
+ #-------------------------------------
+ # Ogre Setup
+ #-------------------------------------
+ ixa_setup_ogre.1.title: "Dreadmaul Ogres"
+ ixa_setup_ogre.1.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.1.option.a: "Arise!"
+ ixa_setup_ogre.1.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.2.title: "Dunemaul Ogres"
+ ixa_setup_ogre.2.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.2.option.a: "Arise!"
+ ixa_setup_ogre.2.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.3.title: "Gordunni Ogres"
+ ixa_setup_ogre.3.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.3.option.a: "Arise!"
+ ixa_setup_ogre.3.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.4.title: "Mo'grosh Ogres"
+ ixa_setup_ogre.4.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.4.option.a: "Arise!"
+ ixa_setup_ogre.4.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.5.title: "Boulderfist Ogres"
+ ixa_setup_ogre.5.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.5.option.a: "Arise!"
+ ixa_setup_ogre.5.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.6.title: "Deadwind Ogres"
+ ixa_setup_ogre.6.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.6.option.a: "Arise!"
+ ixa_setup_ogre.6.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.7.title: "Dustblecher Ogres"
+ ixa_setup_ogre.7.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.7.option.a: "Arise!"
+ ixa_setup_ogre.7.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.8.title: "Firegut Ogres"
+ ixa_setup_ogre.8.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.8.option.a: "Arise!"
+ ixa_setup_ogre.8.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.9.title: "Mosh'Ogg Ogres"
+ ixa_setup_ogre.9.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.9.option.a: "Arise!"
+ ixa_setup_ogre.9.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.10.title: "Stone Fist Ogres"
+ ixa_setup_ogre.10.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.10.option.a: "Arise!"
+ ixa_setup_ogre.10.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.11.title: "Stonegullet Ogres"
+ ixa_setup_ogre.11.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.11.option.a: "Arise!"
+ ixa_setup_ogre.11.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.12.title: "Torchbelcher Ogres"
+ ixa_setup_ogre.12.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ ixa_setup_ogre.12.option.a: "Arise!"
+ ixa_setup_ogre.12.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.13.title: "Crushridge Ogres"
+ ixa_setup_ogre.13.desc: "As the Scourge arises in Northrend, ogres that were once part of the Orcish horde have begun to drift off, forming their new factions within Azeroth."
+ ixa_setup_ogre.13.option.a: "Arise!"
+ ixa_setup_ogre.13.option.b: "Tolerate them in our lands for now..."
+ 
+ ixa_setup_ogre.14.title: "Stonemaul Ogres"
+ ixa_setup_ogre.14.desc: "As the Scourge arises in Northrend, ogres that were once part of the Orcish horde have begun to drift off, forming their new factions within Azeroth."
+ ixa_setup_ogre.14.option.a: "Arise!"
+ ixa_setup_ogre.14.option.b: "Tolerate them in our lands for now..."
+ 
+ #-------------------------------------
+ # Scourge Setup
+ #-------------------------------------
+ ixa_setup_scourge.1.title: "The Scourge"
+ ixa_setup_scourge.1.desc: "Under the domination of the Lich King Ner'zhul, the Scourge serves as a means for the Burning Legion to spread terror and destruction across the whole of Azeroth, in anticipation of the Legion's inevitable invasion."
+ ixa_setup_scourge.1.option.a: "Arise!" 
+
+ #-------------------------------------
+ # Draenei Setup
+ #-------------------------------------
+ ixa_setup_draenei.1.title: "The Exodar"
+ ixa_setup_draenei.1.desc: "As the Scourge arises in Northrend, the consequences of Kael'thas Sunstrider's ambitions are made manifest. Having escaped the Tempest Keep, Prophet Velen has lead the Exodar and the associated draenei to Azeroth, landing in Azuremyst Isle."
+ ixa_setup_draenei.1.option.a: "Arise!"
+ 
+ ixa_setup_draenei.2.title: "Lost Ones"
+ ixa_setup_draenei.2.desc: "As the Scourge arises in Northrend, a group of surviving draenei that escaped the destruction of Draenor have emerged, making the Swamp of Sorrows their new home."
+ ixa_setup_draenei.2.option.a: "Arise!"
+ ixa_setup_draenei.2.option.b: "Tolerate them in our lands for now..."
+ 
+ #-------------------------------------
+ # Orc Setup
+ #-------------------------------------
+ ixa_setup_orc.1.title: "The New Horde"
+ ixa_setup_orc.1.desc: "As the Scourge arises in Northrend and the Orcish Horde continues to collapse, a faction of orcs and other similar races have formed what shall be known as the New Horde, taking refuge in Durotar, in the valley that shall soon be known as Orgrimmar."
+ ixa_setup_orc.1.option.a: "Arise!"
+ 
+ #-------------------------------------
+ # Night Elf
+ #-------------------------------------
+ ixa_setup_night_elf.1.title: "Teldrassil"
+ ixa_setup_night_elf.1.desc: "Nordrassil, atop Mount Hyjal has been destroyed. Without a World Tree, the Night Elves are lost. The Circle of the Ancients have concocted a plan to combine powers and grow an immense tree within the Veiled Sea, to be named Teldrassil."
+ ixa_setup_night_elf.1.option.a: "Arise Teldrassil!"
+ 
+ #-------------------------------------
+ # Human
+ #-------------------------------------
+ ixa_setup_human.1.title: "Theramore"
+ ixa_setup_human.1.desc: "Jaina Proudmoore and her assortment of survivors from the Scourging of Lordaeron have made landing in Kalimdor, and established the city-state of Theramore in Dustwallow Marsh."
+ ixa_setup_human.1.option.a: "Arise!"
+ 
+ ixa_setup_human.2.title: "Scarlet Crusade"
+ ixa_setup_human.2.desc: "The core of the Crusade's forces began as a group of survivors of the Silver Hand who regrouped in Hearthglen after an offer of Taelan Fordring. Ashbringer in hand, Highlord Alexandros Mograine led the knights of the once-proud order on a crusade of furious retribution in Lordaeron. Such were his acts that he and his weapon quickly became legends."
+ ixa_setup_human.2.option.a: "Arise!"
+ ixa_setup_human.2.option.b: "Arise as me!"
+ 
+ ixa_setup_human.3.title: "Argent Dawn"
+ ixa_setup_human.3.desc: "After the death of Alexandros Mograine, the survivors of the Knights of the Silver Hand became more zealous and fanatic. However, there were those who believed that their comrades had fallen from their once-noble purpose, and left to form their own order: the Argent Dawn."
+ ixa_setup_human.3.option.a: "Arise!"
+ ixa_setup_human.3.option.b: "Arise as me!"
+ 
+ ixa_setup_human.4.title: "Knights of the Silver Hand"
+ ixa_setup_human.4.desc: "The Order of the Knights of the Silver Hand is an order of paladins created in response to the First War. They were instrumental in assisting the Alliance of Lordaeron during the Second War."
+ ixa_setup_human.4.option.a: "Arise!"
+ 
+ #-------------------------------------
+ # Pirate
+ #-------------------------------------
+ ixa_setup_pirate.1.title: "Southsea Freebooters"
+ ixa_setup_pirate.1.desc: "Pirates have begun to explore far to the west, landing on the coast of Tanaris in Kalimdor."
+ ixa_setup_pirate.1.option.a: "Good riddance"
+ 
+ ixa_setup_pirate.2.title: "Wastewander"
+ ixa_setup_pirate.2.desc: "Pirates have begun to explore far to the west, landing on the coast of Tanaris in Kalimdor."
+ ixa_setup_pirate.2.option.a: "Good riddance"
+ 
+ #-------------------------------------
+ # Burning Legion
+ #-------------------------------------
+ ixa_setup_burning_legion.1.title: "The Burning Legion"
+ ixa_setup_burning_legion.1.desc: "Archimonde and his vanguard of demons have arrived and taken control of the majority of Mount Hyjal, in an attempt to destroy the world tree Nordrassil."
+ ixa_setup_burning_legion.1.option.a: "Oh no!"
+ 
+ #-------------------------------------
+ # Undead
+ #-------------------------------------
+ ixa_setup_undead.1.title: "The Forsaken"
+ ixa_setup_undead.1.desc: "After Illidan's attack upon Northrend, the grasp of the Lich King has weakened. Under the banner of Sylvanas Windrunner, newly free-willed undead staged a coup against the Kel'Thuzad and rooted out the dreadlords Varimathras and Balnazzar."
+ ixa_setup_undead.1.option.a: "Arise!"

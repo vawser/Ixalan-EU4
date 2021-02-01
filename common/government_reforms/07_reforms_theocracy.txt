@@ -1,7 +1,7 @@
 #-----------------------------------------
 # "Internal & External Mission"
 #-----------------------------------------
-cal_internal_mission_reform = {
+ixa_internal_mission_reform = {
 	icon = "internal_mission_wwu"
 	allow_normal_conversion = yes
     
@@ -10,7 +10,7 @@ cal_internal_mission_reform = {
 	}
 }
 
-cal_external_mission_reform = {
+ixa_external_mission_reform = {
 	icon = "external_mission_wwu"
 	allow_normal_conversion = yes
     
@@ -19,7 +19,7 @@ cal_external_mission_reform = {
 	}
 }
 
-cal_mission_to_civilize_reform = {
+ixa_mission_to_civilize_reform = {
 	icon = "mission_to_civilize_wwu"
 	allow_normal_conversion = yes
     
@@ -27,8 +27,8 @@ cal_mission_to_civilize_reform = {
 		OR = {
 			num_of_colonists = 1
 			OR = {
-                has_idea_group = cal_expansion_ideas
-                has_idea_group = cal_exploration_ideas
+                has_idea_group = ixa_expansion_ideas
+                has_idea_group = ixa_exploration_ideas
             }
 		}
 	}
@@ -39,7 +39,7 @@ cal_mission_to_civilize_reform = {
 	}
 }
 
-cal_mission_to_kill_pirates_reform = {
+ixa_mission_to_kill_pirates_reform = {
 	icon = "mission_to_kill_pirates_wwu"
 	allow_normal_conversion = yes
     
@@ -65,7 +65,7 @@ cal_mission_to_kill_pirates_reform = {
 #-----------------------------------------
 # "Divine Cause"
 #-----------------------------------------
-cal_safeguard_holy_sites_reform = {
+ixa_safeguard_holy_sites_reform = {
 	icon = "safeguard_holy_sites_wwu"
 	allow_normal_conversion = yes
     
@@ -74,7 +74,7 @@ cal_safeguard_holy_sites_reform = {
 	}
 }
 
-cal_combat_heresy_reform = {
+ixa_combat_heresy_reform = {
 	icon = "combat_heresy_wwu"
 	allow_normal_conversion = yes
     
@@ -83,7 +83,7 @@ cal_combat_heresy_reform = {
 	}
 }
 
-cal_expel_heathens_reform = {
+ixa_expel_heathens_reform = {
 	icon = "expel_heathens_wwu"
 	allow_normal_conversion = yes
     
@@ -95,7 +95,7 @@ cal_expel_heathens_reform = {
 #-----------------------------------------
 # "Clergy in Administration"
 #-----------------------------------------
-cal_subservient_administrators_reform = {
+ixa_subservient_administrators_reform = {
 	icon = "subservient_administrators_wwu"
 	allow_normal_conversion = yes
     
@@ -104,7 +104,7 @@ cal_subservient_administrators_reform = {
 	}
 }
 
-cal_religious_administrators_reform = {
+ixa_religious_administrators_reform = {
 	icon = "religious_administrators_wwu"
 	allow_normal_conversion = yes
     
@@ -113,7 +113,7 @@ cal_religious_administrators_reform = {
 	}
 }
 
-cal_pious_merchants_reform = {
+ixa_pious_merchants_reform = {
 	icon = "pious_merchants_wwu"
 	allow_normal_conversion = yes
     
@@ -125,7 +125,7 @@ cal_pious_merchants_reform = {
 	}
 }
 
-cal_loyal_nobility_reform = {
+ixa_loyal_nobility_reform = {
 	icon = "loyal_nobility_wwu"
 	allow_normal_conversion = yes
     
@@ -137,19 +137,78 @@ cal_loyal_nobility_reform = {
 	}
 }
 
-cal_monastic_breweries_reform = {
+ixa_monastic_breweries_reform = {
 	icon = "monastic_breweries_wwu"
 	allow_normal_conversion = yes
     
 	modifiers = {
 		global_trade_goods_size_modifier = 0.1
 	}
+    
+	effect = {
+		custom_tooltip = ixa_producing_wine_and_grain_tt
+		hidden_effect = {
+			every_owned_province = {
+				if = {
+					limit = {
+						trade_goods = food
+					}
+					add_province_modifier = { 
+						name = grain_bonus_prod
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+	}
+    
+	removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_province_modifier = grain_bonus_prod
+					}
+				}
+				remove_province_modifier = grain_bonus_prod
+			}
+		}
+	}
+}
+
+ixa_troll_warriors_reform = {
+    icon = "troll_warriors_wwu"
+	allow_normal_conversion = yes
+    
+	potential = {
+		is_troll_culture_group = yes
+	}
+	
+	modifiers = {
+		discipline = 0.05
+		infantry_power = 0.05
+		mercenary_manpower = 0.1
+	}
+}
+
+ixa_demonic_advisors_reform = {
+    icon = "demonic_advisors_wwu"
+	allow_normal_conversion = yes
+    
+	potential = {
+		culture_group = demon_group
+	}
+	
+	modifiers = {
+		global_missionary_strength = 0.03
+	}
 }
 
 #-----------------------------------------
 # "Secularization?"
 #-----------------------------------------
-cal_maintain_religious_head_reform = {
+ixa_maintain_religious_head_reform = {
 	icon = "maintain_religious_head_wwu"
 	allow_normal_conversion = yes
     
@@ -158,7 +217,7 @@ cal_maintain_religious_head_reform = {
 	}
 }
 
-cal_partial_secularisation_reform = {
+ixa_partial_secularisation_reform = {
 	icon = "partial_secularisation_wwu"
 	allow_normal_conversion = yes
     
@@ -170,7 +229,7 @@ cal_partial_secularisation_reform = {
 #-----------------------------------------
 # "Separation of Power"
 #-----------------------------------------
-cal_clerical_commission_reform = {
+ixa_clerical_commission_reform = {
 	icon = "clerical_commission_wwu"
 	allow_normal_conversion = yes
     
@@ -184,7 +243,7 @@ cal_clerical_commission_reform = {
 	}
 }
 
-cal_divine_guidance_reform = {
+ixa_divine_guidance_reform = {
 	icon = "divine_guidance_ww"
 	allow_normal_conversion = yes
     
@@ -197,7 +256,7 @@ cal_divine_guidance_reform = {
 	}
 }
 
-cal_theocratic_democracy_reform = {
+ixa_theocratic_democracy_reform = {
 	icon = "theocratic_democracy_wwu"
 	modifiers = {
 		global_unrest = -1
@@ -227,7 +286,7 @@ cal_theocratic_democracy_reform = {
 #-----------------------------------------
 # "The Nature of Our Faith"
 #-----------------------------------------
-cal_church_and_state_reform = {
+ixa_church_and_state_reform = {
 	icon = "church_and_state_wwu"
 	allow_normal_conversion = yes
     
@@ -240,7 +299,7 @@ cal_church_and_state_reform = {
 	}
 }
 
-cal_religious_harmony_reform = {
+ixa_religious_harmony_reform = {
 	icon = "religious_harmony_wwu"
 	allow_normal_conversion = yes
     
@@ -254,7 +313,7 @@ cal_religious_harmony_reform = {
 	}
 }
 
-cal_god_and_man_reform = {
+ixa_god_and_man_reform = {
 	icon = "god_and_man_wwu"
 	allow_normal_conversion = yes
     
@@ -267,7 +326,7 @@ cal_god_and_man_reform = {
 	}
 }
 
-cal_organising_our_religion_reform = {
+ixa_organising_our_religion_reform = {
 	icon = "organising_our_religion_wwu"
 	allow_normal_conversion = yes
     
@@ -284,7 +343,7 @@ cal_organising_our_religion_reform = {
 #-----------------------------------------
 # "Our Faith and the World"
 #-----------------------------------------
-cal_religion_in_one_country_reform = {
+ixa_religion_in_one_country_reform = {
 	icon = "religion_in_one_country_wwu"
 	allow_normal_conversion = yes
     
@@ -297,12 +356,12 @@ cal_religion_in_one_country_reform = {
 	}
 }
 
-cal_religious_permanent_revolution_reform = {
+ixa_religious_permanent_revolution_reform = {
 	icon = "religious_permanent_revolution_wwu"
 	allow_normal_conversion = yes
 
 	effect = {
-		custom_tooltip = cal_world_crusade_tt
+		custom_tooltip = ixa_world_crusade_tt
 	}
     
 	modifiers = {
@@ -314,11 +373,11 @@ cal_religious_permanent_revolution_reform = {
 	}
 }
 
-cal_many_fingers_of_god_reform = {
+ixa_many_fingers_of_god_reform = {
 	icon = "many_fingers_of_god_wwu"
 	allow_normal_conversion = yes
 	trigger = {
-		has_idea_group = cal_harmony_ideas
+		has_idea_group = ixa_harmony_ideas
 	}
     
 	modifiers = {
@@ -331,7 +390,7 @@ cal_many_fingers_of_god_reform = {
 	}
 }
 
-cal_priestly_autonomy_reform = {
+ixa_priestly_autonomy_reform = {
 	icon = "priestly_autonomy_wwu"
 	allow_normal_conversion = yes
 
@@ -344,7 +403,7 @@ cal_priestly_autonomy_reform = {
 	}
 }
 
-cal_proclaim_religious_head_reform = {
+ixa_proclaim_religious_head_reform = {
 	icon = "proclaim_religious_head_wwu"
 	allow_normal_conversion = yes
     
@@ -353,7 +412,7 @@ cal_proclaim_religious_head_reform = {
 			tooltip = no_other_head_tt
 			NOT = {
 				any_country = {
-					has_reform = cal_proclaim_religious_head_reform
+					has_reform = ixa_proclaim_religious_head_reform
 					religion = ROOT
 					tag = ROOT
 				}

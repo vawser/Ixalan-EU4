@@ -5,10 +5,55 @@ estate_nobility = {
     influence_from_dev_modifier = 1.0
     
     # ----- Names -----
-
+    custom_name = {
+        desc = estate_nobility_old_gods
+        trigger = {
+            is_old_god_religion = yes
+        }
+    }
+    custom_name = {
+        desc = estate_nobility_fel
+        trigger = {
+            religion = fel
+        }
+    }
+    custom_name = {
+        desc = estate_nobility_dragonkin
+        trigger = {
+            is_dragon_culture_group = yes
+        }
+    }
+    custom_name = {
+        desc = estate_nobility_tribal
+        trigger = {
+            government = tribal
+        }
+    }
+    custom_name = {
+        desc = estate_nobility_republic
+        trigger = {
+            government = republic
+        }
+    }
+    custom_name = {
+        desc = estate_nobility_theocracy
+        trigger = {
+            government = theocracy
+        }
+    }
+    
 	# ----- Conditions -----
 	trigger = {
-		is_nomad = no
+		OR = {
+			is_nomad = no
+			AND = { 
+				is_nomad = yes 
+				OR = {
+					religion = fel 
+					is_old_god_religion = yes
+				}
+			}
+		}
 	}
 
 	# ----- Country -----

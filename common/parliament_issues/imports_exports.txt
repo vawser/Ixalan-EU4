@@ -20,8 +20,8 @@ imports_exports = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_idea_group = cal_economic_ideas
-				has_idea_group = cal_trade_ideas
+				has_idea_group = ixa_economic_ideas
+				has_idea_group = ixa_trade_ideas
 			}
 		}
 	}

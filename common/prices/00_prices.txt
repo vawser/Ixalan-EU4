@@ -2,32 +2,32 @@
 # goldtype = yes/no			This resource works like 'gold' if yes, using prices from mine-value in province instead of supply/demand and baseprice. Also creates gold-inflation
 
 # Base resources
-cal_food = {
+ixa_food = {
 	base_price = 2
 }
-cal_textiles = {
+ixa_textiles = {
 	base_price = 5
 }
-cal_jewelry = {
+ixa_jewelry = {
 	base_price = 8
 }
-cal_metals = {
+ixa_metals = {
 	base_price = 5
 }
-cal_gold = {
+ixa_gold = {
 	base_price = 0
 	goldtype = yes
 }
-cal_slaves = {
+ixa_slaves = {
 	base_price = 6
 }
-cal_oil = {
+ixa_oil = {
 	base_price = 6
 }
-cal_lumber = {
+ixa_lumber = {
 	base_price = 3
 }
-cal_artifacts = {
+ixa_artifacts = {
 	base_price = 10
 }
 unknown = {

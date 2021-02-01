@@ -1,10 +1,10 @@
-namespace = cal_tribes
+namespace = ixa_tribes
 
 # "Born of War"
 country_event = {
-	id = cal_tribes.1
-	title = "cal_tribes.1.title"
-	desc = "cal_tribes.1.desc"
+	id = ixa_tribes.1
+	title = "ixa_tribes.1.title"
+	desc = "ixa_tribes.1.desc"
 	picture = MONGOL_BANNERS_eventPicture	
 
 	is_triggered_only = yes	
@@ -25,13 +25,13 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.1.option.a"
+		name = "ixa_tribes.1.option.a"
 		ai_chance = { factor = 10 }
 		add_prestige = -10
 	}
 	option = {
-		name = "cal_tribes.1.option.b"
-		trigger = { has_idea_group = cal_administrative_ideas }		
+		name = "ixa_tribes.1.option.b"
+		trigger = { has_idea_group = ixa_administrative_ideas }		
 		ai_chance = { 
 			factor = 90 
 			modifier = {
@@ -45,9 +45,9 @@ country_event = {
 
 # "Exhaustion is for the Weak"
 country_event = {
-	id = cal_tribes.2
-	title = "cal_tribes.2.title"
-	desc = "cal_tribes.2.desc"
+	id = ixa_tribes.2
+	title = "ixa_tribes.2.title"
+	desc = "ixa_tribes.2.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 
 	is_triggered_only = yes
@@ -63,13 +63,13 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.2.option.a"
+		name = "ixa_tribes.2.option.a"
 		ai_chance = { factor = 10 }
 		add_war_exhaustion = -2
 	}
 	option = {
-		name = "cal_tribes.2.option.b"
-		trigger = { has_idea_group = cal_espionage_ideas }		
+		name = "ixa_tribes.2.option.b"
+		trigger = { has_idea_group = ixa_espionage_ideas }		
 		ai_chance = { factor = 90 }
 		add_war_exhaustion = -5
 		add_prestige = 3
@@ -78,9 +78,9 @@ country_event = {
 
 # "This is a Good Day to Die"
 country_event = {
-	id = cal_tribes.3
-	title = "cal_tribes.3.title"
-	desc = "cal_tribes.3.desc"
+	id = ixa_tribes.3
+	title = "ixa_tribes.3.title"
+	desc = "ixa_tribes.3.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -97,13 +97,13 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.3.option.a"
+		name = "ixa_tribes.3.option.a"
 		ai_chance = { factor = 10 }
 		add_yearly_manpower = 1.00
 	}
 	option = {
-		name = "cal_tribes.3.option.b"
-		trigger = { has_idea_group = cal_quality_ideas }		
+		name = "ixa_tribes.3.option.b"
+		trigger = { has_idea_group = ixa_quality_ideas }		
 		ai_chance = { factor = 90 }
 		add_army_tradition = 10	
 		add_prestige = 2
@@ -112,9 +112,9 @@ country_event = {
 
 # "Friendly Tribe Migrates into [Root.GetName]"
 country_event = {
-	id = cal_tribes.4
-	title = "cal_tribes.4.title"
-	desc = "cal_tribes.4.desc"
+	id = ixa_tribes.4
+	title = "ixa_tribes.4.title"
+	desc = "ixa_tribes.4.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -154,7 +154,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.4.option.a"
+		name = "ixa_tribes.4.option.a"
 		ai_chance = { factor = 100 }
 		if = {
 			limit = {
@@ -173,9 +173,9 @@ country_event = {
 
 # "Hostile Tribes Raid 
 country_event = {
-	id = cal_tribes.5
-	title = "cal_tribes.5.title"
-	desc = "cal_tribes.5.desc"
+	id = ixa_tribes.5
+	title = "ixa_tribes.5.title"
+	desc = "ixa_tribes.5.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -242,7 +242,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.5.option.a"
+		name = "ixa_tribes.5.option.a"
 		ai_chance = { factor = 100 }
 		if = {
 			limit = {
@@ -262,9 +262,9 @@ country_event = {
 
 # "Migrating Tribes in [migration_province.GetName]"
 country_event = {
-	id = cal_tribes.6
-	title = "cal_tribes.6.title"
-	desc = "cal_tribes.6.desc"
+	id = ixa_tribes.6
+	title = "ixa_tribes.6.title"
+	desc = "ixa_tribes.6.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -284,7 +284,7 @@ country_event = {
             }
 		}
 		any_owned_province = { 
-			trade_goods = cal_food
+			trade_goods = ixa_food
 			any_neighbor_province = {  
 				NOT = { owned_by = ROOT }
 			}
@@ -299,7 +299,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					trade_goods = cal_food
+					trade_goods = ixa_food
 					any_neighbor_province = {  
 						NOT = { owned_by = ROOT }
 					}
@@ -310,7 +310,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.6.option.a"
+		name = "ixa_tribes.6.option.a"
 		ai_chance = { factor = 100 }
 		if = {
 			limit = {
@@ -329,9 +329,9 @@ country_event = {
 
 # "Migrating Tribes in [migration_province.GetName]"
 country_event = {
-	id = cal_tribes.7
-	title = "cal_tribes.7.title"
-	desc = "cal_tribes.7.desc"
+	id = ixa_tribes.7
+	title = "ixa_tribes.7.title"
+	desc = "ixa_tribes.7.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -351,7 +351,7 @@ country_event = {
             }
 		}
 		any_owned_province = { 
-			trade_goods = cal_food
+			trade_goods = ixa_food
 			any_neighbor_province = {  
 				NOT = { owned_by = ROOT }
 			}
@@ -368,7 +368,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					trade_goods = cal_food
+					trade_goods = ixa_food
 					any_neighbor_province = {  
 						NOT = { owned_by = ROOT }
 					}
@@ -379,7 +379,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "cal_tribes.7.option.a"
+		name = "ixa_tribes.7.option.a"
 		ai_chance = { factor = 100 }
 		if = {
 			limit = {
@@ -398,9 +398,9 @@ country_event = {
 
 # "War Games"
 country_event = {
-	id = cal_tribes.8
-	title = "cal_tribes.8.title"
-	desc = "cal_tribes.8.desc"
+	id = ixa_tribes.8
+	title = "ixa_tribes.8.title"
+	desc = "ixa_tribes.8.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -417,26 +417,26 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.8.option.a"
+		name = "ixa_tribes.8.option.a"
 		ai_chance = { factor = 100 }
 		random_list = {
 			25 = {
-				country_event = { id = cal_tribes.9 days = 3 random = 2 }
+				country_event = { id = ixa_tribes.9 days = 3 random = 2 }
 			}
 			25 = {
-				country_event = { id = cal_tribes.10 days = 3 random = 2 }
+				country_event = { id = ixa_tribes.10 days = 3 random = 2 }
 			}
 			25 = {
-				country_event = { id = cal_tribes.11 days = 3 random = 2 }
+				country_event = { id = ixa_tribes.11 days = 3 random = 2 }
 			}
 			25 = {
-				country_event = { id = cal_tribes.12 days = 3 random = 2 }
+				country_event = { id = ixa_tribes.12 days = 3 random = 2 }
 			}
 			15 = {
-				country_event = { id = cal_tribes.15 days = 3 random = 2 }
+				country_event = { id = ixa_tribes.15 days = 3 random = 2 }
 			}
 			5 = {
-				country_event = { id = cal_tribes.16 days = 3 random = 2 }
+				country_event = { id = ixa_tribes.16 days = 3 random = 2 }
 			}			
 		}		
 	}
@@ -444,9 +444,9 @@ country_event = {
 
 # "Glorious Chief"
 country_event = {
-	id = cal_tribes.9
-	title = "cal_tribes.9.title"
-	desc = "cal_tribes.9.desc"
+	id = ixa_tribes.9
+	title = "ixa_tribes.9.title"
+	desc = "ixa_tribes.9.desc"
 	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
@@ -460,7 +460,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.9.option.a"
+		name = "ixa_tribes.9.option.a"
 		ai_chance = { factor = 33 }
 		if = {
 			limit = {
@@ -474,7 +474,7 @@ country_event = {
 		add_horde_unity = 33
 	}
 	option = {
-		name = "cal_tribes.9.option.b"
+		name = "ixa_tribes.9.option.b"
 		ai_chance = { factor = 33 }
 		if = {
 			limit = {
@@ -491,9 +491,9 @@ country_event = {
 
 # "Successful Games"
 country_event = {
-	id = cal_tribes.10
-	title = "cal_tribes.10.title"
-	desc = "cal_tribes.10.desc"
+	id = ixa_tribes.10
+	title = "ixa_tribes.10.title"
+	desc = "ixa_tribes.10.desc"
 	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
@@ -507,7 +507,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.10.option.a"
+		name = "ixa_tribes.10.option.a"
 		ai_chance = { factor = 100 }
 		if = {
 			limit = {
@@ -525,9 +525,9 @@ country_event = {
 
 # "Ruinous Games"
 country_event = {
-	id = cal_tribes.11
-	title = "cal_tribes.11.title"
-	desc = "cal_tribes.11.desc"
+	id = ixa_tribes.11
+	title = "ixa_tribes.11.title"
+	desc = "ixa_tribes.11.desc"
 	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
@@ -542,7 +542,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.11.option.a"
+		name = "ixa_tribes.11.option.a"
 		ai_chance = { factor = 100 }
 		if = {
 			limit = {
@@ -560,9 +560,9 @@ country_event = {
 
 # "Legendary Games"
 country_event = {
-	id = cal_tribes.12
-	title = "cal_tribes.12.title"
-	desc = "cal_tribes.12.desc"
+	id = ixa_tribes.12
+	title = "ixa_tribes.12.title"
+	desc = "ixa_tribes.12.desc"
 	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
@@ -577,7 +577,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.12.option.a"
+		name = "ixa_tribes.12.option.a"
 		ai_chance = { factor = 100 }
 		if = {
 			limit = {
@@ -595,9 +595,9 @@ country_event = {
 
 # "Clansmen Flock our Hosts"
 country_event = {
-	id = cal_tribes.13
-	title = "cal_tribes.13.title"
-	desc = "cal_tribes.13.desc"
+	id = ixa_tribes.13
+	title = "ixa_tribes.13.title"
+	desc = "ixa_tribes.13.desc"
 	picture = MONGOL_BANNERS_eventPicture	
 	
 	is_triggered_only = yes	
@@ -617,7 +617,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.13.option.a"
+		name = "ixa_tribes.13.option.a"
 		ai_chance = { factor = 100 }
 		if = {
 			limit = {
@@ -634,9 +634,9 @@ country_event = {
 
 # "Restless Warband"
 country_event = {
-	id = cal_tribes.14
-	title = "cal_tribes.14.title"
-	desc = "cal_tribes.14.desc"
+	id = ixa_tribes.14
+	title = "ixa_tribes.14.title"
+	desc = "ixa_tribes.14.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -653,7 +653,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.14.option.a"
+		name = "ixa_tribes.14.option.a"
 		ai_chance = { factor = 100 }
 		if = {
 			limit = {
@@ -672,9 +672,9 @@ country_event = {
 
 # "Rising Star"
 country_event = {
-	id = cal_tribes.15
-	title = "cal_tribes.15.title"
-	desc = "cal_tribes.15.desc"
+	id = ixa_tribes.15
+	title = "ixa_tribes.15.title"
+	desc = "ixa_tribes.15.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -697,7 +697,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.15.option.a"
+		name = "ixa_tribes.15.option.a"
 		ai_chance = { factor = 50 }
 		add_prestige = 2
 		create_general = { tradition = 50 }
@@ -718,7 +718,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "cal_tribes.15.option.b"
+		name = "ixa_tribes.15.option.b"
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -744,9 +744,9 @@ country_event = {
 
 #  "Shining Star"
 country_event = {
-	id = cal_tribes.16
-	title = "cal_tribes.16.title"
-	desc = "cal_tribes.16.desc"
+	id = ixa_tribes.16
+	title = "ixa_tribes.16.title"
+	desc = "ixa_tribes.16.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -770,7 +770,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.16.option.a"
+		name = "ixa_tribes.16.option.a"
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -800,7 +800,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "cal_tribes.15.option.b"
+		name = "ixa_tribes.15.option.b"
 		ai_chance = {
 			factor = 50
 			modifier = {
@@ -826,9 +826,9 @@ country_event = {
 
 # "Tribal Feud"
 country_event = {
-	id = cal_tribes.17
-	title = "cal_tribes.17.title"
-	desc = "cal_tribes.17.desc"
+	id = ixa_tribes.17
+	title = "ixa_tribes.17.title"
+	desc = "ixa_tribes.17.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -847,7 +847,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.17.option.a"
+		name = "ixa_tribes.17.option.a"
 		ai_chance = { factor = 100 }
 		if = {
 			limit = {
@@ -871,9 +871,9 @@ country_event = {
 
 # "Hunting Accident"
 country_event = {
-	id = cal_tribes.19
-	title = "cal_tribes.19.title"
-	desc = "cal_tribes.19.desc"
+	id = ixa_tribes.19
+	title = "ixa_tribes.19.title"
+	desc = "ixa_tribes.19.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -901,7 +901,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.19.option.a"
+		name = "ixa_tribes.19.option.a"
 		ai_chance = { factor = 100 }	
 		add_prestige = -10
 		kill_heir = yes
@@ -910,9 +910,9 @@ country_event = {
 
 # "We Look Weak"
 country_event = {
-	id = cal_tribes.20
-	title = "cal_tribes.20.title"
-	desc = "cal_tribes.20.desc"
+	id = ixa_tribes.20
+	title = "ixa_tribes.20.title"
+	desc = "ixa_tribes.20.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -932,7 +932,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.20.option.a"
+		name = "ixa_tribes.20.option.a"
 		ai_chance = { factor = 100 }
 		add_prestige = -10
 		if = {
@@ -947,9 +947,9 @@ country_event = {
 
 # "Authority Undermined"
 country_event = {
-	id = cal_tribes.21
-	title = "cal_tribes.21.title"
-	desc = "cal_tribes.21.desc"
+	id = ixa_tribes.21
+	title = "ixa_tribes.21.title"
+	desc = "ixa_tribes.21.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -965,7 +965,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.21.option.a"
+		name = "ixa_tribes.21.option.a"
 		ai_chance = { factor = 100 }
 		add_horde_unity = -5
 		add_prestige = -10
@@ -981,9 +981,9 @@ country_event = {
 
 # "Military Tradition Scorned"
 country_event = {
-	id = cal_tribes.22
-	title = "cal_tribes.22.title"
-	desc = "cal_tribes.22.desc"
+	id = ixa_tribes.22
+	title = "ixa_tribes.22.title"
+	desc = "ixa_tribes.22.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -999,7 +999,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.22.option.a"
+		name = "ixa_tribes.22.option.a"
 		ai_chance = { factor = 100 }
 		add_army_tradition = -5
 		if = {
@@ -1018,9 +1018,9 @@ country_event = {
 
 # "Military Tradition Scorned"
 country_event = {
-	id = cal_tribes.23
-	title = "cal_tribes.23.title"
-	desc = "cal_tribes.23.desc"
+	id = ixa_tribes.23
+	title = "ixa_tribes.23.title"
+	desc = "ixa_tribes.23.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -1036,7 +1036,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.23.option.a"
+		name = "ixa_tribes.23.option.a"
 		ai_chance = { factor = 100 }
 		add_prestige = -2		
 		add_yearly_manpower = -0.2
@@ -1056,9 +1056,9 @@ country_event = {
 
 # "War, What is it Good For"
 country_event = {
-	id = cal_tribes.24
-	title = "cal_tribes.24.title"
-	desc = "cal_tribes.24.desc"
+	id = ixa_tribes.24
+	title = "ixa_tribes.24.title"
+	desc = "ixa_tribes.24.desc"
 	picture = HORDE_ON_HORSEBACK_eventPicture	
 	
 	is_triggered_only = yes	
@@ -1078,7 +1078,7 @@ country_event = {
 	}
 
 	option = {
-		name = "cal_tribes.24.option.a"
+		name = "ixa_tribes.24.option.a"
 		add_prestige = 10
 		add_stability_or_adm_power = yes
 	}

@@ -2,7 +2,5 @@ REB = "countries/Rebels.txt"
 PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
 
-# ---- Formable ----
-
-# ---- Human ----
-HUM = "countries/Human Federation.txt"     
+# ---- Lizard ----
+LIZ = "countries/Lizardmen.txt"     

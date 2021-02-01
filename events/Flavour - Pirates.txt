@@ -23,7 +23,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 	}
 	option = { # Current ruler
 		name = "pirates.1.keep"
@@ -193,7 +193,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 		if = {
 			limit = {
 				has_dlc = "El Dorado"
@@ -248,7 +248,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 	}
 	
 	immediate = {
@@ -298,7 +298,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 		has_privateers = yes
 	}
 	
@@ -350,7 +350,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 	}
 	
 	immediate = {
@@ -389,7 +389,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 		any_country = {
 			num_of_heavy_ship = 3
 			capital_scope = {
@@ -451,12 +451,12 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 		has_privateers = yes
 		any_active_trade_node = {
 			any_trade_node_member_province = {
 				OR = {
-					trade_goods = cal_slaves
+					trade_goods = ixa_slaves
 				}
 			}
 		}
@@ -498,7 +498,7 @@ country_event = {
 	
 	trigger = {	
 		has_dlc = "Golden Century"
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 		navy_size = 5
 		NOT = { has_country_modifier = thorough_careening }
 		NOT = { has_country_modifier = relaxed_careening }
@@ -541,7 +541,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 		NOT = { has_country_modifier = smugglers_struggling }
 	}
 	
@@ -570,7 +570,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 	}
 	
 	immediate = {
@@ -636,7 +636,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Golden Century"
-		has_reform = pirate_haven_reform
+		has_reform = pirate_republic_reform
 	}
 	
 	option = {

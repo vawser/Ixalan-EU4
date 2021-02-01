@@ -5,6 +5,12 @@ estate_tribals = {
     influence_from_dev_modifier = 0.4
     
     # ----- Names -----
+    custom_name = {
+        desc = estate_tribals_dragonkin
+        trigger = {
+            is_dragon_culture_group = yes
+        }
+    }
     
 	# ----- Conditions -----
     trigger = {

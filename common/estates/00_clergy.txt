@@ -6,6 +6,48 @@ estate_clergy = {
 	influence_from_dev_modifier = 1.0
     
     # ----- Names -----
+    custom_name = {
+        desc = estate_clergy_tidesages
+        trigger = {
+            has_reform = admiralty_reform
+        }
+    }
+    custom_name = {
+        desc = estate_clergy_light
+        trigger = {
+            religion_group = light_group
+        }
+    }
+    custom_name = {
+        desc = estate_clergy_void
+        trigger = {
+            religion_group = shadow_group
+        }
+    }
+    custom_name = {
+        desc = estate_clergy_disorder
+        trigger = {
+            religion_group = disorder_group
+        }
+    }
+    custom_name = {
+        desc = estate_clergy_order
+        trigger = {
+            religion_group = order_group
+        }
+    }
+    custom_name = {
+        desc = estate_clergy_druidic
+        trigger = {
+            religion = druidism
+        }
+    }
+    custom_name = {
+        desc = estate_clergy_elemental
+        trigger = {
+            religion_group = elemental_group
+        }
+    }
     
 	# ----- Conditions -----
 	trigger = {

@@ -1,9 +1,9 @@
-namespace = cal_pretender
+namespace = ixa_pretender
 
 country_event = {
-	id = cal_pretender.1
-	title = cal_pretender.1.title
-	desc = cal_pretender.1.desc
+	id = ixa_pretender.1
+	title = ixa_pretender.1.title
+	desc = ixa_pretender.1.desc
 	picture = MILITARY_CAMP_eventPicture
 	
 	is_triggered_only = yes
@@ -16,7 +16,7 @@ country_event = {
 	}
 	
 	option = {
-		name = cal_pretender.1.option.a
+		name = ixa_pretender.1.option.a
 		if = {
 			limit = {
 				NOT = { legitimacy = 15 }

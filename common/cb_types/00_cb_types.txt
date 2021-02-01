@@ -300,7 +300,7 @@ cb_war_against_the_world = {
 	valid_for_subject = no
 	
 	prerequisites = {
-		has_reform = cal_war_against_the_world_doctrine_reform
+		has_reform = ixa_war_against_the_world_doctrine_reform
 		is_free_or_tributary_trigger = yes
 		is_revolutionary = no
 	}
@@ -710,7 +710,7 @@ cb_force_join_hre = {
 		has_dlc = "Emperor"
 		ROOT = {
 			is_emperor = yes
-			#hre_reform_passed = emperor_safeguard_tribal_stability
+			hre_reform_passed = emperor_safeguard_tribal_stability
 			can_use_peace_treaty = {
 				who = FROM
 				treaty = po_join_empire
@@ -750,7 +750,7 @@ cb_world_crusade = {
 	valid_for_subject = no
 
 	prerequisites = {
-		has_reform = cal_religious_permanent_revolution_reform
+		has_reform = ixa_religious_permanent_revolution_reform
 		OR = {
 			is_neighbor_of = FROM
 			claim = FROM

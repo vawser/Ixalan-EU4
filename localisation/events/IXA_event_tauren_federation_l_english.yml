@@ -1,0 +1,41 @@
+﻿l_english: 
+ #-----------------------------------------------
+ # Tauren Federation
+ #-----------------------------------------------
+ ixa_tauren_federation.1.title: "Empire of the Taurens"
+ ixa_tauren_federation.1.desc: "We have united the disprate tribes of the Taurens into one, powerful state. Let us proclaim ourselves an empire and protect Mulgore from any whom would threaten it!"
+ ixa_tauren_federation.1.option.a: "For the Earth Mother!"
+ 
+ ixa_tauren_federation.2.title: "Empire of the Taurens"
+ ixa_tauren_federation.2.desc: "The federation has united the disprate tribes of the Taurens into one, powerful state. We shall become part of their empire and protect Mulgore from any whom would threaten it!"
+ ixa_tauren_federation.2.option.a: "For the Earth Mother!"
+ 
+ ixa_tauren_federation.10.title: "Tribal Rumours"
+ ixa_tauren_federation.10.desc: "Accusations of nepotism and corruption have been reported from the tribe of [rumour_country.GetName]. They claim that the current High Chieftain, [current_emperor.Monarch.GetName] has ignored their plight. Without swift action, they may rise up in revolt."
+ ixa_tauren_federation.10.option.a: "Address their immediate concerns"
+ ixa_tauren_federation.10.option.b: "Fix the systemic issues"
+ ixa_tauren_federation.10.option.c: "Ignore the rumours"
+ 
+ ixa_tauren_federation.11.title: "Tribal Rumours - Incident"
+ ixa_tauren_federation.11.desc: ""
+ ixa_tauren_federation.11.option.a: "Ok"
+ 
+ ixa_tauren_federation.12.title: "Rites of the Great Hunt"
+ ixa_tauren_federation.12.desc: "The rites of the Great Hunt are venerated at the heart of Tauren spirituality. Every tauren, warrior or otherwise, seeks to identify as both a hunter and a child of the Earth Mother. When it comes to celebrate, which aspect is focused on can vary. Let us petition the members of the federation to see."
+ ixa_tauren_federation.12.option.a: "Venerate the Earth Mother"
+ ixa_tauren_federation.12.option.b: "Venerate the Earth Mother and the Hunter"
+ ixa_tauren_federation.12.option.c: "Venerate the Hunter"
+ 
+ ixa_tauren_federation.13.title: "Rites of the Great Hunt - Incident"
+ ixa_tauren_federation.13.desc: ""
+ ixa_tauren_federation.13.option.a: "Ok"
+ 
+ ixa_tauren_federation.14.title: "Centaur Incursion"
+ ixa_tauren_federation.14.desc: "The centaur have been a menace to the tauren for time long forgotten. Throughout the years they have pushed the tribes out of Mulgore and forces them to wander the barrens, living a nomadic lifestyle. This latest incursion is proof that we must decide on whether to abandon Mulgore or to push back and drive these fiends from our lands!"
+ ixa_tauren_federation.14.option.a: "Bolster the Vanguard"
+ ixa_tauren_federation.14.option.b: "Settle the Barrens"
+ ixa_tauren_federation.14.option.c: "Crush the Centaurs"
+ 
+ ixa_tauren_federation.15.title: "Centaur Incursion - Incident"
+ ixa_tauren_federation.15.desc: ""
+ ixa_tauren_federation.15.option.a: "Ok"

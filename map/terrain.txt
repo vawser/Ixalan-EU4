@@ -481,35 +481,41 @@ categories =  {
 # Terrain
 # ----------------------------------
 terrain = {
-    t_ocean                     = { type = ocean                    color = { 0 } } # 8, 31, 130
-    t_inland_ocean              = { type = inland_ocean             color = { 1 } } # 55, 90, 220
-    t_glacier                   = { type = glacier                  color = { 2 } } # 0, 200, 250
-    t_farmlands                 = { type = farmlands                color = { 3 } } # 100, 130, 30
-    t_forest                    = { type = forest                   color = { 4 } } # 0, 60, 10
-    
-    t_hills                     = { type = hills                    color = { 5 } } # 100, 40, 0
-    t_woods                     = { type = woods                    color = { 6 } } # 100, 200, 0
-    t_mountain                  = { type = mountain                 color = { 7 } } # 60, 40, 10
-    t_impassable_mountains      = { type = impassable_mountains     color = { 8 } } # 60, 20, 0
-    t_grasslands                = { type = grasslands               color = { 9 } } # 80, 120, 20
-    
-    t_jungle                    = { type = jungle                   color = { 10 } } # 90, 250, 30
-    t_marsh                     = { type = marsh                    color = { 11 } } # 80, 140, 170
-    t_desert                    = { type = desert                   color = { 12 } } # 200, 180, 100
-    t_coastal_desert            = { type = coastal_desert           color = { 13 } } # 200, 200, 120
-    t_coastline                 = { type = coastline                color = { 14 } } # 255, 255, 120
-    
-    t_drylands                  = { type = drylands                 color = { 15 } } # 150, 200, 100
-    snow				        = { type = mountain 		        color = { 16 } } # 250, 250, 250
-    t_highlands                 = { type = highlands                color = { 17 } } # 150, 150, 100
-    t_savannah                  = { type = savannah                 color = { 18 } } # 150, 200, 50
-    t_steppe                    = { type = steppe                   color = { 19 } } # 200, 200, 0
-    
-    t_forest_hills	            = { type = hills                 	color = { 20 } } # 85, 108, 18	 	# Forest texture for hills
-    t_plains_hills       		= { type = hills                 	color = { 21 } } # 185, 108, 30		# Grasslands texture for hills
-    t_mountain_hills            = { type = hills                 	color = { 22 } } # 96, 64, 22		# Mountain texture for hills
-    t_desert_hills              = { type = hills                 	color = { 23 } } # 155, 123, 18		# Desert texture for hills
-    t_dirt                 		= { type = drylands                 color = { 24 } } # 50, 37, 32       # Desolate Earth
+    grasslands			= { type = grasslands		color = { 	0	 } }
+	hills				= { type = hills			color = { 	1	 } }
+	desert_mountain		= { type = mountain			color = { 	2	 } }
+	desert				= { type = desert			color = { 	3	 } }
+
+	plains				= { type = grasslands		color = { 	4	 } }
+	terrain_5			= { type = grasslands		color = { 	5	 } }
+	mountain			= { type = mountain			color = { 	6	 } }
+	desert_mountain_low	= { type = desert			color = { 	7	 } }
+
+	terrain_8			= { type = hills			color = { 	8	 } }
+	marsh				= { type = marsh			color = { 	9	 } }
+	terrain_10			= { type = farmlands		color = { 	10	 } }
+	terrain_11			= { type = farmlands		color = { 	11	 } }
+
+	forest_12			= { type = forest			color = { 	12	 } }
+	forest_13			= { type = forest			color = { 	13	 } }
+	forest_14			= { type = forest			color = { 	14	 } }
+	ocean				= { type = ocean			color = { 	15	 } }
+
+	snow				= { type = mountain 		color = { 	16	 } } # (SPECIAL CASE) Used to identify permanent snow
+	inland_ocean_17 	= { type = inland_ocean		color = {	17	 } }
+
+	coastal_desert_18	= { type = coastal_desert	color = { 	19	 } }
+	coastline			= { type = coastline		color = { 	35	 } }
+	
+	savannah			= { type = savannah 		color = {	20	 } }
+	drylands			= { type = drylands			color = {	22	 } }
+	highlands			= { type = highlands		color = {	23	 } }
+	dry_highlands		= { type = highlands		color = {	24	 } }
+	
+	woods				= { type = woods			color = { 	255	 } }
+	jungle				= { type = jungle			color = { 	254	 } }
+	
+	terrain_21			= { type = farmlands		color = { 	21	 } }	
 }
 
 # ----------------------------------

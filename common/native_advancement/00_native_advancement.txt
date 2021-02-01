@@ -9,19 +9,19 @@
 native_adm_ideas = {
 	category = ADM
 	
-	cal_forestcraft = {
+	ixa_forestcraft = {
 		build_cost = -0.1
 	}
-	cal_primitive_societies = {
+	ixa_primitive_societies = {
 		global_tax_modifier = 0.25
 	}
-	cal_bone_stacks = {
+	ixa_bone_stacks = {
 		stability_cost_modifier = -0.2
 	}	
-	cal_survival_of_the_fittest = {
+	ixa_survival_of_the_fittest = {
 		global_unrest = -2
 	}
-	cal_primitive_unity = {
+	ixa_primitive_unity = {
 		adm_tech_cost_modifier = -0.15
 	}
 	
@@ -34,20 +34,20 @@ native_adm_ideas = {
 native_dip_ideas = {
 	category = DIP
 
-	cal_migrative_traditions = {
+	ixa_migrative_traditions = {
 		migration_cooldown = -0.25
 		auto_explore_adjacent_to_colony = yes
 	}
-	cal_primitive_ceremonies = { 
+	ixa_primitive_ceremonies = { 
 		diplomatic_reputation = 1
 	}
-	cal_trade_diplomacy = {
+	ixa_trade_diplomacy = {
 		improve_relation_modifier = 0.5
 	}
-	cal_primitive_migrations = { 
+	ixa_primitive_migrations = { 
 		colonists = 1
 	}
-	cal_greenseer_visions = { 
+	ixa_greenseer_visions = { 
 		dip_tech_cost_modifier = -0.15
 	}
 	
@@ -60,19 +60,19 @@ native_dip_ideas = {
 native_mil_ideas = {
 	category = MIL	
 	
-	cal_warrior_society = {
+	ixa_warrior_society = {
 		land_morale = 0.1
 	}
-	cal_raid_warfare = {
+	ixa_raid_warfare = {
 		leader_land_shock = 1
 	}
-	cal_tribal_adoptions = {
+	ixa_tribal_adoptions = {
 		land_forcelimit_modifier = 0.33
 	}
-	cal_forest_paths = {
+	ixa_forest_paths = {
 		land_attrition = -0.20
 	}
-	cal_flexible_warfare = {
+	ixa_flexible_warfare = {
 		mil_tech_cost_modifier = -0.15
 	}
 	

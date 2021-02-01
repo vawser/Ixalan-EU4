@@ -11,54 +11,71 @@ monarchy = {
 			reforms = {
                 # Generic
                 autocracy_reform
+                feudalism_reform
                 
                 # Unique
+                scourge_reform
+                admiralty_reform
+                kingdom_of_magic_reform
+                naga_domain_reform
+                scourge_domain_reform
+                troll_kingdom_reform
 			}
 		}
         tier_monarchy_hereditary_vs_nobility = {
 			reforms = {
-				cal_enforce_privileges_reform
-				cal_quash_noble_power_reform
-				cal_enforce_trader_privileges_reform
+				ixa_enforce_privileges_reform
+				ixa_quash_noble_power_reform
+				ixa_enforce_trader_privileges_reform
+				ixa_azerothian_traders_reform
+				ixa_druidic_syncretism_reform
+				ixa_elvish_nobles_reform
+				ixa_strength_of_the_vrykul_reform
+				ixa_draenei_society_reform
+                ixa_hereditary_rule_reform
 			}
 		}
 		tier_monarchy_bureaucracy = {
 			reforms = {
-				cal_centralize_reform
-				cal_decentralize_reform
-                cal_penal_colonies_reform
-                cal_justified_conquest_reform
+				ixa_centralize_reform
+				ixa_decentralize_reform
+				ixa_kalimdor_recruitment
+				ixa_august_celestials_reform
+                ixa_penal_colonies_reform
+                ixa_justified_conquest_reform
 			}
 		}
 		tier_monarchy_growth_of_administration = {
 			reforms = {
-				cal_clergy_in_administration_reform
-				cal_of_noble_bearing_reform
-				cal_meritocratic_focus_reform
+				ixa_clergy_in_administration_reform
+				ixa_of_noble_bearing_reform
+				ixa_meritocratic_focus_reform
+				ixa_dwarven_culture_reform
+				ixa_formalized_hoof_reform
 			}
 		}
 		tier_monarchy_deliberative_assembly = {
 			reforms = {
-				cal_parliamentary_reform
-				cal_royal_decree_reform
-				cal_aristocratic_court_reform
-				cal_states_general_reform
-				cal_general_estates_reform
+				ixa_parliamentary_reform
+				ixa_royal_decree_reform
+				ixa_aristocratic_court_reform
+				ixa_states_general_reform
+				ixa_general_estates_reform
 			}
 		}
 		tier_monarchy_absolute_rule_vs_constitutional = {
 			reforms = {
-				cal_law_and_order_reform
-				cal_regional_representation_reform
-                cal_militarized_state_reform
+				ixa_law_and_order_reform
+				ixa_regional_representation_reform
+                ixa_militarized_state_reform
 			}
 		}
 		tier_monarchy_separation_of_power = {
 			reforms = {
-				cal_political_absolutism_reform
-				cal_legislative_houses_reform
-				cal_become_a_republic_reform
-				cal_become_a_theocracy_reform
+				ixa_political_absolutism_reform
+				ixa_legislative_houses_reform
+				ixa_become_a_republic_reform
+				ixa_become_a_theocracy_reform
 			}
 		}
     }
@@ -66,8 +83,15 @@ monarchy = {
     legacy_government = {
         # Generic
         autocracy_legacy
+        feudalism_legacy
         
         # Unique
+        scourge_legacy
+        admiralty_legacy
+        kingdom_of_magic_legacy
+        naga_domain_legacy
+        scourge_domain_legacy
+        troll_kingdom_legacy
     }
 }
 
@@ -82,92 +106,92 @@ republic = {
     reform_levels = {
         tier_republic_government_form = {
 			reforms = {
-                # Generic
-                democracy_reform
-                republic_reform
-                
-                # Unique
+                noble_republic_reform
+                mercantile_republic_reform
+                despotic_republic_reform
+                magocracy_reform
                 free_city_reform
                 trading_city_reform
                 colonial_government_reform
+                tinker_republic_reform
 			}
 		}
         tier_republic_republican_virtues = {
 			reforms = {
-				cal_republican_authoritarianism_reform
-				cal_nepotism_reform
-				cal_republicanism_reform
+				ixa_republican_authoritarianism_reform
+				ixa_nepotism_reform
+				ixa_republicanism_reform
 			}
 		}
 		tier_republic_frequency_of_elections = {
 			reforms = {
-				cal_frequent_elections_reform
-				cal_consolidation_of_power_reform
-				cal_lottery_reform
+				ixa_frequent_elections_reform
+				ixa_consolidation_of_power_reform
+				ixa_lottery_reform
 			}
 		}
 		tier_republic_regionalism = {
 			reforms = {
-				cal_provincial_governments_reform
-				cal_administrative_divisions_reform
-				cal_union_of_states_reform
-				cal_penal_colonies_reform
-                cal_justified_conquest_reform
+				ixa_provincial_governments_reform
+				ixa_administrative_divisions_reform
+				ixa_union_of_states_reform
+				ixa_penal_colonies_reform
+                ixa_justified_conquest_reform
 			}
 		}
 		tier_republic_separation_of_power = {
 			reforms = {
-				cal_parliamentary_reform
-				cal_presidential_reform
-                cal_republican_diplomacy_reform
-                cal_municipal_self_defense_reform
+				ixa_parliamentary_reform
+				ixa_presidential_reform
+                ixa_republican_diplomacy_reform
+                ixa_municipal_self_defense_reform
 			}
 		}
 		tier_republic_consolidation_of_power = {
 			reforms = {
-				cal_broaden_executive_powers_reform
-				cal_devolution_of_powers_reform
-                cal_militarized_state_reform
+				ixa_broaden_executive_powers_reform
+				ixa_devolution_of_powers_reform
+                ixa_militarized_state_reform
 			}
 		}
 		tier_republic_guiding_principle_of_administration = {
 			reforms = {
-				cal_political_principle_reform
-				cal_moral_principle_reform
+				ixa_political_principle_reform
+				ixa_moral_principle_reform
 			}
 		}
 		tier_republic_electorate = {
 			reforms = {
-				cal_landholders_reform
-				cal_citizenry_reform
+				ixa_landholders_reform
+				ixa_citizenry_reform
 			}
 		}
 		tier_republic_office_selection = {
 			reforms = {
-				cal_appointment_by_committee_reform
-				cal_bureaucratic_aparatus_reform
-				cal_universal_suffrage_reform
+				ixa_appointment_by_committee_reform
+				ixa_bureaucratic_aparatus_reform
+				ixa_universal_suffrage_reform
 			}
 		}
 		tier_republic_question_of_dictatorship = {
 			reforms = {
-				cal_become_a_monarchy_reform
-				cal_become_a_theocracy_reform
-				cal_strengthen_executive_powers_reform
-				cal_reinforce_republican_values_reform
+				ixa_become_a_monarchy_reform
+				ixa_become_a_theocracy_reform
+				ixa_strengthen_executive_powers_reform
+				ixa_reinforce_republican_values_reform
 			}
 		}
     }
 
     legacy_government = {
-        # Generic
-        democracy_legacy
-        republic_legacy
-        
-        # Unique
+        noble_republic_legacy
+        mercantile_republic_legacy
+        despotic_republic_legacy
+        magocracy_legacy
         free_city_legacy
         trading_city_legacy
         colonial_government_legacy
+        tinker_republic_legacy
     }
 }
 
@@ -184,67 +208,81 @@ theocracy = {
 			reforms = {
                 # Generic
                 theocracy_reform
-                cult_reform
+                monastic_order_reform
                 
                 # Unique
+                demonic_order_reform
+                druidic_circle_reform
+                elemental_cult_reform
+                dragonflight_brood_reform
+                titan_facility_reform
+                cult_of_hakkar_reform
+                aqir_kingdom_reform
+                nerubian_kingdom_reform
+                mantid_kingdom_reform
+                tolvir_kingdom_reform
+                naga_empire_reform
+                illidari_reform
 			}
 		}
         tier_theocracy_internal_vs_external_mission = {
 			reforms = {
-				cal_internal_mission_reform
-				cal_external_mission_reform
-				cal_mission_to_civilize_reform
-				cal_mission_to_kill_pirates_reform
+				ixa_internal_mission_reform
+				ixa_external_mission_reform
+				ixa_mission_to_civilize_reform
+				ixa_mission_to_kill_pirates_reform
 			}
 		}
 		tier_theocracy_divine_cause = {
 			reforms = {
-				cal_safeguard_holy_sites_reform
-				cal_combat_heresy_reform
-				cal_expel_heathens_reform
-                cal_justified_conquest_reform
+				ixa_safeguard_holy_sites_reform
+				ixa_combat_heresy_reform
+				ixa_expel_heathens_reform
+                ixa_justified_conquest_reform
 			}
 		}
 		tier_theocracy_clergy_in_administration = {
 			reforms = {
-				cal_subservient_administrators_reform
-				cal_religious_administrators_reform
-				cal_pious_merchants_reform
-				cal_loyal_nobility_reform
-				cal_monastic_breweries_reform
+				ixa_subservient_administrators_reform
+				ixa_religious_administrators_reform
+				ixa_pious_merchants_reform
+				ixa_loyal_nobility_reform
+				ixa_monastic_breweries_reform
+				ixa_troll_warriors_reform
+				ixa_demonic_advisors_reform
 			}
 		}
 		tier_theocracy_secularization = {
 			reforms = {
-				cal_maintain_religious_head_reform
-				cal_partial_secularisation_reform
-                cal_militarized_state_reform
-                cal_become_a_monarchy_reform
-                cal_become_a_republic_reform
+				ixa_maintain_religious_head_reform
+				ixa_partial_secularisation_reform
+                ixa_militarized_state_reform
+                ixa_become_a_monarchy_reform
+                ixa_become_a_republic_reform
 			}
 		}
 		tier_theocracy_separation_of_power = {
 			reforms = {
-				cal_clerical_commission_reform
-				cal_divine_guidance_reform
-				cal_theocratic_democracy_reform
+				ixa_clerical_commission_reform
+				ixa_divine_guidance_reform
+				ixa_theocratic_democracy_reform
 			}
 		}
 		tier_theocracy_nature_of_faith = {
 			reforms = {
-				cal_church_and_state_reform
-				cal_religious_harmony_reform
-				cal_god_and_man_reform
-				cal_organising_our_religion_reform
+				ixa_church_and_state_reform
+				ixa_religious_harmony_reform
+				ixa_god_and_man_reform
+				ixa_organising_our_religion_reform
 			}
 		}
 		tier_theocracy_faith_and_the_world = {
 			reforms = {
-				cal_religion_in_one_country_reform
-				cal_religious_permanent_revolution_reform
-				cal_many_fingers_of_god_reform
-				cal_priestly_autonomy_reform
-				cal_proclaim_religious_head_reform
+				ixa_religion_in_one_country_reform
+				ixa_religious_permanent_revolution_reform
+				ixa_many_fingers_of_god_reform
+				ixa_priestly_autonomy_reform
+				ixa_proclaim_religious_head_reform
 			}
 		}
     }
@@ -252,9 +290,21 @@ theocracy = {
     legacy_government = {
         # Generic
         theocracy_legacy
-        cult_legacy
+        monastic_order_legacy
         
         # Unique
+        demonic_order_legacy
+        druidic_circle_legacy
+        elemental_cult_legacy
+        dragonflight_brood_legacy
+        titan_facility_legacy
+        cult_of_hakkar_legacy
+        tolvir_kingdom_legacy
+        aqir_kingdom_legacy
+        nerubian_kingdom_legacy
+        mantid_kingdom_legacy
+        naga_empire_legacy
+        illidari_legacy
     }
 }
 
@@ -270,48 +320,57 @@ tribal = {
         tier_tribal_government_form = {
 			reforms = {
                 # Generic
+                warband_reform
                 tribal_federation_reform
                 tribal_despotism_reform
                 
                 # Unique
+                orcish_horde_reform
+                dwarven_clan_reform
+                satyr_sect_reform
 			}
 		}
         tier_tribal_cultural_values = {
 			reforms = {
-				cal_martial_society_reform
-				cal_civil_society_reform
+				ixa_martial_society_reform
+				ixa_civil_society_reform
 			}
 		}
 		tier_tribal_religious_values = {
 			reforms = {
-				cal_religious_societies_reform
-				cal_lip_service_reform
+				ixa_religious_societies_reform
+				ixa_lip_service_reform
 			}
 		}
 		tier_tribal_modernization = {
 			reforms = {
-				cal_centralize_tribal_power_reform
-				cal_retain_tribal_hierarchy_reform
+				ixa_centralize_tribal_power_reform
+				ixa_retain_tribal_hierarchy_reform
 			}
 		}
 		tier_tribal_reformation = {
 			reforms = {
-				cal_become_a_monarchy_reform
-				cal_become_a_republic_reform
-				cal_become_a_theocracy_reform
-                cal_barbaric_despoilers_reform
-				cal_tribal_unity_reform
-                cal_militarized_state_reform
+				ixa_become_a_monarchy_reform
+				ixa_become_a_republic_reform
+				ixa_become_a_theocracy_reform
+				ixa_become_a_warband_reform
+                ixa_barbaric_despoilers_reform
+				ixa_tribal_unity_reform
+                ixa_militarized_state_reform
 			}
 		}
     }
     
     legacy_government = {
         # Generic
+        warband_legacy
         tribal_federation_legacy
         tribal_despotism_legacy
         
         # Unique
+        orcish_horde_legacy
+        dwarven_clan_legacy
+        satyr_sect_legacy
     }
 }
 
@@ -347,36 +406,38 @@ pirate = {
     reform_levels = {
         tier_pirate_government_form = {
 			reforms = {
-                pirate_haven_reform
+                pirate_kingdom_reform
+                pirate_republic_reform
 			}
 		}
         tier_pirate_governance = {
 			reforms = {
-				cal_council_of_captains_reform
-                cal_articles_of_agreement_reform
-                cal_smugglers_haven_reform
+				ixa_council_of_captains_reform
+                ixa_articles_of_agreement_reform
+                ixa_smugglers_haven_reform
 			}
 		}
 		tier_pirate_principles = {
 			reforms = {
-				cal_war_against_the_world_doctrine_reform
-				cal_black_market_consortium_reform
-                cal_justified_conquest_reform
+				ixa_war_against_the_world_doctrine_reform
+				ixa_black_market_consortium_reform
+                ixa_justified_conquest_reform
 			}
 		}
 		tier_pirate_reformation = {
 			reforms = {
-                cal_strengthen_pirate_unity_reform
-                cal_militarized_state_reform
-				cal_become_a_monarchy_reform
-				cal_become_a_republic_reform
-				cal_become_a_theocracy_reform
+                ixa_strengthen_pirate_unity_reform
+                ixa_militarized_state_reform
+				ixa_become_a_monarchy_reform
+				ixa_become_a_republic_reform
+				ixa_become_a_theocracy_reform
 			}
 		}
     }
     
     legacy_government = {
-        pirate_haven_legacy
+        pirate_kingdom_legacy
+        pirate_republic_legacy
     }
 }
 

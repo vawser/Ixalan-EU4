@@ -1,8 +1,0 @@
-# This is the start of the Rise of the Horde
-bookmark = {
-	name = "THE_COLLAPSE_NAME"
-	desc = "THE_COLLAPSE_DESC"
-	date = 3000.1.1
-    
-    country = HUM
-}

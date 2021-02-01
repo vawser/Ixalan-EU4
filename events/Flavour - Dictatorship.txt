@@ -17,7 +17,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Res Publica"
-		has_reform = republic_reform
+		has_reform = despotic_republic_reform
 	}
 
 	option = {
@@ -43,7 +43,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Res Publica"
-		has_reform = republic_reform
+		has_reform = despotic_republic_reform
 	}
 
 	option = {
@@ -69,7 +69,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Res Publica"
-		has_reform = republic_reform
+		has_reform = despotic_republic_reform
 	}
 
 	option = {
@@ -95,7 +95,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Res Publica"
-		has_reform = republic_reform
+		has_reform = despotic_republic_reform
 	}
 
 	option = {
@@ -121,7 +121,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Res Publica"
-		has_reform = republic_reform
+		has_reform = despotic_republic_reform
 	}
 
 	option = {
@@ -155,7 +155,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Res Publica"
-		has_reform = republic_reform
+		has_reform = despotic_republic_reform
 		NOT = { adm = 3 }
 		OR = {
 			advisor = philosopher
@@ -219,7 +219,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Res Publica"
-		has_reform = republic_reform
+		has_reform = despotic_republic_reform
 		NOT = { dip = 3 }
 		OR = {
 			advisor = statesman
@@ -283,7 +283,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Res Publica"
-		has_reform = republic_reform
+		has_reform = despotic_republic_reform
 		NOT = { mil = 3 }
 		OR = {
 			advisor = army_reformer
@@ -354,7 +354,7 @@ province_event = {
 		is_capital = no
 		owner = {
 			num_of_cities = 2
-			has_reform = republic_reform
+			has_reform = despotic_republic_reform
 			NOT = { republican_tradition = 50 }
 		}
 	}
@@ -391,7 +391,7 @@ province_event = {
 	trigger = {
 		has_dlc = "Res Publica"
 		owner = {
-			has_reform = republic_reform
+			has_reform = despotic_republic_reform
 			republican_tradition = 50
 		}
 	}

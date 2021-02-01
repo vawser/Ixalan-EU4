@@ -280,7 +280,7 @@ country_event = {
 		months = 720
 		modifier = {
 			factor = 0.7
-			has_idea_group = cal_exploration_ideas
+			has_idea_group = ixa_exploration_ideas
 		}
 	}
 
@@ -393,7 +393,7 @@ country_event = {
 				share = 1
 			}
 			any_trade_node_member_province = {
-				trade_goods = cal_slaves
+				trade_goods = ixa_slaves
 			}
 		}
 	}
@@ -420,7 +420,7 @@ country_event = {
 					share = 1
 				}
 				any_trade_node_member_province = {
-					trade_goods = cal_slaves
+					trade_goods = ixa_slaves
 				}
 			}
 			every_trade_node_member_country = {

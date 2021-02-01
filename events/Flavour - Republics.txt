@@ -595,7 +595,7 @@ country_event = {
 		has_government_attribute = is_merchant_republic
 		num_of_ports = 1
 		NOT = { colony = 1 }
-		cal_trade_ideas = 2
+		ixa_trade_ideas = 2
 		#Akavir = { has_discovered = ROOT }
 		NOT = {
 			has_country_modifier = local_trade_focus
@@ -973,15 +973,15 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			NOT = { cal_innovation_ideas = 2 }
+			NOT = { ixa_innovation_ideas = 2 }
 		}
 		modifier = {
 			factor = 0.9
-			NOT = { cal_innovation_ideas = 1 }
+			NOT = { ixa_innovation_ideas = 1 }
 		}
 		modifier = {
 			factor = 1.1
-			cal_innovation_ideas = 7
+			ixa_innovation_ideas = 7
 		}
 		modifier = {
 			factor = 0.9
@@ -1233,11 +1233,11 @@ country_event = {
 
 		modifier = {
 			factor = 1.1
-			cal_economic_ideas = 7
+			ixa_economic_ideas = 7
 		}
 		modifier = {
 			factor = 0.9
-			NOT = { cal_economic_ideas = 1 }
+			NOT = { ixa_economic_ideas = 1 }
 		}
 		modifier = {
 			factor = 0.9
@@ -1404,7 +1404,7 @@ country_event = {
 		NOT = { 
 			has_country_modifier = bad_relations_timer 
 		}
-		has_reform = republic_reform
+		has_reform = noble_republic_reform
 		any_neighbor_country = {
 			NOT = { has_opinion = { who = ROOT value = 0 } }
 			OR = {
@@ -1478,7 +1478,7 @@ country_event = {
 		NOT = { 
 			has_country_modifier = political_chaos_timer 
 		}
-		has_reform = republic_reform
+		has_reform = noble_republic_reform
 		NOT = { adm = 2 }
 	}
 
@@ -1564,7 +1564,7 @@ country_event = {
 		NOT = { 
 			has_country_modifier = influenced_decisions_timer 
 		}
-		has_reform = republic_reform
+		has_reform = noble_republic_reform
 	}
 
 	mean_time_to_happen = {
@@ -1648,7 +1648,7 @@ country_event = {
 		NOT = { 
 			has_country_modifier = financial_disagreements_timer 
 		}
-		has_reform = republic_reform
+		has_reform = noble_republic_reform
 		num_of_loans = 1
 	}
 
@@ -1747,7 +1747,7 @@ country_event = {
 	trigger = {
 		NOT = { has_country_modifier = trade_and_production_cutbacks }
 		NOT = { has_country_modifier = military_cutbacks }
-		has_reform = republic_reform
+		has_reform = noble_republic_reform
 		is_at_war = yes
 		OR = {
 			NOT = { trade_efficiency = 0.4 }
@@ -1862,8 +1862,8 @@ country_event = {
 		NOT = { has_country_modifier = land_modifier }
 		government = republic
 		has_parliament = yes
-		cal_trade_ideas = 1
-		cal_quality_ideas = 1
+		ixa_trade_ideas = 1
+		ixa_quality_ideas = 1
 		num_of_ports = 1
 	}
 
@@ -2354,7 +2354,7 @@ country_event = {
 		NOT = { 
 			has_country_modifier = a_new_constitution_timer
 		}
-		NOT = { cal_economic_ideas = 4 }
+		NOT = { ixa_economic_ideas = 4 }
 	}
 
 	mean_time_to_happen = {
@@ -2362,11 +2362,11 @@ country_event = {
 
 		modifier = {
 			factor = 0.9
-			NOT = { cal_economic_ideas = 2 }
+			NOT = { ixa_economic_ideas = 2 }
 		}
 		modifier = {
 			factor = 0.9
-			NOT = { cal_economic_ideas = 1 }
+			NOT = { ixa_economic_ideas = 1 }
 		}
 		modifier = {
 			factor = 0.9
@@ -2741,7 +2741,7 @@ country_event = {
 			has_country_modifier = bothersome_parliament
 		}
 		OR = {
-			has_reform = republic_reform
+			has_reform = noble_republic_reform
 			government = dictatorship
 		}
 		has_regency = no
@@ -2824,7 +2824,7 @@ country_event = {
 			has_country_modifier = over_budget_timer
 		}
 		OR = {
-			has_reform = republic_reform
+			has_reform = noble_republic_reform
 			government = dictatorship
 		}
 		stability = -2
@@ -2922,7 +2922,7 @@ country_event = {
 			has_country_modifier = embezzlement_timer 
 		}
 		OR = {
-			has_reform = republic_reform
+			has_reform = noble_republic_reform
 			government = dictatorship
 		}
 		has_advisor = yes
@@ -3022,7 +3022,7 @@ country_event = {
 			has_country_modifier = spies_investigate
 		}
 		OR = {
-			has_reform = republic_reform
+			has_reform = noble_republic_reform
 			government = dictatorship
 		}
 		has_regency = no
@@ -3131,7 +3131,7 @@ country_event = {
 			has_country_modifier = counter_espionage
 		}
 		OR = {
-			has_reform = republic_reform
+			has_reform = noble_republic_reform
 			government = dictatorship
 		}
 		any_neighbor_country = {
