@@ -1,0 +1,109 @@
+#------------------------------
+# Lore
+#------------------------------
+Continents:
+ - Azathor (right)
+ - Grimhind (lower right)
+ - Kanlos (Upper mid)
+ - Yghor (Lower mid)
+ - Sunveil (Elf crater)
+ - Siavess (Islands)
+ 
+Lizardmen civilization
+ - In jungle on Azathor
+ - Feudal states
+ - Lead by an Emperor in a loose federation, HRE style
+  - This due to the threat of X from the plains to the north
+ - Intelligence is due to proximity to the crystal in the heart of the Azathorian Jungle
+  - Prolonged distance from the jungle will cause the lizardmen to turn feral, becoming kobold
+  
+Kobold civilization
+ - Feral versions of Lizardmen, having failed to return to Azathor. Retain most physical attributes of Lizardmen, but operate with animalistic intent, forming crude tribal societies.
+
+Feline civilization 
+ - In the drylands of north Azathor
+ - Resemble humanoid felines
+ - Adapted to the heat
+ - Organised into nomadic clans that focus on the collection of treasure
+ 
+Arak civilization
+ - Found on Yghor close to the mountains
+ - Humanoid eagle warrior society
+ - Absolute states
+ 
+Furlog civilization
+ - Found on Kanlos
+ - Small bear-like humanoid
+ - Democratic governance
+ - Affinity with the forests
+ 
+Bugbear civilization
+ - Found on Kanlos
+ - Big hairy beast
+ - Tribal clans
+ - Hunts the Furlogs
+ 
+Leotyr civilization
+ - Found on Yghor
+ - Humanoid lion warrior society
+ - Absolute states
+
+Human civilization
+ - Found on Azathor, Grimhind, Kanlos, Yghor, Siavess
+ - Adaptable and inventive
+ - Mostly republics, kingdoms on Azathor
+ 
+Elf civilization
+ - Found on Sunveil
+ - Remnants of an once great elven empire.
+ - Wielders of sun magic
+ - The Great Calamity was the day of destruction for the empire. The overuse of magic caused solar energies to coalescence throughout Ashfall, and once a threshold was reached, to disipate violently, destroying much of Sunveil.
+ - Religious states
+ 
+Dwarf civilization
+ - Found in the mountains of Grimhind
+ - Reclusive race, focused on the underground
+ - Absolute states
+ 
+Satyr civilization
+ - Found on the islands of Siavess
+ - Peaceful beings, they live in the jungles of Siavess
+ - Tribal states
+ 
+Tortol civilization
+ - Found on the islands of Siavess
+ - Humanoid tortoise
+ - Wise, but power hungry
+ - Often dupe the satyrs for their own ends
+ - Absolute states
+ 
+Eletaur civilization
+ - Found on the islands of Siavess
+ - Humanoid elephant
+ - Pragmatic but peaceful
+ - Republics
+ 
+Frotog civilization
+ - Found on the islands of Siavess
+ - Humanoid frog
+ - War-like
+ - Tribal states
+ 
+Minotaur civilization
+ - Found on Grimhind
+ - War-like
+ - Tribal states
+
+#------------------------------
+# Notes
+#------------------------------
+# Sea: 
+20;0;170 
+20;10;170
+
+# Land: Current
+58;130;10
+
+# Wasteland
+200;0;0
+

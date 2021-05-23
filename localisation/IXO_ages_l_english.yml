@@ -1,0 +1,65 @@
+﻿l_english:
+ #-----------------------------------
+ # Fall of the Elves
+ #-----------------------------------
+ age_fall_of_the_elves: "Fall of the Elves"
+ age_fall_of_the_elves_short: "Fall of the Elves"
+ age_fall_of_the_elves_desc: ""
+ age_fall_of_the_elves_condition: ""
+ 
+ # Objectives
+ fote_obj_prestigious_capital: "§YPrestigious Capital§!"
+ fote_obj_prestigious_capital_desc: "Have a capital with your religion and culture with 50 development and zero devastation."
+ 
+ fote_obj_absolute_rule: "§YAbsolute Rule§!"
+ fote_obj_absolute_rule_desc: "Obtain 80 Absolutism."
+ 
+ fote_obj_stability: "§YStable Nation§!"
+ fote_obj_stability_desc: "Maintain 3 Stability."
+ 
+ fote_obj_masterful_counsel: "§YMasterful Counsel§!"
+ fote_obj_masterful_counsel_desc: "Employ a Level 3 advisor in the ADM, DIP and MIL categories."
+ 
+ fote_obj_colossal_army: "§YColossal Army§!"
+ fote_obj_colossal_army_desc: "Have 100 Land Forcelimit and have 80% of your land forcelimit used."
+ 
+ fote_obj_colossal_navy: "§YColossal Army§!"
+ fote_obj_colossal_navy_desc: "Have 100 Naval Forcelimit and have 80% of your naval forcelimit used."
+ 
+ fote_obj_inspirational_leader: "§YInspirational Leader§!"
+ fote_obj_inspirational_leader_desc: "Have a 3 star leader in charge of an army."
+ 
+ # Abilities
+ fote_development_focus: "Development Focus"
+ fote_development_focus_desc: ""
+ 
+ fote_justified_annexation: "Justified Annexation"
+ fote_justified_annexation_desc: ""
+ 
+ fote_prestigeous_traditions: "Prestigeous Traditions"
+ fote_prestigeous_traditions_desc: ""
+ 
+ fote_subdued_people: "Subdued People"
+ fote_subdued_people_desc: ""
+ 
+ fote_expanded_trade_networks: "Expanded Trade Networks"
+ fote_expanded_trade_networks_desc: ""
+ 
+ fote_military_drills: "Military Drills"
+ fote_military_drills_desc: ""
+ 
+ fote_local_governance: "Local Governance"
+ fote_local_governance_desc: ""
+ 
+ fote_mercantilism: "Mercantilism"
+ fote_mercantilism_desc: ""
+ 
+ fote_administrative_expansion: "Administrative Expansion"
+ fote_administrative_expansion_desc: ""
+ 
+ fote_lay_of_the_land: "Lay of the Land"
+ fote_lay_of_the_land_desc: ""
+ 
+ fote_eager_settlers: "Eager Settlers"
+ fote_eager_settlers_desc: ""
+ 
