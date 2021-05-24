@@ -296,19 +296,19 @@ province_event = {
 		months	= 2000
 		modifier = {
 			factor = 0.9
-			owner = { has_idea = ixa_trade_ideas_4 }
+			owner = { has_idea = mod_trade_ideas_4 }
 		}
 		modifier = {
 			factor = 0.9
-			owner = { has_idea = ixa_trade_ideas_3 }
+			owner = { has_idea = mod_trade_ideas_3 }
 		}
 		modifier = {
 			factor = 1.1
-			owner = { NOT = { has_idea = ixa_trade_ideas_4 } }
+			owner = { NOT = { has_idea = mod_trade_ideas_4 } }
 		}
 		modifier = {
 			factor = 1.1
-			owner = { NOT = { has_idea = ixa_trade_ideas_3 } }
+			owner = { NOT = { has_idea = mod_trade_ideas_3 } }
 		}
 		modifier = {
 			factor = 0.95
@@ -487,7 +487,7 @@ province_event = {
 	desc = {
 		trigger = {
 			owner = {
-				has_reform = ixa_mission_to_civilize_reform
+				has_reform = mod_mission_to_civilize_reform
 			}
 		}
 		desc = "EVTDESC3077.C"
@@ -523,7 +523,7 @@ province_event = {
 				has_country_flag = NF_trader
 				native_policy = native_policy_coexist
 				native_policy = native_policy_trade
-				has_reform = ixa_mission_to_civilize_reform
+				has_reform = mod_mission_to_civilize_reform
 			}
 		}
 

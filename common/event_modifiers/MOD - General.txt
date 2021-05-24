@@ -1,0 +1,15 @@
+yearly_assessments = {
+    yearly_army_professionalism = 0.01
+}
+
+changed_primary_culture = {
+    global_unrest = 2
+}
+
+speculative_research = {
+    innovativeness_gain = 0.25
+}
+
+law_and_order = {
+    global_unrest = -1
+}

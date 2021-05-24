@@ -138,7 +138,7 @@ guiTypes = {
 			maxWidth = 200
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 			fixedsize = yes
 			truncate = yes
 		}
@@ -152,7 +152,7 @@ guiTypes = {
 			maxWidth = 164
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -164,7 +164,7 @@ guiTypes = {
 			maxWidth = 164
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		
@@ -184,7 +184,7 @@ guiTypes = {
 			maxWidth = 164
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 			
 				
@@ -195,7 +195,7 @@ guiTypes = {
 			spriteType = "GFX_dots_offensive_no_transp"
 			position = { x= 201 y = 5 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		iconType =
 		{
@@ -203,7 +203,7 @@ guiTypes = {
 			spriteType = "GFX_dots_defensive_no_transp"
 			position = { x= 201 y = 19 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 
@@ -213,7 +213,7 @@ guiTypes = {
 			spriteType = "GFX_dots_offensive_no_transp"
 			position = { x= 245 y = 5}
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		iconType =
 		{
@@ -221,7 +221,7 @@ guiTypes = {
 			spriteType = "GFX_dots_defensive_no_transp"
 			position = { x= 245 y = 19}
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 
@@ -231,7 +231,7 @@ guiTypes = {
 			spriteType = "GFX_dots_offensive_no_transp"
 			position = { x= 290 y = 5 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		iconType =
 		{
@@ -239,7 +239,7 @@ guiTypes = {
 			spriteType = "GFX_dots_defensive_no_transp"
 			position = { x= 290 y = 19 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 	
@@ -268,7 +268,7 @@ guiTypes = {
 			position = { x= -33 y = 2 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.8
-		#	allwaystransparent = yes
+		#	alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -280,7 +280,7 @@ guiTypes = {
 			maxWidth = 200
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 			fixedsize = yes
 			truncate = yes
 		}
@@ -294,7 +294,7 @@ guiTypes = {
 			maxWidth = 164
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -306,7 +306,7 @@ guiTypes = {
 			maxWidth = 164
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -318,7 +318,7 @@ guiTypes = {
 			maxWidth = 36
 			maxHeight = 20	
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 				
 	
@@ -331,7 +331,7 @@ guiTypes = {
 			maxWidth = 36
 			maxHeight = 20	
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType =
@@ -344,7 +344,7 @@ guiTypes = {
 			maxWidth = 36
 			maxHeight = 20	
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}		
 
 		instantTextBoxType =
@@ -357,7 +357,7 @@ guiTypes = {
 			maxWidth = 36
 			maxHeight = 20	
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType =
@@ -370,7 +370,7 @@ guiTypes = {
 			maxWidth = 36
 			maxHeight = 20	
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 	
@@ -410,7 +410,7 @@ guiTypes = {
 			maxWidth = 190
 			maxHeight = 32
 			format = left
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 			#fixedsize = yes
 			#truncate = yes
 		}
@@ -426,7 +426,7 @@ guiTypes = {
 			format = center
 			fixedsize = yes
 			truncate = yes
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 	
 		instantTextBoxType = {
@@ -440,7 +440,7 @@ guiTypes = {
 			format = center
 			fixedsize = yes
 			truncate = yes
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 		
 		instantTextBoxType =
@@ -455,7 +455,7 @@ guiTypes = {
 			format = center
 			fixedsize = yes
 			truncate = yes
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}		
 	}
 
@@ -501,13 +501,13 @@ guiTypes = {
 		
         # Town Hall
 		checkboxType = {
-			name = "build_wow_temple"
+			name = "build_mod_temple"
 			position = { x = 9 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_temple_cost"
+			name = "mod_temple_cost"
 			position = {x = 9 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -517,13 +517,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_wow_marketplace"
+			name = "build_mod_marketplace"
 			position = { x = 61 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_marketplace_cost"
+			name = "mod_marketplace_cost"
 			position = {x = 61 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -533,13 +533,13 @@ guiTypes = {
 		}
         
         checkboxType = {
-			name = "build_wow_mine"
+			name = "build_mod_mine"
 			position = { x = 113 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_mine_cost"
+			name = "mod_mine_cost"
 			position = {x = 113 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -549,13 +549,13 @@ guiTypes = {
 		}
         
         checkboxType = {
-			name = "build_wow_farm"
+			name = "build_mod_farm"
 			position = { x = 165 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_farm_cost"
+			name = "mod_farm_cost"
 			position = {x = 165 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -565,13 +565,13 @@ guiTypes = {
 		}
         
         checkboxType = {
-			name = "build_wow_internment_camp"
+			name = "build_mod_internment_camp"
 			position = { x = 217 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_internment_camp_cost"
+			name = "mod_internment_camp_cost"
 			position = {x = 217 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -581,13 +581,13 @@ guiTypes = {
 		}
 
         checkboxType = {
-			name = "build_wow_tavern"
+			name = "build_mod_tavern"
 			position = { x = 269 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_tavern_cost"
+			name = "mod_tavern_cost"
 			position = {x = 269 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -623,13 +623,13 @@ guiTypes = {
 		}			
 		
 		checkboxType = {
-			name = "build_wow_barracks"
+			name = "build_mod_barracks"
 			position = { x = 9 y = 129 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_barracks_cost"
+			name = "mod_barracks_cost"
 			position = {x = 9 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -639,13 +639,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_wow_arsenal"
+			name = "build_mod_arsenal"
 			position = { x = 61 y = 129 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_arsenal_cost"
+			name = "mod_arsenal_cost"
 			position = {x = 61 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -655,13 +655,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_wow_shipyard"
+			name = "build_mod_shipyard"
 			position = { x = 113 y = 129 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_shipyard_cost"
+			name = "mod_shipyard_cost"
 			position = {x = 113 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -671,13 +671,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_wow_dockyard"
+			name = "build_mod_dockyard"
 			position = { x = 165 y = 129 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_dockyard_cost"
+			name = "mod_dockyard_cost"
 			position = {x = 165 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -714,13 +714,13 @@ guiTypes = {
 		
         # Barracks
 		checkboxType = {
-			name = "build_wow_fort_1"
+			name = "build_mod_fort_1"
 			position = { x = 9 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_fort_1_cost"
+			name = "mod_fort_1_cost"
 			position = {x = 9 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -730,13 +730,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_wow_fort_2"
+			name = "build_mod_fort_2"
 			position = { x = 61 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_fort_2_cost"
+			name = "mod_fort_2_cost"
 			position = {x = 61 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -746,13 +746,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_wow_fort_3"
+			name = "build_mod_fort_3"
 			position = { x = 113 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_fort_3_cost"
+			name = "mod_fort_3_cost"
 			position = {x = 113 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -762,13 +762,13 @@ guiTypes = {
 		}
         
 		checkboxType = {
-			name = "build_wow_fort_4"
+			name = "build_mod_fort_4"
 			position = { x = 165 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_fort_4_cost"
+			name = "mod_fort_4_cost"
 			position = {x = 165 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -820,13 +820,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_wow_citadel"
+			name = "build_mod_citadel"
 			position = { x = 61 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_citadel_cost"
+			name = "mod_citadel_cost"
 			position = {x = 61 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -837,13 +837,13 @@ guiTypes = {
 		
         # Dock
 		checkboxType = {
-			name = "build_wow_city_barracks"
+			name = "build_mod_city_barracks"
 			position = { x = 113 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_city_barracks_cost"
+			name = "mod_city_barracks_cost"
 			position = {x = 113 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -853,13 +853,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_wow_garrison"
+			name = "build_mod_garrison"
 			position = { x = 165 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_garrison_cost"
+			name = "mod_garrison_cost"
 			position = {x = 165 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -869,104 +869,14 @@ guiTypes = {
 		}
 
         checkboxType = {
-			name = "build_wow_arcane_tower"
+			name = "build_mod_arcane_tower"
 			position = { x = 217 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" 
 		}
 		
 		instantTextBoxType={
-			name = "wow_arcane_tower_cost"
+			name = "mod_arcane_tower_cost"
 			position = {x = 217 y = 373 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
-        
-        #---------------------------------
-        # Portals
-        #---------------------------------
-		iconType = {
-			name = "portals_banner"
-			position = { x = 4 y = 388 }
-			spriteType = "GFX_banner_left_6"
-		}
-		
-		instantTextBoxType={
-			name = "title_portals"
-			position = {x = 44 y = 397 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 200
-			maxHeight = 18
-			text = "Portals"	
-		}
-		
-		iconType ={
-			name ="portals_icon"
-			spriteType = "GFX_macro_buildings_category_strip"
-			position = { x = 15 y = 391 }
-			frame = 4
-		}			
-		
-		checkboxType = {
-			name = "build_wow_portal_red"
-			position = { x = 9 y = 420 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" 
-		}
-		
-		instantTextBoxType={
-			name = "wow_portal_red_cost"
-			position = {x = 9 y = 470 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
-        
-		checkboxType = {
-			name = "build_wow_portal_yellow"
-			position = { x = 61 y = 420 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" 
-		}
-		
-		instantTextBoxType={
-			name = "wow_portal_yellow_cost"
-			position = {x = 61 y = 470 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
-		
-		checkboxType = {
-			name = "build_wow_portal_green"
-			position = { x = 113 y = 420 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" 
-		}
-		
-		instantTextBoxType={
-			name = "wow_portal_green_cost"
-			position = {x = 113 y = 470 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
-		
-		checkboxType = {
-			name = "build_wow_portal_blue"
-			position = { x = 165 y = 420 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" 
-		}
-		
-		instantTextBoxType={
-			name = "wow_portal_blue_cost"
-			position = {x = 165 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
@@ -1064,21 +974,6 @@ guiTypes = {
 			text = "2000¤"	
 		}
         
-        checkboxType = {
-			name = "build_province_action_wonder"
-			position = { x = 217 y = 517 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" 
-		}
-		
-		instantTextBoxType={
-			name = "province_action_wonder_cost"
-			position = {x = 217 y = 567 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"	
-		}
         
         #---------------------------------
 		iconType = {
@@ -1100,7 +995,7 @@ guiTypes = {
 			name = "province_button"
 			position = { x = 14 y = 0 }
 			quadTextureSprite ="GFX_building_list_button"
-#			buttonFont = "vic_18"
+			buttonFont = "vic_18"
 		}
 		
 		instantTextBoxType = {
@@ -1113,7 +1008,7 @@ guiTypes = {
 			maxHeight = 18
 			format = left
 			fixedsize = yes
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -1126,7 +1021,7 @@ guiTypes = {
 			maxHeight = 18
 			format = center
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -1139,7 +1034,7 @@ guiTypes = {
 			maxHeight = 18
 			format = center
 			fixedsize = yes
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -1152,7 +1047,7 @@ guiTypes = {
 			maxHeight = 18
 			format = right
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -1161,7 +1056,7 @@ guiTypes = {
 			position = { x = 178 y = 3 }
 			scale = 0.75
 			Orientation = "UPPER_LEFT"
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 	}
 	
@@ -1456,7 +1351,7 @@ guiTypes = {
 			maxHeight = 20	
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -1469,13 +1364,13 @@ guiTypes = {
 			maxHeight = 20	
 			format = right
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		iconType = {
 			name = "list_item_cost_icon"
 			position = { x = 241 y = 4 }
 			spriteType = "GFX_nation_designer_points_icon"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 }

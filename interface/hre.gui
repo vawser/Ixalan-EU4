@@ -60,7 +60,7 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 42 y = 115 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType =
@@ -77,8 +77,8 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 825 y = 115 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
-            scale = 0.6
+			alwaystransparent = yes
+			scale = 0.6
 		}
 
 		
@@ -130,8 +130,8 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 597 y = 114 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
-            scale = 0.6
+			alwaystransparent = yes
+			scale = 0.6
 		}
 
 		instantTextBoxType = {

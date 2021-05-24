@@ -5,7 +5,7 @@
 #---------------------------------
 # Food
 #---------------------------------
-ixa_food = {
+mod_food = {
 	color = { 0.168 0.698 0.141 }
     
 	modifier = {
@@ -22,7 +22,7 @@ ixa_food = {
 #---------------------------------
 # Textiles
 #---------------------------------
-ixa_textiles = {
+mod_textiles = {
 	color = { 0.290 0.882 0.890 }
     
 	modifier = {
@@ -34,39 +34,38 @@ ixa_textiles = {
 	chance = {
 		factor = 100
 		
-        modifier = {
-			factor = 0.5
-			OR = {
-                region = region_badlands
-                region = region_searing_gorge
-                region = region_burning_steppes
-                region = region_swamp_of_sorrows
-                region = region_blasted_lands
-                region = region_deadwind_pass
-                region = region_stranglethorn_vale
-                region = region_wetlands
-                region = region_dustwallow_marsh
-                region = region_desolace
-                region = region_stonetalon_mountains
-                region = region_thousand_needles
-                region = region_silithus
-                region = region_ungoro_crater
-                region = region_tanaris
-                region = region_borean_tundra
-                region = region_wintergrasp
-                region = region_sholazar_basin
-                region = region_dragonblight
-                region = region_icecrown
-                region = region_storm_peak
-                region = region_crystalsong
-                region = region_dread_wastes
-            }
-		}
+        # modifier = {
+			# factor = 0.5
+			# OR = {
+                # region = region_badlands
+                # region = region_searing_gorge
+                # region = region_burning_steppes
+                # region = region_swamp_of_sorrows
+                # region = region_blasted_lands
+                # region = region_deadwind_pass
+                # region = region_stranglethorn_vale
+                # region = region_wetlands
+                # region = region_dustwallow_marsh
+                # region = region_desolace
+                # region = region_stonetalon_mountains
+                # region = region_thousand_needles
+                # region = region_silithus
+                # region = region_ungoro_crater
+                # region = region_tanaris
+                # region = region_borean_tundra
+                # region = region_wintergrasp
+                # region = region_sholazar_basin
+                # region = region_dragonblight
+                # region = region_icecrown
+                # region = region_storm_peak
+                # region = region_crystalsong
+                # region = region_dread_wastes
+            # }
+		# }
         modifier = {
 			factor = 2
 			OR = {
                 has_terrain = urban
-                has_terrain = sheltered_urban
             }
 		}
 	}
@@ -75,7 +74,7 @@ ixa_textiles = {
 #---------------------------------
 # Jewelry
 #---------------------------------
-ixa_jewelry = {
+mod_jewelry = {
 	color = { 0.250 0.419 0.831 }
 	modifier = {
 		stability_cost_modifier = -0.25
@@ -86,23 +85,23 @@ ixa_jewelry = {
 	chance = {
 		factor = 25
         
-        modifier = {
-			factor = 2
-			OR = {
-                region = region_elwynn_forest
-                region = region_eversong_forest
-                region = region_tirisfal_glades
-                region = region_vale_of_eternal_blossoms
-                region = region_suramar
-            }
-		}
+        # modifier = {
+			# factor = 2
+			# OR = {
+                # region = region_elwynn_forest
+                # region = region_eversong_forest
+                # region = region_tirisfal_glades
+                # region = region_vale_of_eternal_blossoms
+                # region = region_suramar
+            # }
+		# }
 	}
 }
 
 #---------------------------------
 # Metals
 #---------------------------------
-ixa_metals = {
+mod_metals = {
 	color = { 0.792 0.815 0.760 }
 	modifier = {
 		army_tradition = 1
@@ -113,54 +112,54 @@ ixa_metals = {
 	chance = {
 		factor = 50
         
-		modifier = {
-			factor = 2
-			OR = {
-                region = region_badlands
-                region = region_searing_gorge
-                region = region_burning_steppes
-                region = region_redridge_mountains
-                region = region_blasted_lands
-                region = region_deadwind_pass
-                region = region_northeron
-                region = region_hillsbrad_foothills
-                region = region_arathi_highlands
-                region = region_the_hinterlands
-                region = region_mount_hyjal
-                region = region_the_barrens
-                region = region_durotar
-                region = region_stonetalon_mountains
-                region = region_ungoro_crater
-                region = region_storm_peak
-                region = region_icecrown
-                region = region_kun_lai_summit
-                region = region_highmountain
-            }
-		}
+		# modifier = {
+			# factor = 2
+			# OR = {
+                # region = region_badlands
+                # region = region_searing_gorge
+                # region = region_burning_steppes
+                # region = region_redridge_mountains
+                # region = region_blasted_lands
+                # region = region_deadwind_pass
+                # region = region_northeron
+                # region = region_hillsbrad_foothills
+                # region = region_arathi_highlands
+                # region = region_the_hinterlands
+                # region = region_mount_hyjal
+                # region = region_the_barrens
+                # region = region_durotar
+                # region = region_stonetalon_mountains
+                # region = region_ungoro_crater
+                # region = region_storm_peak
+                # region = region_icecrown
+                # region = region_kun_lai_summit
+                # region = region_highmountain
+            # }
+		# }
 	}
 }
 
 #---------------------------------
 # Gold
 #---------------------------------
-ixa_gold = {
+mod_gold = {
 	color = { 1.0 0.84 0.19 }
     
 	chance = {
 		factor = 5
         
-        modifier = {
-			factor = 2
+        # modifier = {
+			# factor = 2
             
-			continent = northrend
-		}
+			# continent = northrend
+		# }
 	}
 }
 
 #---------------------------------
 # Slaves
 #---------------------------------
-ixa_slaves = {
+mod_slaves = {
 	color = { 0.623 0.078 0.098 }
 	modifier = {
 		global_manpower_modifier = 0.25
@@ -172,16 +171,6 @@ ixa_slaves = {
 		factor = 25
         
         modifier = {
-			factor = 2
-            
-			is_savage = yes
-		}
-        modifier = {
-			factor = 0.25
-            
-			is_civilized = yes
-		}
-        modifier = {
 			factor = 0.25
             
 			has_port = no
@@ -192,7 +181,7 @@ ixa_slaves = {
 #---------------------------------
 # Oil
 #---------------------------------
-ixa_oil = {
+mod_oil = {
 	color = { 0 0 0 }
 	modifier = {
 		global_sailors_modifier = 0.25
@@ -204,16 +193,6 @@ ixa_oil = {
 		factor = 25
         
         modifier = {
-			factor = 0.25
-            
-			is_savage = yes
-		}
-        modifier = {
-			factor = 2
-            
-			is_civilized = yes
-		}
-        modifier = {
 			factor = 0.0
             
 			has_port = no
@@ -224,7 +203,7 @@ ixa_oil = {
 #---------------------------------
 # Lumber
 #---------------------------------
-ixa_lumber = {
+mod_lumber = {
 	color = { 0.623 0.501 0.078 }
 	modifier = {
 		state_maintenance_modifier = -0.25
@@ -250,7 +229,7 @@ ixa_lumber = {
 #---------------------------------
 # Artifacts
 #---------------------------------
-ixa_artifacts = {
+mod_artifacts = {
 	color = { 0.427 0.078 0.623 }
     
 	modifier = {
@@ -262,20 +241,20 @@ ixa_artifacts = {
 	chance = {
 		factor = 5
         
-        modifier = {
-			factor = 2
+        # modifier = {
+			# factor = 2
             
-			OR = {
-                continent = northrend
-                continent = northern_kalimdor
-                continent = central_kalimdor
-            }
-		}
-        modifier = {
-			factor = 4
+			# OR = {
+                # continent = northrend
+                # continent = northern_kalimdor
+                # continent = central_kalimdor
+            # }
+		# }
+        # modifier = {
+			# factor = 4
             
-			continent = southern_kalimdor
-		}
+			# continent = southern_kalimdor
+		# }
 	}
 }
 

@@ -1,4 +1,4 @@
-# country_decisions = {
+country_decisions = {
 	# form_theramore = {
 		# major = yes
         # ai_importance = 400
@@ -47,4 +47,4 @@
 			# factor = 0
 		# }
 	# }
-# }
+}

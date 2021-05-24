@@ -1,8 +1,8 @@
 #-----------------------------------------
 # Shared
 #-----------------------------------------
-ixa_states_general_reform = {
-	icon = "states_general_wwu"
+mod_states_general_reform = {
+	icon = "states_general_mod"
 	allow_normal_conversion = yes
 
 	trigger = {
@@ -20,7 +20,7 @@ ixa_states_general_reform = {
 	}
 
 	removed_effect = {
-		country_event = { id = ixa_government.8 }
+		country_event = { id = mod_government.8 }
 	}
 
 	conditional = {
@@ -44,8 +44,8 @@ ixa_states_general_reform = {
 		}
 	}
 }
-ixa_parliamentary_reform = {
-	icon = "parliamentary_wwu"
+mod_parliamentary_reform = {
+	icon = "parliamentary_mod"
     allow_normal_conversion = yes
     
 	modifiers = {
@@ -56,7 +56,7 @@ ixa_parliamentary_reform = {
 		OR = {
 			NOT = { has_estate = estate_nobility }
 			crown_stronger_than_estate = { estate = estate_nobility }
-			has_reform = ixa_parliamentary_reform
+			has_reform = mod_parliamentary_reform
 		}
 	}
 
@@ -79,8 +79,8 @@ ixa_parliamentary_reform = {
 		blocked_call_diet = yes
 	}
 }
-ixa_penal_colonies_reform = {
-	icon = "penal_colonies_wwu"
+mod_penal_colonies_reform = {
+	icon = "penal_colonies_mod"
 	allow_normal_conversion = yes
     
 	potential = {
@@ -101,8 +101,8 @@ ixa_penal_colonies_reform = {
 		factor = 0.1
 	}
 }
-ixa_militarized_state_reform = {
-	icon = "militarized_state_wwu"
+mod_militarized_state_reform = {
+	icon = "militarized_state_mod"
 	allow_normal_conversion = yes
     
     potential = {
@@ -116,8 +116,8 @@ ixa_militarized_state_reform = {
     
 	militarised_society = yes
 }
-ixa_justified_conquest_reform = {
-	icon = "justified_conquest_wwu"
+mod_justified_conquest_reform = {
+	icon = "justified_conquest_mod"
 	allow_normal_conversion = yes
     
     potential = {
@@ -130,12 +130,16 @@ ixa_justified_conquest_reform = {
 #-----------------------------------------
 # Switch Government
 #-----------------------------------------
-ixa_become_a_monarchy_reform = {
+mod_become_a_monarchy_reform = {
 	icon = "autocracy"
 	allow_normal_conversion = yes
 
 	trigger = {
-		NOT = { has_government_attribute = locked_government_type }
+		OR = {
+            AND = {
+                NOT = { has_government_attribute = locked_government_type }
+            }
+        }
 		is_emperor = no
 		NOT = { is_lesser_in_union = yes }
 	}
@@ -150,7 +154,7 @@ ixa_become_a_monarchy_reform = {
 		change_government = monarchy
 		if = {
 			limit = { has_country_flag = had_states_general_mechanic }
-			country_event = { id = ixa_states_general.1 }
+			country_event = { id = mod_states_general.1 }
 			clr_country_flag = had_states_general_mechanic
 		}
 	}
@@ -159,7 +163,7 @@ ixa_become_a_monarchy_reform = {
 	}
 }
 
-ixa_become_a_republic_reform = {
+mod_become_a_republic_reform = {
 	icon = "noble_republic"
 	allow_normal_conversion = yes
 
@@ -179,7 +183,7 @@ ixa_become_a_republic_reform = {
 	}
 }
 
-ixa_become_a_theocracy_reform = {
+mod_become_a_theocracy_reform = {
 	icon = "theocracy"
 	allow_normal_conversion = yes
 
@@ -200,7 +204,7 @@ ixa_become_a_theocracy_reform = {
 	}
 }
 
-ixa_become_a_warband_reform = {
+mod_become_a_warband_reform = {
     icon = "warband"
 	allow_normal_conversion = yes
     

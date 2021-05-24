@@ -1,0 +1,15 @@
+is_city = yes
+owner = RUK
+controller = RUK
+add_core = RUK
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+culture = primitive
+religion = shamanism
+
+hre = no
+trade_goods = unknown owner = RUK controller = RUK
+

@@ -1,8 +1,8 @@
 #-----------------------------------------
 # "Republican Virtues"
 #-----------------------------------------
-ixa_republican_authoritarianism_reform = {
-	icon = "republican_authoritarianism_wwu"
+mod_republican_authoritarianism_reform = {
+	icon = "republican_authoritarianism_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -14,8 +14,8 @@ ixa_republican_authoritarianism_reform = {
 	}
 }
 
-ixa_nepotism_reform = {
-	icon = "nepotism_wwu"
+mod_nepotism_reform = {
+	icon = "nepotism_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {
@@ -31,8 +31,8 @@ ixa_nepotism_reform = {
 	}
 }
 
-ixa_republicanism_reform = {
-	icon = "republicanism_wwu"
+mod_republicanism_reform = {
+	icon = "republicanism_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {
@@ -47,8 +47,8 @@ ixa_republicanism_reform = {
 #-----------------------------------------
 # "Frequency of Elections"
 #-----------------------------------------
-ixa_frequent_elections_reform = {
-	icon = "frequent_elections_wwu"
+mod_frequent_elections_reform = {
+	icon = "frequent_elections_mod"
 	allow_normal_conversion = yes
 
 	trigger = {
@@ -57,7 +57,7 @@ ixa_frequent_elections_reform = {
 				tooltip = "NEEDS_REGULAR_ELECTIONS"
 				has_government_attribute = has_term_election
 			}
-			has_reform = ixa_lottery_reform
+			has_reform = mod_lottery_reform
 		}
 	}
     
@@ -71,8 +71,8 @@ ixa_frequent_elections_reform = {
 	}
 }
 
-ixa_consolidation_of_power_reform = {
-	icon = "consolidation_of_power_wwu"
+mod_consolidation_of_power_reform = {
+	icon = "consolidation_of_power_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -81,8 +81,8 @@ ixa_consolidation_of_power_reform = {
 	}
 }
 
-ixa_lottery_reform = {
-	icon = "lottery_wwu"
+mod_lottery_reform = {
+	icon = "lottery_mod"
 	allow_normal_conversion = yes
     
 	potential = {
@@ -108,8 +108,8 @@ ixa_lottery_reform = {
 #-----------------------------------------
 # "Regionalism"
 #-----------------------------------------
-ixa_provincial_governments_reform = {
-	icon = "provincial_governments_wwu"
+mod_provincial_governments_reform = {
+	icon = "provincial_governments_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -122,8 +122,8 @@ ixa_provincial_governments_reform = {
 	}
 }
 
-ixa_administrative_divisions_reform = {
-	icon = "administrative_divisions_wwu"
+mod_administrative_divisions_reform = {
+	icon = "administrative_divisions_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -150,8 +150,8 @@ ixa_administrative_divisions_reform = {
 	}
 }
 
-ixa_union_of_states_reform = {
-	icon = "union_of_states_wwu"
+mod_union_of_states_reform = {
+	icon = "union_of_states_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -171,8 +171,8 @@ ixa_union_of_states_reform = {
 #-----------------------------------------
 # "Separation of Power"
 #-----------------------------------------
-ixa_presidential_reform = {
-	icon = "presidential_wwu"
+mod_presidential_reform = {
+	icon = "presidential_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -189,8 +189,8 @@ ixa_presidential_reform = {
 	}
 }
 
-ixa_republican_diplomacy_reform = {
-	icon = "republican_diplomacy_wwu"
+mod_republican_diplomacy_reform = {
+	icon = "republican_diplomacy_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -203,8 +203,8 @@ ixa_republican_diplomacy_reform = {
 	}
 }
 
-ixa_municipal_self_defense_reform = {
-	icon = "municipal_self_defense_wwu"
+mod_municipal_self_defense_reform = {
+	icon = "municipal_self_defense_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -220,8 +220,8 @@ ixa_municipal_self_defense_reform = {
 #-----------------------------------------
 # "Consolidation of Power"
 #-----------------------------------------
-ixa_broaden_executive_powers_reform = {
-	icon = "broaden_executive_powers_wwu"
+mod_broaden_executive_powers_reform = {
+	icon = "broaden_executive_powers_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -234,8 +234,8 @@ ixa_broaden_executive_powers_reform = {
 	}
 }
 
-ixa_devolution_of_powers_reform = {
-	icon = "devolution_of_powers_wwu"
+mod_devolution_of_powers_reform = {
+	icon = "devolution_of_powers_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -251,8 +251,8 @@ ixa_devolution_of_powers_reform = {
 #-----------------------------------------
 # "Guiding Principle of Administration"
 #-----------------------------------------
-ixa_political_principle_reform = {
-	icon = "political_principle_wwu"
+mod_political_principle_reform = {
+	icon = "political_principle_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -260,8 +260,8 @@ ixa_political_principle_reform = {
 	}
 }
 
-ixa_moral_principle_reform = {
-	icon = "moral_principle_wwu"
+mod_moral_principle_reform = {
+	icon = "moral_principle_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -273,8 +273,8 @@ ixa_moral_principle_reform = {
 #-----------------------------------------
 # "Electorate"
 #-----------------------------------------
-ixa_landholders_reform = {
-	icon = "landholders_wwu"
+mod_landholders_reform = {
+	icon = "landholders_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -286,8 +286,8 @@ ixa_landholders_reform = {
 	}
 }
 
-ixa_citizenry_reform = {
-	icon = "citizenry_wwu"
+mod_citizenry_reform = {
+	icon = "citizenry_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {
@@ -302,8 +302,8 @@ ixa_citizenry_reform = {
 #-----------------------------------------
 # "Office Selection"
 #-----------------------------------------
-ixa_appointment_by_committee_reform = {
-	icon = "appointment_by_committee_wwu"
+mod_appointment_by_committee_reform = {
+	icon = "appointment_by_committee_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -312,8 +312,8 @@ ixa_appointment_by_committee_reform = {
 	}
 }
 
-ixa_bureaucratic_aparatus_reform = {
-	icon = "bureaucratic_aparatus_wwu"
+mod_bureaucratic_aparatus_reform = {
+	icon = "bureaucratic_aparatus_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -322,8 +322,8 @@ ixa_bureaucratic_aparatus_reform = {
 }
 
 
-ixa_universal_suffrage_reform = {
-	icon = "universal_suffrage_wwu"
+mod_universal_suffrage_reform = {
+	icon = "universal_suffrage_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -347,8 +347,8 @@ ixa_universal_suffrage_reform = {
 #-----------------------------------------
 # "Question of Dictatorship"
 #-----------------------------------------
-ixa_strengthen_executive_powers_reform = {
-	icon = "strengthen_executive_powers_wwu"
+mod_strengthen_executive_powers_reform = {
+	icon = "strengthen_executive_powers_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {
@@ -357,8 +357,8 @@ ixa_strengthen_executive_powers_reform = {
 	}
 }
 
-ixa_reinforce_republican_values_reform = {
-	icon = "reinforce_republican_values_wwu"
+mod_reinforce_republican_values_reform = {
+	icon = "reinforce_republican_values_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {

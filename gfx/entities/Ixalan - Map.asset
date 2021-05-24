@@ -1,8 +1,0 @@
-#-------------------------------------------
-# Missionaries
-#-------------------------------------------
-entity = {
-	name = "light_group_missionary"
-	pdxmesh = "western_missionary_mesh"
-	state = { name = "idle" 		animation = "idle" }
-}

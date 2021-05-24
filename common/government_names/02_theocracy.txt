@@ -1,20 +1,23 @@
+# Specific
+
+# General
 gov_theocracy = {
 	rank = {
-		1 = gov_name_BISHOPRIC
-        2 = gov_name_ARCHBISHOPRIC
-        3 = gov_name_PATRIARCHATE
+		1 = THEOCRACY
+		2 = THEOCRACY
+		3 = THEOCRACY
 	}
 	
 	ruler_male = {
-		1 = ruler_name_BISHOP
-        2 = ruler_name_ARCHBISHOP
-        3 = ruler_name_PATRIARCH
+		1 = HIGH_PRIEST
+		2 = HIGH_PRIEST
+		3 = HIGH_PRIEST
 	}
 	
 	ruler_female = {
-		1 = ruler_name_BISHOP
-        2 = ruler_name_ARCHBISHOP
-        3 = ruler_name_MATRIARCH
+		1 = HIGH_PRIESTESS
+		2 = HIGH_PRIESTESS
+		3 = HIGH_PRIESTESS
 	}
 	
 	trigger = {
@@ -23,21 +26,21 @@ gov_theocracy = {
 }
 gov_monastic_order = {
 	rank = {
-		1 = gov_name_BISHOPRIC
-        2 = gov_name_ARCHBISHOPRIC
-        3 = gov_name_PATRIARCHATE
+		1 = MONASTIC_ORDER
+		2 = MONASTIC_ORDER
+		3 = MONASTIC_ORDER
 	}
 	
 	ruler_male = {
-		1 = ruler_name_BISHOP
-        2 = ruler_name_ARCHBISHOP
-        3 = ruler_name_PATRIARCH
+		1 = COMMANDER_TITLE
+		2 = COMMANDER_TITLE
+		3 = COMMANDER_TITLE
 	}
 	
 	ruler_female = {
-		1 = ruler_name_BISHOP
-        2 = ruler_name_ARCHBISHOP
-        3 = ruler_name_MATRIARCH
+		1 = COMMANDER_TITLE
+		2 = COMMANDER_TITLE
+		3 = COMMANDER_TITLE
 	}
 	
 	trigger = {

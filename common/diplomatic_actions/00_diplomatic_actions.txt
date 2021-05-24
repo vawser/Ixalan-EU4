@@ -86,278 +86,53 @@
 # knowledge_sharing
 
 enforce_peace = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 callaction = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 milaccess= {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 offermilaccess= {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 giftaction = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 guaranteeaction = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 sellprov = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 
 tributary_state_action = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 ask_for_tributary_state_action = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 threaten_war = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 improve_relation = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 declarewar = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 fabricate_claim = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 embargoaction = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 allianceaction = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
+	
 }
 
 royal_marriage = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
 	condition = {
 		tooltip = MARWAR
 		potential = {
@@ -385,22 +160,6 @@ annexationaction = {
 			}
 		}
 	}
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
-	
 }
 
 integrationaction = {
@@ -436,22 +195,6 @@ vassalaction = {
 			FROM = { is_at_war = no }
 		}
 	}
-	
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
 }
 
 abandon_union_action = {
@@ -468,21 +211,6 @@ abandon_union_action = {
 }
 
 form_coalition = {
-	condition = {
-        tooltip = DIP_INCOMP_NOTAVAILABLE
-		
-		potential = {
-			OR = {
-				has_country_flag = complete_stasis
-				FROM = {
-					has_country_flag = complete_stasis
-				}
-			}
-		}
-        allow = {
-            always = no
-        }
-	}
 	condition = {
 		tooltip = MINAGGRESSIVEEXPANSION
 		potential = {	

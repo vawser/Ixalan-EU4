@@ -1,0 +1,13 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Triggered Modifiers
+ #-----------------------------------------------
+ # Estates
+ estate_dominance: "Estates in Control"
+ desc_estate_dominance: ""
+ 
+ # Hegemon
+ fight_for_survival: "Fight for Survival"
+ desc_fight_for_survival: "We must fight for every inch of land against such a hegemon. To lose is to be anniliated."
+ 
+ 

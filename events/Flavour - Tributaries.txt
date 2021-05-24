@@ -802,9 +802,9 @@ country_event = {
 				OR = {
 					development = 15 #Produces luxury goods
 					AND = { #Trade Goods other than these should be fine without necessarily having to be refined that much.
-						NOT = { trade_goods = ixa_metals } #Luxery related to Copper would high dev province
-						NOT = { trade_goods = ixa_lumber } #Luxery related to Copper would high dev province
-						NOT = { trade_goods = ixa_food } #Luxery related to Copper would high dev province
+						NOT = { trade_goods = mod_metals } #Luxery related to Copper would high dev province
+						NOT = { trade_goods = mod_lumber } #Luxery related to Copper would high dev province
+						NOT = { trade_goods = mod_food } #Luxery related to Copper would high dev province
 					}
 				}
 			}
@@ -825,9 +825,9 @@ country_event = {
 						OR = {
 							development = 15 #Produces luxury goods
 							AND = { #Trade Goods other than these should be fine without necessarily having to be refined that much.
-								NOT = { trade_goods = ixa_metals } #Luxery related to Copper would high dev province
-                                NOT = { trade_goods = ixa_lumber } #Luxery related to Copper would high dev province
-                                NOT = { trade_goods = ixa_food } #Luxery related to Copper would high dev province
+								NOT = { trade_goods = mod_metals } #Luxery related to Copper would high dev province
+                                NOT = { trade_goods = mod_lumber } #Luxery related to Copper would high dev province
+                                NOT = { trade_goods = mod_food } #Luxery related to Copper would high dev province
 							}
 						}
 					}

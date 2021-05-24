@@ -6,7 +6,7 @@ propagation_of_state_religion = {
 		any_owned_province = {
 			has_owner_religion = no
 		}
-		NOT = { has_idea_group = ixa_harmony_ideas }
+		NOT = { has_idea_group = mod_harmony_ideas }
 	}
 	
 	effect = {

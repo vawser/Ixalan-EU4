@@ -1,0 +1,10 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Religions
+ #-----------------------------------------------
+ primitive_group: "Primitive"
+ primitive_group_desc: ""
+ 
+ shamanism: "Shamanism"
+ shamanism_religion_desc: ""
+ 

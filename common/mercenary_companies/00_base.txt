@@ -1,49 +1,49 @@
 #--------------------------------
 # Generic
 #--------------------------------
-ixa_merc_small_infantry = {
+mod_merc_small_infantry = {
     regiments_per_development = 0.01
     cavalry_weight = 0.0
     artillery_weight = 0.0
 }
-ixa_merc_small_cavalry = {
+mod_merc_small_cavalry = {
     regiments_per_development = 0.01
     cavalry_weight = 1.0
     artillery_weight = 0.0
 }
-ixa_merc_small_artillery = {
+mod_merc_small_artillery = {
     regiments_per_development = 0.01
     cavalry_weight = 0.0
     artillery_weight = 1.0
 }
 
-ixa_merc_medium_infantry = {
+mod_merc_medium_infantry = {
     regiments_per_development = 0.023
     cavalry_weight = 0.0
     artillery_weight = 0.0
 }
-ixa_merc_medium_cavalry = {
+mod_merc_medium_cavalry = {
     regiments_per_development = 0.023
     cavalry_weight = 1.0
     artillery_weight = 0.0
 }
-ixa_merc_medium_artillery = {
+mod_merc_medium_artillery = {
     regiments_per_development = 0.023
     cavalry_weight = 0.0
     artillery_weight = 1.0
 }
 
-ixa_merc_big_infantry = {
+mod_merc_big_infantry = {
     regiments_per_development = 0.035
     cavalry_weight = 0.0
     artillery_weight = 0.0
 }
-ixa_merc_big_cavalry = {
+mod_merc_big_cavalry = {
     regiments_per_development = 0.035
     cavalry_weight = 1.0
     artillery_weight = 0.0
 }
-ixa_merc_big_artillery = {
+mod_merc_big_artillery = {
     regiments_per_development = 0.035
     cavalry_weight = 0.0
     artillery_weight = 1.0
@@ -52,73 +52,73 @@ ixa_merc_big_artillery = {
 #--------------------------------
 # Special
 #--------------------------------
-ixa_merc_disciplined_infantry = {
+mod_merc_disciplined_infantry = {
     regiments_per_development = 0.023
     cavalry_weight = 0.0
     artillery_weight = 0.0
     cost_modifier = 1.5
     trigger = {
-		has_idea = ixa_mercenary_army_ideas_5
+		has_idea = mod_mercenary_army_ideas_5
 	}
 	modifier = {
 		discipline = 0.1
     }
 }
-ixa_merc_disciplined_cavalry = {
+mod_merc_disciplined_cavalry = {
     regiments_per_development = 0.023
     cavalry_weight = 1.0
     artillery_weight = 0.0
     cost_modifier = 1.5
     trigger = {
-		has_idea = ixa_mercenary_army_ideas_5
+		has_idea = mod_mercenary_army_ideas_5
 	}
 	modifier = {
 		discipline = 0.1
     }
 }
-ixa_merc_disciplined_artillery = {
+mod_merc_disciplined_artillery = {
     regiments_per_development = 0.023
     cavalry_weight = 0.0
     artillery_weight = 1.0
     cost_modifier = 1.5
     trigger = {
-		has_idea = ixa_mercenary_army_ideas_5
+		has_idea = mod_mercenary_army_ideas_5
 	}
 	modifier = {
 		discipline = 0.1
     }
 }
-ixa_merc_heroic_infantry = {
+mod_merc_heroic_infantry = {
     regiments_per_development = 0.023
     cavalry_weight = 0.0
     artillery_weight = 0.0
     cost_modifier = 1.2
     trigger = {
-		has_idea = ixa_mercenary_army_ideas_2
+		has_idea = mod_mercenary_army_ideas_2
 	}
 	modifier = {
 		land_morale = 0.1
     }
 }
-ixa_merc_heroic_cavalry = {
+mod_merc_heroic_cavalry = {
     regiments_per_development = 0.023
     cavalry_weight = 1.0
     artillery_weight = 0.0
     cost_modifier = 1.2
     trigger = {
-		has_idea = ixa_mercenary_army_ideas_2
+		has_idea = mod_mercenary_army_ideas_2
 	}
 	modifier = {
 		land_morale = 0.1
     }
 }
-ixa_merc_heroic_artillery = {
+mod_merc_heroic_artillery = {
     regiments_per_development = 0.023
     cavalry_weight = 0.0
     artillery_weight = 1.0
     cost_modifier = 1.2
     trigger = {
-		has_idea = ixa_mercenary_army_ideas_2
+		has_idea = mod_mercenary_army_ideas_2
 	}
 	modifier = {
 		land_morale = 0.1

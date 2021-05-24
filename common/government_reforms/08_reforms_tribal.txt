@@ -1,8 +1,8 @@
 #-----------------------------------------
 # "Cultural Values"
 #-----------------------------------------
-ixa_martial_society_reform = {
-    icon = "martial_society_wwu"
+mod_martial_society_reform = {
+    icon = "martial_society_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -20,8 +20,8 @@ ixa_martial_society_reform = {
 	}
 }
 
-ixa_civil_society_reform = {
-	icon = "civil_society_wwu"
+mod_civil_society_reform = {
+	icon = "civil_society_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -45,8 +45,8 @@ ixa_civil_society_reform = {
 #-----------------------------------------
 # "Tribal Religion"
 #-----------------------------------------
-ixa_religious_societies_reform = {
-	icon = "religious_societies_wwu"
+mod_religious_societies_reform = {
+	icon = "religious_societies_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -67,8 +67,8 @@ ixa_religious_societies_reform = {
 	}
 }
 
-ixa_lip_service_reform = {
-	icon = "lip_service_wwu"
+mod_lip_service_reform = {
+	icon = "lip_service_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -79,8 +79,8 @@ ixa_lip_service_reform = {
 #-----------------------------------------
 # "Modernization"
 #-----------------------------------------
-ixa_centralize_tribal_power_reform = {
-	icon = "centralize_tribal_power_wwu"
+mod_centralize_tribal_power_reform = {
+	icon = "centralize_tribal_power_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -89,8 +89,8 @@ ixa_centralize_tribal_power_reform = {
 	}
 }
 
-ixa_retain_tribal_hierarchy_reform = {
-	icon = "retain_tribal_hierarchy_wwu"
+mod_retain_tribal_hierarchy_reform = {
+	icon = "retain_tribal_hierarchy_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -111,8 +111,8 @@ ixa_retain_tribal_hierarchy_reform = {
 	}
 }
 
-ixa_barbaric_despoilers_reform = {
-	icon = "barbaric_despoilers_wwu"
+mod_barbaric_despoilers_reform = {
+	icon = "barbaric_despoilers_mod"
 	allow_normal_conversion = yes
     
 	potential = {
@@ -129,8 +129,8 @@ ixa_barbaric_despoilers_reform = {
 	}
 }
 
-ixa_tribal_unity_reform = {
-	icon = "tribal_unity_wwu"
+mod_tribal_unity_reform = {
+	icon = "tribal_unity_mod"
 	allow_normal_conversion = yes
     
 	potential = {

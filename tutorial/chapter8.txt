@@ -27,7 +27,7 @@ tutorial = {
 				name = tutorial_modifier
 				duration = -1
 			}
-			LIZ = {				
+			RUK = {				
 				add_country_modifier = {
 					name = tutorial_negative_modifier
 					duration = -1
@@ -176,7 +176,7 @@ tutorial = {
 		}
 		
 		trigger = {
-			war_with = LIZ
+			war_with = RUK
 		}
 		
 		option = {

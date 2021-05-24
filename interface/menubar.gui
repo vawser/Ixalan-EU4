@@ -755,7 +755,58 @@ guiTypes = {
 				delayedTooltipText = ""
 				buttonText = "MESSAGE_BUTTON_CLEAR"
 				buttonFont = "vic_18"
-			}		
+			}
+
+			guiButtonType = {
+				name = "messageicon_pause_all"
+				position = { x=544 y =146 }
+				quadTextureSprite ="GFX_messageicon_pause"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+			
+			guiButtonType = {
+				name = "messageicon_dialog_all"
+				position = { x=562 y =146 }
+				quadTextureSprite ="GFX_messageicon_dialog"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+			
+			guiButtonType = {
+				name = "messageicon_icon_all"
+				position = { x=580 y =144}
+				quadTextureSprite ="GFX_mailbox_icon"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+			
+			guiButtonType = {
+				name = "messageicon_log_all"
+				position = { x=604 y =145}
+				quadTextureSprite ="GFX_messageicon_log"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+
+			guiButtonType = {
+				name = "messageicon_map_all"
+				position = { x=624 y =145}
+				quadTextureSprite ="GFX_messageicon_map"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+			
 
 			#### FILTER BUTTONS ##########
 			#### Theese 4 buttons are not yet linked so they can change filter ######### 
@@ -782,6 +833,7 @@ guiTypes = {
 				text = "TO_ME"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			
@@ -806,6 +858,7 @@ guiTypes = {
 				text = "FROM_ME"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			
@@ -830,6 +883,7 @@ guiTypes = {
 				text = "INTERESTING"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			
@@ -854,6 +908,7 @@ guiTypes = {
 				text = "OTHERS"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			####
@@ -942,6 +997,7 @@ guiTypes = {
 				text = "PW_RESET"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			
@@ -967,6 +1023,7 @@ guiTypes = {
 				text = "MENU_BAR_CLOSE"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			
@@ -1275,7 +1332,7 @@ guiTypes = {
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType={
@@ -1288,7 +1345,7 @@ guiTypes = {
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		
@@ -1316,7 +1373,7 @@ guiTypes = {
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType={
@@ -1329,7 +1386,7 @@ guiTypes = {
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		
@@ -1386,7 +1443,7 @@ guiTypes = {
 			hide_position = { x=-1325 y=10 }
 			animation_type = "decelerated"
 			animation_time = 1000
-			size = { x=770 y=100 }	
+			size = { x=770 y=1000 }	
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
@@ -1405,9 +1462,9 @@ guiTypes = {
 			listboxType = 
 			{
 				name ="messagelog"
-				position = { x = 120 y = 10 }
+				position = { x = 60 y = 10 }
 				backGround=""
-				size = { x= 715 y = 90}
+				size = { x= 750 y = 940}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 5
@@ -1419,54 +1476,54 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "messagecat_combat"
-				position = { x=225 y=-110 }
+				position = { x=39 y=-980 }
 				quadTextureSprite ="GFX_msg_log_combat"
 				Orientation = "LOWER_LEFT"
 			}
 		
 			checkboxType = {
 				name = "messagecat_diplomacy"
-				position = { x=200 y=-110 }
+				position = { x=39 y=-950 }
 				quadTextureSprite ="GFX_msg_log_diplo"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "messagecat_government"
-				position = { x=175 y=-110 }
+				position = { x=39 y=-920 }
 				quadTextureSprite ="GFX_msg_log_gov"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "messagecat_trade"
-				position = { x=150 y=-110 }
+				position = { x=39 y=-890 }
 				quadTextureSprite ="GFX_msg_log_trade"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "messagecat_events"
-				position = { x=125 y=-110 }
+				position = { x=39 y=-860 }
 				quadTextureSprite ="GFX_msg_log_event"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "logfilter_me"
-				position = { x=96 y=-101 }
+				position = { x=830 y=-980 }
 				quadTextureSprite ="GFX_checkbox_logfilter_me"
 				Orientation = "LOWER_LEFT"
 			}
 			checkboxType = {
 				name = "logfilter_interesting"
-				position = { x=96 y=-68 }
+				position = { x=830 y=-940 }
 				quadTextureSprite ="GFX_checkbox_logfilter_interesting"
 				Orientation = "LOWER_LEFT"
 			}
 			checkboxType = {
 				name = "logfilter_other"
-				position = { x=96 y=-35 }
+				position = { x=830 y=-900 }
 				quadTextureSprite ="GFX_checkbox_logfilter_other"
 				Orientation = "LOWER_LEFT"
 			}
@@ -1600,7 +1657,7 @@ guiTypes = {
 			priority = 100
 			size = { x=265 y=246 }
 			borderSize = {x = 32 y = 32}
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}	
 		
 	
@@ -2128,7 +2185,7 @@ guiTypes = {
 			maxWidth = 50
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -2142,7 +2199,7 @@ guiTypes = {
 			maxHeight = 10
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -2155,7 +2212,7 @@ guiTypes = {
 			maxWidth = 50
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -2372,7 +2429,7 @@ guiTypes = {
 			
 
 			font = "garamond_14"
-			allwaystransparent = yes
+			alwaystransparent = yes
 
 			borderSize = {x = 0 y = 0}
 			text = ""	

@@ -1,0 +1,36 @@
+﻿l_english:
+ #--------------------------------
+ # Trade Goods
+ #--------------------------------
+ mod_food: "Food"
+ mod_foodDESC: "Various food goods such as grain, meats, wine and ale."
+ 
+ mod_textiles: "Textiles"
+ mod_textilesDESC: "Various textiles and materials, such as wool, linen and silk."
+ 
+ mod_jewelry: "Jewelry"
+ mod_jewelryDESC: "Expensive jewelry ladened with gemstones, often worn by nobility."
+ 
+ mod_metals: "Metals"
+ mod_metalsDESC: "Various metals used in the manufacture of weapons, armors, etc."
+ 
+ mod_gold: "Gold"
+ mod_goldDESC: "A deposit of gold that can be used to mint currency directly."
+ 
+ mod_slaves: "Slaves"
+ mod_slavesDESC: "Peoples enthralled and sold on for labour purposes."
+ 
+ mod_oil: "Oil"
+ mod_oilDESC: "Oil is used in the function of various technologies, such as ships."
+ 
+ mod_lumber: "Lumber"
+ mod_lumberDESC: "Used in the manufacture of ships, furniture, etc."
+ 
+ mod_artifacts: "Artifacts"
+ mod_artifactsDESC: "Ancient trinkets from eons ago. Very valuable to the right people."
+ 
+ 
+
+ 
+ 
+ 

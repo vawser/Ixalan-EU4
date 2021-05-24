@@ -9,63 +9,67 @@ monarchy = {
     reform_levels = {
         tier_monarchy_government_form = {
 			reforms = {
+                # Generic
                 autocracy_reform
                 feudalism_reform
-                admiralty_reform
 			}
 		}
         tier_monarchy_hereditary_vs_nobility = {
 			reforms = {
-				ixa_enforce_privileges_reform
-				ixa_quash_noble_power_reform
-				ixa_enforce_trader_privileges_reform
+				mod_enforce_privileges_reform
+				mod_quash_noble_power_reform
+				mod_enforce_trader_privileges_reform
+				mod_exotic_traders_reform
+				mod_religious_syncretism_reform
+                mod_hereditary_rule_reform
 			}
 		}
 		tier_monarchy_bureaucracy = {
 			reforms = {
-				ixa_centralize_reform
-				ixa_decentralize_reform
-                ixa_penal_colonies_reform
-                ixa_justified_conquest_reform
+				mod_centralize_reform
+				mod_decentralize_reform
+				mod_local_recruitment
+                mod_penal_colonies_reform
+                mod_justified_conquest_reform
 			}
 		}
 		tier_monarchy_growth_of_administration = {
 			reforms = {
-				ixa_clergy_in_administration_reform
-				ixa_of_noble_bearing_reform
-				ixa_meritocratic_focus_reform
+				mod_clergy_in_administration_reform
+				mod_of_noble_bearing_reform
+				mod_meritocratic_focus_reform
 			}
 		}
 		tier_monarchy_deliberative_assembly = {
 			reforms = {
-				ixa_parliamentary_reform
-				ixa_royal_decree_reform
-				ixa_aristocratic_court_reform
-				ixa_states_general_reform
-				ixa_general_estates_reform
+				mod_parliamentary_reform
+				mod_royal_decree_reform
+				mod_aristocratic_court_reform
+				mod_states_general_reform
+				mod_general_estates_reform
 			}
 		}
 		tier_monarchy_absolute_rule_vs_constitutional = {
 			reforms = {
-				ixa_law_and_order_reform
-				ixa_regional_representation_reform
-                ixa_militarized_state_reform
+				mod_law_and_order_reform
+				mod_regional_representation_reform
+                mod_militarized_state_reform
 			}
 		}
 		tier_monarchy_separation_of_power = {
 			reforms = {
-				ixa_political_absolutism_reform
-				ixa_legislative_houses_reform
-				ixa_become_a_republic_reform
-				ixa_become_a_theocracy_reform
+				mod_political_absolutism_reform
+				mod_legislative_houses_reform
+				mod_become_a_republic_reform
+				mod_become_a_theocracy_reform
 			}
 		}
     }
     
     legacy_government = {
+        # Generic
         autocracy_legacy
         feudalism_legacy
-        admiralty_legacy
     }
 }
 
@@ -83,7 +87,6 @@ republic = {
                 noble_republic_reform
                 mercantile_republic_reform
                 despotic_republic_reform
-                magocracy_reform
                 free_city_reform
                 trading_city_reform
                 colonial_government_reform
@@ -91,67 +94,67 @@ republic = {
 		}
         tier_republic_republican_virtues = {
 			reforms = {
-				ixa_republican_authoritarianism_reform
-				ixa_nepotism_reform
-				ixa_republicanism_reform
+				mod_republican_authoritarianism_reform
+				mod_nepotism_reform
+				mod_republicanism_reform
 			}
 		}
 		tier_republic_frequency_of_elections = {
 			reforms = {
-				ixa_frequent_elections_reform
-				ixa_consolidation_of_power_reform
-				ixa_lottery_reform
+				mod_frequent_elections_reform
+				mod_consolidation_of_power_reform
+				mod_lottery_reform
 			}
 		}
 		tier_republic_regionalism = {
 			reforms = {
-				ixa_provincial_governments_reform
-				ixa_administrative_divisions_reform
-				ixa_union_of_states_reform
-				ixa_penal_colonies_reform
-                ixa_justified_conquest_reform
+				mod_provincial_governments_reform
+				mod_administrative_divisions_reform
+				mod_union_of_states_reform
+				mod_penal_colonies_reform
+                mod_justified_conquest_reform
 			}
 		}
 		tier_republic_separation_of_power = {
 			reforms = {
-				ixa_parliamentary_reform
-				ixa_presidential_reform
-                ixa_republican_diplomacy_reform
-                ixa_municipal_self_defense_reform
+				mod_parliamentary_reform
+				mod_presidential_reform
+                mod_republican_diplomacy_reform
+                mod_municipal_self_defense_reform
 			}
 		}
 		tier_republic_consolidation_of_power = {
 			reforms = {
-				ixa_broaden_executive_powers_reform
-				ixa_devolution_of_powers_reform
-                ixa_militarized_state_reform
+				mod_broaden_executive_powers_reform
+				mod_devolution_of_powers_reform
+                mod_militarized_state_reform
 			}
 		}
 		tier_republic_guiding_principle_of_administration = {
 			reforms = {
-				ixa_political_principle_reform
-				ixa_moral_principle_reform
+				mod_political_principle_reform
+				mod_moral_principle_reform
 			}
 		}
 		tier_republic_electorate = {
 			reforms = {
-				ixa_landholders_reform
-				ixa_citizenry_reform
+				mod_landholders_reform
+				mod_citizenry_reform
 			}
 		}
 		tier_republic_office_selection = {
 			reforms = {
-				ixa_appointment_by_committee_reform
-				ixa_bureaucratic_aparatus_reform
-				ixa_universal_suffrage_reform
+				mod_appointment_by_committee_reform
+				mod_bureaucratic_aparatus_reform
+				mod_universal_suffrage_reform
 			}
 		}
 		tier_republic_question_of_dictatorship = {
 			reforms = {
-				ixa_become_a_monarchy_reform
-				ixa_become_a_theocracy_reform
-				ixa_strengthen_executive_powers_reform
-				ixa_reinforce_republican_values_reform
+				mod_become_a_monarchy_reform
+				mod_become_a_theocracy_reform
+				mod_strengthen_executive_powers_reform
+				mod_reinforce_republican_values_reform
 			}
 		}
     }
@@ -160,7 +163,6 @@ republic = {
         noble_republic_legacy
         mercantile_republic_legacy
         despotic_republic_legacy
-        magocracy_legacy
         free_city_legacy
         trading_city_legacy
         colonial_government_legacy
@@ -185,60 +187,60 @@ theocracy = {
 		}
         tier_theocracy_internal_vs_external_mission = {
 			reforms = {
-				ixa_internal_mission_reform
-				ixa_external_mission_reform
-				ixa_mission_to_civilize_reform
-				ixa_mission_to_kill_pirates_reform
+				mod_internal_mission_reform
+				mod_external_mission_reform
+				mod_mission_to_civilize_reform
+				mod_mission_to_kill_pirates_reform
 			}
 		}
 		tier_theocracy_divine_cause = {
 			reforms = {
-				ixa_safeguard_holy_sites_reform
-				ixa_combat_heresy_reform
-				ixa_expel_heathens_reform
-                ixa_justified_conquest_reform
+				mod_safeguard_holy_sites_reform
+				mod_combat_heresy_reform
+				mod_expel_heathens_reform
+                mod_justified_conquest_reform
 			}
 		}
 		tier_theocracy_clergy_in_administration = {
 			reforms = {
-				ixa_subservient_administrators_reform
-				ixa_religious_administrators_reform
-				ixa_pious_merchants_reform
-				ixa_loyal_nobility_reform
-				ixa_monastic_breweries_reform
+				mod_subservient_administrators_reform
+				mod_religious_administrators_reform
+				mod_pious_merchants_reform
+				mod_loyal_nobility_reform
+				mod_monastic_breweries_reform
 			}
 		}
 		tier_theocracy_secularization = {
 			reforms = {
-				ixa_maintain_religious_head_reform
-				ixa_partial_secularisation_reform
-                ixa_militarized_state_reform
-                ixa_become_a_monarchy_reform
-                ixa_become_a_republic_reform
+				mod_maintain_religious_head_reform
+				mod_partial_secularisation_reform
+                mod_militarized_state_reform
+                mod_become_a_monarchy_reform
+                mod_become_a_republic_reform
 			}
 		}
 		tier_theocracy_separation_of_power = {
 			reforms = {
-				ixa_clerical_commission_reform
-				ixa_divine_guidance_reform
-				ixa_theocratic_democracy_reform
+				mod_clerical_commission_reform
+				mod_divine_guidance_reform
+				mod_theocratic_democracy_reform
 			}
 		}
 		tier_theocracy_nature_of_faith = {
 			reforms = {
-				ixa_church_and_state_reform
-				ixa_religious_harmony_reform
-				ixa_god_and_man_reform
-				ixa_organising_our_religion_reform
+				mod_church_and_state_reform
+				mod_religious_harmony_reform
+				mod_god_and_man_reform
+				mod_organising_our_religion_reform
 			}
 		}
 		tier_theocracy_faith_and_the_world = {
 			reforms = {
-				ixa_religion_in_one_country_reform
-				ixa_religious_permanent_revolution_reform
-				ixa_many_fingers_of_god_reform
-				ixa_priestly_autonomy_reform
-				ixa_proclaim_religious_head_reform
+				mod_religion_in_one_country_reform
+				mod_religious_permanent_revolution_reform
+				mod_many_fingers_of_god_reform
+				mod_priestly_autonomy_reform
+				mod_proclaim_religious_head_reform
 			}
 		}
     }
@@ -261,6 +263,7 @@ tribal = {
     reform_levels = {
         tier_tribal_government_form = {
 			reforms = {
+                # Generic
                 warband_reform
                 tribal_federation_reform
                 tribal_despotism_reform
@@ -268,36 +271,37 @@ tribal = {
 		}
         tier_tribal_cultural_values = {
 			reforms = {
-				ixa_martial_society_reform
-				ixa_civil_society_reform
+				mod_martial_society_reform
+				mod_civil_society_reform
 			}
 		}
 		tier_tribal_religious_values = {
 			reforms = {
-				ixa_religious_societies_reform
-				ixa_lip_service_reform
+				mod_religious_societies_reform
+				mod_lip_service_reform
 			}
 		}
 		tier_tribal_modernization = {
 			reforms = {
-				ixa_centralize_tribal_power_reform
-				ixa_retain_tribal_hierarchy_reform
+				mod_centralize_tribal_power_reform
+				mod_retain_tribal_hierarchy_reform
 			}
 		}
 		tier_tribal_reformation = {
 			reforms = {
-				ixa_become_a_monarchy_reform
-				ixa_become_a_republic_reform
-				ixa_become_a_theocracy_reform
-				ixa_become_a_warband_reform
-                ixa_barbaric_despoilers_reform
-				ixa_tribal_unity_reform
-                ixa_militarized_state_reform
+				mod_become_a_monarchy_reform
+				mod_become_a_republic_reform
+				mod_become_a_theocracy_reform
+				mod_become_a_warband_reform
+                mod_barbaric_despoilers_reform
+				mod_tribal_unity_reform
+                mod_militarized_state_reform
 			}
 		}
     }
     
     legacy_government = {
+        # Generic
         warband_legacy
         tribal_federation_legacy
         tribal_despotism_legacy
@@ -336,36 +340,38 @@ pirate = {
     reform_levels = {
         tier_pirate_government_form = {
 			reforms = {
-                pirate_haven_reform
+                pirate_kingdom_reform
+                pirate_republic_reform
 			}
 		}
         tier_pirate_governance = {
 			reforms = {
-				ixa_council_of_captains_reform
-                ixa_articles_of_agreement_reform
-                ixa_smugglers_haven_reform
+				mod_council_of_captains_reform
+                mod_articles_of_agreement_reform
+                mod_smugglers_haven_reform
 			}
 		}
 		tier_pirate_principles = {
 			reforms = {
-				ixa_war_against_the_world_doctrine_reform
-				ixa_black_market_consortium_reform
-                ixa_justified_conquest_reform
+				mod_war_against_the_world_doctrine_reform
+				mod_black_market_consortium_reform
+                mod_justified_conquest_reform
 			}
 		}
 		tier_pirate_reformation = {
 			reforms = {
-                ixa_strengthen_pirate_unity_reform
-                ixa_militarized_state_reform
-				ixa_become_a_monarchy_reform
-				ixa_become_a_republic_reform
-				ixa_become_a_theocracy_reform
+                mod_strengthen_pirate_unity_reform
+                mod_militarized_state_reform
+				mod_become_a_monarchy_reform
+				mod_become_a_republic_reform
+				mod_become_a_theocracy_reform
 			}
 		}
     }
     
     legacy_government = {
-        pirate_haven_legacy
+        pirate_kingdom_legacy
+        pirate_republic_legacy
     }
 }
 

@@ -19,7 +19,7 @@ treason_act = {
 		factor = 1
 		modifier = {
 			factor = 2
-			has_idea_group = ixa_espionage_ideas
+			has_idea_group = mod_espionage_ideas
 		}
 		modifier = {
 			factor = 2

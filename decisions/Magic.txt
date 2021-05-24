@@ -26,7 +26,7 @@ country_decisions = {
             
             # Play failure event if the ruler isn't a spellcaster by the end
             hidden_effect = {
-                country_event = { id = ixa_magic.12 days = 3650 }
+                country_event = { id = mod_magic.12 days = 3650 }
             }
             
             # Add free points based on monarch skill
@@ -140,7 +140,7 @@ country_decisions = {
             ruler_has_personality = spellcaster_personality
         }
         effect = {
-            country_event = { id = ixa_magic.20 }
+            country_event = { id = mod_magic.20 }
         }		
         ai_will_do = {
             factor = 0

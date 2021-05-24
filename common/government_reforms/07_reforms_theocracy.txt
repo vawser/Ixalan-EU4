@@ -1,8 +1,8 @@
 #-----------------------------------------
 # "Internal & External Mission"
 #-----------------------------------------
-ixa_internal_mission_reform = {
-	icon = "internal_mission_wwu"
+mod_internal_mission_reform = {
+	icon = "internal_mission_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -10,8 +10,8 @@ ixa_internal_mission_reform = {
 	}
 }
 
-ixa_external_mission_reform = {
-	icon = "external_mission_wwu"
+mod_external_mission_reform = {
+	icon = "external_mission_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -19,16 +19,16 @@ ixa_external_mission_reform = {
 	}
 }
 
-ixa_mission_to_civilize_reform = {
-	icon = "mission_to_civilize_wwu"
+mod_mission_to_civilize_reform = {
+	icon = "mission_to_civilize_mod"
 	allow_normal_conversion = yes
     
 	trigger = {
 		OR = {
 			num_of_colonists = 1
 			OR = {
-                has_idea_group = ixa_expansion_ideas
-                has_idea_group = ixa_exploration_ideas
+                has_idea_group = mod_expansion_ideas
+                has_idea_group = mod_exploration_ideas
             }
 		}
 	}
@@ -39,8 +39,8 @@ ixa_mission_to_civilize_reform = {
 	}
 }
 
-ixa_mission_to_kill_pirates_reform = {
-	icon = "mission_to_kill_pirates_wwu"
+mod_mission_to_kill_pirates_reform = {
+	icon = "mission_to_kill_pirates_mod"
 	allow_normal_conversion = yes
     
 	potential = {
@@ -65,8 +65,8 @@ ixa_mission_to_kill_pirates_reform = {
 #-----------------------------------------
 # "Divine Cause"
 #-----------------------------------------
-ixa_safeguard_holy_sites_reform = {
-	icon = "safeguard_holy_sites_wwu"
+mod_safeguard_holy_sites_reform = {
+	icon = "safeguard_holy_sites_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -74,8 +74,8 @@ ixa_safeguard_holy_sites_reform = {
 	}
 }
 
-ixa_combat_heresy_reform = {
-	icon = "combat_heresy_wwu"
+mod_combat_heresy_reform = {
+	icon = "combat_heresy_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -83,8 +83,8 @@ ixa_combat_heresy_reform = {
 	}
 }
 
-ixa_expel_heathens_reform = {
-	icon = "expel_heathens_wwu"
+mod_expel_heathens_reform = {
+	icon = "expel_heathens_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -95,8 +95,8 @@ ixa_expel_heathens_reform = {
 #-----------------------------------------
 # "Clergy in Administration"
 #-----------------------------------------
-ixa_subservient_administrators_reform = {
-	icon = "subservient_administrators_wwu"
+mod_subservient_administrators_reform = {
+	icon = "subservient_administrators_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -104,8 +104,8 @@ ixa_subservient_administrators_reform = {
 	}
 }
 
-ixa_religious_administrators_reform = {
-	icon = "religious_administrators_wwu"
+mod_religious_administrators_reform = {
+	icon = "religious_administrators_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -113,8 +113,8 @@ ixa_religious_administrators_reform = {
 	}
 }
 
-ixa_pious_merchants_reform = {
-	icon = "pious_merchants_wwu"
+mod_pious_merchants_reform = {
+	icon = "pious_merchants_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -125,8 +125,8 @@ ixa_pious_merchants_reform = {
 	}
 }
 
-ixa_loyal_nobility_reform = {
-	icon = "loyal_nobility_wwu"
+mod_loyal_nobility_reform = {
+	icon = "loyal_nobility_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -137,20 +137,51 @@ ixa_loyal_nobility_reform = {
 	}
 }
 
-ixa_monastic_breweries_reform = {
-	icon = "monastic_breweries_wwu"
+mod_monastic_breweries_reform = {
+	icon = "monastic_breweries_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
 		global_trade_goods_size_modifier = 0.1
+	}
+    
+	effect = {
+		custom_tooltip = mod_producing_wine_and_grain_tt
+		hidden_effect = {
+			every_owned_province = {
+				if = {
+					limit = {
+						trade_goods = mod_food
+					}
+					add_province_modifier = { 
+						name = grain_bonus_prod
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+	}
+    
+	removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_province_modifier = grain_bonus_prod
+					}
+				}
+				remove_province_modifier = grain_bonus_prod
+			}
+		}
 	}
 }
 
 #-----------------------------------------
 # "Secularization?"
 #-----------------------------------------
-ixa_maintain_religious_head_reform = {
-	icon = "maintain_religious_head_wwu"
+mod_maintain_religious_head_reform = {
+	icon = "maintain_religious_head_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -158,8 +189,8 @@ ixa_maintain_religious_head_reform = {
 	}
 }
 
-ixa_partial_secularisation_reform = {
-	icon = "partial_secularisation_wwu"
+mod_partial_secularisation_reform = {
+	icon = "partial_secularisation_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -170,8 +201,8 @@ ixa_partial_secularisation_reform = {
 #-----------------------------------------
 # "Separation of Power"
 #-----------------------------------------
-ixa_clerical_commission_reform = {
-	icon = "clerical_commission_wwu"
+mod_clerical_commission_reform = {
+	icon = "clerical_commission_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -184,7 +215,7 @@ ixa_clerical_commission_reform = {
 	}
 }
 
-ixa_divine_guidance_reform = {
+mod_divine_guidance_reform = {
 	icon = "divine_guidance_ww"
 	allow_normal_conversion = yes
     
@@ -197,8 +228,8 @@ ixa_divine_guidance_reform = {
 	}
 }
 
-ixa_theocratic_democracy_reform = {
-	icon = "theocratic_democracy_wwu"
+mod_theocratic_democracy_reform = {
+	icon = "theocratic_democracy_mod"
 	modifiers = {
 		global_unrest = -1
 	}
@@ -227,8 +258,8 @@ ixa_theocratic_democracy_reform = {
 #-----------------------------------------
 # "The Nature of Our Faith"
 #-----------------------------------------
-ixa_church_and_state_reform = {
-	icon = "church_and_state_wwu"
+mod_church_and_state_reform = {
+	icon = "church_and_state_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -240,8 +271,8 @@ ixa_church_and_state_reform = {
 	}
 }
 
-ixa_religious_harmony_reform = {
-	icon = "religious_harmony_wwu"
+mod_religious_harmony_reform = {
+	icon = "religious_harmony_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -254,8 +285,8 @@ ixa_religious_harmony_reform = {
 	}
 }
 
-ixa_god_and_man_reform = {
-	icon = "god_and_man_wwu"
+mod_god_and_man_reform = {
+	icon = "god_and_man_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -267,8 +298,8 @@ ixa_god_and_man_reform = {
 	}
 }
 
-ixa_organising_our_religion_reform = {
-	icon = "organising_our_religion_wwu"
+mod_organising_our_religion_reform = {
+	icon = "organising_our_religion_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -284,8 +315,8 @@ ixa_organising_our_religion_reform = {
 #-----------------------------------------
 # "Our Faith and the World"
 #-----------------------------------------
-ixa_religion_in_one_country_reform = {
-	icon = "religion_in_one_country_wwu"
+mod_religion_in_one_country_reform = {
+	icon = "religion_in_one_country_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -297,12 +328,12 @@ ixa_religion_in_one_country_reform = {
 	}
 }
 
-ixa_religious_permanent_revolution_reform = {
-	icon = "religious_permanent_revolution_wwu"
+mod_religious_permanent_revolution_reform = {
+	icon = "religious_permanent_revolution_mod"
 	allow_normal_conversion = yes
 
 	effect = {
-		custom_tooltip = ixa_world_crusade_tt
+		custom_tooltip = mod_world_crusade_tt
 	}
     
 	modifiers = {
@@ -314,11 +345,11 @@ ixa_religious_permanent_revolution_reform = {
 	}
 }
 
-ixa_many_fingers_of_god_reform = {
-	icon = "many_fingers_of_god_wwu"
+mod_many_fingers_of_god_reform = {
+	icon = "many_fingers_of_god_mod"
 	allow_normal_conversion = yes
 	trigger = {
-		has_idea_group = ixa_harmony_ideas
+		has_idea_group = mod_harmony_ideas
 	}
     
 	modifiers = {
@@ -331,8 +362,8 @@ ixa_many_fingers_of_god_reform = {
 	}
 }
 
-ixa_priestly_autonomy_reform = {
-	icon = "priestly_autonomy_wwu"
+mod_priestly_autonomy_reform = {
+	icon = "priestly_autonomy_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {
@@ -344,8 +375,8 @@ ixa_priestly_autonomy_reform = {
 	}
 }
 
-ixa_proclaim_religious_head_reform = {
-	icon = "proclaim_religious_head_wwu"
+mod_proclaim_religious_head_reform = {
+	icon = "proclaim_religious_head_mod"
 	allow_normal_conversion = yes
     
 	trigger = {
@@ -353,7 +384,7 @@ ixa_proclaim_religious_head_reform = {
 			tooltip = no_other_head_tt
 			NOT = {
 				any_country = {
-					has_reform = ixa_proclaim_religious_head_reform
+					has_reform = mod_proclaim_religious_head_reform
 					religion = ROOT
 					tag = ROOT
 				}

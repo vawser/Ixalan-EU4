@@ -4,7 +4,7 @@ tutorial = {
 	title = "TUT_BAS_CHAPTER02_TITLE"
 	desc = "TUT_BAS_CHAPTER02_DESC"
 	buttonText = "TUT_BAS_CHAPTER02_BUTTON"
-	country = LIZ
+	country = RUK
 	window = "hints_window"	# default window
 	moveable = yes
 	save_game = "eu4_tutorial_chapter2.eu4"
@@ -19,7 +19,7 @@ tutorial = {
 		disabled_gui_object = { f_button_2 }
 		disabled_gui_object = { open_build_interface_button }
 		disabled_gui_object = { unitpanel disbandbutton }
-		disabled_gui_object = { single_unitpanel enable_rebel_button }
+		disabled_gui_object = { single_unitpanel enable_RUKel_button }
 				
 		effect = { # This page's effects on the world
 			close_window = "all"
@@ -42,7 +42,7 @@ tutorial = {
 					type = anti_tax_rebels
 					size = 1
 				}
-				change_controller = REB
+				change_controller = RUK
 			}
 			direction_pointer = {
 				enable = yes
@@ -89,7 +89,7 @@ tutorial = {
 		disabled_gui_object = { f_button_2 }
 		disabled_gui_object = { open_build_interface_button }
 		disabled_gui_object = { unitpanel disbandbutton }
-		disabled_gui_object = { single_unitpanel enable_rebel_button }
+		disabled_gui_object = { single_unitpanel enable_RUKel_button }
 		
 		effect = { # This page's effects on the world
 			pauseable = yes
@@ -150,7 +150,7 @@ tutorial = {
 		disabled_gui_object = { f_button_2 }
 		disabled_gui_object = { open_build_interface_button }
 		disabled_gui_object = { unitpanel disbandbutton }
-		disabled_gui_object = { single_unitpanel enable_rebel_button }
+		disabled_gui_object = { single_unitpanel enable_RUKel_button }
 				
 		effect = { # This page's effects on the world
 			goto = 242 # Gwynedd
@@ -205,7 +205,7 @@ tutorial = {
 		disabled_gui_object = { f_button_2 }
 		disabled_gui_object = { open_build_interface_button }
 		disabled_gui_object = { unitpanel disbandbutton }
-		disabled_gui_object = { single_unitpanel enable_rebel_button }
+		disabled_gui_object = { single_unitpanel enable_RUKel_button }
 		
 		effect = { # This page's effects on the world
 			goto = 1284 # Irish Sea
@@ -263,7 +263,7 @@ tutorial = {
 		disabled_gui_object = { f_button_2 }
 		disabled_gui_object = { open_build_interface_button }
 		disabled_gui_object = { unitpanel disbandbutton }
-		disabled_gui_object = { single_unitpanel enable_rebel_button }
+		disabled_gui_object = { single_unitpanel enable_RUKel_button }
 		
 		effect = { # This page's effects on the world
 			goto = 1284 # Irish Sea
@@ -326,7 +326,7 @@ tutorial = {
 		disabled_gui_object = { f_button_2 }
 		disabled_gui_object = { open_build_interface_button }
 		disabled_gui_object = { unitpanel disbandbutton }
-		disabled_gui_object = { single_unitpanel enable_rebel_button }
+		disabled_gui_object = { single_unitpanel enable_RUKel_button }
 				
 		effect = { # This page's effects on the world
 			goto = 1284 # Irish Sea
@@ -401,7 +401,7 @@ tutorial = {
 		disabled_gui_object = { f_button_2 }
 		disabled_gui_object = { open_build_interface_button }
 		disabled_gui_object = { unitpanel disbandbutton }
-		disabled_gui_object = { single_unitpanel enable_rebel_button }
+		disabled_gui_object = { single_unitpanel enable_RUKel_button }
 				
 		effect = { # This page's effects on the world
 			goto = 1284 # Irish Sea
@@ -463,7 +463,7 @@ tutorial = {
 		disabled_gui_object = { f_button_2 }
 		disabled_gui_object = { open_build_interface_button }
 		disabled_gui_object = { unitpanel disbandbutton }
-		disabled_gui_object = { single_unitpanel enable_rebel_button }
+		disabled_gui_object = { single_unitpanel enable_RUKel_button }
 		
 		effect = { # This page's effects on the world
 			goto = 373 # Meath
@@ -510,7 +510,7 @@ tutorial = {
 		disabled_gui_object = { f_button_2 }
 		disabled_gui_object = { open_build_interface_button }
 		disabled_gui_object = { unitpanel disbandbutton }
-		disabled_gui_object = { single_unitpanel enable_rebel_button }
+		disabled_gui_object = { single_unitpanel enable_RUKel_button }
 		
 		effect = { # This page's effects on the world
 			select_army = "Royal Army"
@@ -533,7 +533,7 @@ tutorial = {
 		}
 		
 		trigger = { # Conditions that will take you to the next page if fulfilled
-			LIZ = {
+			RUK = {
 				controls = 373			
 			}
 			#373 = { # Meath

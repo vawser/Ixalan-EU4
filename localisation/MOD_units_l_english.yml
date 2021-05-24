@@ -1,0 +1,79 @@
+﻿l_english:
+ # Infantry
+ basic_infantry_1_option_a: "Warriors"
+ basic_infantry_1_option_aDESCR: ""
+ basic_infantry_1_option_b: "Bowmen"
+ basic_infantry_1_option_bDESCR: ""
+ basic_infantry_1_option_c: "Guards"
+ basic_infantry_1_option_cDESCR: ""
+ 
+ basic_infantry_2_option_a: "Beserkers"
+ basic_infantry_2_option_aDESCR: ""
+ basic_infantry_2_option_b: "Archers"
+ basic_infantry_2_option_bDESCR: ""
+ basic_infantry_2_option_c: "Wardens"
+ basic_infantry_2_option_cDESCR: ""
+ 
+ basic_infantry_3_option_a: "Champions"
+ basic_infantry_3_option_aDESCR: ""
+ basic_infantry_3_option_b: "Marksmen"
+ basic_infantry_3_option_bDESCR: ""
+ basic_infantry_3_option_c: "Defenders"
+ basic_infantry_3_option_cDESCR: ""
+ 
+ # Cavalry
+ basic_cavalry_1_option_a: "Light Cavalry"
+ basic_cavalry_1_option_aDESCR: ""
+ basic_cavalry_1_option_b: "Heavy Cavalry"
+ basic_cavalry_1_option_bDESCR: ""
+ 
+ basic_cavalry_2_option_a: "Light Lancers"
+ basic_cavalry_2_option_aDESCR: ""
+ basic_cavalry_2_option_b: "Heavy Lancers"
+ basic_cavalry_2_option_bDESCR: ""
+ 
+ basic_cavalry_3_option_a: "Light Dragoons"
+ basic_cavalry_3_option_aDESCR: ""
+ basic_cavalry_3_option_b: "Heavy Dragoons"
+ basic_cavalry_3_option_bDESCR: ""
+ 
+ # Artillery
+ basic_artillery_1_option_a: "Catapult"
+ basic_artillery_1_option_aDESCR: ""
+ basic_artillery_1_option_b: "Bomb Slingers"
+ basic_artillery_1_option_bDESCR: ""
+ 
+ basic_artillery_2_option_a: "Arbalest"
+ basic_artillery_2_option_aDESCR: ""
+ basic_artillery_2_option_b: "Powder Cannon"
+ basic_artillery_2_option_bDESCR: ""
+ 
+ basic_artillery_3_option_a: "Ballista"
+ basic_artillery_3_option_aDESCR: ""
+ basic_artillery_3_option_b: "Siege Tower"
+ basic_artillery_3_option_bDESCR: ""
+ 
+ # Ships
+ basic_heavy_ship_1: "Carrack"
+ basic_heavy_ship_1DESCR: ""
+ 
+ basic_light_ship_1: "Barque"
+ basic_light_ship_1DESCR: ""
+ 
+ basic_galley_1: "Galley"
+ basic_galley_1DESCR: ""
+ 
+ basic_transport_1: "Cog"
+ basic_transport_1DESCR: ""
+ 
+ basic_heavy_ship_2: "Reinforced Carrack"
+ basic_heavy_ship_2DESCR: ""
+ 
+ basic_light_ship_2: "Reinforced Barque"
+ basic_light_ship_2DESCR: ""
+ 
+ basic_galley_2: "Reinforced Galley"
+ basic_galley_2DESCR: ""
+ 
+ basic_transport_2: "Reinforced Cog"
+ basic_transport_2DESCR: ""

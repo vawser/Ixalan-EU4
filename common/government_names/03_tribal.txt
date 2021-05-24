@@ -1,20 +1,21 @@
+# General
 gov_warband = {
 	rank = {
-		1 = gov_name_WARBAND
-		2 = gov_name_GREAT_WARBAND
-		3 = gov_name_GRAND_WARBAND
+		1 = WARBAND
+		2 = WARBAND
+		3 = WARBAND
 	}
 	
 	ruler_male = {
-		1 = ruler_name_KHAN
-        2 = ruler_name_KHAN
-        3 = ruler_name_KHAN
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
 	}
 	
 	ruler_female = {
-		1 = ruler_name_KHANESS
-        2 = ruler_name_KHANESS
-        3 = ruler_name_KHANESS
+		1 = CHIEFTESS
+        2 = CHIEFTESS
+        3 = CHIEFTESS
 	}
 	
 	trigger = {
@@ -23,21 +24,21 @@ gov_warband = {
 }
 gov_tribal_federation = {
 	rank = {
-		1 = gov_name_TRIBAL_FEDERATION
-		2 = gov_name_TRIBAL_FEDERATION
-		3 = gov_name_TRIBAL_FEDERATION
+		1 = TRIBAL_FEDERATION
+		2 = TRIBAL_FEDERATION
+		3 = TRIBAL_FEDERATION
 	}
 	
 	ruler_male = {
-		1 = ruler_name_CHIEF
-        2 = ruler_name_CHIEF
-        3 = ruler_name_CHIEF
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
 	}
 	
 	ruler_female = {
-		1 = ruler_name_CHIEFTESS
-        2 = ruler_name_CHIEFTESS
-        3 = ruler_name_CHIEFTESS
+		1 = CHIEFESS
+        2 = CHIEFESS
+        3 = CHIEFESS
 	}
 	
 	trigger = {
@@ -46,21 +47,21 @@ gov_tribal_federation = {
 }
 gov_tribal_despotism = {
 	rank = {
-		1 = gov_name_TRIBAL_DESPOTISM
-		2 = gov_name_TRIBAL_DESPOTISM
-		3 = gov_name_TRIBAL_DESPOTISM
+		1 = TRIBAL_DESPOTISM
+		2 = TRIBAL_DESPOTISM
+		3 = TRIBAL_DESPOTISM
 	}
 	
 	ruler_male = {
-		1 = ruler_name_CHIEF
-        2 = ruler_name_CHIEF
-        3 = ruler_name_CHIEF
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
 	}
 	
 	ruler_female = {
-		1 = ruler_name_CHIEFTESS
-        2 = ruler_name_CHIEFTESS
-        3 = ruler_name_CHIEFTESS
+		1 = CHIEFESS
+        2 = CHIEFESS
+        3 = CHIEFESS
 	}
 	
 	trigger = {

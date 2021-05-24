@@ -1,44 +1,44 @@
-namespace = www_prices
+namespace = mod_prices
 
 country_event = {
-	id = www_prices.1
-	title = www_prices.1.t
-	desc = www_prices.1.d
+	id = mod_prices.1
+	title = mod_prices.1.t
+	desc = mod_prices.1.d
 	picture = TRADE_GOODS_eventPicture
 	
     hidden = yes
 
 	trigger = {
-        has_country_flag = trade_control_flag
-        NOT = { has_country_modifier = trade_time }
+        had_global_flag = { 
+            flag = update_price_flag
+            days = 3650
+        } 
+        ai = yes
 	}
 	
 	mean_time_to_happen = {
-		months = 240
+		months = 120
 	}
 	
 	immediate = {
         hidden_effect = {
-            add_country_modifier = {
-                name = "trade_time"
-                duration = 7300 # 20 years
-                hidden = yes
-            }
+            clr_global_flag = update_price_flag
+            set_global_flag = update_price_flag
         }
     }
 	
 	option = {
-		name = www_prices.1.a
+		name = mod_prices.1.a
 		
 		hidden_effect = {
-            randomise_price = { good = ixa_food }
-            randomise_price = { good = ixa_textiles }
-            randomise_price = { good = ixa_jewelry }
-            randomise_price = { good = ixa_metals }
-            randomise_price = { good = ixa_slaves }
-            randomise_price = { good = ixa_oil }
-            randomise_price = { good = ixa_lumber }
-            randomise_price = { good = ixa_artifacts }
+            randomise_price = { good = mod_food }
+            randomise_price = { good = mod_textiles }
+            randomise_price = { good = mod_jewelry }
+            randomise_price = { good = mod_metals }
+            randomise_price = { good = mod_slaves }
+            randomise_price = { good = mod_oil }
+            randomise_price = { good = mod_lumber }
+            randomise_price = { good = mod_artifacts }
         }
     }
 }

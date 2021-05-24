@@ -325,7 +325,7 @@ country_event = {
 			}
 
 			OR = {
-				trade_goods = food
+				trade_goods = mod_food
 			}
 		}
 		NOT = {
@@ -360,7 +360,7 @@ country_event = {
 						has_monsoon = mild_monsoon
 					}
 					OR = {
-						trade_goods = ixa_food
+						trade_goods = mod_food
 					}
 				}
 				save_event_target_as = plum_rains_province
@@ -382,7 +382,7 @@ country_event = {
 					limit = {
 						owned_by = ROOT
 						OR = {
-							trade_goods = ixa_food
+							trade_goods = mod_food
 						}
 					}
 					add_province_modifier = {

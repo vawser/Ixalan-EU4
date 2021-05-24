@@ -1,3 +1,4 @@
+
 type={
 	type="frame_top_center_entity"
 	use_animation=no

@@ -307,69 +307,6 @@ country_event = {
 	}
 }
 
-# Founding of Guilds
-country_event = {
-	id = estate_system.4
-	title = estate_system.4.title
-	desc = estate_system.4.desc
-	picture = THEATRE_eventPicture
-
-	is_triggered_only = yes
-    
-	option = {
-		name = estate_system.4.option.a
-		trigger = {
-			NOT = { has_country_flag = has_estate_adventuring_guild }
-		}
-		hidden_effect = { 
-            set_country_flag = has_estate_adventuring_guild 
-        }
-		custom_tooltip = estate_system.4.option.a.tooltip
-	}
-	option = {
-		name = estate_system.4.option.b
-		trigger = {
-			NOT = { has_country_flag = has_estate_mercantile_guild }
-		}
-		hidden_effect = { 
-            set_country_flag = has_estate_mercantile_guild 
-        }
-		custom_tooltip = estate_system.4.option.b.tooltip
-		
-	}
-	option = {
-		name = estate_system.4.option.c
-		trigger = {
-			NOT = { has_country_flag = has_estate_warriors_guild }
-		}
-		hidden_effect = { 
-            set_country_flag = has_estate_warriors_guild 
-        }
-		custom_tooltip = estate_system.4.option.c.tooltip
-	}
-	option = {
-		name = estate_system.4.option.d
-		trigger = {
-            NOT = { religion_group = philosophy_group }
-			NOT = { has_country_flag = has_estate_religious_order }
-		}
-		hidden_effect = { 
-            set_country_flag = has_estate_religious_order 
-        }
-		custom_tooltip = estate_system.4.option.d.tooltip
-	}
-	option = {
-		name = estate_system.4.option.e
-		trigger = {
-			NOT = { has_country_flag = has_estate_criminal_syndicate }
-		}
-		hidden_effect = { 
-            set_country_flag = has_estate_criminal_syndicate 
-        }
-		custom_tooltip = estate_system.4.option.e.tooltip
-	}
-}
-
 #-----------------------------------
 # Seek Advisor
 #-----------------------------------

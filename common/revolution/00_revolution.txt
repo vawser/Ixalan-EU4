@@ -2,7 +2,7 @@
 revolution = {
 	# FROM = center of revolution
 	target_province_weights = {
-		factor = 0
+		factor = 1
 	}
 
 	# Values at 100 Absolutism

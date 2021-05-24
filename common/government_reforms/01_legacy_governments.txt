@@ -32,21 +32,6 @@ feudalism_legacy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 }
-admiralty_legacy = {
-	icon = "admiralty"
-    legacy_government = yes # legacy_equivalent = admiralty_legacy
-    
-    monarchy = yes
-	
-	ai = { factor = 0 }
-    
-    valid_for_new_country = no      # Can be converted to via nation release
-    allow_normal_conversion = yes   # Can be picked as a new reform
-	allow_convert = no              # Can be converted to via peace term
-    
-	valid_for_nation_designer = yes
-	nation_designer_cost = 0
-}
 
 #--------------------------------------------
 # Republic
@@ -93,26 +78,6 @@ despotic_republic_legacy = {
     
 	has_term_election = no
 	
-    ai = { factor = 0 }
-    
-    valid_for_new_country = yes     # Can be converted to via nation release
-    allow_normal_conversion = yes   # Can be picked as a new reform
-    allow_convert = yes             # Can be converted to via peace term
-
-    valid_for_nation_designer = yes
-    nation_designer_cost = 0
-}
-magocracy_legacy = {
-	icon = "magocracy"
-    legacy_government = yes # legacy_equivalent = magocracy_legacy
-    
-    republic = yes
-
-	royal_marriage = no
-	has_term_election = yes
-	election_on_death = yes
-	duration = 10
-
     ai = { factor = 0 }
     
     valid_for_new_country = yes     # Can be converted to via nation release
@@ -181,6 +146,7 @@ colonial_government_legacy = {
     valid_for_nation_designer = no
     nation_designer_cost = 0
 }
+
 #--------------------------------------------
 # Theocracy
 #--------------------------------------------
@@ -272,6 +238,7 @@ tribal_despotism_legacy = {
     valid_for_nation_designer = yes
     nation_designer_cost = 0
 }
+
 #------------------------------------------------------------
 # Native
 #------------------------------------------------------------
@@ -297,7 +264,7 @@ native_tribe_legacy = {
 #------------------------------------------------------------
 # Pirate
 #------------------------------------------------------------
-pirate_haven_legacy = {
+pirate_republic_legacy = {
 	icon = "trading_city"
     legacy_government = yes # legacy_equivalent = pirate_republic_legacy
     
@@ -314,3 +281,20 @@ pirate_haven_legacy = {
     valid_for_nation_designer = yes
     nation_designer_cost = 0
 }
+pirate_kingdom_legacy = {
+	icon = "trading_city"
+    legacy_government = yes # legacy_equivalent = pirate_kingdom_legacy
+    
+    monarchy = yes
+	has_term_election = no
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+

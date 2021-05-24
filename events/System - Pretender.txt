@@ -1,9 +1,9 @@
-namespace = ixa_pretender
+namespace = mod_pretender
 
 country_event = {
-	id = ixa_pretender.1
-	title = ixa_pretender.1.title
-	desc = ixa_pretender.1.desc
+	id = mod_pretender.1
+	title = mod_pretender.1.title
+	desc = mod_pretender.1.desc
 	picture = MILITARY_CAMP_eventPicture
 	
 	is_triggered_only = yes
@@ -16,7 +16,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ixa_pretender.1.option.a
+		name = mod_pretender.1.option.a
 		if = {
 			limit = {
 				NOT = { legitimacy = 15 }

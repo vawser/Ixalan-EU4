@@ -1,2 +1,4 @@
-technology_group = tech_human
-
+#-----------------------------------
+# Setup
+#-----------------------------------
+technology_group = western

@@ -1,10 +1,10 @@
-namespace = ixa_government
+namespace = mod_government
 
 # On Death election
 country_event = {
-	id = ixa_government.1
-	title = ixa_government.1.title
-	desc = ixa_government.1.desc
+	id = mod_government.1
+	title = mod_government.1.title
+	desc = mod_government.1.desc
 	picture = IMPORTANT_STATUE_eventPicture
 	
 	is_triggered_only = yes
@@ -18,7 +18,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ixa_government.1.option.a
+		name = mod_government.1.option.a
 
 		define_ruler = {
 			adm = 4
@@ -44,7 +44,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ixa_government.1.option.b
+		name = mod_government.1.option.b
 
 		define_ruler = {
 			adm = 1
@@ -70,7 +70,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ixa_government.1.option.c
+		name = mod_government.1.option.c
 
 		define_ruler = {
 			adm = 1
@@ -98,9 +98,9 @@ country_event = {
 
 # On Term Election
 country_event = {
-	id = ixa_government.2
-	title = ixa_government.2.title
-    desc = ixa_government.2.desc
+	id = mod_government.2
+	title = mod_government.2.title
+    desc = mod_government.2.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
@@ -114,7 +114,7 @@ country_event = {
 	}
 
 	option = {
-		name = ixa_government.2.option.a
+		name = mod_government.2.option.a
 		ai_chance = { factor = 20 }
         
 		define_ruler = {
@@ -128,7 +128,7 @@ country_event = {
         
 	}
 	option = {
-		name = ixa_government.2.option.b
+		name = mod_government.2.option.b
 		ai_chance = { factor = 20 }
         
 		define_ruler = {
@@ -142,7 +142,7 @@ country_event = {
         
 	}
 	option = {
-		name = ixa_government.2.option.c
+		name = mod_government.2.option.c
 		ai_chance = { factor = 20 }
         
 		define_ruler = {
@@ -156,7 +156,7 @@ country_event = {
         
 	}
     option = {
-		name = ixa_government.2.option.d
+		name = mod_government.2.option.d
         
 		trigger = {
 			has_regency = no
@@ -211,7 +211,7 @@ country_event = {
 		}
 	}
     option = {
-		name = ixa_government.2.option.e
+		name = mod_government.2.option.e
 		trigger = {
 			has_government_attribute = enables_nepotism
 		}
@@ -233,15 +233,15 @@ country_event = {
 
 # On Replace Governor
 country_event = {
-	id = ixa_government.3
-	title = ixa_government.3.title
-	desc = ixa_government.3.desc
+	id = mod_government.3
+	title = mod_government.3.title
+	desc = mod_government.3.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = ixa_government.3.option.a
+		name = mod_government.3.option.a
 		ai_chance = { factor = 20 }
 		FROM = {
 			define_ruler = {
@@ -254,11 +254,11 @@ country_event = {
             
             add_republican_tradition = 5
             
-            hidden_effect = { country_event = { id = GOT_EDUCATION.2 days = 1 } }
+            hidden_effect = { country_event = { id = mod_ruler_education.2 days = 1 } }
 		}
 	}
 	option = {
-		name = ixa_government.3.option.b
+		name = mod_government.3.option.b
 		ai_chance = { factor = 20 }
 		FROM = {
 			define_ruler = {
@@ -271,11 +271,11 @@ country_event = {
             
             add_republican_tradition = 5
             
-            hidden_effect = { country_event = { id = GOT_EDUCATION.2 days = 1 } }
+            hidden_effect = { country_event = { id = mod_ruler_education.2 days = 1 } }
 		}
 	}
 	option = {
-		name = ixa_government.3.option.c
+		name = mod_government.3.option.c
 		ai_chance = { factor = 20 }
 		FROM = {
 			define_ruler = {
@@ -288,16 +288,16 @@ country_event = {
             
             add_republican_tradition = 5
             
-            hidden_effect = { country_event = { id = GOT_EDUCATION.2 days = 1 } }
+            hidden_effect = { country_event = { id = mod_ruler_education.2 days = 1 } }
 		}
 	}
 }
 
 # Ruled by Despot
 country_event = {
-	id = ixa_government.4
-	title = ixa_government.4.title
-	desc = ixa_government.4.desc
+	id = mod_government.4
+	title = mod_government.4.title
+	desc = mod_government.4.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	trigger = {
@@ -340,7 +340,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ixa_government.4.option.a
+		name = mod_government.4.option.a
 		tooltip = {
 			add_government_reform = despotic_republic_reform
 		}
@@ -349,9 +349,9 @@ country_event = {
 
 # Lottery Election
 country_event = {
-	id = ixa_government.5
-	title = ixa_government.5.title
-	desc = ixa_government.5.desc
+	id = mod_government.5
+	title = mod_government.5.title
+	desc = mod_government.5.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
@@ -403,7 +403,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ixa_government.5.option.a
+		name = mod_government.5.option.a
 		ai_chance = {
 			factor = 0
 		}
@@ -412,7 +412,7 @@ country_event = {
 		custom_tooltip = lottery_candidate_bonus_one
 	}
 	option = {
-		name = ixa_government.5.option.b
+		name = mod_government.5.option.b
 		ai_chance = {
 			factor = 0
 		}
@@ -421,7 +421,7 @@ country_event = {
 		custom_tooltip = lottery_candidate_bonus_one
 	}
 	option = {
-		name = ixa_government.5.option.c
+		name = mod_government.5.option.c
 		ai_chance = {
 			factor = 0
 		}
@@ -430,7 +430,7 @@ country_event = {
 		custom_tooltip = lottery_candidate_bonus_one
 	}
 	option = { # lottery
-		name = ixa_government.5.option.d
+		name = mod_government.5.option.d
 		ai_chance = {
 			factor = 90
 		}
@@ -448,7 +448,7 @@ country_event = {
 		custom_tooltip = lottery_candidate_bonus_plural
 	}
 	option = {
-		name = ixa_government.5.option.e
+		name = mod_government.5.option.e
 		trigger = {
 			has_government_attribute = enables_nepotism
 		}
@@ -470,9 +470,9 @@ country_event = {
 
 # Advisor Government
 country_event = {
-	id = ixa_government.6
-	title = ixa_government.6.title
-	desc = ixa_government.6.desc
+	id = mod_government.6
+	title = mod_government.6.title
+	desc = mod_government.6.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 
 	is_triggered_only = yes
@@ -482,7 +482,7 @@ country_event = {
 	}
 
 	option = {
-		name = ixa_government.6.option.a
+		name = mod_government.6.option.a
         
 		trigger = {
 			has_adm_advisor = yes
@@ -547,7 +547,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ixa_government.6.option.b
+		name = mod_government.6.option.b
         
 		trigger = {
 			has_dip_advisor = yes
@@ -612,7 +612,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ixa_government.6.option.c
+		name = mod_government.6.option.c
         
 		trigger = {
 			has_mil_advisor = yes
@@ -676,7 +676,7 @@ country_event = {
         }
 	}
 	option = {
-		name = ixa_government.6.option.d
+		name = mod_government.6.option.d
         
 		define_ruler = {
             adm = 3
@@ -689,7 +689,7 @@ country_event = {
 		}
 	}
     option = {
-		name = ixa_government.6.option.e
+		name = mod_government.6.option.e
         
         trigger = {
             has_level_5_adm_advisor = yes
@@ -709,84 +709,21 @@ country_event = {
 	}
 }
 
-# Undead Government
-country_event = {
-	id = ixa_government.7
-	title = ixa_government.7.title
-	desc = ixa_government.7.desc
-	picture = UNDEAD_eventPicture
-	
-	trigger = {
-		always = no
-		has_heir = no
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-	}
-	
-	option = {
-		name = ixa_government.7.option.a
-		
-		define_heir = {
-			max_random_adm = 4
-			max_random_dip = 4
-			mil = 6
-		}
-        custom_tooltip = SCOURGE_GOV_GAIN_MANPOWER
-        hidden_effect = {
-            every_owned_province = {
-                owner = { add_yearly_manpower = 0.01 }
-            }
-        }
-	}
-	option = {
-		name = ixa_government.7.option.b
-		
-		define_heir = {
-			max_random_adm = 4
-			dip = 6
-			max_random_mil = 4
-		}
-        custom_tooltip = SCOURGE_GOV_GAIN_LEGITIMACY
-        hidden_effect = {
-            every_owned_province = {
-                owner = { add_legitimacy = 0.1 } 
-            }
-        }
-	}
-    option = {
-		name = ixa_government.7.option.c
-		
-		define_heir = {
-			adm = 6
-			max_random_dip = 4
-			max_random_mil = 4
-		}
-        custom_tooltip = SCOURGE_GOV_GAIN_REFORM_PROGRESS
-        hidden_effect = {
-            every_owned_province = {
-                owner = { adopt_reform_progress = 0.25 }
-            }
-        }
-	}
-}
-
 # States General
 country_event = {
-	id = ixa_government.8
-	title = ixa_government.8.title
+	id = mod_government.8
+	title = mod_government.8.title
 	desc = {
 		trigger = { 
 			exiled_same_dynasty_as_current = "states_general_abolished_@ROOT"
 		}
-		desc = ixa_government.8.desc_1
+		desc = mod_government.8.desc_1
 	}
 	desc = {
 		trigger = { 
 			NOT = { exiled_same_dynasty_as_current = "states_general_abolished_@ROOT" }
 		}
-		desc = ixa_government.8.desc_2
+		desc = mod_government.8.desc_2
 	}
 	picture = BAD_WITH_MONARCH_eventPicture
 
@@ -806,14 +743,14 @@ country_event = {
 	}
 
 	option = {
-		name = "ixa_government.8.option.a"
+		name = "mod_government.8.option.a"
 		trigger = {
 			exiled_same_dynasty_as_current = "states_general_abolished_@ROOT"
 		}
 	}
 
 	option = {
-		name = "ixa_government.8.option.b"
+		name = "mod_government.8.option.b"
 		trigger = {
 			NOT = { exiled_same_dynasty_as_current = "states_general_abolished_@ROOT" }
 		}
@@ -824,9 +761,9 @@ country_event = {
 # Theocracy
 # "Heir needed in $COUNTRY$"
 country_event = {
-	id = ixa_government.9
-	title = ixa_government.9.title
-	desc = ixa_government.9.desc
+	id = mod_government.9
+	title = mod_government.9.title
+	desc = mod_government.9.desc
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
@@ -839,7 +776,7 @@ country_event = {
 	}
 
 	option = {
-		name = ixa_government.9.option.a
+		name = mod_government.9.option.a
         
 		define_heir = {
             adm = 4
@@ -849,7 +786,7 @@ country_event = {
 		add_prestige = 10
 	}
     option = {
-		name = ixa_government.9.option.b
+		name = mod_government.9.option.b
         
 		define_heir = {
             dip = 4
@@ -859,7 +796,7 @@ country_event = {
 		add_prestige = 10
 	}
     option = {
-		name = ixa_government.9.option.c
+		name = mod_government.9.option.c
         
 		define_heir = {
             mil = 4
@@ -869,7 +806,7 @@ country_event = {
 		add_prestige = 10
 	}
     option = {
-		name = ixa_government.9.option.d
+		name = mod_government.9.option.d
         
 		define_heir = {
             hidden = yes
@@ -877,3 +814,4 @@ country_event = {
 		add_devotion = 10
 	}
 }
+

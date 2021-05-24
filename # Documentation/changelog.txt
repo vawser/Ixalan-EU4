@@ -97,13 +97,7 @@ Minotaur civilization
 #------------------------------
 # Notes
 #------------------------------
-# Sea: 
-20;0;170 
-20;10;170
 
-# Land: Current
-58;130;10
-
-# Wasteland
-200;0;0
-
+RUK = "countries/Rukmar.txt"
+ human
+ shamanism

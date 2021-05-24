@@ -1,0 +1,37 @@
+#-----------------------------------------------
+# Religions
+#-----------------------------------------------
+primitive_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 85
+	flag_emblem_index_range = { 1 120 }
+    
+    crusade_name = CRUSADE
+    
+    shamanism = {
+		color = { 81 109 71 }
+		icon = 1
+		
+		country = {
+			
+		}
+        country_as_secondary = {
+			
+		}
+		province = {
+			
+		}
+
+        on_convert = {
+			change_religion = shamanism
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+	}
+}

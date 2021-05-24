@@ -1,0 +1,7 @@
+﻿l_english:
+ # establish_trust: "Establish Trust"
+ # establish_trust_title: "Establish Trust"
+ # establish_trust_desc: "We will convene a meeting for our respective diplomats and establish a deeper trust with [From.GetName]."
+ # establish_trust_tooltip: "Establish Trust with [From.GetName]"
+ # establish_trust_alert_tooltip: "Establish Trust with [From.GetName]"
+ 

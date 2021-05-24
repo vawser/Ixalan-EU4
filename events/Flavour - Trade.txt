@@ -15,22 +15,22 @@ country_event = {
 			NOT = { is_strongest_trade_power = root }
 		}
 		
-		has_idea_group = ixa_trade_ideas
+		has_idea_group = mod_trade_ideas
 	}
 	
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			ixa_trade_ideas = 1
+			mod_trade_ideas = 1
 		}
 		modifier = {
 			factor = 3
-			ixa_trade_ideas = 3
+			mod_trade_ideas = 3
 		}
 		modifier = {
 			factor = 5
-			ixa_trade_ideas = 7
+			mod_trade_ideas = 7
 		}
 	}
 	
@@ -86,15 +86,15 @@ country_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			ixa_trade_ideas = 1
+			mod_trade_ideas = 1
 		}
 		modifier = {
 			factor = 3
-			ixa_trade_ideas = 3
+			mod_trade_ideas = 3
 		}
 		modifier = {
 			factor = 5
-			ixa_trade_ideas = 7
+			mod_trade_ideas = 7
 		}
 	}
 	
@@ -265,11 +265,11 @@ country_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			NOT = { ixa_trade_ideas = 3 }
+			NOT = { mod_trade_ideas = 3 }
 		}
 		modifier = {
 			factor = 1.5
-			NOT = { ixa_trade_ideas = 7 }
+			NOT = { mod_trade_ideas = 7 }
 		}		
 	}
 	
@@ -557,7 +557,7 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = the_abolish_slavery_act
-		any_owned_province = { trade_goods = ixa_slaves }
+		any_owned_province = { trade_goods = mod_slaves }
 	}
 
 	mean_time_to_happen = {
@@ -568,9 +568,9 @@ country_event = {
 		name = "EVTOPTA9520"
 		
 		every_owned_province = {
-			limit = { trade_goods = ixa_slaves }
+			limit = { trade_goods = mod_slaves }
 			change_trade_goods = unknown
-			remove_building = wow_farm
+			remove_building = mod_farm
 			if = {
 				limit = { has_province_modifier = slave_entrepot }
 				remove_province_modifier = slave_entrepot

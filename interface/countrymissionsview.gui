@@ -110,21 +110,21 @@ guiTypes = {
 			name = "arrow_half_top"
 			position = {x=46 y=141}
 			quadTextureSprite ="gfx_arrow_verticall_tile"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		iconType = {
 			name = "arrow_half_bottom_center"
 			position = {x=38 y=161}
 			quadTextureSprite ="gfx_arrow_end"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
 			name = "arrow_half_bottom_left"
 			position = {x=15 y=161}
 			quadTextureSprite ="gfx_arrow_end"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		iconType = {
@@ -153,13 +153,13 @@ guiTypes = {
 			name = "left_branch_out"
 			position = {x=4 y=142}
 			quadTextureSprite ="gfx_arrow_left_out"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		iconType = {
 			name = "right_branch_in"
 			position = {x=69 y=145}
 			quadTextureSprite ="gfx_arrow_left_in"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		
@@ -167,17 +167,14 @@ guiTypes = {
 			name = "right_branch_out"
 			position = {x=60 y=142}
 			quadTextureSprite ="gfx_arrow_right_out"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		iconType = {
 			name = "left_branch_in"
 			position = {x=-5 y=147}
 			quadTextureSprite ="gfx_arrow_right_in"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
-		
-		
-		
 		
 		iconType = {
 			name = "mission_entry_icon"
@@ -226,7 +223,7 @@ guiTypes = {
 			text = "Subjective and a Noun"
 			orientation = "UPPER_LEFT"
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		iconType = {

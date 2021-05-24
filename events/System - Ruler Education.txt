@@ -1,12 +1,12 @@
-namespace = ixa_ruler_education
+namespace = mod_ruler_education
 
 # For regular races, i.e. Humans
 # The Education of [Root.Monarch.GetName]
 # "The previous [Root.Monarch.GetTitle] has passed away, it is time for [Root.GetName] to pick a new [Root.Monarch.GetTitle]. However, if the people think ill of the chosen [Root.Monarch.GetTitle], there is likely to be pretenders to the position."
 country_event = {
-	id = ixa_ruler_education.1
-	title = ixa_ruler_education.1.title
-	desc = ixa_ruler_education.1.desc
+	id = mod_ruler_education.1
+	title = mod_ruler_education.1.title
+	desc = mod_ruler_education.1.desc
 	picture = GOOD_WITH_MONARCH_eventPicture # Placeholder
     
     is_triggered_only = yes
@@ -29,7 +29,7 @@ country_event = {
 	}
 
 	option = {
-		name = ixa_ruler_education.1.option.a
+		name = mod_ruler_education.1.option.a
 		
             
         ##if = { limit = { has_global_flag = enable_event_logging } }
@@ -65,7 +65,7 @@ country_event = {
 	}
 
 	option = {
-		name = ixa_ruler_education.1.option.b
+		name = mod_ruler_education.1.option.b
 		
 		
         ##if = { limit = { has_global_flag = enable_event_logging } }
@@ -101,7 +101,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ixa_ruler_education.1.option.c
+		name = mod_ruler_education.1.option.c
 		
 		
         ##if = { limit = { has_global_flag = enable_event_logging } }
@@ -141,9 +141,9 @@ country_event = {
 # Ascension of [Root.Monarch.GetName]
 # As the cycle of life continues, [Root.Monarch.GetName] has arisen to the position of [Root.Monarch.GetTitle] in [Root.GetName]. 
 country_event = {
-	id = ixa_ruler_education.2
-	title = ixa_ruler_education.2.title
-	desc = ixa_ruler_education.2.desc
+	id = mod_ruler_education.2
+	title = mod_ruler_education.2.title
+	desc = mod_ruler_education.2.desc
 	picture = OVEREXTENSION_eventPicture # Placeholder
     
     is_triggered_only = yes
@@ -168,7 +168,7 @@ country_event = {
 	}
 
     option = {
-		name = ixa_ruler_education.2.option.a
+		name = mod_ruler_education.2.option.a
 		
 		
         ##if = { limit = { has_global_flag = enable_event_logging } }
@@ -204,7 +204,7 @@ country_event = {
 	}
 
 	option = {
-		name = ixa_ruler_education.2.option.b
+		name = mod_ruler_education.2.option.b
 		
 		
         ##if = { limit = { has_global_flag = enable_event_logging } }
@@ -240,7 +240,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ixa_ruler_education.2.option.c
+		name = mod_ruler_education.2.option.c
 		
 		
         ##if = { limit = { has_global_flag = enable_event_logging } }

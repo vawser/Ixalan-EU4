@@ -1,4 +1,4 @@
-namespace = ixa_magic
+namespace = mod_magic
 
 # ruler_magic_training
 # ruler_magic_aptitude
@@ -10,9 +10,9 @@ namespace = ixa_magic
 #-----------------------------
 # Magical Experiments
 country_event = {
-	id = ixa_magic.1
-	title = ixa_magic.1.title
-	desc = ixa_magic.1.desc
+	id = mod_magic.1
+	title = mod_magic.1.title
+	desc = mod_magic.1.desc
 	picture = KAELTHAS_CLOSE_eventPicture
     
 	is_triggered_only = yes
@@ -22,12 +22,12 @@ country_event = {
     }
 	
 	option = {
-		name = ixa_magic.1.option.a
+		name = mod_magic.1.option.a
 		
         add_adm_power = 25
 	}
     option = {
-		name = ixa_magic.1.option.b
+		name = mod_magic.1.option.b
 		
         add_magical_training_point = yes
 	}
@@ -35,9 +35,9 @@ country_event = {
 
 # Test of Aptitude
 country_event = {
-	id = ixa_magic.2
-	title = ixa_magic.2.title
-	desc = ixa_magic.2.desc
+	id = mod_magic.2
+	title = mod_magic.2.title
+	desc = mod_magic.2.desc
 	picture = BIG_BOOK_eventPicture
     
 	is_triggered_only = yes
@@ -47,7 +47,7 @@ country_event = {
     }
 	
 	option = {
-		name = ixa_magic.2.option.a
+		name = mod_magic.2.option.a
 		
         add_magical_training_point = yes
         
@@ -61,7 +61,7 @@ country_event = {
         }
 	}
     option = {
-		name = ixa_magic.2.option.b
+		name = mod_magic.2.option.b
 		
         add_magical_training_point = yes
         
@@ -72,7 +72,7 @@ country_event = {
         }
 	}
     option = {
-		name = ixa_magic.2.option.c
+		name = mod_magic.2.option.c
 		
         add_adm_power = 100
 	}
@@ -80,9 +80,9 @@ country_event = {
 
 # Test of Finesse
 country_event = {
-	id = ixa_magic.3
-	title = ixa_magic.3.title
-	desc = ixa_magic.3.desc
+	id = mod_magic.3
+	title = mod_magic.3.title
+	desc = mod_magic.3.desc
 	picture = BIG_BOOK_eventPicture
     
 	is_triggered_only = yes
@@ -92,7 +92,7 @@ country_event = {
     }
 	
 	option = {
-		name = ixa_magic.3.option.a
+		name = mod_magic.3.option.a
 		
         add_magical_training_point = yes
         
@@ -106,7 +106,7 @@ country_event = {
         }
 	}
     option = {
-		name = ixa_magic.3.option.b
+		name = mod_magic.3.option.b
 		
         add_magical_training_point = yes
         
@@ -117,7 +117,7 @@ country_event = {
         }
 	}
     option = {
-		name = ixa_magic.3.option.c
+		name = mod_magic.3.option.c
 		
         add_mil_power = 100
 	}
@@ -125,9 +125,9 @@ country_event = {
 
 # Test of Concentration
 country_event = {
-	id = ixa_magic.4
-	title = ixa_magic.4.title
-	desc = ixa_magic.4.desc
+	id = mod_magic.4
+	title = mod_magic.4.title
+	desc = mod_magic.4.desc
 	picture = BIG_BOOK_eventPicture
     
 	is_triggered_only = yes
@@ -137,7 +137,7 @@ country_event = {
     }
 	
 	option = {
-		name = ixa_magic.4.option.a
+		name = mod_magic.4.option.a
 		
         add_magical_training_point = yes
         
@@ -151,7 +151,7 @@ country_event = {
         }
 	}
     option = {
-		name = ixa_magic.4.option.b
+		name = mod_magic.4.option.b
 		
         add_magical_training_point = yes
         
@@ -162,7 +162,7 @@ country_event = {
         }
 	}
     option = {
-		name = ixa_magic.4.option.c
+		name = mod_magic.4.option.c
 		
         add_dip_power = 100
 	}
@@ -170,9 +170,9 @@ country_event = {
 
 # Involve the Light
 country_event = {
-	id = ixa_magic.5
-	title = ixa_magic.5.title
-	desc = ixa_magic.5.desc
+	id = mod_magic.5
+	title = mod_magic.5.title
+	desc = mod_magic.5.desc
 	picture = BLIND_PALADIN_eventPicture
     
 	is_triggered_only = yes
@@ -183,7 +183,7 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.5.option.a
+		name = mod_magic.5.option.a
 		
         add_magical_training_point = yes
 	}
@@ -191,9 +191,9 @@ country_event = {
 
 # Twisting in the Shadows
 country_event = {
-	id = ixa_magic.6
-	title = ixa_magic.6.title
-	desc = ixa_magic.6.desc
+	id = mod_magic.6
+	title = mod_magic.6.title
+	desc = mod_magic.6.desc
 	picture = NATHREZIM_eventPicture
     
 	is_triggered_only = yes
@@ -204,7 +204,7 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.6.option.a
+		name = mod_magic.6.option.a
 		
         add_magical_training_point = yes
 	}
@@ -212,9 +212,9 @@ country_event = {
 
 # Manifest the Arcane
 country_event = {
-	id = ixa_magic.7
-	title = ixa_magic.7.title
-	desc = ixa_magic.7.desc
+	id = mod_magic.7
+	title = mod_magic.7.title
+	desc = mod_magic.7.desc
 	picture = MAGI_eventPicture
     
 	is_triggered_only = yes
@@ -225,7 +225,7 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.7.option.a
+		name = mod_magic.7.option.a
 		
         add_magical_training_point = yes
 	}
@@ -233,9 +233,9 @@ country_event = {
 
 # Invoke Disorder
 country_event = {
-	id = ixa_magic.8
-	title = ixa_magic.8.title
-	desc = ixa_magic.8.desc
+	id = mod_magic.8
+	title = mod_magic.8.title
+	desc = mod_magic.8.desc
 	picture = ORC_WARLOCK_KILJAEDEN_eventPicture
     
 	is_triggered_only = yes
@@ -246,7 +246,7 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.8.option.a
+		name = mod_magic.8.option.a
 		
         add_magical_training_point = yes
 	}
@@ -254,9 +254,9 @@ country_event = {
 
 # Draw upon Life
 country_event = {
-	id = ixa_magic.9
-	title = ixa_magic.9.title
-	desc = ixa_magic.9.desc
+	id = mod_magic.9
+	title = mod_magic.9.title
+	desc = mod_magic.9.desc
 	picture = DRUIDCLAW_eventPicture
     
 	is_triggered_only = yes
@@ -267,7 +267,7 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.9.option.a
+		name = mod_magic.9.option.a
 		
         add_magical_training_point = yes
 	}
@@ -275,9 +275,9 @@ country_event = {
 
 # Ruminate about Death
 country_event = {
-	id = ixa_magic.10
-	title = ixa_magic.10.title
-	desc = ixa_magic.10.desc
+	id = mod_magic.10
+	title = mod_magic.10.title
+	desc = mod_magic.10.desc
 	picture = NAXXRAMAS_eventPicture
     
 	is_triggered_only = yes
@@ -288,7 +288,7 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.10.option.a
+		name = mod_magic.10.option.a
 		
         add_magical_training_point = yes
 	}
@@ -296,9 +296,9 @@ country_event = {
 
 # Accomplished Spellcaster
 country_event = {
-	id = ixa_magic.11
-	title = ixa_magic.11.title
-	desc = ixa_magic.11.desc
+	id = mod_magic.11
+	title = mod_magic.11.title
+	desc = mod_magic.11.desc
 	picture = BIG_BOOK_eventPicture
     
 	is_triggered_only = yes
@@ -312,7 +312,7 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.11.option.a
+		name = mod_magic.11.option.a
 		
         add_ruler_personality = spellcaster_personality
         
@@ -330,9 +330,9 @@ country_event = {
 
 # More Training Required
 country_event = {
-	id = ixa_magic.12
-	title = ixa_magic.12.title
-	desc = ixa_magic.12.desc
+	id = mod_magic.12
+	title = mod_magic.12.title
+	desc = mod_magic.12.desc
 	picture = BIG_BOOK_eventPicture
     
 	is_triggered_only = yes
@@ -342,7 +342,7 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.12.option.a
+		name = mod_magic.12.option.a
 		
         add_prestige = -5
 	}
@@ -350,9 +350,9 @@ country_event = {
 
 # Degredation of Aptitude
 country_event = {
-	id = ixa_magic.13
-	title = ixa_magic.13.title
-	desc = ixa_magic.13.desc
+	id = mod_magic.13
+	title = mod_magic.13.title
+	desc = mod_magic.13.desc
 	picture = BIG_BOOK_eventPicture
     
 	trigger = {
@@ -378,12 +378,12 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.13.option.a
+		name = mod_magic.13.option.a
 		
         remove_aptitude_point = yes
 	}
     option = {
-		name = ixa_magic.13.option.b
+		name = mod_magic.13.option.b
 		
         add_adm_power = -100
 	}
@@ -391,9 +391,9 @@ country_event = {
 
 # Degredation of Finesse
 country_event = {
-	id = ixa_magic.14
-	title = ixa_magic.14.title
-	desc = ixa_magic.14.desc
+	id = mod_magic.14
+	title = mod_magic.14.title
+	desc = mod_magic.14.desc
 	picture = BIG_BOOK_eventPicture
     
 	trigger = {
@@ -419,12 +419,12 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.14.option.a
+		name = mod_magic.14.option.a
 		
         remove_finesse_point = yes
 	}
     option = {
-		name = ixa_magic.14.option.b
+		name = mod_magic.14.option.b
 		
         add_mil_power = -100
 	}
@@ -432,9 +432,9 @@ country_event = {
 
 # Degredation of Concentration
 country_event = {
-	id = ixa_magic.15
-	title = ixa_magic.15.title
-	desc = ixa_magic.15.desc
+	id = mod_magic.15
+	title = mod_magic.15.title
+	desc = mod_magic.15.desc
 	picture = BIG_BOOK_eventPicture
     
 	trigger = {
@@ -460,12 +460,12 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.15.option.a
+		name = mod_magic.15.option.a
 		
         remove_concentration_point = yes
 	}
     option = {
-		name = ixa_magic.15.option.b
+		name = mod_magic.15.option.b
 		
         add_dip_power = -100
 	}
@@ -473,9 +473,9 @@ country_event = {
 
 # Destruction of [Root.Monarch.GetTitle] [Root.Monarch.GetName]
 country_event = {
-	id = ixa_magic.21
-	title = ixa_magic.21.title
-	desc = ixa_magic.21.desc
+	id = mod_magic.21
+	title = mod_magic.21.title
+	desc = mod_magic.21.desc
 	picture = BIG_BOOK_eventPicture
     
 	is_triggered_only = yes
@@ -489,7 +489,7 @@ country_event = {
     }
 	
     option = {
-		name = ixa_magic.21.option.a
+		name = mod_magic.21.option.a
 		
         kill_ruler = yes
 	}
@@ -502,9 +502,9 @@ country_event = {
 
 # Domain Magic
 country_event = {
-	id = ixa_magic.20
-	title = ixa_magic.20.title
-	desc = ixa_magic.20.desc
+	id = mod_magic.20
+	title = mod_magic.20.title
+	desc = mod_magic.20.desc
 	picture = BIG_BOOK_eventPicture
     
 	is_triggered_only = yes
@@ -518,7 +518,7 @@ country_event = {
     #--------------------------------
     # Poor - Conjure Feast
     option = {
-		name = ixa_magic.20.option.conjure_feast
+		name = mod_magic.20.option.conjure_feast
         
         trigger = {
             has_mana_1 = yes
@@ -531,7 +531,7 @@ country_event = {
     
     # Poor - Soothe Minds
     option = {
-		name = ixa_magic.20.option.soothe_minds
+		name = mod_magic.20.option.soothe_minds
         
         trigger = {
             has_mana_2 = yes
@@ -544,7 +544,7 @@ country_event = {
     
     # Poor - Polymorph
     option = {
-		name = ixa_magic.20.option.polymorph
+		name = mod_magic.20.option.polymorph
         
         trigger = {
             has_mana_2 = yes
@@ -560,7 +560,7 @@ country_event = {
     
     # Common - Apply Mass Invisibility
     option = {
-		name = ixa_magic.20.option.apply_mass_invisibility
+		name = mod_magic.20.option.apply_mass_invisibility
         
         trigger = {
             has_common_aptitude = yes
@@ -574,7 +574,7 @@ country_event = {
     
     # Common - Focus Magic
     option = {
-		name = ixa_magic.20.option.focus_magic
+		name = mod_magic.20.option.focus_magic
         
         trigger = {
             has_common_aptitude = yes
@@ -588,7 +588,7 @@ country_event = {
     
     # Rare - Summon Portals
     option = {
-		name = ixa_magic.20.option.summon_portals
+		name = mod_magic.20.option.summon_portals
         
         trigger = {
             has_rare_aptitude = yes
@@ -602,7 +602,7 @@ country_event = {
     
     # Rare - Display Prowess
     option = {
-		name = ixa_magic.20.option.display_prowess
+		name = mod_magic.20.option.display_prowess
         
         trigger = {
             has_dlc = "Mandate of Heaven"
@@ -617,7 +617,7 @@ country_event = {
     
     # Epic - Transmute Gold
     option = {
-		name = ixa_magic.20.option.transmute_gold
+		name = mod_magic.20.option.transmute_gold
         
         trigger = {
             has_epic_aptitude = yes
@@ -631,7 +631,7 @@ country_event = {
     
     # Epic - Temporal Sight
     option = {
-		name = ixa_magic.20.option.temporal_sight
+		name = mod_magic.20.option.temporal_sight
         
         trigger = {
             has_epic_aptitude = yes
@@ -645,7 +645,7 @@ country_event = {
     
     # Epic - Touch of the Magi
     option = {
-		name = ixa_magic.20.option.touch_of_the_magi
+		name = mod_magic.20.option.touch_of_the_magi
         
         trigger = {
             has_epic_aptitude = yes
@@ -660,7 +660,7 @@ country_event = {
     
     # Epic - Demonic Touch
     option = {
-		name = ixa_magic.20.option.demonic_touch
+		name = mod_magic.20.option.demonic_touch
         
         trigger = {
             has_epic_aptitude = yes
@@ -675,7 +675,7 @@ country_event = {
     
     # Legendary - Alter Time
     option = {
-		name = ixa_magic.20.option.alter_time
+		name = mod_magic.20.option.alter_time
         
         trigger = {
             has_legendary_aptitude = yes
@@ -689,7 +689,7 @@ country_event = {
     
     # Legendary - Presence of Mind
     option = {
-		name = ixa_magic.20.option.presence_of_mind
+		name = mod_magic.20.option.presence_of_mind
         
         trigger = {
             has_legendary_aptitude = yes
@@ -703,7 +703,7 @@ country_event = {
     
     # Cataclysmic - Mind Surge
     option = {
-		name = ixa_magic.20.option.mind_surge
+		name = mod_magic.20.option.mind_surge
         
         trigger = {
             has_legendary_aptitude = yes
@@ -721,7 +721,7 @@ country_event = {
     
     # Cataclysmic - Ascendance
     option = {
-		name = ixa_magic.20.option.ascendance
+		name = mod_magic.20.option.ascendance
         
         trigger = {
             has_legendary_aptitude = yes
@@ -739,7 +739,7 @@ country_event = {
     
     # Exit
     option = {
-		name = ixa_magic.20.option.exit
+		name = mod_magic.20.option.exit
 		
 	}
 }

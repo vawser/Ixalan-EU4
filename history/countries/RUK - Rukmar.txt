@@ -1,0 +1,25 @@
+#-----------------------------------
+# Setup
+#-----------------------------------
+technology_group = western
+
+government = monarchy
+add_government_reform = autocracy_reform
+
+primary_culture = primitive
+religion = shamanism
+
+capital = 200
+
+#-----------------------------------
+# Ruler
+#-----------------------------------
+100.1.1 = {
+    monarch = {
+        name = "Cyrrigos the Violent"
+        adm = 6
+        dip = 6
+        mil = 6
+        birth_date = 50.1.1
+    }
+}

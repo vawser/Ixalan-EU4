@@ -26,20 +26,19 @@ technology = {
     artillery_fire 	    = 0.0
     artillery_shock  	= 0.0 
 	
-    enable = warcraft_infantry_1_option_a
-    enable = warcraft_infantry_1_option_b
-    enable = warcraft_infantry_1_option_c
+    enable = basic_infantry_1_option_a
+    enable = basic_infantry_1_option_b
+    enable = basic_infantry_1_option_c
     
-    enable = warcraft_cavalry_1_option_a
-    enable = warcraft_cavalry_1_option_b
+    enable = basic_cavalry_1_option_a
+    enable = basic_cavalry_1_option_b
     
-    enable = warcraft_artillery_1_option_a
-    enable = warcraft_artillery_1_option_b
+    enable = basic_artillery_1_option_a
+    enable = basic_artillery_1_option_b
     
-    wow_barracks = yes
-    wow_arsenal = yes
-    wow_portal_red = yes
-    wow_fort_1 = yes
+    mod_barracks = yes
+    mod_arsenal = yes
+    mod_fort_1 = yes
     province_action_manpower = yes
 }
 technology = {
@@ -87,20 +86,19 @@ technology = {
 	# Tech 6
 	year = 652
 
-	enable = warcraft_infantry_2_option_a
-    enable = warcraft_infantry_2_option_b
-    enable = warcraft_infantry_2_option_c
+	enable = basic_infantry_2_option_a
+    enable = basic_infantry_2_option_b
+    enable = basic_infantry_2_option_c
     
-    enable = warcraft_cavalry_2_option_a
-    enable = warcraft_cavalry_2_option_b
+    enable = basic_cavalry_2_option_a
+    enable = basic_cavalry_2_option_b
 }
 
 technology = {
 	# Tech 7
 	year = 664
 	
-    wow_portal_yellow = yes
-    wow_city_barracks = yes
+    mod_city_barracks = yes
 }
 
 technology = {
@@ -110,7 +108,7 @@ technology = {
     land_morale = 1
     military_tactics = 0.5
     
-    wow_fort_2 = yes
+    mod_fort_2 = yes
 }
 
 technology = {
@@ -142,8 +140,8 @@ technology = {
 	# Tech 12
 	year = 724
 	
-	enable = warcraft_artillery_2_option_a
-    enable = warcraft_artillery_2_option_b
+	enable = basic_artillery_2_option_a
+    enable = basic_artillery_2_option_b
 }
 
 technology = {
@@ -167,7 +165,7 @@ technology = {
 	# Tech 15
 	year = 760
 	
-	wow_fort_3 = yes
+	mod_fort_3 = yes
 }
 
 technology = {
@@ -190,9 +188,9 @@ technology = {
 	# Tech 18
 	year = 796
 
-	enable = warcraft_infantry_3_option_a
-    enable = warcraft_infantry_3_option_b
-    enable = warcraft_infantry_3_option_c
+	enable = basic_infantry_3_option_a
+    enable = basic_infantry_3_option_b
+    enable = basic_infantry_3_option_c
 }
 
 technology = {
@@ -210,8 +208,7 @@ technology = {
     land_morale = 1
     military_tactics = 0.5
     
-    wow_portal_green = yes
-    wow_fort_4 = yes
+    mod_fort_4 = yes
 }
 
 technology = {
@@ -243,8 +240,8 @@ technology = {
 	# Tech 24
 	year = 868
 	
-	enable = warcraft_cavalry_3_option_a
-    enable = warcraft_cavalry_3_option_b
+	enable = basic_cavalry_3_option_a
+    enable = basic_cavalry_3_option_b
 }
 
 technology = {
@@ -277,8 +274,6 @@ technology = {
 	
     land_morale = 0.5
     military_tactics = 0.75
-    
-    wow_portal_blue = yes
 }
 
 technology = {
@@ -326,8 +321,8 @@ technology = {
 	# Tech 34
 	year = 978
 
-    enable = warcraft_artillery_3_option_a
-    enable = warcraft_artillery_3_option_b
+    enable = basic_artillery_3_option_a
+    enable = basic_artillery_3_option_b
     
     artillery_fire = 1.5
     artillery_shock = 0.5

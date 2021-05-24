@@ -32,8 +32,8 @@ reduce_trade_regulations = {
 		modifier = {
 			factor = 2
 			OR = {
-				has_idea_group = ixa_economic_ideas
-				has_idea_group = ixa_exploration_ideas
+				has_idea_group = mod_economic_ideas
+				has_idea_group = mod_exploration_ideas
 			}
 		}
 	}

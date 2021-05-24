@@ -1,0 +1,185 @@
+spriteTypes = {	
+    #----------------------------------------------
+    # Buildings
+    #----------------------------------------------
+    # Generic
+    spriteType = {
+		name = "GFX_mod_farm"
+		texturefile = "gfx//interface//buildings//human_farm.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_internment_camp"
+		texturefile = "gfx//interface//buildings//human_court.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_temple"
+		texturefile = "gfx//interface//buildings//human_temple.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_mine"
+		texturefile = "gfx//interface//buildings//human_mine.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_barracks"
+		texturefile = "gfx//interface//buildings//human_barracks.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_arsenal"
+		texturefile = "gfx//interface//buildings//human_shops.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_shipyard"
+		texturefile = "gfx//interface//buildings//human_shipyard.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_dockyard"
+		texturefile = "gfx//interface//buildings//human_dock.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_marketplace"
+		texturefile = "gfx//interface//buildings//human_market.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_tavern"
+		texturefile = "gfx//interface//buildings//human_tavern.tga"
+		loadType = "INGAME"
+	}
+    
+    # Fortifications
+    spriteType = {
+		name = "GFX_mod_fort_1"
+		texturefile = "gfx//interface//buildings//human_castle.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_fort_2"
+		texturefile = "gfx//interface//buildings//human_castle.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_fort_3"
+		texturefile = "gfx//interface//buildings//human_castle.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_fort_4"
+		texturefile = "gfx//interface//buildings//human_castle.tga"
+		loadType = "INGAME"
+	}
+    
+    # Manufactories
+    spriteType = {
+		name = "GFX_mod_manufactory"
+		texturefile = "gfx//interface//buildings//manufactory.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_citadel"
+		texturefile = "gfx//interface//buildings//citadel.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_garrison"
+		texturefile = "gfx//interface//buildings//garrison.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_arcane_tower"
+		texturefile = "gfx//interface//buildings//arcane_tower.tga"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_mod_city_barracks"
+		texturefile = "gfx//interface//buildings//city_barracks.tga"
+		loadType = "INGAME"
+	}
+    
+    # Natives
+    spriteType = {
+		name = "GFX_native_earthwork"
+		texturefile = "gfx//interface//buildings//native_earthwork.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_native_palisade"
+		texturefile = "gfx//interface//buildings//native_palisade.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_native_fortified_house"
+		texturefile = "gfx//interface//buildings//native_fortified_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_native_three_sisters_field"
+		texturefile = "gfx//interface//buildings//native_three_sisters_field.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_native_irrigation"
+		texturefile = "gfx//interface//buildings//native_irrigation.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_native_storehouse"
+		texturefile = "gfx//interface//buildings//native_storehouse.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_native_longhouse"
+		texturefile = "gfx//interface//buildings//native_longhouse.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_native_sweat_lodge"
+		texturefile = "gfx//interface//buildings//native_sweat_lodge.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_native_great_trail"
+		texturefile = "gfx//interface//buildings//native_great_trail.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_native_ceremonial_fire_pit"
+		texturefile = "gfx//interface//buildings//native_ceremonial_fire_pit.tga"
+		loadType = "INGAME"
+	}
+    
+    # Provincal Efforts
+    spriteType = {
+		name = "GFX_provincal_effort_bg"
+		texturefile = "gfx//interface//buildings//actions//provincal_effort_bg.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_province_action_tax"
+		texturefile = "gfx//interface//buildings//actions//tax.dds"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_province_action_production"
+		texturefile = "gfx//interface//buildings//actions//production.dds"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_province_action_manpower"
+		texturefile = "gfx//interface//buildings//actions//manpower.dds"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "GFX_province_action_trade_center"
+		texturefile = "gfx//interface//buildings//actions//trade_hub.dds"
+		loadType = "INGAME"
+	}
+}

@@ -6,7 +6,7 @@ estate_clergy = {
 	influence_from_dev_modifier = 1.0
     
     # ----- Names -----
-    
+
 	# ----- Conditions -----
 	trigger = {
         is_nomad = no

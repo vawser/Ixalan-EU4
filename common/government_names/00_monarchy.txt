@@ -1,141 +1,95 @@
-gov_despotic_kingdom = {
+# Specific
+gov_despotic_kingdom_vassal = {
 	rank = {
-		1 = gov_name_DUCHY
-        2 = gov_name_KINGDOM
-        3 = gov_name_EMPIRE
-	}	
+		1 = DESPOTIC_VASSAL
+        2 = DESPOTIC_VASSAL
+        3 = DESPOTIC_VASSAL
+	}
 	
 	ruler_male = {
-		1 = ruler_name_DUKE
-        2 = ruler_name_KING
-        3 = ruler_name_EMPEROR
+		1 = LORD
+        2 = LORD
+        3 = LORD
 	}
 	
 	ruler_female = {
-		1 = ruler_name_DUCHESS
-        2 = ruler_name_QUEEN
-        3 = ruler_name_EMPRESS
+		1 = LADY
+        2 = LADY
+        3 = LADY
 	}
 	
-	consort_male  = {
-		1 = consort_name_PRINCE_CONSORT
-		2 = consort_name_PRINCE_CONSORT
-		3 = consort_name_PRINCE_CONSORT
+	trigger = {
+        is_subject = yes
+        has_reform = autocracy_reform
+	}
+}
+gov_despotic_kingdom = {
+	rank = {
+		1 = DESPOTIC_KINGDOM
+        2 = DESPOTIC_KINGDOM
+        3 = DESPOTIC_KINGDOM
 	}
 	
-	consort_female = {
-		1 = consort_name_CONSORT
-        2 = consort_name_QUEEN_CONSORT
-        3 = consort_name_EMPRESS_CONSORT
+	ruler_male = {
+		1 = KING
+        2 = KING
+        3 = KING
 	}
 	
-	heir_male = {
-		1 = heir_name_HEIR
-		2 = heir_name_HEIR
-		3 = heir_name_HEIR
-	}
-	
-	heir_female = {
-		1 = heir_name_HEIR
-		2 = heir_name_HEIR
-		3 = heir_name_HEIR
+	ruler_female = {
+		1 = QUEEN
+        2 = QUEEN
+        3 = QUEEN
 	}
 	
 	trigger = {
         has_reform = autocracy_reform
 	}
 }
-gov_feudal_kingdom = {
+gov_feudal_kingdom_vassal = {
 	rank = {
-		1 = gov_name_DUCHY
-        2 = gov_name_KINGDOM
-        3 = gov_name_EMPIRE
-	}	
+		1 = FEUDAL_VASSAL
+        2 = FEUDAL_VASSAL
+        3 = FEUDAL_VASSAL
+	}
 	
 	ruler_male = {
-		1 = ruler_name_DUKE
-        2 = ruler_name_KING
-        3 = ruler_name_EMPEROR
+		1 = LORD
+        2 = LORD
+        3 = LORD
 	}
 	
 	ruler_female = {
-		1 = ruler_name_DUCHESS
-        2 = ruler_name_QUEEN
-        3 = ruler_name_EMPRESS
+		1 = LADY
+        2 = LADY
+        3 = LADY
 	}
 	
-	consort_male  = {
-		1 = consort_name_PRINCE_CONSORT
-		2 = consort_name_PRINCE_CONSORT
-		3 = consort_name_PRINCE_CONSORT
+	trigger = {
+        is_subject = yes
+        has_reform = feudalism_reform
+	}
+}
+gov_feudal_kingdom = {
+	rank = {
+		1 = FEUDAL_KINGDOM
+        2 = FEUDAL_KINGDOM
+        3 = FEUDAL_KINGDOM
 	}
 	
-	consort_female = {
-		1 = consort_name_CONSORT
-        2 = consort_name_QUEEN_CONSORT
-        3 = consort_name_EMPRESS_CONSORT
+	ruler_male = {
+		1 = KING
+        2 = KING
+        3 = KING
 	}
 	
-	heir_male = {
-		1 = heir_name_HEIR
-		2 = heir_name_HEIR
-		3 = heir_name_HEIR
-	}
-	
-	heir_female = {
-		1 = heir_name_HEIR
-		2 = heir_name_HEIR
-		3 = heir_name_HEIR
+	ruler_female = {
+		1 = QUEEN
+        2 = QUEEN
+        3 = QUEEN
 	}
 	
 	trigger = {
         has_reform = feudalism_reform
-	}
-}
-gov_admiralty = {
-	rank = {
-		1 = gov_name_ADMIRALTY
-        2 = gov_name_ADMIRALTY
-        3 = gov_name_ADMIRALTY
-	}	
-	
-	ruler_male = {
-		1 = ruler_name_ADMIRAL
-        2 = ruler_name_ADMIRAL
-        3 = ruler_name_ADMIRAL
-	}
-	
-	ruler_female = {
-		1 = ruler_name_ADMIRAL
-        2 = ruler_name_ADMIRAL
-        3 = ruler_name_ADMIRAL
-	}
-	
-	consort_male  = {
-		1 = consort_name_CONSORT
-		2 = consort_name_CONSORT
-		3 = consort_name_CONSORT
-	}
-	
-	consort_female = {
-		1 = consort_name_CONSORT
-        2 = consort_name_CONSORT
-        3 = consort_name_CONSORT
-	}
-	
-	heir_male = {
-		1 = heir_name_HEIR
-		2 = heir_name_HEIR
-		3 = heir_name_HEIR
-	}
-	
-	heir_female = {
-		1 = heir_name_HEIR
-		2 = heir_name_HEIR
-		3 = heir_name_HEIR
-	}
-	
-	trigger = {
-        has_reform = admiralty_reform
 	}
 }

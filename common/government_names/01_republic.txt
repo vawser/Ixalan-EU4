@@ -1,21 +1,24 @@
+# Specific
+
+# General
 gov_noble_republic = {
 	rank = {
-		1 = gov_name_REPUBLIC
-        2 = gov_name_GREAT_REPUBLIC
-        3 = gov_name_GRAND_REPUBLIC
+		1 = NOBLE_REPUBLIC
+		2 = NOBLE_REPUBLIC
+		3 = NOBLE_REPUBLIC
 	}
 	
 	ruler_male = {
-		1 = ruler_name_CONSUL
-        2 = ruler_name_GREAT_CONSUL
-        3 = ruler_name_GRAND_CONSUL
+		1 = CONSUL
+		2 = CONSUL
+		3 = CONSUL
 	}
 	
 	ruler_female = {
-		1 = ruler_name_CONSULESS
-        2 = ruler_name_GREAT_CONSULESS
-        3 = ruler_name_GRAND_CONSULESS
-	}
+		1 = CONSULESS
+		2 = CONSULESS
+		3 = CONSULESS
+    }
 	
 	trigger = {
         has_reform = noble_republic_reform
@@ -23,22 +26,22 @@ gov_noble_republic = {
 }
 gov_merchant_republic = {
 	rank = {
-		1 = gov_name_REPUBLIC
-        2 = gov_name_GREAT_REPUBLIC
-        3 = gov_name_GRAND_REPUBLIC
+		1 = MERCHANT_REPUBLIC
+		2 = MERCHANT_REPUBLIC
+		3 = MERCHANT_REPUBLIC
 	}
 	
 	ruler_male = {
-		1 = ruler_name_CONSUL
-        2 = ruler_name_GREAT_CONSUL
-        3 = ruler_name_GRAND_CONSUL
+		1 = CONSUL
+		2 = CONSUL
+		3 = CONSUL
 	}
 	
 	ruler_female = {
-		1 = ruler_name_CONSULESS
-        2 = ruler_name_GREAT_CONSULESS
-        3 = ruler_name_GRAND_CONSULESS
-	}
+		1 = CONSULESS
+		2 = CONSULESS
+		3 = CONSULESS
+    }
 	
 	trigger = {
         has_reform = mercantile_republic_reform
@@ -46,68 +49,45 @@ gov_merchant_republic = {
 }
 gov_despotic_republic = {
 	rank = {
-		1 = gov_name_REPUBLIC
-        2 = gov_name_GREAT_REPUBLIC
-        3 = gov_name_GRAND_REPUBLIC
+		1 = DESPOTIC_REPUBLIC
+		2 = DESPOTIC_REPUBLIC
+		3 = DESPOTIC_REPUBLIC
 	}
 	
 	ruler_male = {
-		1 = ruler_name_CONSUL
-        2 = ruler_name_GREAT_CONSUL
-        3 = ruler_name_GRAND_CONSUL
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
 	}
 	
 	ruler_female = {
-		1 = ruler_name_CONSULESS
-        2 = ruler_name_GREAT_CONSULESS
-        3 = ruler_name_GRAND_CONSULESS
-	}
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+    }
 	
 	trigger = {
         has_reform = despotic_republic_reform
 	}
 }
-gov_magocracy = {
-	rank = {
-		1 = gov_name_MAGOCRACY
-        2 = gov_name_GREAT_MAGOCRACY
-        3 = gov_name_GRAND_MAGOCRACY
-	}
-	
-	ruler_male = {
-		1 = ruler_name_ARCHMAGI
-        2 = ruler_name_ARCHMAGI
-        3 = ruler_name_ARCHMAGI
-	}
-	
-	ruler_female = {
-		1 = ruler_name_ARCHMAGI
-        2 = ruler_name_ARCHMAGI
-        3 = ruler_name_ARCHMAGI
-	}
-	
-	trigger = {
-        has_reform = magocracy_reform
-	}
-}
 gov_free_city = {
 	rank = {
-		1 = gov_name_FREE_CITY
-		2 = gov_name_FREE_CITY
-		3 = gov_name_FREE_CITY
+		1 = FREE_CITY
+		2 = FREE_CITY
+		3 = FREE_CITY
 	}
 	
 	ruler_male = {
-		1 = ruler_name_CONSUL
-        2 = ruler_name_GREAT_CONSUL
-        3 = ruler_name_GRAND_CONSUL
+		1 = CONSUL
+		2 = CONSUL
+		3 = CONSUL
 	}
 	
 	ruler_female = {
-		1 = ruler_name_CONSULESS
-        2 = ruler_name_GREAT_CONSULESS
-        3 = ruler_name_GRAND_CONSULESS
-	}
+		1 = CONSULESS
+		2 = CONSULESS
+		3 = CONSULESS
+    }
 	
 	trigger = {
         has_reform = free_city_reform
@@ -115,22 +95,22 @@ gov_free_city = {
 }
 gov_trading_city = {
 	rank = {
-		1 = gov_name_TRADING_OUTPOST
-		2 = gov_name_TRADING_OUTPOST
-		3 = gov_name_TRADING_OUTPOST
+		1 = TRADING_OUTPOST
+		2 = TRADING_OUTPOST
+		3 = TRADING_OUTPOST
 	}
 	
 	ruler_male = {
-		1 = ruler_name_CONSUL
-        2 = ruler_name_GREAT_CONSUL
-        3 = ruler_name_GRAND_CONSUL
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
 	}
 	
 	ruler_female = {
-		1 = ruler_name_CONSULESS
-        2 = ruler_name_GREAT_CONSULESS
-        3 = ruler_name_GRAND_CONSULESS
-	}
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
+    }
 	
 	trigger = {
         has_reform = trading_city_reform
@@ -138,22 +118,22 @@ gov_trading_city = {
 }
 gov_colonial_government = {
 	rank = {
-		1 = gov_name_COLONIAL_GOVERNMENT
-		2 = gov_name_COLONIAL_GOVERNMENT
-		3 = gov_name_COLONIAL_GOVERNMENT
+		1 = EXPEDITIONARY_FORCE
+		2 = EXPEDITIONARY_FORCE
+		3 = EXPEDITIONARY_FORCE
 	}
 	
 	ruler_male = {
-		1 = ruler_name_CONSUL
-        2 = ruler_name_GREAT_CONSUL
-        3 = ruler_name_GRAND_CONSUL
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
 	}
 	
 	ruler_female = {
-		1 = ruler_name_CONSULESS
-        2 = ruler_name_GREAT_CONSULESS
-        3 = ruler_name_GRAND_CONSULESS
-	}
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
+    }
 	
 	trigger = {
         has_reform = colonial_government_reform

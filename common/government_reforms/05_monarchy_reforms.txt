@@ -1,7 +1,7 @@
 #-----------------------------------------
 # "Noble Privileges"
 #-----------------------------------------
-ixa_enforce_privileges_reform = {
+mod_enforce_privileges_reform = {
 	icon = "enforce_privileges"
 	allow_normal_conversion = yes
 	
@@ -18,7 +18,7 @@ ixa_enforce_privileges_reform = {
 	}
 }
 
-ixa_quash_noble_power_reform = {
+mod_quash_noble_power_reform = {
 	icon = "quash_noble_power"
 	allow_normal_conversion = yes
 	
@@ -36,13 +36,13 @@ ixa_quash_noble_power_reform = {
 	}
 }
 
-ixa_enforce_trader_privileges_reform = {
+mod_enforce_trader_privileges_reform = {
 	icon = "enforce_trader_privileges"
 	allow_normal_conversion = yes
     
 	potential = {
         estate_influence = {
-            estate = estate_merchants
+            estate = estate_traders
             influence = 40
         }
 	}
@@ -67,11 +67,54 @@ ixa_enforce_trader_privileges_reform = {
 	}
 }
 
+mod_exotic_traders_reform = {
+	icon = "azerothian_traders"
+	allow_normal_conversion = yes
+    
+	modifiers = {
+        mercantilism_cost = -0.2
+		center_of_trade_upgrade_cost = -0.33
+	}
+    
+	ai = {
+		factor = 5
+	}
+}
+
+mod_religious_syncretism_reform = {
+	icon = "druidic_syncretism"
+	allow_normal_conversion = yes
+    
+	modifiers = {
+		tolerance_heretic = 2
+		development_cost = -0.05
+	}
+    
+	ai = {
+		factor = 3
+	}
+}
+
+mod_hereditary_rule_reform = {
+    icon = "hereditary_rule_mod"
+	allow_normal_conversion = yes
+    
+	modifiers = {
+		legitimacy = 1
+	}
+    
+    maintain_dynasty = yes
+    
+	ai = {
+		factor = 1
+	}
+}
+
 #-----------------------------------------
 # "Bureaucracy"
 #-----------------------------------------
-ixa_centralize_reform = {
-	icon = "centralize_wwu"
+mod_centralize_reform = {
+	icon = "centralize_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -79,8 +122,8 @@ ixa_centralize_reform = {
 	}
 }
 
-ixa_decentralize_reform = {
-	icon = "decentralize_wwu"
+mod_decentralize_reform = {
+	icon = "decentralize_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {
@@ -101,10 +144,24 @@ ixa_decentralize_reform = {
 	}
 }
 
+mod_local_recruitment = {
+	icon = "kalimdor_recruitment"
+	allow_normal_conversion = yes
+    
+	modifiers = {
+		fort_maintenance_modifier = -0.1
+		global_manpower_modifier = 0.1
+	}
+    
+	ai = {
+		factor = 2
+	}
+}
+
 #-----------------------------------------
 # "The Administrative Cadre"
 #-----------------------------------------
-ixa_clergy_in_administration_reform = {
+mod_clergy_in_administration_reform = {
 	icon = "clergy_in_administration"
 	allow_normal_conversion = yes
     
@@ -127,7 +184,7 @@ ixa_clergy_in_administration_reform = {
 	}
 }
 
-ixa_of_noble_bearing_reform = {
+mod_of_noble_bearing_reform = {
 	icon = "of_noble_bearing"
 	allow_normal_conversion = yes
 
@@ -150,7 +207,7 @@ ixa_of_noble_bearing_reform = {
 	}
 }
 
-ixa_meritocratic_focus_reform = {
+mod_meritocratic_focus_reform = {
 	icon = "meritocratic_focus"
 	allow_normal_conversion = yes
 
@@ -176,8 +233,8 @@ ixa_meritocratic_focus_reform = {
 #-----------------------------------------
 # "Deliberative Assembly"
 #-----------------------------------------
-ixa_royal_decree_reform = {
-	icon = "royal_decree_wwu"
+mod_royal_decree_reform = {
+	icon = "royal_decree_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -190,8 +247,8 @@ ixa_royal_decree_reform = {
 	}
 }
 
-ixa_aristocratic_court_reform = {
-	icon = "aristocratic_court_wwu"
+mod_aristocratic_court_reform = {
+	icon = "aristocratic_court_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -203,8 +260,8 @@ ixa_aristocratic_court_reform = {
 	}
 }
 
-ixa_general_estates_reform = {
-	icon = "general_estates_wwu"
+mod_general_estates_reform = {
+	icon = "general_estates_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {
@@ -223,8 +280,8 @@ ixa_general_estates_reform = {
 #-----------------------------------------
 # "Absolutism & Constitutionalism"
 #-----------------------------------------
-ixa_law_and_order_reform = {
-	icon = "law_and_order_wwu"
+mod_law_and_order_reform = {
+	icon = "law_and_order_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -236,8 +293,8 @@ ixa_law_and_order_reform = {
 	}
 }
 
-ixa_regional_representation_reform = {
-	icon = "regional_representation_wwu"
+mod_regional_representation_reform = {
+	icon = "regional_representation_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -248,8 +305,8 @@ ixa_regional_representation_reform = {
 #-----------------------------------------
 # "Separation of Power"
 #-----------------------------------------
-ixa_political_absolutism_reform = {
-	icon = "political_absolutism_wwu"
+mod_political_absolutism_reform = {
+	icon = "political_absolutism_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -262,8 +319,8 @@ ixa_political_absolutism_reform = {
 	}
 }
 
-ixa_legislative_houses_reform = {
-	icon = "legislative_houses_wwu"
+mod_legislative_houses_reform = {
+	icon = "legislative_houses_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {

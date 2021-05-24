@@ -13,12 +13,10 @@ technology = {
 	
 	autocracy_legacy = yes
     feudalism_legacy = yes
-    admiralty_legacy = yes
         
     noble_republic_legacy = yes
     mercantile_republic_legacy = yes
     despotic_republic_legacy = yes
-    magocracy_legacy = yes
     free_city_legacy = yes
     trading_city_legacy = yes
     colonial_government_legacy = yes
@@ -32,7 +30,8 @@ technology = {
     
     native_tribe_legacy = yes
     
-    pirate_haven_legacy = yes
+    pirate_kingdom_legacy = yes
+    pirate_republic_legacy = yes
     
     native_earthwork = yes
     native_palisade = yes
@@ -45,13 +44,12 @@ technology = {
     native_great_trail = yes
     native_ceremonial_fire_pit = yes
     
-    wow_temple = yes
-    wow_mine = yes
-    wow_farm = yes
-    wow_tavern = yes
+    mod_temple = yes
+    mod_mine = yes
+    mod_farm = yes
+    mod_tavern = yes
     
     province_action_tax = yes
-    province_action_wonder = yes
     
     may_support_rebels = yes
 }
@@ -102,8 +100,8 @@ technology = {
 	# Tech 7
 	year = 664
 	
-	wow_internment_camp = yes
-    wow_citadel = yes
+	mod_internment_camp = yes
+    mod_citadel = yes
 }
 
 technology = {
@@ -159,7 +157,7 @@ technology = {
 	# Tech 15
 	year = 760
 	
-    wow_garrison = yes
+    mod_garrison = yes
 }
 
 technology = {

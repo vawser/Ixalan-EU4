@@ -1,0 +1,12 @@
+﻿l_english:
+ PRICE_FLUCTUATION: "Annual Trade Changes"
+ building_manufactory: "Manufactory"
+ 
+ remains_ruler_tt: "[Root.Monarch.GetName] ([Root.Monarch.GetAdm] £adm£ / [Root.Monarch.GetDip] £dip£ / [Root.Monarch.GetMil] £mil£ ) remains ruler."
+ 
+ merchants_string: "Merchants"
+ nobles_string: "Nobles"
+ clergy_string: "Clergymen"
+ 
+ claim_lands_effect_tt: "Gain a free core on a random province with a claim."
+ 

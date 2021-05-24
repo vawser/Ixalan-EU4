@@ -2040,7 +2040,7 @@ country_event = {
 	id = subject_interaction_events.35
 	title = subject_interaction_events.35.t
 	desc = subject_interaction_events.35.d
-	picture = WOW_ASSASSINATION_eventPicture
+	picture = mod_ASSASSINATION_eventPicture
 
 	is_triggered_only = yes
 	

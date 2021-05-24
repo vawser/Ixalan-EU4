@@ -1,0 +1,12 @@
+﻿l_english:
+ #-------------------------------------
+ # Hidden
+ #-------------------------------------
+ mod_setup.1.title: "World Setup"
+ mod_setup.1.desc: ""
+ mod_setup.1.option.a: "World Setup OK"
+ 
+ mod_setup.2.title: "[Root.GetName] Setup"
+ mod_setup.2.desc: ""
+ mod_setup.2.option.a: "[Root.GetName] Setup OK"
+ 

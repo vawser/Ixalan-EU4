@@ -1,0 +1,12 @@
+# sound = {
+	# name = defender_of_the_the_holy_light_faith
+	# file = "claim_defender_faith_catholic.wav"
+# }
+# sound = {
+	# name = start_convert_arcane
+	# file = "start_conversion_christian_catholic.wav"
+# }
+# sound = {
+	# name = religion_arcane
+	# file = "tab_religion_christian.wav"
+# }

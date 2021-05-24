@@ -1,0 +1,20 @@
+﻿l_english:
+ mod_merc_small_infantry: "Small Infantry Company"
+ mod_merc_small_cavalry: "Small Cavalry Company"
+ mod_merc_small_artillery: "Small Artillery Company"
+ 
+ mod_merc_medium_infantry: "Medium Infantry Company"
+ mod_merc_medium_cavalry: "Medium Cavalry Company"
+ mod_merc_medium_artillery: "Medium Artillery Company"
+ 
+ mod_merc_big_infantry: "Large Infantry Company"
+ mod_merc_big_cavalry: "Large Cavalry Company"
+ mod_merc_big_artillery: "Large Artillery Company"
+ 
+ mod_merc_disciplined_infantry: "Veteran Infantry Company"
+ mod_merc_disciplined_cavalry: "Veteran Cavalry Company"
+ mod_merc_disciplined_artillery: "Veteran Artillery Company"
+ 
+ mod_merc_heroic_infantry: "Heroic Infantry Company"
+ mod_merc_heroic_cavalry: "Heroic Cavalry Company"
+ mod_merc_heroic_artillery: "Heroic Artillery Company"

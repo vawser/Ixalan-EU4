@@ -1,6 +1,4 @@
 base_flagship_modification = {
-    trigger = {
-    }
     modifier = {
         flagship_durability = 1
         number_of_cannons_flagship_modifier = 0.5
@@ -10,9 +8,6 @@ base_flagship_modification = {
 }
 
 mass_load_cannons = {
-    trigger = {
-        
-    }
 	modifier = {
         number_of_cannons_flagship_modifier = 0.50
         naval_maintenance_flagship_modifier = 0.5
@@ -26,9 +21,6 @@ mass_load_cannons = {
 }
 
 trade_route_map = {
-    trigger = {
-        
-    }
 	modifier = {
         trade_power_in_fleet_modifier = 1
         naval_maintenance_flagship_modifier = 0.25
@@ -50,9 +42,6 @@ trade_route_map = {
 }
 
 command_aftercastle = {
-    trigger = {
-        
-    }
 	modifier = {
         morale_in_fleet_modifier = 0.05
         naval_maintenance_flagship_modifier = 0.5
@@ -127,9 +116,6 @@ hull_sheating = {
 
 
 integrated_marines = {
-    trigger = {
-        
-    }
     modifier = {
         movement_speed_onto_off_boat_modifier = -0.33
         naval_maintenance_flagship_modifier = 0.5
@@ -143,9 +129,6 @@ integrated_marines = {
 }
 
 flag_officers = {
-    trigger = {
-        always = yes
-    }
     modifier = {
         admiral_skill_gain_modifier = 0.01
         naval_maintenance_flagship_modifier = 0.5

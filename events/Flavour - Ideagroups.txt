@@ -1629,7 +1629,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea = ixa_religious_ideas_4
+		has_idea = mod_religious_ideas_4
 	}
 	
 	mean_time_to_happen = {
@@ -4414,7 +4414,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea = ixa_economic_ideas_1
+		has_idea = mod_economic_ideas_1
 		NOT = { has_country_modifier = "production_improvements" }
 		NOT = { has_country_modifier = "production_stifled" }
 	}
@@ -4729,7 +4729,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea = ixa_exploration_ideas_2
+		has_idea = mod_exploration_ideas_2
 		num_of_colonies = 1
 		NOT = { has_country_modifier = colonial_enthusiasm }
 	}
@@ -5474,7 +5474,7 @@ country_event = {
 	trigger = {
 		is_quantity_ideagroup = yes
 		NOT = { has_country_modifier = "horse_population_boom" }
-		ixa_food = 1
+		mod_food = 1
 	}
 	
 	mean_time_to_happen = {

@@ -8,7 +8,7 @@
 # groups set to colonial=yes will be higher prioritized by the AI when spending power
 
 # Innovation
-ixa_innovation_ideas = {
+mod_innovation_ideas = {
     category = ADM
 
     bonus = {
@@ -16,32 +16,32 @@ ixa_innovation_ideas = {
     }
     
     # Scientific Progress
-    ixa_innovation_ideas_1 = {
+    mod_innovation_ideas_1 = {
         technology_cost = -0.075
     }
     # Astute Accounting
-    ixa_innovation_ideas_2 = {
+    mod_innovation_ideas_2 = {
         inflation_action_cost = -0.2
     }
     # Patron of the Arts
-    ixa_innovation_ideas_3 = {
+    mod_innovation_ideas_3 = {
         prestige_decay = -0.01
     }
     # Popular Court
-    ixa_innovation_ideas_4 = {
+    mod_innovation_ideas_4 = {
         advisor_pool = 1
         global_institution_spread = 0.1
     }
     # Pragmatism
-    ixa_innovation_ideas_5 = {
+    mod_innovation_ideas_5 = {
         mercenary_cost = -0.1
     }
     # Hope for the Future
-    ixa_innovation_ideas_6 = {
+    mod_innovation_ideas_6 = {
         war_exhaustion = -0.02
     }
     # Military Education
-    ixa_innovation_ideas_7 = {
+    mod_innovation_ideas_7 = {
         free_leader_pool = 1
     }
     
@@ -61,7 +61,7 @@ ixa_innovation_ideas = {
 }
 
 # Religious
-ixa_religious_ideas = {
+mod_religious_ideas = {
     category = ADM
 
     bonus = {
@@ -70,23 +70,23 @@ ixa_religious_ideas = {
     }
     
     # Deus Vult
-    ixa_religious_ideas_1 = {
+    mod_religious_ideas_1 = {
         cb_on_religious_enemies = yes
     }
     # Religious Fervor
-    ixa_religious_ideas_2 = {
+    mod_religious_ideas_2 = {
         missionaries = 1
     }
     # Attendance Duty
-    ixa_religious_ideas_3 = {
+    mod_religious_ideas_3 = {
         stability_cost_modifier = -0.2
     }
     # Divine Supremacy
-    ixa_religious_ideas_4 = {
+    mod_religious_ideas_4 = {
         global_missionary_strength = 0.03
     }
     # Devotion
-    ixa_religious_ideas_5 = {
+    mod_religious_ideas_5 = {
         tolerance_own = 1
 		papal_influence = 2
 		devotion = 0.5
@@ -94,11 +94,11 @@ ixa_religious_ideas = {
 		church_power_modifier = 0.1
     }
     # Religious Traditions
-    ixa_religious_ideas_6 = {
+    mod_religious_ideas_6 = {
         prestige = 1
     }
     # Inqusitorial Practices
-    ixa_religious_ideas_7 = {
+    mod_religious_ideas_7 = {
         missionary_maintenance_cost = -0.2
     }
     
@@ -125,7 +125,7 @@ ixa_religious_ideas = {
 }
 
 # Economic
-ixa_economic_ideas = {
+mod_economic_ideas = {
     category = ADM
 
     bonus = {
@@ -133,33 +133,33 @@ ixa_economic_ideas = {
     }
     
     # Bureaucracy
-    ixa_economic_ideas_1 = {
+    mod_economic_ideas_1 = {
         global_tax_modifier = 0.2
         expand_administration_cost = -0.25
     }
     # Organised Construction
-    ixa_economic_ideas_2 = {
+    mod_economic_ideas_2 = {
         build_cost = -0.15
 		build_time = -0.15
     }
     # Royal Bank
-    ixa_economic_ideas_3 = {
+    mod_economic_ideas_3 = {
         inflation_reduction = 0.1
     }
     # Debt and Loans
-    ixa_economic_ideas_4 = {
+    mod_economic_ideas_4 = {
         interest = -2
     }
     # Centralization
-    ixa_economic_ideas_5 = {
+    mod_economic_ideas_5 = {
         global_autonomy = -0.05
     }
     # War Enthusiasm
-    ixa_economic_ideas_6 = {
+    mod_economic_ideas_6 = {
         land_maintenance_modifier = -0.1
     }
     # Crop Rotation
-    ixa_economic_ideas_7 = {
+    mod_economic_ideas_7 = {
         production_efficiency = 0.1
     }
     
@@ -174,7 +174,7 @@ ixa_economic_ideas = {
 }
 
 # Expansion
-ixa_expansion_ideas = {
+mod_expansion_ideas = {
     category = ADM
 
     bonus = {
@@ -182,32 +182,32 @@ ixa_expansion_ideas = {
 		global_trade_power = 0.1
     }
     # Additional Colonists
-    ixa_expansion_ideas_1 = {
+    mod_expansion_ideas_1 = {
         colonists = 1
     }
     # Overseas Conquests
-    ixa_expansion_ideas_2 = {
+    mod_expansion_ideas_2 = {
         cb_on_overseas = yes
         governing_capacity_modifier = 0.1
     }
     # Surge of Growth
-    ixa_expansion_ideas_3 = {
+    mod_expansion_ideas_3 = {
         global_colonial_growth = 15
     }
     # Colonial Recruitment
-    ixa_expansion_ideas_4 = {
+    mod_expansion_ideas_4 = {
         global_manpower_modifier = 0.1
     }
     # Regional Governors
-    ixa_expansion_ideas_5 = {
+    mod_expansion_ideas_5 = {
         core_creation = -0.1
     }
     # Global Territories
-    ixa_expansion_ideas_6 = {
+    mod_expansion_ideas_6 = {
         min_autonomy_in_territories = -0.2
     }
     # Local Policing
-    ixa_expansion_ideas_7 = {
+    mod_expansion_ideas_7 = {
         harsh_treatment_cost = -0.25
     }
     
@@ -216,7 +216,7 @@ ixa_expansion_ideas = {
         
         modifier = {
 			factor = 0
-			NOT = { has_idea_group = ixa_exploration_ideas }
+			NOT = { has_idea_group = mod_exploration_ideas }
 			NOT = {
                 any_owned_province = {
                     has_empty_adjacent_province = yes
@@ -226,44 +226,44 @@ ixa_expansion_ideas = {
         
         modifier = {
 			factor = 2
-			has_idea_group = ixa_exploration_ideas
+			has_idea_group = mod_exploration_ideas
 		}
     }
 }
 
 # Administrative
-ixa_administrative_ideas = {
+mod_administrative_ideas = {
     category = ADM
 
     bonus = {
         governing_capacity_modifier = 0.15
     }
     # Organised Mercenary Payments
-    ixa_administrative_ideas_1 = {
+    mod_administrative_ideas_1 = {
         mercenary_cost = -0.2
     }
     # Adaptability
-    ixa_administrative_ideas_2 = {
+    mod_administrative_ideas_2 = {
         core_creation = -0.1
     }
     # Consistent Recordkeeping
-    ixa_administrative_ideas_3 = {
+    mod_administrative_ideas_3 = {
         governing_capacity = 50
     }
     # Bookkeeping
-    ixa_administrative_ideas_4 = {
+    mod_administrative_ideas_4 = {
         interest = -1
     }
     # Loyal Servants
-    ixa_administrative_ideas_5 = {
+    mod_administrative_ideas_5 = {
         free_policy = 1
     }
     # Administrative Efficiency
-    ixa_administrative_ideas_6 = {
+    mod_administrative_ideas_6 = {
         administrative_efficiency = 0.05
     }
     # Links to the Citadel
-    ixa_administrative_ideas_7 = {
+    mod_administrative_ideas_7 = {
         adm_tech_cost_modifier = -0.05
     }
     
@@ -278,7 +278,7 @@ ixa_administrative_ideas = {
 }
 
 # Harmony
-ixa_harmony_ideas = {
+mod_harmony_ideas = {
     category = ADM
 
     bonus = {
@@ -287,31 +287,31 @@ ixa_harmony_ideas = {
     }
     
     # Religious Unity
-    ixa_harmony_ideas_1 = {
+    mod_harmony_ideas_1 = {
         religious_unity = 0.25
     }
     # Local Traditions
-    ixa_harmony_ideas_2 = {
+    mod_harmony_ideas_2 = {
         global_unrest = -2
     }
     # Love Thy Neighbour
-    ixa_harmony_ideas_3 = {
+    mod_harmony_ideas_3 = {
         tolerance_heretic = 2
     }
     # Indirect Rule
-    ixa_harmony_ideas_4 = {
+    mod_harmony_ideas_4 = {
         years_of_nationalism = -5
     }
     # Cultural Ties
-    ixa_harmony_ideas_5 = {
+    mod_harmony_ideas_5 = {
         num_accepted_cultures = 1
     }
     # Benevolence
-    ixa_harmony_ideas_6 = {
+    mod_harmony_ideas_6 = {
         improve_relation_modifier = 0.15
     }
     # Entertain the Exotic
-    ixa_harmony_ideas_7 = {
+    mod_harmony_ideas_7 = {
         tolerance_heathen = 2
     }
     
@@ -365,14 +365,14 @@ ixa_harmony_ideas = {
 }
 
 # Law
-ixa_law_ideas = {
+mod_law_ideas = {
     category = ADM
 
     bonus = {
         reform_progress_growth = 0.5
     }
     # Collection of Laws
-    ixa_law_ideas_1 = {
+    mod_law_ideas_1 = {
         legitimacy = 1
 		republican_tradition = 1
 		horde_unity = 1
@@ -380,28 +380,28 @@ ixa_law_ideas = {
 		meritocracy = 1
     }
     # Trial by Combat
-    ixa_law_ideas_2 = {
+    mod_law_ideas_2 = {
         yearly_corruption = -0.05
     }
     # Ministerial Traditions
-    ixa_law_ideas_3 = {
+    mod_law_ideas_3 = {
         administrative_efficiency = 0.05
     }
     # Sealed Contracts
-    ixa_law_ideas_4 = {
+    mod_law_ideas_4 = {
         trade_efficiency = 0.05
         transfer_trade_power_reasons = 5
     }
     # Persuit of Usury
-    ixa_law_ideas_5 = {
+    mod_law_ideas_5 = {
         interest = -1
     }
     # Noble Consensus
-    ixa_law_ideas_6 = {
+    mod_law_ideas_6 = {
 		diplomatic_annexation_cost = -0.2
     }
     # Minority Rights
-    ixa_law_ideas_7 = {
+    mod_law_ideas_7 = {
         tolerance_heathen = 1
 		tolerance_heretic = 1
     }
@@ -417,39 +417,39 @@ ixa_law_ideas = {
 }
 
 # Development
-ixa_development_ideas = {
+mod_development_ideas = {
     category = ADM
 
     bonus = {
         state_maintenance_modifier = -0.1
     }
     # Local Development
-    ixa_development_ideas_1 = {
+    mod_development_ideas_1 = {
         development_cost = -0.15
     }
     # Regional Standards
-    ixa_development_ideas_2 = {
+    mod_development_ideas_2 = {
         production_efficiency = 0.1
     }
     # Tax Collectors
-    ixa_development_ideas_3 = {
+    mod_development_ideas_3 = {
         global_tax_modifier = 0.1
     }
     # Mercantile Consensus
-    ixa_development_ideas_4 = {
+    mod_development_ideas_4 = {
         trade_efficiency = 0.1
     }
     # Cooperative Lords
-    ixa_development_ideas_5 = {
+    mod_development_ideas_5 = {
         global_autonomy = -0.05
     }
     # Local Building Materials
-    ixa_development_ideas_6 = {
+    mod_development_ideas_6 = {
         build_cost = -0.15
     }
-    # Monetary Policy
-    ixa_development_ideas_7 = {
-        inflation_reduction = 0.05
+    # Cultural Assimilation
+    mod_development_ideas_7 = {
+        num_accepted_cultures = 1
     }
     
     ai_will_do = {
@@ -467,34 +467,34 @@ ixa_development_ideas = {
 }
 
 # Absolutism
-ixa_absolutism_ideas = {
+mod_absolutism_ideas = {
     category = ADM
 
     bonus = {
         max_absolutism = 25
     }
     # Ruling with an Iron Fist
-    ixa_absolutism_ideas_1 = {
+    mod_absolutism_ideas_1 = {
         global_autonomy = -0.05
     }
     # Autocratic Favours
-    ixa_absolutism_ideas_2 = {
+    mod_absolutism_ideas_2 = {
         diplomatic_reputation = 1
     }
     # Surpressed People
-    ixa_absolutism_ideas_3 = {
+    mod_absolutism_ideas_3 = {
         global_unrest = -2
     }
     # Might is Right
-    ixa_absolutism_ideas_4 = {
+    mod_absolutism_ideas_4 = {
         war_exhaustion_cost = -0.15
     }
     # Religious Conviction
-    ixa_absolutism_ideas_5 = {
+    mod_absolutism_ideas_5 = {
         global_heretic_missionary_strength = 0.01
     }
     # Uncompromising Vision
-    ixa_absolutism_ideas_6 = {
+    mod_absolutism_ideas_6 = {
         legitimacy = 1
         republican_tradition = 1
         devotion = 1
@@ -502,7 +502,7 @@ ixa_absolutism_ideas = {
         meritocracy = 1
     }
     # Autarchs
-    ixa_absolutism_ideas_7 = {
+    mod_absolutism_ideas_7 = {
         yearly_absolutism = 1
     }
     
@@ -512,38 +512,38 @@ ixa_absolutism_ideas = {
 }
 
 # Autonomy
-ixa_autonomy_ideas = {
+mod_autonomy_ideas = {
     category = ADM
 
     bonus = {
         reduced_liberty_desire = 15
     }
     # Local Rule
-    ixa_autonomy_ideas_1 = {
+    mod_autonomy_ideas_1 = {
         state_maintenance_modifier = -0.25
     }
     # Farming Techniques
-    ixa_autonomy_ideas_2 = {
+    mod_autonomy_ideas_2 = {
         production_efficiency = 0.1
     }
     # Provincial Traditions
-    ixa_autonomy_ideas_3 = {
+    mod_autonomy_ideas_3 = {
         promote_culture_cost = -0.5
     }
     # Collobrative Communities
-    ixa_autonomy_ideas_4 = {
+    mod_autonomy_ideas_4 = {
         development_cost = -0.1
     }
     # Streetside Stories
-    ixa_autonomy_ideas_5 = {
+    mod_autonomy_ideas_5 = {
         prestige_decay = -0.02
     }
     # Folklore
-    ixa_autonomy_ideas_6 = {
+    mod_autonomy_ideas_6 = {
         stability_cost_modifier = -0.25
     }
     # Power to the People
-    ixa_autonomy_ideas_7 = {
+    mod_autonomy_ideas_7 = {
         years_of_nationalism = -5
     }
     
@@ -553,7 +553,7 @@ ixa_autonomy_ideas = {
 }
 
 # Monarchy
-ixa_monarchy_ideas = {
+mod_monarchy_ideas = {
     category = ADM
 
     trigger = {
@@ -565,31 +565,31 @@ ixa_monarchy_ideas = {
         nobility_loyalty_modifier = 0.1
     }
     # Familial Ties
-    ixa_monarchy_ideas_1 = {
+    mod_monarchy_ideas_1 = {
         legitimacy = 1
     }
     # Dynastic Stock
-    ixa_monarchy_ideas_2 = {
+    mod_monarchy_ideas_2 = {
         heir_chance = 0.25
     }
     # Local Nobility
-    ixa_monarchy_ideas_3 = {
+    mod_monarchy_ideas_3 = {
         global_unrest = -1
     }
     # Jousting Tournaments
-    ixa_monarchy_ideas_4 = {
+    mod_monarchy_ideas_4 = {
         cavalry_power = 0.1
     }
     # Crown Authority
-    ixa_monarchy_ideas_5 = {
+    mod_monarchy_ideas_5 = {
         yearly_absolutism = 0.5
     }
     # Respected Families
-    ixa_monarchy_ideas_6 = {
+    mod_monarchy_ideas_6 = {
         ae_impact = -0.1
     }
     # United in Arms
-    ixa_monarchy_ideas_7 = {
+    mod_monarchy_ideas_7 = {
         global_manpower_modifier = 0.1
     }
     
@@ -608,7 +608,7 @@ ixa_monarchy_ideas = {
 }
 
 # Republic (republic)
-ixa_republic_ideas = {
+mod_republic_ideas = {
     category = ADM
 
     trigger = {
@@ -620,31 +620,31 @@ ixa_republic_ideas = {
     }
     
     # Diplomatic Links
-    ixa_republic_ideas_1 = {
+    mod_republic_ideas_1 = {
         diplomatic_upkeep = 2
     }
     # Freemen
-    ixa_republic_ideas_2 = {
+    mod_republic_ideas_2 = {
         land_morale = 0.1
     }
     # Trusted Politicians
-    ixa_republic_ideas_3 = {
+    mod_republic_ideas_3 = {
         reelection_cost = -0.25
     }
     # Melting Pot
-    ixa_republic_ideas_4 = {
+    mod_republic_ideas_4 = {
         promote_culture_cost = -1
     }
     # Republican Traditions
-    ixa_republic_ideas_5 = {
+    mod_republic_ideas_5 = {
 		republican_tradition = 1
     }
     # Azerothian Goods
-    ixa_republic_ideas_6 = {
+    mod_republic_ideas_6 = {
         global_trade_goods_size_modifier = 0.1
     }
     # Respected Pedigree
-    ixa_republic_ideas_7 = {
+    mod_republic_ideas_7 = {
         candidate_random_bonus = 1
     }
     
@@ -663,7 +663,7 @@ ixa_republic_ideas = {
 }
 
 # Theocracy (theocracy)
-ixa_theocracy_ideas = {
+mod_theocracy_ideas = {
     category = ADM
 
     trigger = {
@@ -675,32 +675,32 @@ ixa_theocracy_ideas = {
     }
     
     # Absolute Devotion
-    ixa_theocracy_ideas_1 = {
+    mod_theocracy_ideas_1 = {
         devotion = 1
     }
     # Divine Assault
-    ixa_theocracy_ideas_2 = {
+    mod_theocracy_ideas_2 = {
         discipline = 0.05
     }
     # Religious Supremacy
-    ixa_theocracy_ideas_3 = {
+    mod_theocracy_ideas_3 = {
         missionaries = 1
 		enforce_religion_cost = -0.25
     }
     # Religious Law
-    ixa_theocracy_ideas_4 = {
+    mod_theocracy_ideas_4 = {
         missionary_maintenance_cost = -0.33
     }
     # Enduring Faith
-    ixa_theocracy_ideas_5 = {
+    mod_theocracy_ideas_5 = {
         manpower_recovery_speed = 0.1
     }
     # Holy Wars
-    ixa_theocracy_ideas_6 = {
+    mod_theocracy_ideas_6 = {
         warscore_cost_vs_other_religion = -0.2
     }
     # Divine Vindication
-    ixa_theocracy_ideas_7 = {
+    mod_theocracy_ideas_7 = {
         unjustified_demands = -0.2
     }
     
@@ -719,7 +719,7 @@ ixa_theocracy_ideas = {
 }
 
 # Tribal (tribal)
-ixa_tribal_ideas = {
+mod_tribal_ideas = {
     category = ADM
 
     trigger = {
@@ -730,31 +730,31 @@ ixa_tribal_ideas = {
         yearly_absolutism = 1
     }
     # Patriarchal Traditions
-    ixa_tribal_ideas_1 = {
+    mod_tribal_ideas_1 = {
         legitimacy = 1
     }
     # Nightly Raids
-    ixa_tribal_ideas_2 = {
+    mod_tribal_ideas_2 = {
         shock_damage = 0.15
     }
     # Tribal Moot
-    ixa_tribal_ideas_3 = {
+    mod_tribal_ideas_3 = {
         stability_cost_modifier = -0.2
     }
     # Makeshift Weaponry
-    ixa_tribal_ideas_4 = {
+    mod_tribal_ideas_4 = {
         land_maintenance_modifier = -0.2
     }
     # Tribal Law
-    ixa_tribal_ideas_5 = {
+    mod_tribal_ideas_5 = {
         global_unrest = -2
     }
     # Primitive Diplomacy
-    ixa_tribal_ideas_6 = {
+    mod_tribal_ideas_6 = {
         province_warscore_cost = -0.1
     }
     # Fury of the Fearless
-    ixa_tribal_ideas_7 = {
+    mod_tribal_ideas_7 = {
         land_morale = 0.1
     }
     
@@ -773,7 +773,7 @@ ixa_tribal_ideas = {
 }
 
 # Espionage
-ixa_espionage_ideas = {
+mod_espionage_ideas = {
     category = DIP
 
     bonus = {
@@ -782,34 +782,34 @@ ixa_espionage_ideas = {
     }
     
     # Effective Spies
-    ixa_espionage_ideas_1 = {
+    mod_espionage_ideas_1 = {
         spy_offence = 0.33
         ae_impact = -0.2
     }
     # Covert Missionaries
-    ixa_espionage_ideas_2 = {
+    mod_espionage_ideas_2 = {
         rebel_support_efficiency = 0.5
     }
     # Vetting
-    ixa_espionage_ideas_3 = {
+    mod_espionage_ideas_3 = {
         global_spy_defence = 0.5
     }
     # Loyalist Recruitment
-    ixa_espionage_ideas_4 = {
+    mod_espionage_ideas_4 = {
         reduced_liberty_desire = 10
     }
     # Local Intergration
-    ixa_espionage_ideas_5 = {
+    mod_espionage_ideas_5 = {
         diplomats = 1	
 		diplomatic_annexation_cost = -0.1
     }
     # Privateers
-    ixa_espionage_ideas_6 = {
+    mod_espionage_ideas_6 = {
         embargo_efficiency = 0.33
 		privateer_efficiency = 0.33
     }
     # Anti-Corruption Purges
-    ixa_espionage_ideas_7 = {
+    mod_espionage_ideas_7 = {
         yearly_corruption = -0.05
     }
     
@@ -829,7 +829,7 @@ ixa_espionage_ideas = {
 }
 
 # Dynastic
-ixa_dynastic_ideas = {
+mod_dynastic_ideas = {
     category = DIP
 
     bonus = {
@@ -838,32 +838,32 @@ ixa_dynastic_ideas = {
     }
     
     # Foreign Courts
-    ixa_dynastic_ideas_1 = {
+    mod_dynastic_ideas_1 = {
         diplomats = 1
     }
     # Establish Cadet Branches
-    ixa_dynastic_ideas_2 = {
+    mod_dynastic_ideas_2 = {
         legitimacy = 1
 		prestige = 1
     }
     # Royal Council
-    ixa_dynastic_ideas_3 = {
+    mod_dynastic_ideas_3 = {
         diplomatic_upkeep = 2
     }
     # Diplomatic Corps
-    ixa_dynastic_ideas_4 = {
+    mod_dynastic_ideas_4 = {
         dip_tech_cost_modifier = -0.1
     }
     # Beloved Diplomats
-    ixa_dynastic_ideas_5 = {
+    mod_dynastic_ideas_5 = {
         improve_relation_modifier = 0.25
     }
     # Fame and Fortune
-    ixa_dynastic_ideas_6 = {
+    mod_dynastic_ideas_6 = {
         diplomatic_reputation = 2
     }
     # Familial Ties
-    ixa_dynastic_ideas_7 = {
+    mod_dynastic_ideas_7 = {
         yearly_corruption = -0.05
     }
     
@@ -878,7 +878,7 @@ ixa_dynastic_ideas = {
 }
 
 # Influence
-ixa_influence_ideas = {
+mod_influence_ideas = {
     category = DIP
 
     bonus = {
@@ -886,32 +886,32 @@ ixa_influence_ideas = {
     }
     
     # Loyal Subjects
-    ixa_influence_ideas_1 = {
+    mod_influence_ideas_1 = {
         vassal_income = 0.25
     }
     # Flexible Negotiation
-    ixa_influence_ideas_2 = {
+    mod_influence_ideas_2 = {
         province_warscore_cost = -0.2
     }
     # Integrated Nobility
-    ixa_influence_ideas_3 = {
+    mod_influence_ideas_3 = {
 		diplomatic_annexation_cost = -0.25
     }
     # Propaganda for the Masses
-    ixa_influence_ideas_4 = {
+    mod_influence_ideas_4 = {
         ae_impact = -0.1
         accept_vassalization_reasons = 10
     }
     # Diplomatic Influence
-    ixa_influence_ideas_5 = {
+    mod_influence_ideas_5 = {
         diplomatic_reputation = 2
     }
     # Delivery Service
-    ixa_influence_ideas_6 = {
+    mod_influence_ideas_6 = {
         diplomatic_upkeep = 1
     }
     # Marcher Lords
-    ixa_influence_ideas_7 = {
+    mod_influence_ideas_7 = {
         vassal_forcelimit_bonus = 0.5
     }
     
@@ -926,7 +926,7 @@ ixa_influence_ideas = {
 }
 
 # Trade
-ixa_trade_ideas = {
+mod_trade_ideas = {
     category = DIP
 
     bonus = {
@@ -935,33 +935,33 @@ ixa_trade_ideas = {
     }
     
     # Shrewd Practises
-    ixa_trade_ideas_1 = {
+    mod_trade_ideas_1 = {
         global_trade_power = 0.2
     }
     # Free Trade
-    ixa_trade_ideas_2 = {
+    mod_trade_ideas_2 = {
         merchants = 1
     }
     # Merchant Adventures
-    ixa_trade_ideas_3 = {
+    mod_trade_ideas_3 = {
         trade_range_modifier = 0.33
         placed_merchant_power = 5
     }
     # Common Trade Policy
-    ixa_trade_ideas_4 = {
+    mod_trade_ideas_4 = {
         trade_efficiency = 0.1
     }
     # Exotic Merchants
-    ixa_trade_ideas_5 = {
+    mod_trade_ideas_5 = {
         merchants = 1
         global_foreign_trade_power = 0.1
     }
     # Trade Manipulation
-    ixa_trade_ideas_6 = {
+    mod_trade_ideas_6 = {
         trade_steering = 0.25
     }
     # Fast Negotations
-    ixa_trade_ideas_7 = {
+    mod_trade_ideas_7 = {
         caravan_power = 0.2
     }
     
@@ -989,7 +989,7 @@ ixa_trade_ideas = {
 }
 
 # Exploration
-ixa_exploration_ideas = {
+mod_exploration_ideas = {
     category = DIP
 
     bonus = {
@@ -998,32 +998,32 @@ ixa_exploration_ideas = {
     }
     
     # Colonial Ventures
-    ixa_exploration_ideas_1 = {
+    mod_exploration_ideas_1 = {
         colonists = 1
     }
     # Discovering the World
-    ixa_exploration_ideas_2 = {
+    mod_exploration_ideas_2 = {
         may_explore = yes
     }
     # Overseas Adventures
-    ixa_exploration_ideas_3 = {
+    mod_exploration_ideas_3 = {
         range = 0.5
     }
     # Land of Opportunity
-    ixa_exploration_ideas_4 = {
+    mod_exploration_ideas_4 = {
         global_colonial_growth = 20
     }
     # Governors
-    ixa_exploration_ideas_5 = {
+    mod_exploration_ideas_5 = {
         global_foreign_trade_power = 0.1
     }
     # Colonial Surge
-    ixa_exploration_ideas_6 = {
+    mod_exploration_ideas_6 = {
         colonists = 1
 		expel_minorities_cost = -0.25
     }
     # Domination of the Seas
-    ixa_exploration_ideas_7 = {
+    mod_exploration_ideas_7 = {
         naval_forcelimit_modifier = 0.2
     }
     
@@ -1077,7 +1077,7 @@ ixa_exploration_ideas = {
 }
 
 # Maritime
-ixa_maritime_ideas = {
+mod_maritime_ideas = {
     category = DIP
 
     trigger = {
@@ -1090,33 +1090,33 @@ ixa_maritime_ideas = {
     }
     
     # Sea Hawks
-    ixa_maritime_ideas_1 = {
+    mod_maritime_ideas_1 = {
         navy_tradition = 1
     }
     # Merchant Marines
-    ixa_maritime_ideas_2 = {
+    mod_maritime_ideas_2 = {
         global_sailors_modifier = 0.25
         allowed_marine_fraction = 0.2
     }
     # Sheltered Ports
-    ixa_maritime_ideas_3 = {
+    mod_maritime_ideas_3 = {
         global_ship_repair = 0.2
 		sailor_maintenance_modifer = -0.1
     }
     # Grand Navy
-    ixa_maritime_ideas_4 = {
+    mod_maritime_ideas_4 = {
         naval_forcelimit_modifier = 0.25
     }
     # Local Timber
-    ixa_maritime_ideas_5 = {
+    mod_maritime_ideas_5 = {
         global_ship_cost = -0.33
     }
     # Excellent Shipwrights
-    ixa_maritime_ideas_6 = {
+    mod_maritime_ideas_6 = {
         leader_naval_manuever = 1
     }
     # Naval Fighting Instruction
-    ixa_maritime_ideas_7 = {
+    mod_maritime_ideas_7 = {
         leader_naval_fire = 1
     }
     
@@ -1149,7 +1149,7 @@ ixa_maritime_ideas = {
 }
 
 # Assimilation
-ixa_assimilation_ideas = {
+mod_assimilation_ideas = {
     category = DIP
 
     bonus = {
@@ -1158,31 +1158,31 @@ ixa_assimilation_ideas = {
     }
     
     # Cultural Doctrine
-    ixa_assimilation_ideas_1 = {
+    mod_assimilation_ideas_1 = {
         culture_conversion_cost = -0.33
     }
     # Mixed Courts
-    ixa_assimilation_ideas_2 = {
+    mod_assimilation_ideas_2 = {
         diplomatic_annexation_cost = -0.15
     }
     # Brothers in Arms
-    ixa_assimilation_ideas_3 = {
+    mod_assimilation_ideas_3 = {
         global_manpower_modifier = 0.1
     }
     # Religious Unity
-    ixa_assimilation_ideas_4 = {
+    mod_assimilation_ideas_4 = {
         religious_unity = 0.25
     }
     # Local Concessions
-    ixa_assimilation_ideas_5 = {
+    mod_assimilation_ideas_5 = {
         years_of_nationalism = -5
     }
     # Cultural Heritage
-    ixa_assimilation_ideas_6 = {
+    mod_assimilation_ideas_6 = {
 		stability_cost_modifier = -0.25
     }
     # Solidarity
-    ixa_assimilation_ideas_7 = {
+    mod_assimilation_ideas_7 = {
         diplomatic_upkeep = 1
         accept_vassalization_reasons = 5
     }
@@ -1198,7 +1198,7 @@ ixa_assimilation_ideas = {
 }
 
 # Society
-ixa_society_ideas = {
+mod_society_ideas = {
     category = DIP
 
     bonus = {
@@ -1206,33 +1206,33 @@ ixa_society_ideas = {
     }
     
     # War Attitudes
-    ixa_society_ideas_1 = {
+    mod_society_ideas_1 = {
         land_maintenance_modifier = -0.1
     }
     # Local Communities
-    ixa_society_ideas_2 = {
+    mod_society_ideas_2 = {
         improve_relation_modifier = 0.1
     }
     # Education for Commoners
-    ixa_society_ideas_3 = {
+    mod_society_ideas_3 = {
         governing_capacity_modifier = 0.1
     }
     # Meritocracy
-    ixa_society_ideas_4 = {
+    mod_society_ideas_4 = {
         advisor_cost = -0.15
         imperial_mandate = 1
     }
     # Close Ties
-    ixa_society_ideas_5 = {
+    mod_society_ideas_5 = {
         spy_offence = 0.15
 		global_spy_defence = 0.15
     }
     # Fed and Plump
-    ixa_society_ideas_6 = {
+    mod_society_ideas_6 = {
         global_unrest = -2
     }
     # Loyalty to their Lord
-    ixa_society_ideas_7 = {
+    mod_society_ideas_7 = {
         min_autonomy_in_territories = -0.2
     }
     
@@ -1251,7 +1251,7 @@ ixa_society_ideas = {
 }
 
 # Propaganda
-ixa_propaganda_ideas = {
+mod_propaganda_ideas = {
     category = DIP
 
     bonus = {
@@ -1260,32 +1260,32 @@ ixa_propaganda_ideas = {
     }
     
     # War Propaganda
-    ixa_propaganda_ideas_1 = {
+    mod_propaganda_ideas_1 = {
         war_exhaustion = -0.02
         ae_impact = -0.1
     }
     # Intergrated Spymaster
-    ixa_propaganda_ideas_2 = {
+    mod_propaganda_ideas_2 = {
         diplomats = 1
     }
     # Foreign Influences
-    ixa_propaganda_ideas_3 = {
+    mod_propaganda_ideas_3 = {
         improve_relation_modifier = 0.15
     }
     # Proclaimations of Credibility
-    ixa_propaganda_ideas_4 = {
+    mod_propaganda_ideas_4 = {
         diplomatic_reputation = 2
     }
     # Dissuade Dissidents
-    ixa_propaganda_ideas_5 = {
+    mod_propaganda_ideas_5 = {
 		yearly_absolutism = 0.5
     }
     # Unending Rhetoric
-    ixa_propaganda_ideas_6 = {
+    mod_propaganda_ideas_6 = {
         unjustified_demands = -0.25
     }
     # Seeds of Chaos
-    ixa_propaganda_ideas_7 = {
+    mod_propaganda_ideas_7 = {
         siege_ability = 0.1
     }
     
@@ -1300,7 +1300,7 @@ ixa_propaganda_ideas = {
 }
 
 # Naval Bombardment (Heavy Ship)
-ixa_naval_bombardment_ideas = {
+mod_naval_bombardment_ideas = {
     category = DIP
 
     trigger = {
@@ -1311,31 +1311,31 @@ ixa_naval_bombardment_ideas = {
         naval_maintenance_modifier = -0.1
     }
     # Born of the Sea
-    ixa_naval_bombardment_ideas_1 = {
+    mod_naval_bombardment_ideas_1 = {
         navy_tradition = 1
     }
     # Expert Bombardment
-    ixa_naval_bombardment_ideas_2 = {
+    mod_naval_bombardment_ideas_2 = {
         heavy_ship_power = 0.2
     }
     # Efficient Shipyards
-    ixa_naval_bombardment_ideas_3 = {
+    mod_naval_bombardment_ideas_3 = {
         heavy_ship_cost = -0.33
     }
     # Grand Armarda
-    ixa_naval_bombardment_ideas_4 = {
+    mod_naval_bombardment_ideas_4 = {
         naval_forcelimit_modifier = 0.2
     }
     # Man the Decks
-    ixa_naval_bombardment_ideas_5 = {
+    mod_naval_bombardment_ideas_5 = {
         global_sailors_modifier = 0.2
     }
     # Impenetrable Hulls
-    ixa_naval_bombardment_ideas_6 = {
+    mod_naval_bombardment_ideas_6 = {
         ship_durability = 0.1
     }
     # Oceanic Campaigns
-    ixa_naval_bombardment_ideas_7 = {
+    mod_naval_bombardment_ideas_7 = {
         leader_naval_fire = 1
     }
     
@@ -1351,7 +1351,7 @@ ixa_naval_bombardment_ideas = {
 }
 
 # Naval Skirmish (Galley Ship)
-ixa_naval_skirmish_ideas = {
+mod_naval_skirmish_ideas = {
     category = DIP
 
     trigger = {
@@ -1364,32 +1364,32 @@ ixa_naval_skirmish_ideas = {
         may_perform_slave_raid_on_same_religion = yes
     }
     # Sea Skirmishers
-    ixa_naval_skirmish_ideas_1 = {
+    mod_naval_skirmish_ideas_1 = {
         galley_power = 0.2
         allowed_marine_fraction = 0.2
     }
     # Hardy Sailors
-    ixa_naval_skirmish_ideas_2 = {
+    mod_naval_skirmish_ideas_2 = {
         recover_navy_morale_speed = 0.1
     }
     # Local Shipyards
-    ixa_naval_skirmish_ideas_3 = {
+    mod_naval_skirmish_ideas_3 = {
         galley_cost = -0.33
     }
     # Expert Targeting
-    ixa_naval_skirmish_ideas_4 = {
+    mod_naval_skirmish_ideas_4 = {
         capture_ship_chance = 0.25
     }
     # Indomitable Sailors
-    ixa_naval_skirmish_ideas_5 = {
+    mod_naval_skirmish_ideas_5 = {
         sunk_ship_morale_hit_recieved = -0.2
     }
     # Beach Assaults
-    ixa_naval_skirmish_ideas_6 = {
+    mod_naval_skirmish_ideas_6 = {
         movement_speed_onto_off_boat_modifier = -0.33
     }
     # Lifelong Seamen
-    ixa_naval_skirmish_ideas_7 = {
+    mod_naval_skirmish_ideas_7 = {
         navy_tradition_decay = -0.01
     }
     
@@ -1405,7 +1405,7 @@ ixa_naval_skirmish_ideas = {
 }
 
 # Naval Trade (Light Ship)
-ixa_naval_trade_ideas = {
+mod_naval_trade_ideas = {
     category = DIP
 
     trigger = {
@@ -1416,31 +1416,31 @@ ixa_naval_trade_ideas = {
         naval_tradition_from_trade = 1.0
     }
     # Mercantile Shipyards
-    ixa_naval_trade_ideas_1 = {
+    mod_naval_trade_ideas_1 = {
         light_ship_cost = -0.33
     }
     # Protected Vessels
-    ixa_naval_trade_ideas_2 = {
+    mod_naval_trade_ideas_2 = {
         light_ship_power = 0.2
     }
     # Mercantile Sailors
-    ixa_naval_trade_ideas_3 = {
+    mod_naval_trade_ideas_3 = {
         global_sailors_modifier = 0.2
     }
     # Consistent Blockades
-    ixa_naval_trade_ideas_4 = {
+    mod_naval_trade_ideas_4 = {
         blockade_efficiency = 0.33
     }
     # Infamous Crews
-    ixa_naval_trade_ideas_5 = {
+    mod_naval_trade_ideas_5 = {
         ship_power_propagation = 0.2
     }
     # Mapped Sea Routes
-    ixa_naval_trade_ideas_6 = {
+    mod_naval_trade_ideas_6 = {
         global_ship_trade_power = 0.33
     }
     # Embargos
-    ixa_naval_trade_ideas_7 = {
+    mod_naval_trade_ideas_7 = {
         embargo_efficiency = 0.5
     }
     
@@ -1456,7 +1456,7 @@ ixa_naval_trade_ideas = {
 }
 
 # Naval Organisation
-ixa_naval_organisation_ideas = {
+mod_naval_organisation_ideas = {
     category = DIP
 
     trigger = {
@@ -1467,31 +1467,31 @@ ixa_naval_organisation_ideas = {
         sea_repair = yes
     }
     # Press Gangs
-    ixa_naval_organisation_ideas_1 = {
+    mod_naval_organisation_ideas_1 = {
         global_sailors_modifier = 0.5
     }
     # Massed Shipyards
-    ixa_naval_organisation_ideas_2 = {
+    mod_naval_organisation_ideas_2 = {
         naval_forcelimit_modifier = 0.33
     }
     # Loyal Sailors
-    ixa_naval_organisation_ideas_3 = {
+    mod_naval_organisation_ideas_3 = {
         sailor_maintenance_modifer = -0.2
     }
     # Sea Dogs
-    ixa_naval_organisation_ideas_4 = {
+    mod_naval_organisation_ideas_4 = {
         sailors_recovery_speed = 0.1
     }
     # Experienced Sailors
-    ixa_naval_organisation_ideas_5 = {
+    mod_naval_organisation_ideas_5 = {
         naval_morale = 0.1
     }
     # Built to Last
-    ixa_naval_organisation_ideas_6 = {
+    mod_naval_organisation_ideas_6 = {
         naval_maintenance_modifier = -0.1
     }
     # Landing Crews
-    ixa_naval_organisation_ideas_7 = {
+    mod_naval_organisation_ideas_7 = {
         movement_speed_onto_off_boat_modifier = -0.33
     }
     
@@ -1507,7 +1507,7 @@ ixa_naval_organisation_ideas = {
 }
 
 # Naval Leadership
-ixa_naval_leadership_ideas = {
+mod_naval_leadership_ideas = {
     category = DIP
 
     trigger = {
@@ -1518,32 +1518,32 @@ ixa_naval_leadership_ideas = {
         navy_tradition_decay = -0.01
     }
     # Admirality
-    ixa_naval_leadership_ideas_1 = {
+    mod_naval_leadership_ideas_1 = {
         navy_tradition = 1
     }
     # Naval Firing Line
-    ixa_naval_leadership_ideas_2 = {
+    mod_naval_leadership_ideas_2 = {
         leader_naval_fire = 1
     }
     # Naval Skirmisher
-    ixa_naval_leadership_ideas_3 = {
+    mod_naval_leadership_ideas_3 = {
         leader_naval_shock = 1
     }
     # Naval Explorer
-    ixa_naval_leadership_ideas_4 = {
+    mod_naval_leadership_ideas_4 = {
         leader_naval_manuever = 1
     }
     # Naval Tradition
-    ixa_naval_leadership_ideas_5 = {
+    mod_naval_leadership_ideas_5 = {
         admiral_cost = -0.5
         admiral_skill_gain_modifier = 0.5
     }
     # Onboard Supplies
-    ixa_naval_leadership_ideas_6 = {
+    mod_naval_leadership_ideas_6 = {
         naval_attrition = -0.2
     }
     # Glory of Battle
-    ixa_naval_leadership_ideas_7 = {
+    mod_naval_leadership_ideas_7 = {
         naval_tradition_from_battle = 1.0
     }
     
@@ -1559,7 +1559,7 @@ ixa_naval_leadership_ideas = {
 }
 
 # Naval Tactics
-ixa_naval_tactics_ideas = {
+mod_naval_tactics_ideas = {
     category = DIP
 
     trigger = {
@@ -1570,31 +1570,31 @@ ixa_naval_tactics_ideas = {
         naval_maintenance_modifier = -0.1
     }
     # Fearless Admirals
-    ixa_naval_tactics_ideas_1 = {
+    mod_naval_tactics_ideas_1 = {
         naval_morale = 0.2
     }
     # Wide Sweeps
-    ixa_naval_tactics_ideas_2 = {
+    mod_naval_tactics_ideas_2 = {
         global_naval_engagement_modifier = 0.2
     }
     # Local Coastline
-    ixa_naval_tactics_ideas_3 = {
+    mod_naval_tactics_ideas_3 = {
         own_coast_naval_combat_bonus = 1.0
     }
     # Willingness to Fight
-    ixa_naval_tactics_ideas_4 = {
+    mod_naval_tactics_ideas_4 = {
         recover_navy_morale_speed = 0.1
     }
     # Adaptable Sailors
-    ixa_naval_tactics_ideas_5 = {
+    mod_naval_tactics_ideas_5 = {
         sunk_ship_morale_hit_recieved = -0.2
     }
     # Reinforced Hulls
-    ixa_naval_tactics_ideas_6 = {
+    mod_naval_tactics_ideas_6 = {
         ship_durability = 0.1
     }
     # Homeland Defence
-    ixa_naval_tactics_ideas_7 = {
+    mod_naval_tactics_ideas_7 = {
         sailors_recovery_speed = 0.1
     }
     
@@ -1610,7 +1610,7 @@ ixa_naval_tactics_ideas = {
 }
 
 # Offensive 
-ixa_offensive_ideas = {
+mod_offensive_ideas = {
     category = MIL
 
     bonus = {
@@ -1618,31 +1618,31 @@ ixa_offensive_ideas = {
     }
     
     # Suprise Offensive
-    ixa_offensive_ideas_1 = {
+    mod_offensive_ideas_1 = {
         leader_land_shock = 1
     }
     # Local Conscripts
-    ixa_offensive_ideas_2 = {
+    mod_offensive_ideas_2 = {
         global_regiment_recruit_speed = -0.2
     }
     # Lay of the Land
-    ixa_offensive_ideas_3 = {
+    mod_offensive_ideas_3 = {
         leader_land_manuever = 1
     }
     # Glory of War
-    ixa_offensive_ideas_4 = {
+    mod_offensive_ideas_4 = {
         prestige_from_land = 1.0
     }
     # Engineer Corps
-    ixa_offensive_ideas_5 = {
+    mod_offensive_ideas_5 = {
         siege_ability = 0.2
     }
     # Grand Army
-    ixa_offensive_ideas_6 = {
+    mod_offensive_ideas_6 = {
         land_forcelimit_modifier = 0.2
     }
     # Valyrian Warfare
-    ixa_offensive_ideas_7 = {
+    mod_offensive_ideas_7 = {
         discipline = 0.05
     }
     
@@ -1657,7 +1657,7 @@ ixa_offensive_ideas = {
 }
 
 # Defensive
-ixa_defensive_ideas = {
+mod_defensive_ideas = {
     category = MIL
 
     bonus = {
@@ -1665,34 +1665,34 @@ ixa_defensive_ideas = {
     }
     
     # Battlefield Traditions
-    ixa_defensive_ideas_1 = {
+    mod_defensive_ideas_1 = {
         army_tradition = 0.5
     }
     # Military Drill
-    ixa_defensive_ideas_2 = {
+    mod_defensive_ideas_2 = {
         land_morale = 0.2
 		recover_army_morale_speed = 0.05
     }
     # Superior Aim
-    ixa_defensive_ideas_3 = {
+    mod_defensive_ideas_3 = {
         leader_land_fire = 1
         fire_damage_received = -0.1
     }
     # Regimental System
-    ixa_defensive_ideas_4 = {
+    mod_defensive_ideas_4 = {
         reinforce_speed = 0.33
     }
     # Defensive Mentality
-    ixa_defensive_ideas_5 = {
+    mod_defensive_ideas_5 = {
         shock_damage_received = -0.1
 		defensiveness = 0.1
     }
     # Supply Lines
-    ixa_defensive_ideas_6 = {
+    mod_defensive_ideas_6 = {
         global_supply_limit_modifier = 0.15
     }
     # Improved Foraging
-    ixa_defensive_ideas_7 = {
+    mod_defensive_ideas_7 = {
         land_maintenance_modifier = -0.10
     }
     
@@ -1707,38 +1707,38 @@ ixa_defensive_ideas = {
 }
 
 # Quality
-ixa_quality_ideas = {
+mod_quality_ideas = {
     category = MIL
 
     bonus = {
         discipline = 0.05
     }
     # Squire to Knight
-    ixa_quality_ideas_1 = {
+    mod_quality_ideas_1 = {
         infantry_power = 0.1
     }
     # Noble Education
-    ixa_quality_ideas_2 = {
+    mod_quality_ideas_2 = {
         army_tradition_decay = -0.01
     }
     # Finest of Horses
-    ixa_quality_ideas_3 = {
+    mod_quality_ideas_3 = {
         cavalry_power = 0.1
     }
     # Hardwood Hulls
-    ixa_quality_ideas_4 = {
+    mod_quality_ideas_4 = {
         ship_durability = 0.1
     }
     # Naval Drill
-    ixa_quality_ideas_5 = {
+    mod_quality_ideas_5 = {
         naval_morale = 0.1
     }
     # Fruit Barrels
-    ixa_quality_ideas_6 = {
+    mod_quality_ideas_6 = {
         naval_attrition = -0.2
     }
     # Massed Batteries
-    ixa_quality_ideas_7 = {
+    mod_quality_ideas_7 = {
         artillery_power = 0.1
     }
     
@@ -1753,38 +1753,38 @@ ixa_quality_ideas = {
 }
 
 # Quantity
-ixa_quantity_ideas = {
+mod_quantity_ideas = {
     category = MIL
 
     bonus = {
         land_forcelimit_modifier = 0.25
     }
     # Grand Army
-    ixa_quantity_ideas_1 = {
+    mod_quantity_ideas_1 = {
         global_manpower_modifier = 0.5
     }
     # All Can Serve
-    ixa_quantity_ideas_2 = {
+    mod_quantity_ideas_2 = {
         manpower_recovery_speed = 0.2
     }
     # Enforced Service
-    ixa_quantity_ideas_3 = {
+    mod_quantity_ideas_3 = {
         global_regiment_cost = -0.1
     }
     # Regular Meals
-    ixa_quantity_ideas_4 = {
+    mod_quantity_ideas_4 = {
         land_maintenance_modifier = -0.10
     }
     # Mercenary Contracts
-    ixa_quantity_ideas_5 = {
+    mod_quantity_ideas_5 = {
         mercenary_manpower = 0.25
     }
     # Homely Garrisons
-    ixa_quantity_ideas_6 = {
+    mod_quantity_ideas_6 = {
         garrison_size = 0.50
     }
     # Improved Supply Lines
-    ixa_quantity_ideas_7 = {
+    mod_quantity_ideas_7 = {
         land_attrition = -0.1
     }
     
@@ -1798,7 +1798,7 @@ ixa_quantity_ideas = {
     }
 }
 
-ixa_professional_army_ideas = {
+mod_professional_army_ideas = {
     category = MIL
 
     bonus = {   
@@ -1806,31 +1806,31 @@ ixa_professional_army_ideas = {
         special_unit_forcelimit = 0.2
     }
     # Professional Soldiers
-    ixa_professional_army_ideas_1 = {
+    mod_professional_army_ideas_1 = {
         army_tradition_decay = -0.01
     }
     # Scheduled Drills
-    ixa_professional_army_ideas_2 = {
+    mod_professional_army_ideas_2 = {
         drill_gain_modifier = 0.5
     }
     # Forced Marches
-    ixa_professional_army_ideas_3 = {
+    mod_professional_army_ideas_3 = {
         movement_speed = 0.2
     }
     # Rations
-    ixa_professional_army_ideas_4 = {
+    mod_professional_army_ideas_4 = {
         land_attrition = -0.2
     }
     # Organised Reserves
-    ixa_professional_army_ideas_5 = {
+    mod_professional_army_ideas_5 = {
         reserves_organisation = 0.5
     }
     # Battleready
-    ixa_professional_army_ideas_6 = {
+    mod_professional_army_ideas_6 = {
         recover_army_morale_speed = 0.1
     }
     # Daily Drills
-    ixa_professional_army_ideas_7 = {
+    mod_professional_army_ideas_7 = {
         drill_decay_modifier = -0.5
         army_tradition = 0.5
     }
@@ -1841,38 +1841,38 @@ ixa_professional_army_ideas = {
 }
 
 # Mercenary Army
-ixa_mercenary_army_ideas = {
+mod_mercenary_army_ideas = {
     category = MIL
 
     bonus = {
         mercenary_discipline = 0.1
     }
     # Mercenary Contacts
-    ixa_mercenary_army_ideas_1 = {
+    mod_mercenary_army_ideas_1 = {
         mercenary_cost = -0.33
     }
     # Established Contracts
-    ixa_mercenary_army_ideas_2 = {
+    mod_mercenary_army_ideas_2 = {
         mercenary_manpower = 1.0
     }
     # Terror in the Fields
-    ixa_mercenary_army_ideas_3 = {
+    mod_mercenary_army_ideas_3 = {
         hostile_attrition = 1
     }
     # Gold before Promises
-    ixa_mercenary_army_ideas_4 = {
+    mod_mercenary_army_ideas_4 = {
         merc_maintenance_modifier = -0.2
     }
     # Mercenary Generals
-    ixa_mercenary_army_ideas_5 = {
+    mod_mercenary_army_ideas_5 = {
         free_leader_pool = 1
     }
     # A Little Coin
-    ixa_mercenary_army_ideas_6 = {
+    mod_mercenary_army_ideas_6 = {
         global_regiment_recruit_speed = -0.33
     }
     # Looters
-    ixa_mercenary_army_ideas_7 = {
+    mod_mercenary_army_ideas_7 = {
         loot_amount = 1.0
     }
     
@@ -1882,38 +1882,38 @@ ixa_mercenary_army_ideas = {
 }
 
 # Army Organisation
-ixa_army_organisation_ideas = {
+mod_army_organisation_ideas = {
     category = MIL
 
     bonus = {
         land_morale = 0.1
     }
     # Established Recruitment
-    ixa_army_organisation_ideas_1 = {
+    mod_army_organisation_ideas_1 = {
         global_regiment_cost = -0.33
     }
     # Local Recruiters
-    ixa_army_organisation_ideas_2 = {
+    mod_army_organisation_ideas_2 = {
         global_regiment_recruit_speed = -0.33
     }
     # Orderly Barracks
-    ixa_army_organisation_ideas_3 = {
+    mod_army_organisation_ideas_3 = {
         land_maintenance_modifier = -0.15
     }
     # Regular Drills
-    ixa_army_organisation_ideas_4 = {
+    mod_army_organisation_ideas_4 = {
         army_tradition = 0.5
     }
     # Start Them Young
-    ixa_army_organisation_ideas_5 = {
+    mod_army_organisation_ideas_5 = {
         land_forcelimit_modifier = 0.5
     }
     # Local Recruitment
-    ixa_army_organisation_ideas_6 = {
+    mod_army_organisation_ideas_6 = {
         global_manpower_modifier = 0.2
     }
     # Supply Depots
-    ixa_army_organisation_ideas_7 = {
+    mod_army_organisation_ideas_7 = {
         global_supply_limit_modifier = 0.25
     }
     
@@ -1923,38 +1923,38 @@ ixa_army_organisation_ideas = {
 }
 
 # Army Leadership
-ixa_army_leadership_ideas = {
+mod_army_leadership_ideas = {
     category = MIL
 
     bonus = {
         army_tradition = 0.5
     }
     # Swift Movements
-    ixa_army_leadership_ideas_1 = {
+    mod_army_leadership_ideas_1 = {
         leader_land_manuever = 1
     }
     # First Strikes
-    ixa_army_leadership_ideas_2 = {
+    mod_army_leadership_ideas_2 = {
         leader_land_shock = 1
     }
     # Sustained Fire
-    ixa_army_leadership_ideas_3 = {
+    mod_army_leadership_ideas_3 = {
         leader_land_fire = 1
     }
     # Military Training
-    ixa_army_leadership_ideas_4 = {
+    mod_army_leadership_ideas_4 = {
         general_cost = -0.25
     }
     # Effective Leadership
-    ixa_army_leadership_ideas_5 = {
+    mod_army_leadership_ideas_5 = {
         free_leader_pool = 1
     }
     # Veteran Engineers
-    ixa_army_leadership_ideas_6 = {
+    mod_army_leadership_ideas_6 = {
         leader_siege = 1
     }
     # Staggered Formations
-    ixa_army_leadership_ideas_7 = {
+    mod_army_leadership_ideas_7 = {
         backrow_artillery_damage = 0.2
     }
     
@@ -1964,38 +1964,38 @@ ixa_army_leadership_ideas = {
 }
 
 # Army Tactics
-ixa_army_tactics_ideas = {
+mod_army_tactics_ideas = {
     category = MIL
 
     bonus = {
         war_exhaustion = -0.02
     }
     # Battlefield Techniques
-    ixa_army_tactics_ideas_1 = {
+    mod_army_tactics_ideas_1 = {
         infantry_power = 0.1
     }
     # Fearless Cavalry
-    ixa_army_tactics_ideas_2 = {
+    mod_army_tactics_ideas_2 = {
         cavalry_power = 0.1
     }
     # Tactical Maneuvers
-    ixa_army_tactics_ideas_3 = {
+    mod_army_tactics_ideas_3 = {
         fire_damage_received = -0.1
     }
     # Skirmishing Techniques
-    ixa_army_tactics_ideas_4 = {
+    mod_army_tactics_ideas_4 = {
         infantry_shock = 0.5
     }
     # Anticapated Strikes
-    ixa_army_tactics_ideas_5 = {
+    mod_army_tactics_ideas_5 = {
         shock_damage_received = -0.1
     }
     # Continuous Bombardment
-    ixa_army_tactics_ideas_6 = {
+    mod_army_tactics_ideas_6 = {
         artillery_fire = 0.5
     }
     # Glory on the Battlefield
-    ixa_army_tactics_ideas_7 = {
+    mod_army_tactics_ideas_7 = {
         army_tradition_from_battle = 1
     }
     
@@ -2005,38 +2005,38 @@ ixa_army_tactics_ideas = {
 }
 
 # Armaments
-ixa_armaments_ideas = {
+mod_armaments_ideas = {
     category = MIL
 
     bonus = {
         siege_ability = 0.1
     }
     # Sharpened Blades
-    ixa_armaments_ideas_1 = {
+    mod_armaments_ideas_1 = {
         shock_damage = 0.1
     }
     # Barbed Arrows
-    ixa_armaments_ideas_2 = {
+    mod_armaments_ideas_2 = {
         fire_damage = 0.1
     }
     # Burning Ammunition 
-    ixa_armaments_ideas_3 = {
+    mod_armaments_ideas_3 = {
         artillery_fire = 0.5
     }
     # Unbreakable Lances
-    ixa_armaments_ideas_4 = {
+    mod_armaments_ideas_4 = {
         cavalry_shock = 0.5
     }
     # Vambraces
-    ixa_armaments_ideas_5 = {
+    mod_armaments_ideas_5 = {
         infantry_fire = 0.5
     }
     # Greatswords
-    ixa_armaments_ideas_6 = {
+    mod_armaments_ideas_6 = {
         infantry_shock = 0.5
     }
     # Diseased Ammunition
-    ixa_armaments_ideas_7 = {
+    mod_armaments_ideas_7 = {
         artillery_bonus_vs_fort = 3
     }
     
@@ -2046,38 +2046,38 @@ ixa_armaments_ideas = {
 }
 
 # Fortification
-ixa_fortification_ideas = {
+mod_fortification_ideas = {
     category = MIL
 
     bonus = {
         hostile_attrition = 2
     }
     # Reinforced Barricades
-    ixa_fortification_ideas_1 = {
+    mod_fortification_ideas_1 = {
         defensiveness = 0.5
     }
     # Battlefield Shelters
-    ixa_fortification_ideas_2 = {
+    mod_fortification_ideas_2 = {
         fire_damage_received = -0.1
     }
     # Stocked Garrisons
-    ixa_fortification_ideas_3 = {
+    mod_fortification_ideas_3 = {
         garrison_size = 0.5
     }
     # All Are Welcome
-    ixa_fortification_ideas_4 = {
+    mod_fortification_ideas_4 = {
         global_garrison_growth = 1.0
     }
     # Maintained Forts
-    ixa_fortification_ideas_5 = {
+    mod_fortification_ideas_5 = {
         global_supply_limit_modifier = 0.15
     }
     # Strategic Citadels
-    ixa_fortification_ideas_6 = {
+    mod_fortification_ideas_6 = {
         manpower_recovery_speed = 0.1
     }
     # Farmsteads
-    ixa_fortification_ideas_7 = {
+    mod_fortification_ideas_7 = {
         global_supply_limit_modifier = 0.2
     }
     
@@ -2087,38 +2087,38 @@ ixa_fortification_ideas = {
 }
 
 # Militarization
-ixa_militarization_ideas = {
+mod_militarization_ideas = {
     category = MIL
 
     bonus = {
         mil_tech_cost_modifier = -0.1
     }
     # Regular Enlistment
-    ixa_militarization_ideas_1 = {
+    mod_militarization_ideas_1 = {
         has_banners = 1 
     }
     # Wartime Efficiencies
-    ixa_militarization_ideas_2 = {
+    mod_militarization_ideas_2 = {
         governing_capacity_modifier = 0.1
     }
     # Home Support
-    ixa_militarization_ideas_3 = {
+    mod_militarization_ideas_3 = {
         state_maintenance_modifier = -0.25
     }
     # Combat Readiness
-    ixa_militarization_ideas_4 = {
+    mod_militarization_ideas_4 = {
         land_forcelimit_modifier = 0.15
     }
     # Wartime Construction
-    ixa_militarization_ideas_5 = {
+    mod_militarization_ideas_5 = {
         build_time = -0.15
     }
     # Marshal Law
-    ixa_militarization_ideas_6 = {
+    mod_militarization_ideas_6 = {
         yearly_absolutism = 1
     }
     # Common Fortitude
-    ixa_militarization_ideas_7 = {
+    mod_militarization_ideas_7 = {
         reinforce_cost_modifier = -0.33
     }
     
@@ -2128,38 +2128,38 @@ ixa_militarization_ideas = {
 }
 
 # Subjugation
-ixa_subjugation_ideas = {
+mod_subjugation_ideas = {
     category = MIL
 
     bonus = {
         land_maintenance_modifier = -0.1
     }
     # Conquest
-    ixa_subjugation_ideas_1 = {
+    mod_subjugation_ideas_1 = {
         province_warscore_cost = -0.33
     }
     # Intimidation
-    ixa_subjugation_ideas_2 = {
+    mod_subjugation_ideas_2 = {
         unjustified_demands = -0.2
     }
     # Incorrigible Disputes
-    ixa_subjugation_ideas_3 = {
+    mod_subjugation_ideas_3 = {
         fabricate_claims_cost = -0.25
     }
     # Military Envoys
-    ixa_subjugation_ideas_4 = {
+    mod_subjugation_ideas_4 = {
         free_leader_pool = 2
     }
     # Military Vassals
-    ixa_subjugation_ideas_5 = {
+    mod_subjugation_ideas_5 = {
         vassal_forcelimit_bonus = 0.5
     }
     # Make Haste
-    ixa_subjugation_ideas_6 = {
+    mod_subjugation_ideas_6 = {
         envoy_travel_time = -0.5
     }
     # Squeeze Them Dry
-    ixa_subjugation_ideas_7 = {
+    mod_subjugation_ideas_7 = {
         vassal_income = 0.15
     }
     
@@ -2169,7 +2169,7 @@ ixa_subjugation_ideas = {
 }
 
 # Tyranny
-ixa_tyranny_ideas = {
+mod_tyranny_ideas = {
     category = MIL
 
     bonus = {
@@ -2177,11 +2177,11 @@ ixa_tyranny_ideas = {
         global_autonomy = -0.05
     }
     # Tyranny of the Weak
-    ixa_tyranny_ideas_1 = {
+    mod_tyranny_ideas_1 = {
         max_absolutism = 20
     }
     # Enforced Legitimacy
-    ixa_tyranny_ideas_2 = {
+    mod_tyranny_ideas_2 = {
         legitimacy = 1
         republican_tradition = 1
         devotion = 1
@@ -2189,23 +2189,23 @@ ixa_tyranny_ideas = {
         meritocracy = 1
     }
     # Military Parades
-    ixa_tyranny_ideas_3 = {
+    mod_tyranny_ideas_3 = {
         prestige = 1
     }
     # Labour Camps
-    ixa_tyranny_ideas_4 = {
+    mod_tyranny_ideas_4 = {
         build_time = -0.15
     }
     # Military Executions
-    ixa_tyranny_ideas_5 = {
+    mod_tyranny_ideas_5 = {
         yearly_corruption = -0.05
     }
     # Hammer the Nail
-    ixa_tyranny_ideas_6 = {
+    mod_tyranny_ideas_6 = {
         years_of_nationalism = -5
     }
     # Absolute Rule
-    ixa_tyranny_ideas_7 = {
+    mod_tyranny_ideas_7 = {
         yearly_absolutism = 1
     }
     
@@ -2215,39 +2215,39 @@ ixa_tyranny_ideas = {
 }
 
 # Imperialism
-ixa_imperialism_ideas = {
+mod_imperialism_ideas = {
     category = MIL
 
     bonus = {
         colonist_placement_chance = 0.05
     }
     # Imperial Frontiers
-    ixa_imperialism_ideas_1 = {
+    mod_imperialism_ideas_1 = {
         may_explore = yes
     }
     # Loyal Colonists
-    ixa_imperialism_ideas_2 = {
+    mod_imperialism_ideas_2 = {
         colonists = 1
         may_establish_frontier = yes
     }
     # Enforced Migration
-    ixa_imperialism_ideas_3 = {
+    mod_imperialism_ideas_3 = {
         global_colonial_growth = 20
     }
     # Cut and Burn
-    ixa_imperialism_ideas_4 = {
+    mod_imperialism_ideas_4 = {
         native_uprising_chance = -0.25
     }
     # Exploit the Natives
-    ixa_imperialism_ideas_5 = {
+    mod_imperialism_ideas_5 = {
         native_assimilation = 1.0
     }
     # Protected Shipping Routes
-    ixa_imperialism_ideas_6 = {
+    mod_imperialism_ideas_6 = {
         global_ship_trade_power = 0.33
     }
     # Distant Colonies
-    ixa_imperialism_ideas_7 = {
+    mod_imperialism_ideas_7 = {
         range = 0.5
     }
     

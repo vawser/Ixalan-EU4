@@ -20,28 +20,20 @@ technology = {
 	naval_morale			= 2.0
 	
 	allow_client_states = yes
-	
+	may_build_flagships = yes
+    
 	merchants = yes
 	may_fabricate_claims = yes
-    may_steal_maps = yes
-    may_slander_merchants = yes
-    may_study_technology = yes
-    may_sabotage_recruitment = yes
-    may_sow_discontent = yes
-    may_sabotage_reputation = yes
-    may_corrupt_officials = yes
-    may_agitate_for_liberty = yes
-	may_infiltrate_administration = yes
 	
-	enable = warcraft_battleship_1
-	enable = warcraft_frigate_1
-	enable = warcraft_destroyer_1
-	enable = warcraft_carrier_1
+	enable = basic_heavy_ship_1
+	enable = basic_light_ship_1
+	enable = basic_galley_1
+	enable = basic_transport_1
     
-    wow_shipyard = yes
-    wow_dockyard = yes
-    wow_marketplace = yes
-    wow_internment_camp = yes
+    mod_shipyard = yes
+    mod_dockyard = yes
+    mod_marketplace = yes
+    mod_internment_camp = yes
     province_action_production = yes
 }
 
@@ -57,6 +49,7 @@ technology = {
 	year = 604
 
 	naval_morale = 0.25
+    naval_engagement_width = 5
 }
 
 technology = {
@@ -64,6 +57,8 @@ technology = {
 	year = 616
 
 	trade_efficiency = 0.05
+    
+    may_steal_maps = yes
 }
 
 technology = {
@@ -78,6 +73,7 @@ technology = {
 	year = 640
 	
 	naval_morale = 0.25
+    naval_engagement_width = 5
 }
 
 technology = {
@@ -91,7 +87,7 @@ technology = {
 	# Tech 7
 	year = 664
 	
-    wow_manufactory = yes
+    mod_manufactory = yes
     province_action_trade_center = yes
 }
 
@@ -100,6 +96,7 @@ technology = {
 	year = 676
 
     num_accepted_cultures = 1
+    may_study_technology = yes
 }
 
 technology = {
@@ -107,6 +104,7 @@ technology = {
 	year = 688
 
     naval_morale = 0.25
+    naval_engagement_width = 5
 }
 
 technology = {
@@ -114,6 +112,7 @@ technology = {
 	year = 700
 	
     trade_efficiency = 0.05
+    may_sabotage_recruitment = yes
 }
 
 technology = {
@@ -129,6 +128,8 @@ technology = {
 
     trade_range = 50
     range = 50
+    
+    may_slander_merchants = yes
 }
 
 technology = {
@@ -136,6 +137,7 @@ technology = {
 	year = 736
 
     trade_efficiency = 0.05
+    may_sow_discontent = yes
 }
 
 technology = {
@@ -143,6 +145,7 @@ technology = {
 	year = 748
 
     naval_morale = 0.25
+    naval_engagement_width = 5
 }
 
 technology = {
@@ -158,6 +161,7 @@ technology = {
 	year = 772
 
     num_accepted_cultures = 1
+    may_sabotage_reputation = yes
 }
 
 technology = {
@@ -175,6 +179,7 @@ technology = {
 	year = 796
 
     trade_efficiency = 0.05
+    may_corrupt_officials = yes
 }
 
 technology = {
@@ -182,6 +187,7 @@ technology = {
 	year = 808
 
     naval_morale = 0.25
+    naval_engagement_width = 5
 }
 
 technology = {
@@ -196,6 +202,7 @@ technology = {
 	year = 832
 
     trade_efficiency = 0.05
+    may_agitate_for_liberty = yes
 }
 
 technology = {
@@ -203,11 +210,12 @@ technology = {
 	year = 844
 
     naval_morale = 0.25
+    naval_engagement_width = 5
     
-    enable = warcraft_battleship_2
-	enable = warcraft_frigate_2
-	enable = warcraft_destroyer_2
-	enable = warcraft_carrier_2
+    enable = basic_heavy_ship_2
+	enable = basic_light_ship_2
+	enable = basic_galley_2
+	enable = basic_transport_2
 }
 
 technology = {
@@ -215,6 +223,7 @@ technology = {
 	year = 856
 
     trade_efficiency = 0.05
+	may_infiltrate_administration = yes
 }
 
 technology = {
@@ -246,6 +255,7 @@ technology = {
 	year = 904
 
     naval_morale = 0.25
+    naval_engagement_width = 5
 }
 
 technology = {
@@ -301,6 +311,7 @@ technology = {
 	year = 978
 
     naval_morale = 0.5
+    naval_engagement_width = 5
 }
 
 technology = {
@@ -325,6 +336,7 @@ technology = {
 	year = 1014
 
     naval_morale = 0.5
+    naval_engagement_width = 5
 }
 
 technology = {
@@ -339,6 +351,7 @@ technology = {
 	year = 1038
 
     naval_morale = 0.5
+    naval_engagement_width = 5
 }
 
 technology = {

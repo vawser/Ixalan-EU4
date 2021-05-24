@@ -1,34 +1,28 @@
-namespace = ixa_setup
+namespace = mod_setup
 
 #---------------------------------------
 # World
 #---------------------------------------
 country_event = {
-	id = ixa_setup.1
-	title = ixa_setup.1.title
-	desc = ixa_setup.1.desc
+	id = mod_setup.1
+	title = mod_setup.1.title
+	desc = mod_setup.1.desc
 	picture = WOW_ASSASSINATION_eventPicture
 	
     hidden = yes
     is_triggered_only = yes
 
     trigger = {
-        NOT = { has_global_flag = completed_ixa_setup }
+        NOT = { has_global_flag = completed_mod_setup }
         ai = no
     }
 
     immediate = {
-        set_global_flag = completed_ixa_setup
-        
-        # World State
-        #hre_inheritable = yes
-		#set_hre_religion = earth_mother
-		#set_hre_heretic_religion = druidism
-        #set_papacy_active = no
+        set_global_flag = completed_mod_setup
     }
 
     option = {
-		name = ixa_setup.1.option.a
+		name = mod_setup.1.option.a
     }  
 }
 
@@ -36,31 +30,24 @@ country_event = {
 # Country
 #---------------------------------------
 country_event = {
-	id = ixa_setup.2
-	title = ixa_setup.2.title
-	desc = ixa_setup.2.desc
+	id = mod_setup.2
+	title = mod_setup.2.title
+	desc = mod_setup.2.desc
 	picture = WOW_ASSASSINATION_eventPicture
 	
     is_triggered_only = yes
     hidden = yes
 
     trigger = {
-        NOT = { has_country_flag = completed_country_ixa_setup }
+        NOT = { has_country_flag = completed_country_mod_setup }
     }
     
     immediate = {
-        if = {
-             limit = { ai = no }
-             
-             set_country_flag = trade_control_flag
-        }
-        
-        discover_home_continent = yes
-        
-        set_country_flag = completed_country_ixa_setup
+        set_country_flag = completed_country_mod_setup
     }
     
     option = {
-		name = ixa_setup.2.option.a
+		name = mod_setup.2.option.a
     }  
 }
+

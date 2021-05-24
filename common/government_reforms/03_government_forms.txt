@@ -46,29 +46,6 @@ feudalism_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 }
-admiralty_reform = {
-	icon = "admiralty"
-    legacy_equivalent = admiralty_legacy
-    
-	potential = {
-		num_of_ports = 20
-	}
-	
-	modifiers = {
-		global_sailors_modifier = 0.5
-        naval_morale = 0.1
-        ship_durability = 0.1
-	}
-	
-	ai = { factor = 0 }
-    
-    valid_for_new_country = no      # Can be converted to via nation release
-    allow_normal_conversion = yes   # Can be picked as a new reform
-	allow_convert = no              # Can be converted to via peace term
-    
-	valid_for_nation_designer = yes
-	nation_designer_cost = 0
-}
 
 #--------------------------------------------
 # Republic
@@ -189,54 +166,6 @@ despotic_republic_reform = {
 
     valid_for_nation_designer = yes
     nation_designer_cost = 0
-}
-magocracy_reform = {
-	icon = "magocracy"
-    legacy_equivalent = magocracy_legacy
-    
-    potential = {
-        have_had_reform = magocracy_reform
-	}
-    
-	royal_marriage = no
-	has_term_election = yes
-	election_on_death = yes
-	duration = 10
-	
-    custom_attributes = {
-		council_system = yes
-        locked_government_type = yes
-	}
-    
-	conditional = {
-		allow = { has_dlc = "Cradle of Civilization" }
-		election_on_death = no
-	}
-    conditional = {
-		allow = { has_dlc = "Common Sense" }
-		has_parliament = yes
-	}
-
-	modifiers = {
-		technology_cost = -0.1
-        idea_cost = -0.1
-		governing_capacity_modifier = -0.25
-	}
-    
-    ai = { factor = 0 }
-    
-    valid_for_new_country = yes     # Can be converted to via nation release
-    allow_normal_conversion = yes   # Can be picked as a new reform
-    allow_convert = yes             # Can be converted to via peace term
-
-    valid_for_nation_designer = yes
-    nation_designer_cost = 0
-    nation_designer_trigger = {
-        OR = {
-			religion = arcane
-			religion = fel
-		}
-    }
 }
 free_city_reform = {
 	icon = "free_city"
@@ -526,9 +455,9 @@ native_tribe_reform = {
 #------------------------------------------------------------
 # Pirate
 #------------------------------------------------------------
-pirate_haven_reform = {
-	icon = "pirate_republic_wwu"
-    legacy_equivalent = pirate_haven_legacy
+pirate_republic_reform = {
+	icon = "pirate_republic_mod"
+    legacy_equivalent = pirate_republic_legacy
     
     has_term_election = yes
 	duration = 4
@@ -560,3 +489,40 @@ pirate_haven_reform = {
     valid_for_nation_designer = yes
     nation_designer_cost = 0
 }
+pirate_kingdom_reform = {
+	icon = "pirate_kingdom"
+    legacy_equivalent = pirate_kingdom_legacy
+    
+	has_term_election = no
+    
+    custom_attributes = {
+		admirals_become_rulers = yes
+	}
+    
+	modifiers = {
+		republican_tradition = -1
+		naval_forcelimit_modifier = 0.5
+		capture_ship_chance = 0.33
+		pr_captains_influence = 0.1
+		harsh_treatment_cost = -0.2
+		leader_naval_fire = 1
+		may_perform_slave_raid_on_same_religion = yes
+	}
+
+    factions_frame = 9
+	factions = {
+		pr_buccaneers
+		pr_smugglers
+		pr_captains
+	}
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+

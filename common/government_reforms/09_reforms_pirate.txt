@@ -1,8 +1,8 @@
 #-----------------------------------------
 # "Piratical Governance"
 #-----------------------------------------
-ixa_council_of_captains_reform = {
-	icon = "council_of_captains_wwu"
+mod_council_of_captains_reform = {
+	icon = "council_of_captains_mod"
 	allow_normal_conversion = yes
 	
 	modifiers = {
@@ -15,8 +15,8 @@ ixa_council_of_captains_reform = {
 	}
 }
 
-ixa_articles_of_agreement_reform = {
-	icon = "articles_of_agreement_wwu"
+mod_articles_of_agreement_reform = {
+	icon = "articles_of_agreement_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {
@@ -30,8 +30,8 @@ ixa_articles_of_agreement_reform = {
 	}
 }
 
-ixa_smugglers_haven_reform = {
-	icon = "smugglers_haven_wwu"
+mod_smugglers_haven_reform = {
+	icon = "smugglers_haven_mod"
 	allow_normal_conversion = yes
     
 	modifiers = {
@@ -46,11 +46,11 @@ ixa_smugglers_haven_reform = {
 #-----------------------------------------
 # "Piratical Principles"
 #-----------------------------------------
-ixa_war_against_the_world_doctrine_reform = {
-	icon = "war_against_the_world_doctrine_wwu"
+mod_war_against_the_world_doctrine_reform = {
+	icon = "war_against_the_world_doctrine_mod"
 	allow_normal_conversion = yes
 	
-	disallowed_trade_goods = { ixa_slaves }
+	disallowed_trade_goods = { mod_slaves }
     
 	modifiers = {
 		pr_buccaneers_influence = 0.1
@@ -67,8 +67,8 @@ ixa_war_against_the_world_doctrine_reform = {
 	}
 }
 
-ixa_black_market_consortium_reform = {
-	icon = "black_market_consortium_wwu"
+mod_black_market_consortium_reform = {
+	icon = "black_market_consortium_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {
@@ -92,8 +92,8 @@ ixa_black_market_consortium_reform = {
 #-----------------------------------------
 # "Reformation of Government"
 #-----------------------------------------
-ixa_strengthen_pirate_unity_reform = {
-	icon = "strengthen_pirate_unity_wwu"
+mod_strengthen_pirate_unity_reform = {
+	icon = "strengthen_pirate_unity_mod"
 	allow_normal_conversion = yes
 
 	modifiers = {

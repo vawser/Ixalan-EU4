@@ -1,0 +1,29 @@
+﻿l_english: 
+ #-----------------------------------------------
+ # Formation
+ #-----------------------------------------------
+ 
+ #-----------------------------------------------
+ # Cultural
+ #-----------------------------------------------
+ mod_cultural_shift_title: "Shift Culture"
+ mod_cultural_shift_desc: "Our primary culture has become a minority for the majority of our citizens. Let us adopt the majority culture as our own to sate any cultural unrest."
+ 
+ #-----------------------------------------------
+ # Army Professionalism
+ #-----------------------------------------------
+ institute_yearly_assessments_title: "Institute Yearly Assessments"
+ institute_yearly_assessments_desc: "To ensure our troops are professional, we shall institute a system of yearly assessments to ensure standards are maintained. This will cost the state however."
+ 
+ #-----------------------------------------------
+ # Innovativeness
+ #-----------------------------------------------
+ invest_in_speculative_research_title: "Invest in Speculative Research"
+ invest_in_speculative_research_desc: "The inventive require investment to bring their ideas to fruition. By supplying promising new tinkerers with the materials and tools they need, we shall benefit from their creativity."
+ 
+ #-----------------------------------------------
+ # Pirate
+ #-----------------------------------------------
+ adopt_piratical_government_title: "Adopt Piratical Government"
+ adopt_piratical_government_desc: "Let us adopt a form of piratical government, and claim the high seas as our own."
+ 

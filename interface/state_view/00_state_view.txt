@@ -1,5 +1,5 @@
 banners = {
-    priority = 2
+    priority = 1
     requires_country_state = yes
     dlcs_required = {
         "Mandate of Heaven"
@@ -7,7 +7,7 @@ banners = {
 }
 
 patriarch = {
-    priority = 3
+    priority = 2
     requires_country_state = yes
     dlcs_required = {
         "Third Rome"
@@ -15,7 +15,7 @@ patriarch = {
 }
 
 pasha = {
-    priority = 4
+    priority = 3
     requires_country_state = yes
     dlcs_required = {
         "Cradle of Civilization"
@@ -23,7 +23,7 @@ pasha = {
 }
 
 trade_company = {
-    priority = 1
+    priority = 4
     requires_country_state = no
     dlcs_required = {
         "Dharma"
