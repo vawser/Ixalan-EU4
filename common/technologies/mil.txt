@@ -36,6 +36,8 @@ technology = {
     enable = basic_artillery_1_option_a
     enable = basic_artillery_1_option_b
     
+    enable = native_infantry
+    
     mod_barracks = yes
     mod_arsenal = yes
     mod_fort_1 = yes
