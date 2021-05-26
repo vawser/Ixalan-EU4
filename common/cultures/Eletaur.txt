@@ -1,0 +1,25 @@
+eletaur_group = {
+	graphical_culture = eletaur_gfx
+    
+    male_names = {
+        
+    }
+    female_names = {
+        
+    }
+    dynasty_names = {
+        
+    }
+
+    ADD_ = {  
+		male_names = {
+            
+        }
+        female_names = {
+            
+        }
+        dynasty_names = {
+            
+        }
+	}
+}

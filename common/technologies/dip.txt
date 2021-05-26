@@ -9,7 +9,7 @@ ahead_of_time = {
 # Pre-era techs
 technology = {
 	# Tech 0
-	year = 590
+	year = 1000
 	
 	num_accepted_cultures   = 2
     global_colonial_growth	= 40
@@ -30,23 +30,22 @@ technology = {
 	enable = basic_galley_1
 	enable = basic_transport_1
     
-    mod_shipyard = yes
-    mod_dockyard = yes
-    mod_marketplace = yes
-    mod_internment_camp = yes
-    province_action_production = yes
+    market = yes
+    mine = yes
+    dock = yes
+    shipyard = yes
 }
 
 technology = {
 	# Tech 1
-	year = 598
+	year = 1012
 
 	trade_efficiency = 0.05
 }
 
 technology = {
 	# Tech 2
-	year = 604
+	year = 1024
 
 	naval_morale = 0.25
     naval_engagement_width = 5
@@ -54,7 +53,7 @@ technology = {
 
 technology = {
 	# Tech 3
-	year = 616
+	year = 1036
 
 	trade_efficiency = 0.05
     
@@ -63,14 +62,14 @@ technology = {
 
 technology = {
 	# Tech 4
-	year = 628
+	year = 1048
 	
     num_accepted_cultures = 1
 }
 
 technology = {
 	# Tech 5
-	year = 640
+	year = 1060
 	
 	naval_morale = 0.25
     naval_engagement_width = 5
@@ -78,22 +77,30 @@ technology = {
 
 technology = {
 	# Tech 6
-	year = 652
+	year = 1072
 
 	trade_efficiency = 0.05
 }
 
 technology = {
 	# Tech 7
-	year = 664
+	year = 1084
 	
-    mod_manufactory = yes
-    province_action_trade_center = yes
+    farmers_guild = yes
+    foresters_guild = yes
+    blacksmiths_guild = yes
+    tailors_guild = yes
+    artisans_guild = yes
+    merchants_quarter = yes
+    slavers_guild = yes
+    cot = yes
+    naval_academy = yes
+    tourney_grounds = yes
 }
 
 technology = {
 	# Tech 8
-	year = 676
+	year = 1096
 
     num_accepted_cultures = 1
     may_study_technology = yes
@@ -101,7 +108,7 @@ technology = {
 
 technology = {
 	# Tech 9
-	year = 688
+	year = 1108
 
     naval_morale = 0.25
     naval_engagement_width = 5
@@ -109,7 +116,7 @@ technology = {
 
 technology = {
 	# Tech 10
-	year = 700
+	year = 1120
 	
     trade_efficiency = 0.05
     may_sabotage_recruitment = yes
@@ -117,14 +124,14 @@ technology = {
 
 technology = {
 	# Tech 11
-	year = 712
+	year = 1132
 
     naval_morale = 0.25
 }
 
 technology = {
 	# Tech 12
-	year = 724
+	year = 1144
 
     trade_range = 50
     range = 50
@@ -134,7 +141,7 @@ technology = {
 
 technology = {
 	# Tech 13
-	year = 736
+	year = 1156
 
     trade_efficiency = 0.05
     may_sow_discontent = yes
@@ -142,7 +149,7 @@ technology = {
 
 technology = {
 	# Tech 14
-	year = 748
+	year = 1168
 
     naval_morale = 0.25
     naval_engagement_width = 5
@@ -150,7 +157,7 @@ technology = {
 
 technology = {
 	# Tech 15
-	year = 760
+	year = 1180
 	
 	trade_range = 50
     range = 50
@@ -158,7 +165,7 @@ technology = {
 
 technology = {
 	# Tech 16
-	year = 772
+	year = 1192
 
     num_accepted_cultures = 1
     may_sabotage_reputation = yes
@@ -166,7 +173,7 @@ technology = {
 
 technology = {
 	# Tech 17
-	year = 784
+	year = 1204
 
     naval_maintenance = 0.1
     trade_range = 100
@@ -176,7 +183,7 @@ technology = {
 
 technology = {
 	# Tech 18
-	year = 796
+	year = 1216
 
     trade_efficiency = 0.05
     may_corrupt_officials = yes
@@ -184,7 +191,7 @@ technology = {
 
 technology = {
 	# Tech 19
-	year = 808
+	year = 1228
 
     naval_morale = 0.25
     naval_engagement_width = 5
@@ -192,14 +199,14 @@ technology = {
 
 technology = {
 	# Tech 20
-	year = 820
+	year = 1240
 
     num_accepted_cultures = 1
 }
 
 technology = {
 	# Tech 21
-	year = 832
+	year = 1255
 
     trade_efficiency = 0.05
     may_agitate_for_liberty = yes
@@ -207,7 +214,7 @@ technology = {
 
 technology = {
 	# Tech 22
-	year = 844
+	year = 1270
 
     naval_morale = 0.25
     naval_engagement_width = 5
@@ -220,7 +227,7 @@ technology = {
 
 technology = {
 	# Tech 23
-	year = 856
+	year = 1285
 
     trade_efficiency = 0.05
 	may_infiltrate_administration = yes
@@ -228,14 +235,14 @@ technology = {
 
 technology = {
 	# Tech 24
-	year = 868
+	year = 1300
 
     num_accepted_cultures = 1
 }
 
 technology = {
 	# Tech 25
-	year = 880
+	year = 1315
 
     naval_maintenance = 0.1
     trade_range = 100
@@ -245,14 +252,14 @@ technology = {
 
 technology = {
 	# Tech 26
-	year = 892
+	year = 1330
 	
     trade_efficiency = 0.05
 }
 
 technology = {
 	# Tech 27
-	year = 904
+	year = 1345
 
     naval_morale = 0.25
     naval_engagement_width = 5
@@ -260,14 +267,14 @@ technology = {
 
 technology = {
 	# Tech 28
-	year = 916
+	year = 1360
 
     num_accepted_cultures = 1
 }
 
 technology = {
 	# Tech 29
-	year = 928
+	year = 1375
 
     naval_maintenance = 0.2
     trade_range = 100
@@ -277,28 +284,28 @@ technology = {
 
 technology = {
 	# Tech 30
-	year = 930
+	year = 1390
 
     naval_morale = 0.5
 }
 
 technology = {
 	# Tech 31
-	year = 942
+	year = 1405
 
     trade_efficiency = 0.05
 }
 
 technology = {
 	# Tech 32
-	year = 954
+	year = 1420
 	
     num_accepted_cultures = 1
 }
 
 technology = {
 	# Tech 33
-	year = 966
+	year = 1435
 
     naval_maintenance = 0.2
     trade_range = 100
@@ -308,7 +315,7 @@ technology = {
 
 technology = {
 	# Tech 34
-	year = 978
+	year = 1450
 
     naval_morale = 0.5
     naval_engagement_width = 5
@@ -316,14 +323,14 @@ technology = {
 
 technology = {
 	# Tech 35
-	year = 990
+	year = 1465
 
     trade_efficiency = 0.1
 }
 
 technology = {
 	# Tech 36
-	year = 1002
+	year = 1480
 
     naval_maintenance = 0.2
     trade_range = 100
@@ -333,7 +340,7 @@ technology = {
 
 technology = {
 	# Tech 37
-	year = 1014
+	year = 1495
 
     naval_morale = 0.5
     naval_engagement_width = 5
@@ -341,14 +348,14 @@ technology = {
 
 technology = {
 	# Tech 38
-	year = 1026
+	year = 1510
 
     trade_efficiency = 0.15
 }
 
 technology = {
 	# Tech 39
-	year = 1038
+	year = 1525
 
     naval_morale = 0.5
     naval_engagement_width = 5
@@ -356,7 +363,7 @@ technology = {
 
 technology = {
 	# Tech 40
-	year = 1050
+	year = 1540
 
     naval_maintenance = 0.2
     trade_range = 100

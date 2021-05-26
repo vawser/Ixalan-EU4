@@ -4,506 +4,495 @@
 # cost = x #==> cost in $ to build (subject to other modifiers)
 # time = x #==> number of months to build.
 # modifier = m # a modifier on the province that the building gives
-# build_trigger  = t # an and build_trigger  that needs to be fullfilled to build and keep the building
+# build_trigger = t # an and trigger that needs to be fullfilled to build and keep the building
 # one_per_country = yes/no # if yes, only one of these can exist in a country
 # manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
 # onmap = yes/no # show as a sprite on the map
-# indestructible = yes # Stops the buildings being destroyed by bankruptcy
 
 # FROM = owner
 # ROOT = province
 
 # AI will consider buildings it does not have the tech for at 20% of scripted AI weight (in case it wants to save slots)
 
-#----------------------------------
-# Generic
-#----------------------------------
-mod_farm = {
-	cost = 250
+# Base localisation is for Good, i.e. building_<name>
+# Alternate localisation for Evil (use religion group, i.e. building_<name>_<group>:
+
+#--------------------------------------
+# General
+#--------------------------------------
+# Town Hall
+town_hall = {
+	cost = 300
 	time = 12
-    
+
 	modifier = {
-		local_development_cost = -0.25
+        local_development_cost = -0.1
         local_governing_cost = -0.25
 	}
 	
 	ai_will_do = {
-		factor = 100
-
-		modifier = {
-			factor = 2
-            development = 10
-		}
-        modifier = {
-			factor = 2
-            development = 20
-		}
-        modifier = {
-			factor = 2
-            development = 30
-		}
-	}
-}
-mod_internment_camp = {
-	cost = 250
-	time = 12
-	
-	modifier = {
-		local_unrest = -3
-        culture_conversion_cost = -0.5
-	}
-	
-	ai_will_do = {
-		factor = 50
-	}
-}
-mod_temple = {
-	cost = 250
-	time = 12
-    
-	modifier = {
-		local_missionary_strength = 0.03
-        local_tax_modifier = 0.5
-	}
-	
-	ai_will_do = {
-		factor = 100
-	}
-}
-mod_mine = {
-	cost = 250
-	time = 12
-    
-	modifier = {
-		local_production_efficiency = 0.5
-	}
-	
-	ai_will_do = {
-		factor = 100
-	}
-}
-mod_barracks = {
-	cost = 250
-	time = 12
-    
-	modifier = {
-		local_manpower_modifier = 0.5
-	}
-	
-	ai_will_do = {
-		factor = 100
-	}
-}
-mod_arsenal = {
-	cost = 250
-	time = 12
-    
-	modifier = {
-		land_forcelimit = 5
-        supply_limit_modifier = 0.5
-	}
-	
-	ai_will_do = {
-		factor = 50
-        
-		modifier = {
-			factor = 0
-			owner = { land_forcelimit = 100 }
-		}
-        modifier = {
-			factor = 2
-			owner = { NOT = { land_forcelimit = 20 } }
-		}
-	}
-}
-mod_shipyard = {
-	cost = 250
-	time = 12
-	
-    build_trigger  = { 
-        has_port = yes
-    }
-    
-	modifier = {
-		local_ship_repair = 1
-        local_ship_cost = -0.5
-	}
-	
-	ai_will_do = {
-		factor = 100
-	}
-}
-mod_dockyard = {
-	cost = 250
-	time = 12
-	
-    build_trigger  = { 
-        has_port = yes
-    }
-    
-	modifier = {
-		local_sailors_modifier = 0.5
-        ship_recruit_speed = -0.5
-	}
-	
-	ai_will_do = {
-		factor = 100
-	}
-}
-mod_marketplace = {
-	cost = 250
-	time = 12
-
-	modifier = {
-		province_trade_power_modifier = 0.5
-	}
-	
-	ai_will_do = {
-		factor = 100
-	}
-}
-mod_tavern = {
-	cost = 250
-	time = 12
-    
-	modifier = {
-		local_friendly_movement_speed = 0.25
-        local_monthly_devastation = -0.1
-        #local_institution_spread = 0.25
-	}
-	
-	ai_will_do = {
-		factor = 100
+		factor = 1
 	}
 }
 
-#----------------------------------
-# Fortification
-#----------------------------------
-mod_fort_1 = {
+# Tavern
+tavern = {
 	cost = 100
-	time = 30
-    
+	time = 12
+
 	modifier = {
-		fort_level = 2
-        garrison_growth = 0.2
+        local_unrest = -1
+        local_culture_conversion_cost = -0.25
 	}
 	
-	onmap = yes
-	
-	influencing_fort = yes
-	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0.5
-			NOT = {
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-		}			
-		modifier = {
-			factor = 2.0
-			any_neighbor_province = {
-				NOT = { owned_by = ROOT }
-			}
-		}	
-		modifier = {
-			factor = 0.1
-			is_overseas = yes
-		}	
-		modifier = {
-			factor = 0
-			any_neighbor_province = {
-				owned_by = ROOT
-				OR = {
-					has_building = mod_fort_1
-					has_building = mod_fort_2
-					has_building = mod_fort_3
-					has_building = mod_fort_4
-				}
-			}
-		}		
+		factor = 1
 	}
 }
 
-mod_fort_2 = {
+# Market
+market = {
+	cost = 150
+	time = 12
+
+	modifier = {
+        province_trade_power_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1.5
+	}
+}
+
+# Farm
+farm = {
+	cost = 100
+	time = 12
+
+	modifier = {
+        local_tax_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Mine
+mine = {
+	cost = 100
+	time = 12
+
+	modifier = {
+        local_production_efficiency = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Church / Temple
+temple = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        local_missionary_strength = 0.03
+        local_state_maintenance_modifier = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Dock
+dock = {
+	cost = 200
+	time = 12
+
+    build_trigger = {
+		has_port = yes
+	}
+    
+	modifier = {
+        local_sailors_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Shipyard
+shipyard = {
+	cost = 200
+	time = 12
+
+    build_trigger = {
+		has_port = yes
+	}
+    
+	modifier = {
+        naval_forcelimit = 2
+		ship_recruit_speed = -0.25
+		local_ship_repair = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Barracks
+barracks = {
+	cost = 100
+	time = 12
+
+	modifier = {
+        local_manpower_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Drill Square
+drill_square = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        land_forcelimit = 2
+        regiment_recruit_speed = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Paved Road
+paved_road = {
+	cost = 300
+	time = 12
+
+	modifier = {
+        local_friendly_movement_speed = 0.5
+        local_governing_cost = -0.1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Supply Depot
+supply_depot = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        supply_limit_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+#--------------------------------------
+# Forts
+#--------------------------------------
+# Motte and Bailey
+motte_and_bailey = {
 	cost = 250
-	time = 30
-    make_obsolete = mod_fort_1
+	time = 12
+
+    onmap = yes
+	influencing_fort = yes
     
 	modifier = {
-		fort_level = 3
-        garrison_growth = 0.3
+        fort_level = 1
+        local_hostile_movement_speed = -0.1
 	}
-	
-	onmap = yes
-	
-	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0.5
-			NOT = {
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-		}			
-		modifier = {
-			factor = 2.0
-			any_neighbor_province = {
-				NOT = { owned_by = ROOT }
-			}
-		}	
-		modifier = {
-			factor = 0.1
-			is_overseas = yes
-		}	
-		modifier = {
-			factor = 0
-			any_neighbor_province = {
-				owned_by = ROOT
-				OR = {
-					has_building = mod_fort_1
-					has_building = mod_fort_2
-					has_building = mod_fort_3
-					has_building = mod_fort_4
-				}
-			}
-		}		
+		factor = 1
 	}
 }
-    
-mod_fort_3 = {
+
+# Castle
+castle = {
 	cost = 500
-	time = 30
-    make_obsolete = mod_fort_2
+	time = 12
+    make_obsolete = motte_and_bailey
+    
+    onmap = yes
+	influencing_fort = yes
     
 	modifier = {
-		fort_level = 4
-        garrison_growth = 0.4
+        fort_level = 2
+        local_hostile_movement_speed = -0.2
 	}
 	
-	onmap = yes
-	
-	influencing_fort = yes
-	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0.5
-			NOT = {
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-		}			
-		modifier = {
-			factor = 2.0
-			any_neighbor_province = {
-				NOT = { owned_by = ROOT }
-			}
-		}	
-		modifier = {
-			factor = 0.1
-			is_overseas = yes
-		}	
-		modifier = {
-			factor = 0
-			any_neighbor_province = {
-				owned_by = ROOT
-				OR = {
-					has_building = mod_fort_1
-					has_building = mod_fort_2
-					has_building = mod_fort_3
-					has_building = mod_fort_4
-				}
-			}
-		}		
+		factor = 1
 	}
 }
 
-mod_fort_4 = {
-	cost = 1000
-	time = 30
-    make_obsolete = mod_fort_3
-
+# Fortress
+fortress = {
+	cost = 750
+	time = 12
+    make_obsolete = castle
+    
+    onmap = yes
+	influencing_fort = yes
+    
 	modifier = {
-		fort_level = 5
-        garrison_growth = 0.5
+        fort_level = 3
+        local_hostile_movement_speed = -0.3
 	}
 	
-	onmap = yes
-	
-	influencing_fort = yes
-	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0.5
-			NOT = {
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-				}
-			}
-		}			
-		modifier = {
-			factor = 2.0
-			any_neighbor_province = {
-				NOT = { owned_by = ROOT }
-			}
-		}	
-		modifier = {
-			factor = 0.1
-			is_overseas = yes
-		}	
-		modifier = {
-			factor = 0
-			any_neighbor_province = {
-				owned_by = ROOT
-				OR = {
-					has_building = mod_fort_1
-					has_building = mod_fort_2
-					has_building = mod_fort_3
-					has_building = mod_fort_4
-				}
-			}
-		}		
+		factor = 1
 	}
 }
 
-#----------------------------------
-# Manufactories
-#----------------------------------
+
+# Citadel
+citadel = {
+	cost = 1000
+	time = 12
+    make_obsolete = fortress
+    
+    onmap = yes
+    influencing_fort = yes
+    
+	modifier = {
+        fort_level = 4
+        local_hostile_movement_speed = -0.4
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+#--------------------------------------
+# Trade
+#--------------------------------------
+cot = {
+	cost = 1000
+	time = 12
+    
+	build_trigger = {
+        
+        NOT = {
+            any_province_in_state = {
+                province_has_center_of_trade_of_level = 1
+            }
+        }
+        NOT = {
+            any_province_in_state = {
+                has_construction = building 
+            }
+        }
+        NOT = {
+            any_province_in_state = {
+                has_building = cot
+            }
+        }
+    }
+    
+    on_built = {
+        center_of_trade = 1
+        hidden_effect = { remove_building = cot }
+    }
+    
+	ai_will_do = {
+		factor = 1
+	}
+}
+
 manufactory = {
 	cost = 500
-	time = 60
+	time = 12
+    
 	modifier = {
 		trade_goods_size = 1.0
 	}
 }
 
-mod_manufactory = {
-	manufactory = {
-		all
-	}
-
+# Farmers Guild
+farmers_guild = {
+    manufactory = {
+        mod_food
+    }
+	
 	ai_will_do = {
-		factor = 1750
-
-		modifier = {
-			factor = 0.4
-			NOT = { base_production = 6 }
-		}
-		modifier = {
-			factor = 1.5
-			base_production = 10
-		}
-		modifier = {
-			factor = 1.5
-			base_production = 15
-		}
-		modifier = {
-			NOT = { num_free_building_slots = 3 }
-			factor = 1.5
-		}
+		factor = 1
 	}
 }
 
-mod_arcane_tower = {
-	manufactory = {
-		mod_artifacts
+# Foresters Guild
+foresters_guild = {
+    manufactory = {
+        mod_lumber
+    }
+	
+	ai_will_do = {
+		factor = 1
 	}
+}
+
+# Blacksmiths Guild
+blacksmiths_guild = {
+    manufactory = {
+        mod_metals
+    }
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Artisans Guild
+artisans_guild = {
+    manufactory = {
+        mod_jewelry
+        mod_artifacts
+    }
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Tailors Guild
+tailors_guild = {
+    manufactory = {
+        mod_textiles
+    }
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Slavers Guild
+slavers_guild = {
+    manufactory = {
+        mod_slaves
+    }
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+#--------------------------------------
+# Unique
+#--------------------------------------
+# Royal Palace
+grand_palace = {
+	cost = 5000
+	time = 12
+    one_per_country = yes
     
 	modifier = {
-		global_trade_goods_size_modifier = 0.05
-	}
-	show_separate = yes
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-mod_citadel = {
-	manufactory = {
-		all
-	}
-	modifier = {
-        fort_level = 2
-		local_hostile_attrition = 2
-		local_defensiveness = 0.33
-	}
-	onmap = yes
-	show_separate = yes 
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-mod_city_barracks = {
-	manufactory = {
-		all
-	}
-
-	modifier = {
-		local_manpower = 1.0
-	}
-    
-	show_separate = yes 
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-mod_garrison = {
-	manufactory = {
-		all
-	}
-
-	build_trigger = {
-		NOT = {
-			area_for_scope_province = {
-				owner = {
-					tag = ROOT
-				}
-				OR = {
-					has_building = mod_garrison
-					has_construction = mod_garrison
-				}
-			}
-		}
+        legitimacy = 1
+        republican_tradition = 1
+        devotion = 1
+        horde_unity = 1
+        meritocracy = 1
+        statewide_governing_cost = -0.25
 	}
 	
-	keep_trigger = {
-		NOT = {
-			area_for_scope_province = {
-				NOT = { province_id = root }
-				owner = {
-					tag = ROOT
-				}
-				OR = {
-					has_building = mod_garrison
-					has_construction = mod_garrison
-				}
-			}
-		}
-	}
-
-	modifier = {
-		statewide_governing_cost = -0.5
-		min_local_autonomy = -5
-	}
-    
-	show_separate = yes 
-
 	ai_will_do = {
 		factor = 1
 	}
 }
 
+# Merchant's Quarter
+merchants_quarter = {
+	cost = 5000
+	time = 12
+    one_per_country = yes
+    
+	modifier = {
+        merchants = 1
+        global_own_trade_power = 0.2
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Cathedral / Grand Temple
+grand_temple = {
+	cost = 5000
+	time = 12
+    one_per_country = yes
+    
+	modifier = {
+        global_missionary_strength = 0.03
+        missionaries = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Tourney Grounds
+tourney_grounds = {
+	cost = 5000
+	time = 12
+    one_per_country = yes
+    
+	modifier = {
+        diplomatic_reputation = 1
+        improve_relation_modifier = 0.2
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Military Academy
+military_academy = {
+	cost = 5000
+	time = 12
+    one_per_country = yes
+    
+	modifier = {
+        army_tradition_from_battle = 1.0
+        army_tradition = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+# Naval Academy
+naval_academy = {
+	cost = 5000
+	time = 12
+    one_per_country = yes
+    
+	modifier = {
+        naval_tradition_from_trade = 1.0
+        navy_tradition = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

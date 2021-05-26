@@ -7,7 +7,7 @@ country_event = {
 	id = mod_setup.1
 	title = mod_setup.1.title
 	desc = mod_setup.1.desc
-	picture = WOW_ASSASSINATION_eventPicture
+	picture = BIG_BOOK_eventPicture
 	
     hidden = yes
     is_triggered_only = yes
@@ -33,7 +33,7 @@ country_event = {
 	id = mod_setup.2
 	title = mod_setup.2.title
 	desc = mod_setup.2.desc
-	picture = WOW_ASSASSINATION_eventPicture
+	picture = BIG_BOOK_eventPicture
 	
     is_triggered_only = yes
     hidden = yes

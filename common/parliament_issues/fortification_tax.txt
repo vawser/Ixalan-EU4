@@ -7,10 +7,10 @@ fortification_tax = {
 		num_of_owned_provinces_with = {
 			value = 3
 			OR = {
-				has_building = mod_fort_1
-				has_building = mod_fort_2
-				has_building = mod_fort_3
-				has_building = mod_fort_4
+				has_building = motte_and_bailey
+				has_building = castle
+				has_building = fortress
+				has_building = citadel
 			}
 		}
 	}
@@ -27,10 +27,10 @@ fortification_tax = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { mod_fort_1 = 2 }
-			NOT = { mod_fort_2 = 2 }
-			NOT = { mod_fort_3 = 2 }
-			NOT = { mod_fort_4 = 2 }
+			NOT = { motte_and_bailey = 2 }
+			NOT = { castle = 2 }
+			NOT = { fortress = 2 }
+			NOT = { citadel = 2 }
 		}
 	}
 	

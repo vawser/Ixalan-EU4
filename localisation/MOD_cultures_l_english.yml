@@ -1,4 +1,40 @@
 ﻿l_english:
+ #-----------------------------------
+ # Cultures
+ #-----------------------------------
+ human_group: "Human"
+ 
+ elf_group: "Elf"
+ rukmari: "Rukmari"
+ 
+ dwarf_group: "Dwarf"
+ 
+ orc_group: "Orc"
+ 
+ lizardmen_group: "Lizardmen"
+ 
+ arak_group: "Arak"
+ 
+ eletaur_group: "Eletaur"
+ 
+ bugbear_group: "Bugbear"
+ 
+ furlog_group: "Furlog"
+ 
+ frogot_group: "Frogot"
+ 
+ tigeri_group: "Tigeri"
+ 
+ minotaur_group: "Minotaur"
+ 
+ satyr_group: "Satyr"
+ 
+ tortol_group: "Tortol"
+ 
+ kobold_group: "Kobold"
+ 
+ felid_gfx: "Felid"
+ 
  primitive_group: "Primitive"
  primitive: "Primitive"
  

@@ -1,25 +1,26 @@
 #-----------------------------------
 # Setup
 #-----------------------------------
-technology_group = western
+technology_group = tech_elf
 
 government = monarchy
 add_government_reform = autocracy_reform
 
-primary_culture = primitive
-religion = shamanism
+primary_culture = rukmari
+religion = isnir
 
-capital = 200
+capital = 1437
 
 #-----------------------------------
 # Ruler
 #-----------------------------------
-100.1.1 = {
+1000.1.1 = {
     monarch = {
-        name = "Cyrrigos the Violent"
-        adm = 6
-        dip = 6
+        name = "Otokar"
+        dynasty = "von Gottberg"
+        adm = 5
+        dip = 5
         mil = 6
-        birth_date = 50.1.1
+        birth_date = 980.1.1
     }
 }

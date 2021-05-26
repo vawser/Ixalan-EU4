@@ -999,7 +999,7 @@ take_province_excommunication = {
 	allowed_provinces = {
 		owner = { 
 			is_excommunicated = yes
-			religion = fel		
+			#religion = fel		
 		}
 		OR = {
 			is_core = ROOT

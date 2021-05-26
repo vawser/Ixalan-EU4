@@ -7,79 +7,68 @@
 #Nation Designer Cost is set to match triggers for starting institutions.
 
 groups = {
-	western = {
-		start_level = 3
+	tech_human = {
+		start_level = 1
 		start_cost_modifier = 0
 	}
-	eastern = {
-		start_level = 3
-		start_cost_modifier = 0.20
-	}
-	ottoman = {
-		start_level = 3
-		start_cost_modifier = 0.25
-	}
-	muslim = {
-		start_level = 3
-		start_cost_modifier = 0.40
-	}
-	indian = {
-		start_level = 3
-		start_cost_modifier = 0.5
-	}
-	east_african = {
-		start_level = 3
-		start_cost_modifier = 0.5
-	}
-	central_african = {
-		start_level = 2
-		start_cost_modifier = 0.65
-	}
-	chinese = {
-		start_level = 3
-		start_cost_modifier = 0.6
-	}
-	nomad_group = {
-		start_level = 3
-		start_cost_modifier = 0.75
-	}
-	sub_saharan = { #West African
-		start_level = 2
-		start_cost_modifier = 0.6
-	}
-	north_american = {
+    tech_elf = {
 		start_level = 1
-		start_cost_modifier = 2.5
-		is_primitive = yes
+		start_cost_modifier = 0
 	}
-	mesoamerican = {
+    tech_dwarf = {
 		start_level = 1
-		start_cost_modifier = 1.5
-		is_primitive = yes
+		start_cost_modifier = 0
 	}
-	south_american = {
+    tech_orc = {
 		start_level = 1
-		start_cost_modifier = 2.5
-		is_primitive = yes
+		start_cost_modifier = 0
 	}
-	andean = {
+    tech_lizardmen = {
 		start_level = 1
-		start_cost_modifier = 1.5
-		is_primitive = yes
-	}	
-	aboriginal_tech = {
+		start_cost_modifier = 0
+	}
+    tech_arak = {
+		start_level = 0
+		start_cost_modifier = 0
+	}
+    tech_eletaur = {
 		start_level = 1
-		start_cost_modifier = 2.5
-		is_primitive = yes
+		start_cost_modifier = 0
 	}
-	polynesian_tech = {
-		start_level = 2
-		start_cost_modifier = 2
-		is_primitive = yes
+    tech_bugbear = {
+		start_level = 0
+		start_cost_modifier = 0
 	}
-	
-	high_american = {
-		start_level = 3
+    tech_furlog = {
+		start_level = 0
+		start_cost_modifier = 0
+	}
+    tech_frogot = {
+		start_level = 1
+		start_cost_modifier = 0
+	}
+    tech_tigeri = {
+		start_level = 0
+		start_cost_modifier = 0
+	}
+    tech_minotaur = {
+		start_level = 0
+		start_cost_modifier = 0
+	}
+    tech_satyr = {
+		start_level = 1
+		start_cost_modifier = 0
+	}
+    tech_tortol = {
+		start_level = 1
+		start_cost_modifier = 0
+	}
+    tech_kobold = {
+		start_level = 0
+		start_cost_modifier = 0
+	}
+    tech_felid = {
+		start_level = 0
 		start_cost_modifier = 0
 	}
 }

@@ -1,0 +1,25 @@
+orc_group = {
+	graphical_culture = orc_gfx
+    
+    male_names = {
+        
+    }
+    female_names = {
+        
+    }
+    dynasty_names = {
+        
+    }
+
+    ADD_ = {  
+		male_names = {
+            
+        }
+        female_names = {
+            
+        }
+        dynasty_names = {
+            
+        }
+	}
+}

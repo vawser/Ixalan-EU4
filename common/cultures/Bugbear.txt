@@ -1,0 +1,25 @@
+bugbear_group = {
+	graphical_culture = bugbear_gfx
+    
+    male_names = {
+        
+    }
+    female_names = {
+        
+    }
+    dynasty_names = {
+        
+    }
+
+    ADD_ = {  
+		male_names = {
+            
+        }
+        female_names = {
+            
+        }
+        dynasty_names = {
+            
+        }
+	}
+}

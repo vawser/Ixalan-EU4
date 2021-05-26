@@ -321,7 +321,7 @@ mod_administrative_missions = {
 		required_missions = { mod_high_income_mission }
         
 		trigger = {
-			mod_temple = 5
+			temple = 5
 		}
 		effect = {
 			add_adm_power = 50
@@ -355,7 +355,12 @@ mod_administrative_missions = {
 				desc = build_manufactories_mission_tooltip
 				all_owned_province = {
 					OR = {
-						has_building = mod_manufactory
+						has_building = farmers_guild
+						has_building = foresters_guild
+						has_building = blacksmiths_guild
+						has_building = artisans_guild
+						has_building = tailors_guild
+						has_building = slavers_guild
 					}
 				}
 				amount = 20

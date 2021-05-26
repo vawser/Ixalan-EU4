@@ -2,5 +2,5 @@ REB = "countries/Rebels.txt"
 PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
 
-# --- Countries ---
+# --- Elf ---
 RUK = "countries/Rukmar.txt"

@@ -1,0 +1,25 @@
+lizardmen_group = {
+	graphical_culture = lizardmen_gfx
+    
+    male_names = {
+        
+    }
+    female_names = {
+        
+    }
+    dynasty_names = {
+        
+    }
+
+    ADD_ = {  
+		male_names = {
+            
+        }
+        female_names = {
+            
+        }
+        dynasty_names = {
+            
+        }
+	}
+}

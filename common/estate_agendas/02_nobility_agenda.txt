@@ -138,7 +138,7 @@ estate_nobility_build_a_barracks_in_y = {
 	can_select = {
 		any_owned_province = {
 			is_state_core = root
-			NOT = { has_building = mod_barracks }
+			NOT = { has_building = barracks }
 			num_free_building_slots = 1
 		}
 	}
@@ -150,7 +150,7 @@ estate_nobility_build_a_barracks_in_y = {
 				any_owned_province = {
 					is_state_core = root
 					base_manpower = 3
-					NOT = { has_building = mod_barracks }
+					NOT = { has_building = barracks }
                     num_free_building_slots = 1
 				}
 			}
@@ -160,7 +160,7 @@ estate_nobility_build_a_barracks_in_y = {
 			any_owned_province = {
 				is_state_core = root
 				base_manpower = 6
-				NOT = { has_building = mod_barracks }
+				NOT = { has_building = barracks }
                 num_free_building_slots = 1
 			}
 		}
@@ -175,7 +175,7 @@ estate_nobility_build_a_barracks_in_y = {
 		random_owned_province = {
 			limit = {
 				is_state_core = root
-				NOT = { has_building = mod_barracks }
+				NOT = { has_building = barracks }
                 num_free_building_slots = 1
 			}
 			save_event_target_as = agenda_province
@@ -184,7 +184,7 @@ estate_nobility_build_a_barracks_in_y = {
 			limit = {
 				is_state_core = root
 				base_manpower = 3
-                NOT = { has_building = mod_barracks }
+                NOT = { has_building = barracks }
                 num_free_building_slots = 1
 			}
 			save_event_target_as = agenda_province
@@ -193,7 +193,7 @@ estate_nobility_build_a_barracks_in_y = {
 			limit = {
 				is_state_core = root
 				base_manpower = 6
-				NOT = { has_building = mod_barracks }
+				NOT = { has_building = barracks }
                 num_free_building_slots = 1
 			}
 			save_event_target_as = agenda_province
@@ -209,7 +209,7 @@ estate_nobility_build_a_barracks_in_y = {
 	}
     task_requirements = {
         event_target:agenda_province = {
-            has_building = mod_barracks
+            has_building = barracks
         }
     }
     task_completed_effect = {
@@ -259,7 +259,7 @@ estate_nobility_build_a_arsenal_in_y = {
 	can_select = {
 		any_owned_province = {
 			is_state_core = root
-			NOT = { has_building = mod_arsenal }
+			NOT = { has_building = drill_square }
 			num_free_building_slots = 1
 		}
 	}
@@ -271,7 +271,7 @@ estate_nobility_build_a_arsenal_in_y = {
 				any_owned_province = {
 					is_state_core = root
 					base_manpower = 3
-					NOT = { has_building = mod_arsenal }
+					NOT = { has_building = drill_square }
                     num_free_building_slots = 1
 				}
 			}
@@ -281,7 +281,7 @@ estate_nobility_build_a_arsenal_in_y = {
 			any_owned_province = {
 				is_state_core = root
 				base_manpower = 6
-				NOT = { has_building = mod_arsenal }
+				NOT = { has_building = drill_square }
                 num_free_building_slots = 1
 			}
 		}
@@ -296,7 +296,7 @@ estate_nobility_build_a_arsenal_in_y = {
 		random_owned_province = {
 			limit = {
 				is_state_core = root
-				NOT = { has_building = mod_arsenal }
+				NOT = { has_building = drill_square }
                 num_free_building_slots = 1
 			}
 			save_event_target_as = agenda_province
@@ -305,7 +305,7 @@ estate_nobility_build_a_arsenal_in_y = {
 			limit = {
 				is_state_core = root
 				base_manpower = 3
-                NOT = { has_building = mod_arsenal }
+                NOT = { has_building = drill_square }
                 num_free_building_slots = 1
 			}
 			save_event_target_as = agenda_province
@@ -314,7 +314,7 @@ estate_nobility_build_a_arsenal_in_y = {
 			limit = {
 				is_state_core = root
 				base_manpower = 6
-				NOT = { has_building = mod_arsenal }
+				NOT = { has_building = drill_square }
                 num_free_building_slots = 1
 			}
 			save_event_target_as = agenda_province
@@ -330,7 +330,7 @@ estate_nobility_build_a_arsenal_in_y = {
 	}
     task_requirements = {
         event_target:agenda_province = {
-            has_building = mod_arsenal
+            has_building = drill_square
         }
     }
     task_completed_effect = {
@@ -380,7 +380,7 @@ estate_nobility_build_basic_fort_in_y = {
 	can_select = {
 		any_owned_province = {
 			is_state_core = root
-			NOT = { has_building = mod_fort_1 }
+			NOT = { has_building = motte_and_bailey }
 			num_free_building_slots = 1
 		}
 	}
@@ -392,7 +392,7 @@ estate_nobility_build_basic_fort_in_y = {
 				any_owned_province = {
 					is_state_core = root
 					base_manpower = 3
-					NOT = { has_building = mod_fort_1 }
+					NOT = { has_building = motte_and_bailey }
                     num_free_building_slots = 1
 				}
 			}
@@ -402,7 +402,7 @@ estate_nobility_build_basic_fort_in_y = {
 			any_owned_province = {
 				is_state_core = root
 				base_manpower = 6
-				NOT = { has_building = mod_fort_1 }
+				NOT = { has_building = motte_and_bailey }
                 num_free_building_slots = 1
 			}
 		}
@@ -417,7 +417,7 @@ estate_nobility_build_basic_fort_in_y = {
 		random_owned_province = {
 			limit = {
 				is_state_core = root
-				NOT = { has_building = mod_fort_1 }
+				NOT = { has_building = motte_and_bailey }
                 num_free_building_slots = 1
 			}
 			save_event_target_as = agenda_province
@@ -426,7 +426,7 @@ estate_nobility_build_basic_fort_in_y = {
 			limit = {
 				is_state_core = root
 				base_manpower = 3
-                NOT = { has_building = mod_fort_1 }
+                NOT = { has_building = motte_and_bailey }
                 num_free_building_slots = 1
 			}
 			save_event_target_as = agenda_province
@@ -435,7 +435,7 @@ estate_nobility_build_basic_fort_in_y = {
 			limit = {
 				is_state_core = root
 				base_manpower = 6
-				NOT = { has_building = mod_fort_1 }
+				NOT = { has_building = motte_and_bailey }
                 num_free_building_slots = 1
 			}
 			save_event_target_as = agenda_province
@@ -451,7 +451,7 @@ estate_nobility_build_basic_fort_in_y = {
 	}
     task_requirements = {
         event_target:agenda_province = {
-            has_building = mod_fort_1
+            has_building = motte_and_bailey
         }
     }
     task_completed_effect = {

@@ -1,14 +1,6 @@
 #------------------------------
-# Lore
+# Backgrounds
 #------------------------------
-Continents:
- - Azathor (right)
- - Grimhind (lower right)
- - Kanlos (Upper mid)
- - Yghor (Lower mid)
- - Sunveil (Elf crater)
- - Siavess (Islands)
- 
 Lizardmen civilization
  - In jungle on Azathor
  - Feudal states
@@ -19,9 +11,10 @@ Lizardmen civilization
   
 Kobold civilization
  - Feral versions of Lizardmen, having failed to return to Azathor. Retain most physical attributes of Lizardmen, but operate with animalistic intent, forming crude tribal societies.
-
-Feline civilization 
- - In the drylands of north Azathor
+ - Found in Maskith
+ 
+Felid civilization 
+ - In the drylands of Maskith
  - Resemble humanoid felines
  - Adapted to the heat
  - Organised into nomadic clans that focus on the collection of treasure
@@ -43,13 +36,13 @@ Bugbear civilization
  - Tribal clans
  - Hunts the Furlogs
  
-Leotyr civilization
- - Found on Yghor
- - Humanoid lion warrior society
+Tigeri civilization
+ - Found on Kanlos
+ - Humanoid tiger warrior society
  - Absolute states
 
 Human civilization
- - Found on Azathor, Grimhind, Kanlos, Yghor, Siavess
+ - Found on everywhere
  - Adaptable and inventive
  - Mostly republics, kingdoms on Azathor
  
@@ -65,39 +58,86 @@ Dwarf civilization
  - Reclusive race, focused on the underground
  - Absolute states
  
+Minotaur civilization
+ - Found on Grimhind
+ - War-like
+ - Tribal states
+
 Satyr civilization
- - Found on the islands of Siavess
+ - Found on the islands of Urshu
  - Peaceful beings, they live in the jungles of Siavess
  - Tribal states
  
 Tortol civilization
- - Found on the islands of Siavess
+ - Found on the islands of Jayaka
  - Humanoid tortoise
  - Wise, but power hungry
  - Often dupe the satyrs for their own ends
  - Absolute states
  
 Eletaur civilization
- - Found on the islands of Siavess
+ - Found on the islands of Urshu
  - Humanoid elephant
  - Pragmatic but peaceful
  - Republics
  
-Frotog civilization
- - Found on the islands of Siavess
+Frogot civilization
+ - Found on the islands of Urshu
  - Humanoid frog
  - War-like
  - Tribal states
  
-Minotaur civilization
- - Found on Grimhind
- - War-like
- - Tribal states
+#------------------------------
+# Azathor
+#------------------------------
+- Lizardmen
+- Kobold
 
 #------------------------------
-# Notes
+# Maskith
 #------------------------------
+- Kobold
+- Feline
 
-RUK = "countries/Rukmar.txt"
- human
- shamanism
+#------------------------------
+# Oslor
+#------------------------------
+- Arak
+- Leotyr
+- Human
+- Dwarf
+
+#------------------------------
+# Kanlos
+#------------------------------
+- Furlog
+- Bugbear
+- Human
+
+#------------------------------
+# Ygkoh
+#------------------------------
+- Human
+- Dwarf
+- Minotaur
+
+#------------------------------
+# Heimat
+#------------------------------
+- Elf
+
+#------------------------------
+# Urshu
+#------------------------------
+- Human
+- Satyr
+- Tortol
+- Eletaur
+- Frotog
+
+#------------------------------
+# Jayaka
+#------------------------------
+- Human
+- Tortol
+- Frotog

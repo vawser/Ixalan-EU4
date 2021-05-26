@@ -18,7 +18,7 @@ country_event = {
         
 		any_owned_province = {
 			num_free_building_slots = 1
-			NOT = { has_building = mod_temple }
+			NOT = { has_building = temple }
 		}
 		has_government_attribute = heir
 	}
@@ -33,11 +33,11 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				NOT = {
-					has_building = mod_temple
+					has_building = temple
 				}
 				num_free_building_slots = 1
 			}
-			add_building = mod_temple
+			add_building = temple
 		}
 	}
 	

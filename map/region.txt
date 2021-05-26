@@ -1,11 +1,50 @@
 random_new_world_region = { }
 
-temp_region = {
+azathor_region = {
     areas = {
-        temp_area
+        area_azathor
     }
 }
-
+maskith_region = {
+    areas = {
+        area_maskith
+    }
+}
+oslor_region = {
+    areas = {
+        area_oslor
+    }
+}
+kanlos_region = {
+    areas = {
+        area_kanlos
+    }
+}
+ygkoh_region = {
+    areas = {
+        area_ygkoh
+    }
+}
+jinlo_region = {
+    areas = {
+        area_jinlo
+    }
+}
+rukmar_region = {
+    areas = {
+        area_rukmar
+    }
+}
+urshu_region = {
+    areas = {
+        area_urshu
+    }
+}
+jayaka_region = {
+    areas = {
+        area_jayaka
+    }
+}
 
 temp_sea_region = {
     areas = {

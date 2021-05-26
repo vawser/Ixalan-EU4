@@ -1,0 +1,25 @@
+kobold_group = {
+	graphical_culture = kobold_gfx
+    
+    male_names = {
+        
+    }
+    female_names = {
+        
+    }
+    dynasty_names = {
+        
+    }
+
+    ADD_ = {  
+		male_names = {
+            
+        }
+        female_names = {
+            
+        }
+        dynasty_names = {
+            
+        }
+	}
+}

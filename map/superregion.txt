@@ -1,7 +1,31 @@
-# A region can only belong to one super region.
+# A superregion can only belong to one super superregion.
 
-temp_superregion = {
-    temp_region
+azathor_superregion = {
+    azathor_region
+}
+maskith_superregion = {
+    maskith_region
+}
+oslor_superregion = {
+    oslor_region
+}
+kanlos_superregion = {
+    kanlos_region
+}
+ygkoh_superregion = {
+    ygkoh_region
+}
+jinlo_superregion = {
+    jinlo_region
+}
+rukmar_superregion = {
+    rukmar_region
+}
+urshu_superregion = {
+    urshu_region
+}
+jayaka_superregion = {
+    jayaka_region
 }
 
 new_world_superregion = { }

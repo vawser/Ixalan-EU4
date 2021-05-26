@@ -9,7 +9,7 @@ ahead_of_time = {
 # Pre-era techs
 technology = {
 	# Tech 0
-	year = 590
+	year = 1000
 	
 	sprite_level = 1
 
@@ -38,14 +38,16 @@ technology = {
     
     enable = native_infantry
     
-    mod_barracks = yes
-    mod_arsenal = yes
-    mod_fort_1 = yes
-    province_action_manpower = yes
+    barracks = yes
+    drill_square = yes
+    supply_depot = yes
+    paved_road = yes
+    
+    motte_and_bailey = yes
 }
 technology = {
 	# Tech 1
-	year = 598
+	year = 1012
     
     infantry_fire = 0.25
     infantry_shock = 0.25
@@ -53,7 +55,7 @@ technology = {
 
 technology = {
 	# Tech 2
-	year = 604
+	year = 1024
 
     cavalry_shock = 0.6
     cavalry_fire = 0.2
@@ -62,7 +64,7 @@ technology = {
 
 technology = {
 	# Tech 3
-	year = 616
+	year = 1036
 
     infantry_fire = 0.25
     infantry_shock = 0.25
@@ -70,7 +72,7 @@ technology = {
 
 technology = {
 	# Tech 4
-	year = 628
+	year = 1048
 	
     land_morale = 0.5
     military_tactics = 0.5
@@ -78,7 +80,7 @@ technology = {
 
 technology = {
 	# Tech 5
-	year = 640
+	year = 1060
 
     artillery_fire = 0.6
     artillery_shock = 0.2
@@ -86,7 +88,7 @@ technology = {
 
 technology = {
 	# Tech 6
-	year = 652
+	year = 1072
 
 	enable = basic_infantry_2_option_a
     enable = basic_infantry_2_option_b
@@ -98,24 +100,24 @@ technology = {
 
 technology = {
 	# Tech 7
-	year = 664
+	year = 1084
 	
-    mod_city_barracks = yes
+    military_academy = yes
 }
 
 technology = {
 	# Tech 8
-	year = 676
+	year = 1096
 	
     land_morale = 1
     military_tactics = 0.5
     
-    mod_fort_2 = yes
+    castle = yes
 }
 
 technology = {
 	# Tech 9
-	year = 688
+	year = 1108
 
     cavalry_shock = 0.7
     cavalry_fire = 0.2
@@ -124,7 +126,7 @@ technology = {
 
 technology = {
 	# Tech 10
-	year = 700
+	year = 1120
 	
     infantry_fire = 0.25
     infantry_shock = 0.25
@@ -132,7 +134,7 @@ technology = {
 
 technology = {
 	# Tech 11
-	year = 712
+	year = 1132
 
     artillery_fire = 0.6
     artillery_shock = 0.2
@@ -140,7 +142,7 @@ technology = {
 
 technology = {
 	# Tech 12
-	year = 724
+	year = 1144
 	
 	enable = basic_artillery_2_option_a
     enable = basic_artillery_2_option_b
@@ -148,7 +150,7 @@ technology = {
 
 technology = {
 	# Tech 13
-	year = 736
+	year = 1156
 
     infantry_fire = 0.35
     infantry_shock = 0.35
@@ -156,7 +158,7 @@ technology = {
 
 technology = {
 	# Tech 14
-	year = 748
+	year = 1168
 
     cavalry_shock = 0.7
     cavalry_fire = 0.3
@@ -165,14 +167,14 @@ technology = {
 
 technology = {
 	# Tech 15
-	year = 760
+	year = 1180
 	
-	mod_fort_3 = yes
+	fortress = yes
 }
 
 technology = {
 	# Tech 16
-	year = 772
+	year = 1192
 	
     land_morale = 0.5
     military_tactics = 0.5
@@ -180,7 +182,7 @@ technology = {
 
 technology = {
 	# Tech 17
-	year = 784
+	year = 1204
 
     supply_limit = 0.25
     combat_width = 2
@@ -188,7 +190,7 @@ technology = {
 
 technology = {
 	# Tech 18
-	year = 796
+	year = 1216
 
 	enable = basic_infantry_3_option_a
     enable = basic_infantry_3_option_b
@@ -197,7 +199,7 @@ technology = {
 
 technology = {
 	# Tech 19
-	year = 808
+	year = 1228
     
     artillery_fire = 0.9
     artillery_shock = 0.3
@@ -205,17 +207,17 @@ technology = {
 
 technology = {
 	# Tech 20
-	year = 820
+	year = 1240
 
     land_morale = 1
     military_tactics = 0.5
     
-    mod_fort_4 = yes
+    citadel = yes
 }
 
 technology = {
 	# Tech 21
-	year = 832
+	year = 1255
 
     infantry_fire = 0.35
     infantry_shock = 0.35
@@ -223,7 +225,7 @@ technology = {
 
 technology = {
 	# Tech 22
-	year = 844
+	year = 1270
 
     cavalry_shock = 0.7
     cavalry_fire = 0.3
@@ -232,7 +234,7 @@ technology = {
 
 technology = {
 	# Tech 23
-	year = 856
+	year = 1285
     
     infantry_fire = 0.35
     infantry_shock = 0.35
@@ -240,7 +242,7 @@ technology = {
 
 technology = {
 	# Tech 24
-	year = 868
+	year = 1300
 	
 	enable = basic_cavalry_3_option_a
     enable = basic_cavalry_3_option_b
@@ -248,7 +250,7 @@ technology = {
 
 technology = {
 	# Tech 25
-	year = 880
+	year = 1315
 	
     supply_limit = 0.25
     combat_width = 2
@@ -256,7 +258,7 @@ technology = {
 
 technology = {
 	# Tech 26
-	year = 892
+	year = 1330
 
     infantry_fire = 0.35
     infantry_shock = 0.35
@@ -264,7 +266,7 @@ technology = {
 
 technology = {
 	# Tech 27
-	year = 904
+	year = 1345
 
     artillery_fire = 0.9
     artillery_shock = 0.3
@@ -272,7 +274,7 @@ technology = {
 
 technology = {
 	# Tech 28
-	year = 916
+	year = 1360
 	
     land_morale = 0.5
     military_tactics = 0.75
@@ -280,7 +282,7 @@ technology = {
 
 technology = {
 	# Tech 29
-	year = 928
+	year = 1375
 
     supply_limit = 0.25
     combat_width = 2
@@ -288,7 +290,7 @@ technology = {
 
 technology = {
 	# Tech 30
-	year = 930
+	year = 1390
 
     cavalry_shock = 1.2
     cavalry_fire = 0.5
@@ -297,7 +299,7 @@ technology = {
 
 technology = {
 	# Tech 31
-	year = 942
+	year = 1405
     
     infantry_fire = 0.4
     infantry_shock = 0.45
@@ -305,7 +307,7 @@ technology = {
 
 technology = {
 	# Tech 32
-	year = 954
+	year = 1420
 
     land_morale = 1
     military_tactics = 0.75
@@ -313,7 +315,7 @@ technology = {
 
 technology = {
 	# Tech 33
-	year = 966
+	year = 1435
 
     supply_limit = 0.25
     combat_width = 2	
@@ -321,7 +323,7 @@ technology = {
 
 technology = {
 	# Tech 34
-	year = 978
+	year = 1450
 
     enable = basic_artillery_3_option_a
     enable = basic_artillery_3_option_b
@@ -332,7 +334,7 @@ technology = {
 
 technology = {
 	# Tech 35
-	year = 990
+	year = 1465
 
     infantry_fire = 0.7
     infantry_shock = 0.7
@@ -340,7 +342,7 @@ technology = {
 
 technology = {
 	# Tech 36
-	year = 1002
+	year = 1480
 
     land_morale = 0.5
     military_tactics = 1
@@ -348,7 +350,7 @@ technology = {
 
 technology = {
 	# Tech 37
-	year = 1014
+	year = 1495
 
     cavalry_shock = 1.3
     cavalry_fire = 0.5
@@ -357,7 +359,7 @@ technology = {
 
 technology = {
 	# Tech 38
-	year = 1026
+	year = 1510
 
     infantry_fire = 0.5
     infantry_shock = 0.5
@@ -365,7 +367,7 @@ technology = {
 
 technology = {
 	# Tech 39
-	year = 1038
+	year = 1525
     
     artillery_fire = 1.5
     artillery_shock = 0.5
@@ -373,7 +375,7 @@ technology = {
 
 technology = {
 	# Tech 40
-	year = 1050
+	year = 1540
 	
     land_morale = 1
     military_tactics = 1

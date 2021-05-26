@@ -9301,7 +9301,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		mod_oil =  1
+		mod_lumber =  1
 		num_of_ports = 1
 		primitives = no
 	}

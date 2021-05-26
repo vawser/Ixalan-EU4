@@ -85,52 +85,8 @@
 # ask_for_tributary_state_action
 # knowledge_sharing
 
-enforce_peace = {
-	
-}
-callaction = {
-	
-}
-milaccess= {
-	
-}
-offermilaccess= {
-	
-}
-giftaction = {
-	
-}
-guaranteeaction = {
-	
-}
-sellprov = {
-	
-}
 
-tributary_state_action = {
-	
-}
-ask_for_tributary_state_action = {
-	
-}
-threaten_war = {
-	
-}
-improve_relation = {
-	
-}
-declarewar = {
-	
-}
-fabricate_claim = {
-	
-}
-embargoaction = {
-	
-}
-allianceaction = {
-	
-}
+
 
 royal_marriage = {
 	condition = {

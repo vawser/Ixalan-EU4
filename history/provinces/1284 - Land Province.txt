@@ -11,5 +11,5 @@ culture = primitive
 religion = shamanism
 
 hre = no
-trade_goods = unknown owner = RUK controller = RUK
+trade_goods = unknown 
 

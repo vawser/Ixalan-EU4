@@ -1,2 +1,18 @@
 ﻿l_english:
+ human_gfx: "Human"
+ elf_gfx: "Elf"
+ dwarf_gfx: "Dwarf"
+ orc_gfx: "Orc"
+ lizardmen_gfx: "Lizardmen"
+ arak_gfx: "Arak"
+ eletaur_gfx: "Eletaur"
+ bugbear_gfx: "Bugbear"
+ furlog_gfx: "Furlog"
+ frogot_gfx: "Frogot"
+ tigeri_gfx: "Tigeri"
+ minotaur_gfx: "Minotaur"
+ satyr_gfx: "Satyr"
+ tortol_gfx: "Tortol"
+ kobold_gfx: "Kobold"
+ felid_gfx: "Felid"
  

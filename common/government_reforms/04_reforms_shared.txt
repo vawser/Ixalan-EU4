@@ -6,7 +6,7 @@ mod_states_general_reform = {
 	allow_normal_conversion = yes
 
 	trigger = {
-        NOT = { has_government_attribute = council_system }
+        #NOT = { has_government_attribute = council_system }
 		NOT = { is_lesser_in_union = yes }
 		is_emperor = no
 	}

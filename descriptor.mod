@@ -1,4 +1,4 @@
-name="Fantasy Mod"
+name="Realms of Ixalor"
 replace_path="common/advisortypes"
 replace_path="common/ages"
 replace_path="common/ai_army"
@@ -122,4 +122,4 @@ tags={
 picture="thumbnail.png"
 version="1.0.0"
 supported_version="1.31.*.*"
-path="C:/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/fantasy_mod"
+path="C:/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/ixalor"

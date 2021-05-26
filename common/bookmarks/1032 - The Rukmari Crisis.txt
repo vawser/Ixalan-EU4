@@ -1,0 +1,9 @@
+bookmark = {
+	name = "THE_RUKMARI_CRISIS_TITLE"
+	desc = "THE_RUKMARI_CRISIS_DESC"
+	date = 1032.1.1
+    
+    center = 1437
+	
+	country = RUK
+}

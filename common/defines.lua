@@ -1,11 +1,11 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "100.1.1",
-	END_DATE = "1000.1.2",
-	MAX_RANDOM_NEW_WORLD = "100.1.1",
+	START_DATE = "1032.1.1",
+	END_DATE = "3000.1.2",
+	MAX_RANDOM_NEW_WORLD = "1032.1.1",
 
-	GREAT_POWER_FRENZY_START = "300.1.1",	-- Latest date for the start of the Great Power Frenzy (struggle).
+	GREAT_POWER_FRENZY_START = "1500.1.1",	-- Latest date for the start of the Great Power Frenzy (struggle).
 	GREAT_POWER_FRENZY_WARMUP_MONTHS = 1200,	-- How many months does it take for the Great Power Frenzy to reach full potency after starting.
 	GREAT_POWER_FRENZY_QUICKSTART = 1,		-- Can the Great Power Frenzy start early due to one alliance block becoming too powerful?
 
@@ -610,12 +610,12 @@ NCountry = {
 
 	EXPLORE_COAST_EVENT_CHANCE = 2,			-- Chance (in %) of getting an event when exploring coasts
 	MIN_TECH_FOR_CIRCUMNAVIGATE = 9,			-- Must have this level of dip tech to circumnavigate the globe
-	CIRCUMNAVIGATION_PROVINCE_1 = 563,			-- Provinces for circumnavigation (coast of gambia)
-	CIRCUMNAVIGATION_PROVINCE_2 = 658,			-- Provinces for circumnavigation (magellan strait)
-	CIRCUMNAVIGATION_PROVINCE_3 = 5,			-- Provinces for circumnavigation (hawaii sea)
-	CIRCUMNAVIGATION_PROVINCE_4 = 45,			-- Provinces for circumnavigation (hawaii sea)
-	CIRCUMNAVIGATION_PROVINCE_5 = 353,			-- Provinces for circumnavigation (hawaii sea)
-	CIRCUMNAVIGATION_PROVINCE_6 = 337,			-- Provinces for circumnavigation (cape of good hope)
+	CIRCUMNAVIGATION_PROVINCE_1 = 161,			-- Provinces for circumnavigation (coast of gambia)
+	CIRCUMNAVIGATION_PROVINCE_2 = 85,			-- Provinces for circumnavigation (magellan strait)
+	CIRCUMNAVIGATION_PROVINCE_3 = 64,			-- Provinces for circumnavigation (hawaii sea)
+	CIRCUMNAVIGATION_PROVINCE_4 = 75,			-- Provinces for circumnavigation (hawaii sea)
+	CIRCUMNAVIGATION_PROVINCE_5 = 12,			-- Provinces for circumnavigation (hawaii sea)
+	CIRCUMNAVIGATION_PROVINCE_6 = 2,			-- Provinces for circumnavigation (cape of good hope)
 
 	MIN_DEV_FOR_OLD_GREAT_POWER = 100,					-- Countries with less development than this cannot be considered Great Powers
 
@@ -2378,7 +2378,7 @@ NNationDesigner = {
 	GOVERNMENT_RANK_COST_2 = 0,
 	GOVERNMENT_RANK_COST_3 = 30,
 
-	MANDATE_SUBCONTINENT_NAME = "akvar_superregion", -- Name of the subcontinent where the Mandate will be given to the biggest nation by development when using random generated nations
+	MANDATE_SUBCONTINENT_NAME = "azathor_superregion", -- Name of the subcontinent where the Mandate will be given to the biggest nation by development when using random generated nations
 },
 
 NGovernment = {

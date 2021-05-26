@@ -36,7 +36,6 @@ country_event = {
             randomise_price = { good = mod_jewelry }
             randomise_price = { good = mod_metals }
             randomise_price = { good = mod_slaves }
-            randomise_price = { good = mod_oil }
             randomise_price = { good = mod_lumber }
             randomise_price = { good = mod_artifacts }
         }

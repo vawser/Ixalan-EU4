@@ -1,4 +1,14 @@
 ﻿l_english:
  #-----------------------------------------------
- # Superregions
+ # Supersuperregions
  #-----------------------------------------------
+ azathor_superregion: "Azathor"
+ maskith_superregion: "Maskith"
+ oslor_superregion: "Oslor"
+ kanlos_superregion: "Kanlos"
+ ygkoh_superregion: "Ygkoh"
+ jinlo_superregion: "Jinlo"
+ rukmar_superregion: "Rukmar"
+ urshu_superregion: "Urshu"
+ jayaka_superregion: "Jayaka"
+ 

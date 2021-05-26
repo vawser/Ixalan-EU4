@@ -401,196 +401,3075 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
     
-    # #-----------------
-    # # Human
-    # #-----------------
-    # # humangfx
-    # spriteType = {
-		# name = "GFX_advisor_human_gfx_artist"
-		# texturefile = "gfx//interface//advisors//human//male//1.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+    #-----------------
+    # Felid
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_felid_gfx_artist"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_philosopher"
-		# texturefile = "gfx//interface//advisors//human//male//2.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_natural_scientist"
-		# texturefile = "gfx//interface//advisors//human//male//3.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_theologian"
-		# texturefile = "gfx//interface//advisors//human//male//4.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_theologian"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_inquisitor"
-		# texturefile = "gfx//interface//advisors//human//male//5.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_master_of_mint"
-		# texturefile = "gfx//interface//advisors//human//male//6.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_treasurer"
-		# texturefile = "gfx//interface//advisors//human//male//7.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_statesman"
-		# texturefile = "gfx//interface//advisors//human//male//8.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_statesman"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_colonial_governor"
-		# texturefile = "gfx//interface//advisors//human//male//9.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_diplomat"
-		# texturefile = "gfx//interface//advisors//human//male//10.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_naval_reformer"
-		# texturefile = "gfx//interface//advisors//human//male//11.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_navigator"
-		# texturefile = "gfx//interface//advisors//human//male//12.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_navigator"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_trader"
-		# texturefile = "gfx//interface//advisors//human//male//13.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_trader"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_spymaster"
-		# texturefile = "gfx//interface//advisors//human//male//14.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_grand_captain"
-		# texturefile = "gfx//interface//advisors//human//male//23.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_commandant"
-		# texturefile = "gfx//interface//advisors//human//male//16.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_commandant"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_army_organiser"
-		# texturefile = "gfx//interface//advisors//human//male//17.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_army_reformer"
-		# texturefile = "gfx//interface//advisors//human//male//18.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_recruitmaster"
-		# texturefile = "gfx//interface//advisors//human//male//19.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_fortification_expert"
-		# texturefile = "gfx//interface//advisors//human//male//20.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 	
-	# spriteType = {
-		# name = "GFX_advisor_human_gfx_quartermaster"
-		# texturefile = "gfx//interface//advisors//human//male//21.dds"
-		# noOfFrames = 1
-		# norefcount = yes
-		# effectFile = "gfx/FX/buttonstate.lua"
-		# loadType = "INGAME"
-	# }
+	spriteType = {
+		name = "GFX_advisor_felid_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//felid.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Kobold
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_kobold_gfx_artist"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_theologian"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_statesman"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_navigator"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_trader"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_commandant"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_kobold_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//kobold.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Tortol
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_tortol_gfx_artist"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_theologian"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_statesman"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_navigator"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_trader"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_commandant"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tortol_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//tortol.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Satyr
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_satyr_gfx_artist"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_theologian"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_statesman"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_navigator"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_trader"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_commandant"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_satyr_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//satyr.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Minotaur
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_minotaur_gfx_artist"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_theologian"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_statesman"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_navigator"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_trader"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_commandant"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_minotaur_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//minotaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Tigeri
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_tigeri_gfx_artist"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_theologian"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_statesman"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_navigator"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_trader"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_commandant"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_tigeri_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//tigeri.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Frogot
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_frogot_gfx_artist"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_theologian"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_statesman"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_navigator"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_trader"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_commandant"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_frogot_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//frogot.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Furlog
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_furlog_gfx_artist"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_theologian"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_statesman"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_navigator"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_trader"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_commandant"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_furlog_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//furlog.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Bugbear
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_bugbear_gfx_artist"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_theologian"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_statesman"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_navigator"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_trader"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_commandant"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_bugbear_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//bugbear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Eletaur
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_eletaur_gfx_artist"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_theologian"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_statesman"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_navigator"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_trader"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_commandant"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_eletaur_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//eletaur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Arak
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_arak_gfx_artist"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_theologian"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_statesman"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_navigator"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_trader"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_commandant"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_arak_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//arak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Lizardmen
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_artist"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_theologian"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_statesman"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_navigator"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_trader"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_commandant"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_lizardmen_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//lizardmen.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Orc
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_orc_gfx_artist"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_theologian"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_statesman"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_navigator"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_trader"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_commandant"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_orc_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//orc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Dwarf
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_dwarf_gfx_artist"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_theologian"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_statesman"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_navigator"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_trader"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_commandant"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_dwarf_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Elf
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_elf_gfx_artist"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_theologian"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_statesman"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_navigator"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_trader"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_commandant"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_elf_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//elf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
+    # Human
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_human_gfx_artist"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_theologian"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_statesman"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_navigator"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_trader"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_commandant"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_human_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//human.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 }

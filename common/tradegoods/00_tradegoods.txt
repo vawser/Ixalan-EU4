@@ -179,28 +179,6 @@ mod_slaves = {
 }
 
 #---------------------------------
-# Oil
-#---------------------------------
-mod_oil = {
-	color = { 0 0 0 }
-	modifier = {
-		global_sailors_modifier = 0.25
-	}
-    province = {
-		local_sailors_modifier = 0.25
-	}
-	chance = {
-		factor = 25
-        
-        modifier = {
-			factor = 0.0
-            
-			has_port = no
-		}
-	}
-}
-
-#---------------------------------
 # Lumber
 #---------------------------------
 mod_lumber = {

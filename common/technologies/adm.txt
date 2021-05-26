@@ -9,8 +9,9 @@ ahead_of_time = {
 # Pre-era techs
 technology = {
 	# Tech 0
-	year = 590
+	year = 1000
 	
+    # Governments
 	autocracy_legacy = yes
     feudalism_legacy = yes
         
@@ -33,143 +34,133 @@ technology = {
     pirate_kingdom_legacy = yes
     pirate_republic_legacy = yes
     
-    native_earthwork = yes
-    native_palisade = yes
-    native_fortified_house = yes
-    native_three_sisters_field = yes
-    native_irrigation = yes
-    native_storehouse = yes
-    native_longhouse = yes
-    native_sweat_lodge = yes
-    native_great_trail = yes
-    native_ceremonial_fire_pit = yes
+    # Buildings
+    town_hall = yes
+    tavern = yes
+    farm = yes
+    temple = yes
     
-    mod_temple = yes
-    mod_mine = yes
-    mod_farm = yes
-    mod_tavern = yes
-    
-    province_action_tax = yes
-    
+    # Actions
     may_support_rebels = yes
 }
 
 technology = {
 	# Tech 1
-	year = 598
+	year = 1012
 
 	production_efficiency = 0.05
 }
 
 technology = {
 	# Tech 2
-	year = 604
+	year = 1024
 
 	allowed_idea_groups = 1
 }
 
 technology = {
 	# Tech 3
-	year = 616
+	year = 1036
 
 	production_efficiency = 0.05
 }
 
 technology = {
 	# Tech 4
-	year = 628
+	year = 1048
 
 	governing_capacity = 50
 }
 
 technology = {
 	# Tech 5
-	year = 640
+	year = 1060
 
 	allowed_idea_groups = 2
 }
 
 technology = {
 	# Tech 6
-	year = 652
+	year = 1072
 
 	production_efficiency = 0.05
 }
 
 technology = {
 	# Tech 7
-	year = 664
+	year = 1084
 	
-	mod_internment_camp = yes
-    mod_citadel = yes
+    # Buildings
+	grand_temple = yes
 }
 
 technology = {
 	# Tech 8
-	year = 676
+	year = 1096
 
 	governing_capacity = 50
 }
 
 technology = {
 	# Tech 9
-	year = 688
+	year = 1108
     
     governing_capacity = 50
 }
 
 technology = {
 	# Tech 10
-	year = 700
+	year = 1120
     
     production_efficiency = 0.05
 }
 
 technology = {
 	# Tech 11
-	year = 712
+	year = 1132
     
      governing_capacity = 50
 }
 
 technology = {
 	# Tech 12
-	year = 724
+	year = 1144
 
 	allowed_idea_groups = 3
 }
 
 technology = {
 	# Tech 13
-	year = 736
+	year = 1156
     
     production_efficiency = 0.05
 }
 
 technology = {
 	# Tech 14
-	year = 748
+	year = 1168
     
     governing_capacity = 50
 }
 
 technology = {
 	# Tech 15
-	year = 760
+	year = 1180
 	
-    mod_garrison = yes
+    # Buildings
+    grand_palace = yes
 }
 
 technology = {
 	# Tech 16
-	year = 772
+	year = 1192
 
 	allowed_idea_groups = 4
 }
 
 technology = {
 	# Tech 17
-	year = 784
+	year = 1204
 
     administrative_efficiency = 0.05
     development_efficiency = 0.05
@@ -177,56 +168,56 @@ technology = {
 
 technology = {
 	# Tech 18
-	year = 796
+	year = 1216
 
     production_efficiency = 0.05
 }
 
 technology = {
 	# Tech 19
-	year = 808
+	year = 1228
 
     governing_capacity = 50
 }
 
 technology = {
 	# Tech 20
-	year = 820
+	year = 1240
     
 	allowed_idea_groups = 5
 }
 
 technology = {
 	# Tech 21
-	year = 832
+	year = 1255
 
     production_efficiency = 0.05
 }
 
 technology = {
 	# Tech 22
-	year = 844
+	year = 1270
 	
     governing_capacity = 50
 }
 
 technology = {
 	# Tech 23
-	year = 856
+	year = 1285
 
     production_efficiency = 0.05
 }
 
 technology = {
 	# Tech 24
-	year = 868
+	year = 1300
 
 	allowed_idea_groups = 6
 }
 
 technology = {
 	# Tech 25
-	year = 880
+	year = 1315
 
     administrative_efficiency = 0.05
     development_efficiency = 0.05
@@ -234,28 +225,28 @@ technology = {
 
 technology = {
 	# Tech 26
-	year = 892
+	year = 1330
 
     production_efficiency = 0.05
 }
 
 technology = {
 	# Tech 27
-	year = 904
+	year = 1345
 
     governing_capacity = 50
 }
 
 technology = {
 	# Tech 28
-	year = 916
+	year = 1360
 
 	allowed_idea_groups = 7
 }
 
 technology = {
 	# Tech 29
-	year = 928
+	year = 1375
     
     administrative_efficiency = 0.1
     development_efficiency = 0.1
@@ -263,28 +254,28 @@ technology = {
 
 technology = {
 	# Tech 30
-	year = 930
+	year = 1390
 
     governing_capacity = 50
 }
 
 technology = {
 	# Tech 31
-	year = 942
+	year = 1405
 
     production_efficiency = 0.05
 }
 
 technology = {
 	# Tech 32
-	year = 954
+	year = 1420
 
 	allowed_idea_groups = 8
 }
 
 technology = {
 	# Tech 33
-	year = 966
+	year = 1435
 
     administrative_efficiency = 0.1
     development_efficiency = 0.1
@@ -292,21 +283,21 @@ technology = {
 
 technology = {
 	# Tech 34
-	year = 978
+	year = 1450
 
     governing_capacity = 100
 }
 
 technology = {
 	# Tech 35
-	year = 990
+	year = 1465
 
     production_efficiency = 0.1
 }
 
 technology = {
 	# Tech 36
-	year = 1002
+	year = 1480
 
     administrative_efficiency = 0.1
     development_efficiency = 0.1
@@ -314,28 +305,28 @@ technology = {
 
 technology = {
 	# Tech 37
-	year = 1014
+	year = 1495
 
     governing_capacity = 150
 }
 
 technology = {
 	# Tech 38
-	year = 1026
+	year = 1510
 
     production_efficiency = 0.15
 }
 
 technology = {
 	# Tech 39
-	year = 1038
+	year = 1525
     
     governing_capacity = 200
 }
 
 technology = {
 	# Tech 40
-	year = 1050
+	year = 1540
 
     administrative_efficiency = 0.1
     development_efficiency = 0.1

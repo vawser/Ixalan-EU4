@@ -482,17 +482,36 @@ has_manufactory_trigger = { #Province Scope
 has_manufactory_no_custom_tooltip_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = has_manufactory_trigger_tooltip
-		has_building = mod_manufactory
+		OR = {
+			has_building = farmers_guild
+			has_building = foresters_guild
+			has_building = blacksmiths_guild
+			has_building = artisans_guild
+			has_building = tailors_guild
+			has_building = slavers_guild
+		}
 	}
 }
 
 has_manufactory_no_custom_tooltip_trigger = { #Province Scope
-	has_building = mod_manufactory
+	OR = {
+		has_building = farmers_guild
+		has_building = foresters_guild
+		has_building = blacksmiths_guild
+		has_building = artisans_guild
+		has_building = tailors_guild
+		has_building = slavers_guild
+	}
 }
 
 # Does not include new manufactories - they don't fit for the purposes of this trigger
 has_no_manufactory_trigger = { #Province Scope
-	NOT = { has_building = mod_manufactory }
+	NOT = { has_building = farmers_guild }
+	NOT = { has_building = foresters_guild }
+	NOT = { has_building = blacksmiths_guild }
+	NOT = { has_building = artisans_guild }
+	NOT = { has_building = tailors_guild }
+	NOT = { has_building = slavers_guild }
 }
 
 root_can_build_manufactory_here_trigger = {
@@ -564,20 +583,7 @@ has_final_tier_reforms_trigger = {
 has_holy_order_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = "has_holy_order_trigger_tooltip"
-		OR = {
-			holy_order = warrior_order
-			holy_order = paladin_order
-			holy_order = priest_order
-			holy_order = rogue_order
-			holy_order = mage_order
-			holy_order = warlock_order
-			holy_order = hunter_order
-			holy_order = shaman_order
-			holy_order = druid_order
-			holy_order = death_knight_order
-			holy_order = monk_order
-			holy_order = demon_hunter_order
-		}
+		
 	}
 }
 
@@ -628,49 +634,49 @@ same_govt_as_root_trigger = {
 # Building triggers
 has_tax_building_trigger = {
 	OR = {
-		has_building = mod_temple
+		has_building = temple
 	}
 }
 
 has_trade_building_trigger = {
 	OR = {
-		has_building = mod_marketplace
+		has_building = market
 	}
 }
 
 has_production_building_trigger = {
 	OR = {
-		has_building = mod_mine
+		has_building = mine
 	}
 }
 
 has_manpower_building_trigger = {
 	OR = {
-		has_building = mod_barracks
+		has_building = barracks
 	}
 }
 
 has_shipyard_building_trigger = {
 	OR = {
-		has_building = mod_shipyard
+		has_building = shipyard
 	}
 }
 
 has_dock_building_trigger = {
 	OR = {
-		has_building = mod_dockyard
+		has_building = dock
 	}
 }
 
 has_forcelimit_building_trigger = {
 	OR = {
-		has_building = mod_arsenal
+		has_building = drill_square
 	}
 }
 
 has_courthouse_building_trigger = {
 	OR = {	
-		has_building = mod_farm
+		has_building = farm
 	}
 }
 
@@ -733,7 +739,7 @@ province_has_current_tech_fort_trigger = {
 					NOT = { mil_tech = 7 }
 				}
 			}
-			has_building = mod_fort_2
+			has_building = castle
 		}
 		else_if = {
 			limit = {
@@ -744,7 +750,7 @@ province_has_current_tech_fort_trigger = {
 					}
 				}
 			}
-			has_building = mod_fort_3
+			has_building = fortress
 		}
 		else_if = {
 			limit = {
@@ -755,7 +761,7 @@ province_has_current_tech_fort_trigger = {
 					}
 				}
 			}
-			has_building = mod_fort_4
+			has_building = citadel
 		}
 	}
 }

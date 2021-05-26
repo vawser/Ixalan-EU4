@@ -20,9 +20,6 @@
  mod_slaves: "Slaves"
  mod_slavesDESC: "Peoples enthralled and sold on for labour purposes."
  
- mod_oil: "Oil"
- mod_oilDESC: "Oil is used in the function of various technologies, such as ships."
- 
  mod_lumber: "Lumber"
  mod_lumberDESC: "Used in the manufacture of ships, furniture, etc."
  

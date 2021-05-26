@@ -168,132 +168,6 @@ country_event = {
 	}
 }
 
-# Involve the Light
-country_event = {
-	id = mod_magic.5
-	title = mod_magic.5.title
-	desc = mod_magic.5.desc
-	picture = BLIND_PALADIN_eventPicture
-    
-	is_triggered_only = yes
-    
-    trigger = {
-        has_ruler_modifier = magical_training
-        religion_group = light_group
-    }
-	
-    option = {
-		name = mod_magic.5.option.a
-		
-        add_magical_training_point = yes
-	}
-}
-
-# Twisting in the Shadows
-country_event = {
-	id = mod_magic.6
-	title = mod_magic.6.title
-	desc = mod_magic.6.desc
-	picture = NATHREZIM_eventPicture
-    
-	is_triggered_only = yes
-    
-    trigger = {
-        has_ruler_modifier = magical_training
-        religion_group = shadow_group
-    }
-	
-    option = {
-		name = mod_magic.6.option.a
-		
-        add_magical_training_point = yes
-	}
-}
-
-# Manifest the Arcane
-country_event = {
-	id = mod_magic.7
-	title = mod_magic.7.title
-	desc = mod_magic.7.desc
-	picture = MAGI_eventPicture
-    
-	is_triggered_only = yes
-    
-    trigger = {
-        has_ruler_modifier = magical_training
-        religion_group = order_group
-    }
-	
-    option = {
-		name = mod_magic.7.option.a
-		
-        add_magical_training_point = yes
-	}
-}
-
-# Invoke Disorder
-country_event = {
-	id = mod_magic.8
-	title = mod_magic.8.title
-	desc = mod_magic.8.desc
-	picture = ORC_WARLOCK_KILJAEDEN_eventPicture
-    
-	is_triggered_only = yes
-    
-    trigger = {
-        has_ruler_modifier = magical_training
-        religion_group = disorder_group
-    }
-	
-    option = {
-		name = mod_magic.8.option.a
-		
-        add_magical_training_point = yes
-	}
-}
-
-# Draw upon Life
-country_event = {
-	id = mod_magic.9
-	title = mod_magic.9.title
-	desc = mod_magic.9.desc
-	picture = DRUIDCLAW_eventPicture
-    
-	is_triggered_only = yes
-    
-    trigger = {
-        has_ruler_modifier = magical_training
-        religion_group = life_group
-    }
-	
-    option = {
-		name = mod_magic.9.option.a
-		
-        add_magical_training_point = yes
-	}
-}
-
-# Ruminate about Death
-country_event = {
-	id = mod_magic.10
-	title = mod_magic.10.title
-	desc = mod_magic.10.desc
-	picture = NAXXRAMAS_eventPicture
-    
-	is_triggered_only = yes
-    
-    trigger = {
-        has_ruler_modifier = magical_training
-        religion_group = death_group
-    }
-	
-    option = {
-		name = mod_magic.10.option.a
-		
-        add_magical_training_point = yes
-	}
-}
-
 # Accomplished Spellcaster
 country_event = {
 	id = mod_magic.11
@@ -373,10 +247,6 @@ country_event = {
         }
     }
     
-    trigger = {
-        NOT = { ruler_has_personality = spellcaster_personality }
-    }
-	
     option = {
 		name = mod_magic.13.option.a
 		
@@ -413,11 +283,7 @@ country_event = {
             stability = 0
         }
     }
-    
-    trigger = {
-        NOT = { ruler_has_personality = spellcaster_personality }
-    }
-	
+
     option = {
 		name = mod_magic.14.option.a
 		
@@ -455,10 +321,6 @@ country_event = {
         }
     }
     
-    trigger = {
-        NOT = { ruler_has_personality = spellcaster_personality }
-    }
-	
     option = {
 		name = mod_magic.15.option.a
 		
@@ -650,7 +512,6 @@ country_event = {
         trigger = {
             has_epic_aptitude = yes
             has_mana_3 = yes
-            NOT = { religion_group = disorder_group }
         }
 
         lose_mana_3 = yes
@@ -665,7 +526,6 @@ country_event = {
         trigger = {
             has_epic_aptitude = yes
             has_mana_3 = yes
-            religion_group = disorder_group
         }
 		
         lose_mana_3 = yes

@@ -1912,7 +1912,7 @@ guiTypes = {
 					{
 						name ="techgroup_icon"
 						spriteType = "GFX_tech_group_strip"
-						position = { x= 19 y = 78 }
+						position = { x= 2 y = 68 }
 						Orientation = "UPPER_LEFT"
 					}
 

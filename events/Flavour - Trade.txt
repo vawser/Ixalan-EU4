@@ -570,7 +570,7 @@ country_event = {
 		every_owned_province = {
 			limit = { trade_goods = mod_slaves }
 			change_trade_goods = unknown
-			remove_building = mod_farm
+			remove_building = farm
 			if = {
 				limit = { has_province_modifier = slave_entrepot }
 				remove_province_modifier = slave_entrepot

@@ -221,7 +221,7 @@ country_event = {
 		any_owned_province = {
 			has_owner_culture = yes
 			OR = {
-				has_building = mod_tavern
+				has_building = tavern
 				development = 15
 				is_capital = yes
 			}
@@ -236,7 +236,7 @@ country_event = {
 				limit = {
 					has_owner_culture = yes
 					OR = {
-						has_building = mod_tavern
+						has_building = tavern
 						development = 15
 						is_capital = yes
 					}
@@ -458,11 +458,11 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				NOT = {
-					has_building = mod_temple
+					has_building = temple
 				}
 				num_free_building_slots = 1
 			}
-			add_building = mod_temple
+			add_building = temple
 		}
 	}
 }

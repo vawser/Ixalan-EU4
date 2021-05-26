@@ -21,9 +21,6 @@ mod_gold = {
 mod_slaves = {
 	base_price = 6
 }
-mod_oil = {
-	base_price = 6
-}
 mod_lumber = {
 	base_price = 3
 }

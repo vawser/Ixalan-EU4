@@ -805,7 +805,7 @@ pretender_rebels = {
             limit = {
                 has_states_general_mechanic = yes
             }
-            change_statists_vs_orangists = 200
+            change_statists_vs_orangists = 2
         }
         if = {
             limit = { has_disaster = civil_war }
@@ -1164,7 +1164,7 @@ heretic_rebels = {
  		}
 	}
 	siege_won_effect = {
-		add_reform_desire = 0.001
+		owner = { add_reform_desire = 0.001 }
 		add_province_modifier = {
 			name = "heresy"
 			duration = 730
